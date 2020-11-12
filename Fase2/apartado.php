@@ -17,7 +17,7 @@
       <div class="col-md-8 col-sm-12">
         <h1>Deportes</h1>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-4">
         <h1>Últimas noticas</h1>
       </div>
     </div>
