@@ -1,14 +1,21 @@
-<nav class="main-nav">
-  <div class="container">
-    <ul>
-      <li class="mobile-button"><a href="#">Menu</a></li>
-    <li><a href="about.php">About Us</a></li>
-    <li><a href="work.php">Work</a></li>
-    <li><a href="methods.php">Methods</a></li>
-    <li><a href="results.php">Results</a></li>
-    <li><a href="contact.php">Contact</a></li>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="fas fa-futbol" alt="logo" style="width:40px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
   </ul>
-  </div>
 </nav>
 <!--
 <div class="container">
