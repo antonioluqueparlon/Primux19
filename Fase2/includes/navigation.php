@@ -7,7 +7,7 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
+      <a class="nav-link" href="#">Link 21</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Link 2</a>
