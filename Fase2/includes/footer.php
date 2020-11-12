@@ -1,5 +1,5 @@
 <footer class="footer">
   <div class="container">
-    <p>&copy; <?php print date("Y");?> Alberto de Alarcón Sánchez.</p>
+    <p>&copy; <?php print date("Y");?> TechnoTeam.</p>
   </div>
 </footer>
