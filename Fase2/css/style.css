@@ -2,11 +2,16 @@
 /* Use the variables */
 body {
   background-color: grey;
-  color: black;
+  color: darkblue;
   font-size: 18px;
+  font-family: "Arvo";
 }
 
 p {
   color: white;
+}
+
+footer {
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

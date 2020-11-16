@@ -42,7 +42,7 @@ h1{
 
         <div class="controls">
 
-          <div class="row">
+          <div class="row-justify-content-center">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="form_name">Nombre</label>
@@ -58,7 +58,7 @@ h1{
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row-justify-content-center">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="form_email">Email</label>
@@ -74,7 +74,7 @@ h1{
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row-justify-content-center">
             <div class="col-md-12">
               <div class="form-group">
                 <label for="form_message">Mensaje</label>
@@ -97,6 +97,7 @@ h1{
 
   </div>
 
+  <br><br>
 </main>
 
 <?php include("includes/footer.php");?>

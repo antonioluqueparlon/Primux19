@@ -3,13 +3,19 @@ $bgcolor: grey;
 $textcolor: darkblue;
 $fontsize: 18px;
 $colorTexto: white;
+$tipoletra:"Arvo";
 
 /* Use the variables */
 body {
   background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
+  font-family:$tipoletra;
 }
 p {
   color: $colorTexto;
+}
+
+footer{
+  background-color: black;
 }
