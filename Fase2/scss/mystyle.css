@@ -5,4 +5,8 @@ body {
   font-size: 18px;
   font-family: 'Merriweather', serif;
 }
+
+body.card.card-body {
+  margin-top: 20pt;
+}
 /*# sourceMappingURL=mystyle.css.map */
