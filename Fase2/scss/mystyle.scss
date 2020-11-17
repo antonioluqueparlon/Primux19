@@ -1,15 +1,16 @@
 /* Define standard variables and values for website */
-$bgcolor: lightblue;
-$textcolor: darkblue;
+$bgcolor: white;
 $fontsize: 18px;
-$colorTexto: white;
+$colorTexto: black;
 
 /* Use the variables */
 body {
   background-color: $bgcolor;
-  color: $textcolor;
   font-size: $fontsize;
+  font-family: 'Merriweather', serif;
+
 }
-p {
-  color: $colorTexto;
+
+body.card.card-body{
+  margin-top: 20pt;
 }
