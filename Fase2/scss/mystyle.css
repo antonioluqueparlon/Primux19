@@ -6,8 +6,12 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-div.card {
+.cardApartadoDerecha {
   margin-top: 5pt;
+}
+
+.tarjetaNoticiaApartado {
+  margin-top: 12pt;
 }
 
 #imgTop {
