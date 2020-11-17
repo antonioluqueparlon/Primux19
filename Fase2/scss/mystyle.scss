@@ -2,15 +2,44 @@
 $bgcolor: white;
 $fontsize: 18px;
 $colorTexto: black;
+$colorTextoFooter:#11999e;
+$imgFooter: 20px;
+$bgfooter: #0000;
+$text: "Merriweather Sans", sans-serif;
+$textType: bold;
+$height: 100px;
 
 /* Use the variables */
 body {
   background-color: $bgcolor;
   font-size: $fontsize;
-  font-family: 'Merriweather', serif;
-
+  font-family: "Merriweather", serif;
 }
 
-body.card.card-body{
+body.card.card-body {
   margin-top: 20pt;
+}
+
+.footer img {
+  width: $imgFooter;
+  height: $imgFooter;
+}
+
+body.card.card-body {
+  margin-top: 20pt;
+}
+
+p {
+  color: white;
+}
+
+.footer {
+  font-family: $text;
+  font-weight: $textType;
+  height: $height;
+  color: $colorTextoFooter;
+}
+
+.bg-dark {
+  background-color: #212121 !important;
 }
