@@ -14,4 +14,9 @@ p {
 footer {
   background-color: black;
 }
+
+img {
+  width: 600px;
+  height: 600px;
+}
 /*# sourceMappingURL=style.css.map */
