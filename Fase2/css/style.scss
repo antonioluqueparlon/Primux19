@@ -1,12 +1,13 @@
 /* Define standard variables and values for website */
-$bgcolor: grey;
-$textcolor: darkblue;
+$bgcolor: white;
+$textcolor: black;
 $fontsize: 18px;
 $colorTexto: white;
 $tipoletra:"Arvo";
 
 /* Use the variables */
 body {
+  //background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
   background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;

@@ -1,106 +1,64 @@
-<?php include("includes/a_config.php");?>
+<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-	<?php include("includes/head-tag-contents.php");?>
+  <?php include("includes/head-tag-contents.php"); ?>
 </head>
+
 <body>
 
-<?php include("includes/design-top.php");?>
-<?php include("includes/navigation.php");?>
+  <?php include("includes/design-top.php"); ?>
+  <?php include("includes/navigation.php"); ?>
 
-<style>
-h1{
-    text-align: center;
-}
+  <main>
+    <br>
 
-#form-group{
-
-    text-align: center;
-    align-items: center;
-    margin: auto;
-
-}
-
-</style>
-<main>
-<br>
-
-<h1>Contacta con nosotros</h1>
+    <h1 class="text-center">Contacta con nosotros</h1>
 
 
-<div class="container">
-
-    <div class="row">
-
-      <div class="col-lg-8 col-lg-offset-2">
-
-        
-        <form id="contact-form" method="post" action="" role="form">
-
-        <div class="messages"></div>
-
-        <div class="controls">
-
-          <div class="row-justify-content-center">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_name">Nombre</label>
-                <input id="form_name" type="text" name="nombre" class="form-control" placeholder="Por favor introduce tu Nombre *" required="required" data-error="Firstname is required.">
-                <div class="help-block with-errors"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="media-container-column col-lg-8" data-form-type="formoid">
+          
+          <!---Formbuilder Form--->
+          <form action="" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="sQHmU9ddZ8Up3xFCB0G8PPewOlf0QvIkGAfG104Ug4qpQ1Joc9Sjoh6tEFFfpDryG95ypBXJtA0cBC1gUKhU84c9BVA/bNpTUpkRCxUUPmEuLK65I1fSTriIISsl99Pa">
+            <div class="row">
+              <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">¡Gracias por rellenar el formulario!</div>
+              <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_lastname">Apellidos </label>
-                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Por favor introduce tu Apellido *" required="required" data-error="Lastname is required.">
-                <div class="help-block with-errors"></div>
+            <div class="dragArea row">
+              <div class="col-md-4  form-group" data-for="name">
+                <label for="name-form1-3c" class="form-control-label mbr-fonts-style display-7">Nombre</label>
+                <input type="text" name="name" data-form-field="Name" required="required" placeholder="Introduce tu nombre" class="form-control display-7" id="name-form1-3c">
               </div>
-            </div>
-          </div>
-          <div class="row-justify-content-center">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_email">Email</label>
-                <input id="form_email" type="email" name="email" class="form-control" placeholder="Por favor introduce tu email*" required="required" data-error="Valid email is required.">
-                <div class="help-block with-errors"></div>
+              <div class="col-md-4  form-group" data-for="email">
+                <label for="email-form1-3c" class="form-control-label mbr-fonts-style display-7">Email</label>
+                <input type="email" name="email" data-form-field="Email" required="required" placeholder="Introduce tu email" class="form-control display-7" id="email-form1-3c">
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_phone">Teléfono</label>
-                <input id="form_phone" type="tel" name="telefono" class="form-control" placeholder="Por favor introduce tu numero teléfono">
-                <div class="help-block with-errors"></div>
+              <div data-for="phone" class="col-md-4  form-group">
+                <label for="phone-form1-3c" class="form-control-label mbr-fonts-style display-7">Teléfono</label>
+                <input type="tel" name="phone" data-form-field="Phone" class="form-control display-7" placeholder="Introduce tu teléfono" id="phone-form1-3c">
               </div>
-            </div>
-          </div>
-          <div class="row-justify-content-center">
-            <div class="col-md-12">
-              <div class="form-group">
-                <label for="form_message">Mensaje</label>
-                <textarea id="form_message" name="mensaje" class="form-control" placeholder="Escriba su mensaje" rows="5" required data-error="Please,leave us a message."></textarea>
-                <div class="help-block with-errors"></div>
+              <div data-for="message" class="col-md-12 form-group">
+                <label for="message-form1-3c" class="form-control-label mbr-fonts-style display-7">Mensaje</label>
+                <textarea name="message" data-form-field="Message" class="form-control display-7" placeholder="Introduce tu mensaje aquí" id="message-form1-3c" rows="5"></textarea>
               </div>
+              <div class="col-md-12 input-group-btn align-center"><button type="submit" class="btn btn-form btn-info display-4">Enviar</button></div>
             </div>
-            <div class="col-md-12">
-              <input type="submit" class="btn btn-success btn-info" value="Enviar">
-            </div>
-          </div>
-         
+          </form>
+          <!---Formbuilder Form--->
         </div>
-
-        </form>
-
       </div>
-
     </div>
 
-  </div>
 
-  <br><br>
-</main>
+    <br><br>
+  </main>
 
-<?php include("includes/footer.php");?>
+  <?php include("includes/footer.php"); ?>
 
 </body>
+
 </html>
