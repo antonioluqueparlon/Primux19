@@ -3,6 +3,10 @@ $bgcolor: lightblue;
 $textcolor: darkblue;
 $fontsize: 18px;
 $colorTexto: white;
+$bgfooter: #0000;
+$text: "Merriweather Sans", sans-serif;
+$textType: Semi-bold 600;
+$height:100px;
 
 /* Use the variables */
 body {
@@ -13,3 +17,15 @@ body {
 p {
   color: $colorTexto;
 }
+
+.footer {
+  font-family: $text;
+  font-weight: $textType;
+  height: $height;
+
+}
+
+.bg-dark {
+  background-color: #212121 !important;
+}
+

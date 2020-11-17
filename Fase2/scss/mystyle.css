@@ -1,8 +1,22 @@
 /* Define standard variables and values for website */
 /* Use the variables */
 body {
-  background-color: white;
-  color: black;
-  font-size: 16px;
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 18px;
+}
+
+p {
+  color: white;
+}
+
+.footer {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: Semi-bold 600;
+  height: 100px;
+}
+
+.bg-dark {
+  background-color: #212121 !important;
 }
 /*# sourceMappingURL=mystyle.css.map */
