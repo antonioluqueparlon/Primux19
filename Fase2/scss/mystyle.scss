@@ -2,11 +2,12 @@
 $bgcolor: white;
 $fontsize: 18px;
 $colorTexto: black;
-$colorTextoFooter:#11999e;
+$colorTextoFooter: #11999e;
 $imgFooter: 20px;
 $text: "Merriweather Sans", sans-serif;
 $textType: bold;
 $height: 100px;
+$imgCard: 30px;
 
 /* Use the variables */
 body {
@@ -19,13 +20,14 @@ body.card.card-body {
   margin-top: 20pt;
 }
 
+body.card.card-body img {
+  height: $imgCard;
+  width: $imgCard;
+}
+
 .footer img {
   width: $imgFooter;
   height: $imgFooter;
-}
-
-body.card.card-body {
-  margin-top: 20pt;
 }
 
 p {

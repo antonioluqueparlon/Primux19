@@ -10,13 +10,14 @@ body.card.card-body {
   margin-top: 20pt;
 }
 
+body.card.card-body img {
+  height: 30px;
+  width: 30px;
+}
+
 .footer img {
   width: 20px;
   height: 20px;
-}
-
-body.card.card-body {
-  margin-top: 20pt;
 }
 
 p {
