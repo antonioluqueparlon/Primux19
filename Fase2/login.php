@@ -4,19 +4,19 @@
 <head>
 	<?php include("includes/head-tag-contents.php");?>
 </head>
-<body>
-
-<div class="wrapper">
+<body class="bodyLogin">
+<?php include("includes/navigation.php");?>
+<div class="wrapperLogin">
   <div id="formContent">
 
     <form>
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
       <input type="password" id="password" class="fadeIn third" name="login" placeholder="Contraseña">
-      <input type="submit" class="fadeIn fourth" value="Log In">
+      <input type="submit" class="fadeIn fourth" value="Entrar">
     </form>
 
     <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
+      <a class="underlineHover aLogin" href="#">Recuperar contraseña</a>
     </div>
 
   </div>
