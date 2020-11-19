@@ -3,16 +3,13 @@
 $bgcolor: white;
 $fontsize: 18px;
 $colorTexto: black;
-$colorTextoFooter: #30e3ca;
-$fontsizeTechno: 15px;
-$imgFooter: 20px;
 $text: "Merriweather Sans",
 sans-serif;
 $textAlt: 'Arvo',
 serif;
 $textType: bold;
-$height: 80px;
 $imgCard: 30px;
+
 
 /*Login */
 
@@ -64,40 +61,6 @@ body.card.card-body img {
     width: $imgCard;
 }
 
-.footer img {
-    width: $imgFooter;
-    height: $imgFooter;
-}
-
-p {
-    color: white;
-    font-size: $fontsizeTechno;
-}
-
-footer {
-    position: $fixedPos;
-    left: 0;
-    bottom: 0;
-    width: $widthAll;
-    text-align: $textAlignCenter;
-    color: $colorTextoFooter;
-}
-
-.footer {
-    font-family: $text;
-    font-weight: $textType;
-    height: $height;
-    color: $colorTextoFooter;
-}
-
-.colorFooter{
-    color: $colorTextoFooter;
-}
-
-.bg-dark {
-    background-color: #212121 !important;
-}
-
 
 /* Login */
 
@@ -142,15 +105,6 @@ $loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e3
     padding: $s0px;
     box-shadow: $boxShadowLogin;
     text-align: $textAlignCenter;
-}
-
-#formFooter {
-    background-color: $backgroundWhite;
-    border-top: $boderTopForm;
-    padding: $s25px;
-    text-align: $textAlignCenter;
-    border-radius: $borderRadFt;
-    color: $colorTextoFooter;
 }
 
 input[type=button],
