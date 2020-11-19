@@ -23,6 +23,7 @@ body.card.card-body img {
 
 p {
   color: white;
+  font-size: 15px;
 }
 
 footer {
@@ -31,13 +32,18 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+  color: #30e3ca;
 }
 
 .footer {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: bold;
-  height: 100px;
-  color: #11999e;
+  height: 80px;
+  color: #30e3ca;
+}
+
+.colorFooter {
+  color: #30e3ca;
 }
 
 .bg-dark {
@@ -52,7 +58,7 @@ footer {
 }
 
 .aLogin {
-  color: #11999e;
+  color: #30e3ca;
   display: inline-block;
   text-decoration: none;
   font-weight: 400;
@@ -64,7 +70,7 @@ footer {
 }
 
 .wrapperLogin {
-  margin-top: 15%;
+  margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,6 +108,7 @@ footer {
   padding: 25px;
   text-align: center;
   border-radius: 0 0 10px 10px;
+  color: #30e3ca;
 }
 
 input[type=button],
@@ -151,7 +158,7 @@ input[type=password] {
 }
 
 .btnNav {
-  background-color: #11999e;
+  background-color: #30e3ca;
   color: #f6f6f6;
   margin-left: 10px;
 }
@@ -163,7 +170,7 @@ input[type=password] {
 
 .aNav {
   margin-top: 10px;
-  color: #11999e;
+  color: #30e3ca;
   font-size: 20px;
 }
 

@@ -3,14 +3,15 @@
 $bgcolor: white;
 $fontsize: 18px;
 $colorTexto: black;
-$colorTextoFooter: #11999e;
+$colorTextoFooter: #30e3ca;
+$fontsizeTechno: 15px;
 $imgFooter: 20px;
 $text: "Merriweather Sans",
 sans-serif;
 $textAlt: 'Arvo',
 serif;
 $textType: bold;
-$height: 100px;
+$height: 80px;
 $imgCard: 30px;
 
 /*Login */
@@ -20,7 +21,7 @@ $displayInline: inline-block;
 $noTextDecoration: none;
 $textAlignCenter: center;
 $fontWeightA: 400;
-$marginTop15: 15%;
+$marginTop15: 5%;
 $displayFlex: flex;
 $itemsCenter: center;
 $flexDirColumn: column;
@@ -69,6 +70,7 @@ body.card.card-body img {
 
 p {
     color: white;
+    font-size: $fontsizeTechno;
 }
 
 footer {
@@ -77,12 +79,17 @@ footer {
     bottom: 0;
     width: $widthAll;
     text-align: $textAlignCenter;
+    color: $colorTextoFooter;
 }
 
 .footer {
     font-family: $text;
     font-weight: $textType;
     height: $height;
+    color: $colorTextoFooter;
+}
+
+.colorFooter{
     color: $colorTextoFooter;
 }
 
@@ -142,6 +149,7 @@ $loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e3
     padding: $s25px;
     text-align: $textAlignCenter;
     border-radius: $borderRadFt;
+    color: $colorTextoFooter;
 }
 
 input[type=button],
