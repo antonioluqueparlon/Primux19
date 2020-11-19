@@ -3,7 +3,6 @@
 $bgcolor: white;
 $fontsize: 18px;
 $colorTexto: black;
-$colorTextoFooter: #11999e;
 $text: "Merriweather Sans",
 sans-serif;
 $textAlt: 'Arvo',
@@ -15,11 +14,12 @@ $imgCard: 30px;
 /*Login */
 
 $color2: #30e3ca;
+$color1:#11999e;
 $displayInline: inline-block;
 $noTextDecoration: none;
 $textAlignCenter: center;
 $fontWeightA: 400;
-$marginTop15: 15%;
+$marginTop15: 5%;
 $displayFlex: flex;
 $itemsCenter: center;
 $flexDirColumn: column;
@@ -62,7 +62,6 @@ body.card.card-body img {
 }
 
 
-
 /* Login */
 
 $heightLogin: 100%;
@@ -74,7 +73,7 @@ $loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e3
 }
 
 .aLogin {
-    color: $colorTextoFooter;
+    color: $color1;
     display: $displayInline;
     text-decoration: $noTextDecoration;
     font-weight: $fontWeightA;
@@ -107,7 +106,6 @@ $loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e3
     box-shadow: $boxShadowLogin;
     text-align: $textAlignCenter;
 }
-
 
 input[type=button],
 input[type=submit],
@@ -145,7 +143,7 @@ input[type=password] {
 /* nav */
 
 .navText {
-    font-family: $textAlt;
+    font-family: 'Arvo', serif;
 }
 
 .navbar-nav .nav-link> {
@@ -153,11 +151,11 @@ input[type=password] {
     font-size: 24px;
     top: 3px;
     line-height: 12px;
-    font-family: $textAlt;
+    font-family: 'Merryweather', serif;
 }
 
 .btnNav {
-    background-color: $colorTextoFooter;
+    background-color: $color1;
     color: $colorWhite2;
     margin-left: 10px;
 }
@@ -169,7 +167,7 @@ input[type=password] {
 
 .aNav {
     margin-top: 10px;
-    color: $colorTextoFooter;
+    color: $color1;
     font-size: 20px;
 }
 

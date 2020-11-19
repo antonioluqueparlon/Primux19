@@ -36,7 +36,7 @@ body.card.card-body img {
 }
 
 .wrapperLogin {
-  margin-top: 15%;
+  margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,7 +103,7 @@ input[type=password] {
 
 /* nav */
 .navText {
-  font-family: "Arvo", serif;
+  font-family: 'Arvo', serif;
 }
 
 .navbar-nav .nav-link > {
@@ -111,7 +111,7 @@ input[type=password] {
   font-size: 24px;
   top: 3px;
   line-height: 12px;
-  font-family: "Arvo", serif;
+  font-family: 'Merryweather', serif;
 }
 
 .btnNav {
