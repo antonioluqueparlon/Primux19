@@ -64,7 +64,7 @@ footer {
 }
 
 .wrapperLogin {
-  margin-top: 15%;
+  margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,6 +81,10 @@ footer {
   width: 100%;
   min-height: 100%;
   padding: 20px;
+}
+
+.formLogin {
+  margin-top: 10%;
 }
 
 #formContent {
