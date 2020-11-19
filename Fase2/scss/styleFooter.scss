@@ -1,0 +1,40 @@
+/* Define standard variables and values for website */
+
+$imgFooter: 20px;
+$height: 100px;
+
+.footer img {
+  width: $imgFooter;
+  height: $imgFooter;
+}
+
+p {
+  color: white;
+}
+
+footer {
+  position: $fixedPos;
+  left: 0;
+  bottom: 0;
+  width: $widthAll;
+  text-align: $textAlignCenter;
+}
+
+.footer {
+  font-family: $text;
+  font-weight: $textType;
+  height: $height;
+  color: $colorTextoFooter;
+}
+
+.bg-dark {
+  background-color: #212121 !important;
+}
+
+#formFooter {
+    background-color: $backgroundWhite;
+    border-top: $boderTopForm;
+    padding: $s25px;
+    text-align: $textAlignCenter;
+    border-radius: $borderRadFt;
+}
