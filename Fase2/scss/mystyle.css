@@ -58,7 +58,7 @@ footer {
 }
 
 .aLogin {
-  color: #30e3ca;
+  color: #11999e;
   display: inline-block;
   text-decoration: none;
   font-weight: 400;
@@ -146,7 +146,7 @@ input[type=password] {
 
 /* nav */
 .navText {
-  font-family: "Arvo", serif;
+  font-family: 'Arvo', serif;
 }
 
 .navbar-nav .nav-link > {
@@ -154,11 +154,11 @@ input[type=password] {
   font-size: 24px;
   top: 3px;
   line-height: 12px;
-  font-family: "Arvo", serif;
+  font-family: 'Merryweather', serif;
 }
 
 .btnNav {
-  background-color: #30e3ca;
+  background-color: #11999e;
   color: #f6f6f6;
   margin-left: 10px;
 }
@@ -170,7 +170,7 @@ input[type=password] {
 
 .aNav {
   margin-top: 10px;
-  color: #30e3ca;
+  color: #11999e;
   font-size: 20px;
 }
 

@@ -17,6 +17,7 @@ $imgCard: 30px;
 /*Login */
 
 $color2: #30e3ca;
+$color1:#11999e;
 $displayInline: inline-block;
 $noTextDecoration: none;
 $textAlignCenter: center;
@@ -109,7 +110,7 @@ $loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e3
 }
 
 .aLogin {
-    color: $colorTextoFooter;
+    color: $color1;
     display: $displayInline;
     text-decoration: $noTextDecoration;
     font-weight: $fontWeightA;
@@ -188,7 +189,7 @@ input[type=password] {
 /* nav */
 
 .navText {
-    font-family: $textAlt;
+    font-family: 'Arvo', serif;
 }
 
 .navbar-nav .nav-link> {
@@ -196,11 +197,11 @@ input[type=password] {
     font-size: 24px;
     top: 3px;
     line-height: 12px;
-    font-family: $textAlt;
+    font-family: 'Merryweather', serif;
 }
 
 .btnNav {
-    background-color: $colorTextoFooter;
+    background-color: $color1;
     color: $colorWhite2;
     margin-left: 10px;
 }
@@ -212,7 +213,7 @@ input[type=password] {
 
 .aNav {
     margin-top: 10px;
-    color: $colorTextoFooter;
+    color: $color1;
     font-size: 20px;
 }
 

@@ -16,7 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="scss/mystyle.css">
 <link rel="stylesheet" href="css/style.css">
 
