@@ -10,20 +10,7 @@
 <?php include("includes/subNavigation.php");?>
 
 
-<style>
-h1{
-    text-align: center;
-}
 
-.container{
-
-    text-align: center;
-    align-items: center;
-    margin: auto;
-
-}
-
-</style>
 <main>
 <br>
 
