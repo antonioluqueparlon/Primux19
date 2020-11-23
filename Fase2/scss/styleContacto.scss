@@ -1,15 +1,23 @@
-body{
-    font-size: 10px;
-}
+$letraParlon: 15px;
 
 h1{
     text-align: center;
 }
 
 .container{
-
-    text-align: center;
     align-items: center;
     margin: auto;
+    width: auto;
+}
 
+.bodyContacto{
+    font-size: $letraParlon;
+    height: 1px;
+    width: 100%;
+}
+
+.btnFormulario{
+    margin-right: 10px;
+    align-items: center;
+    margin: auto;
 }

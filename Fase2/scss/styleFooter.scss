@@ -2,6 +2,8 @@
 
 $imgFooter: 20px;
 $height: 100px;
+$fixedPos: fixed;
+$color2: #30e3ca;
 
 .footer img {
   width: $imgFooter;
@@ -16,8 +18,14 @@ footer {
   position: $fixedPos;
   left: 0;
   bottom: 0;
+  margin-top: 5%;
   width: $widthAll;
   text-align: $textAlignCenter;
+}
+
+.clear {
+  clear: both;
+  height: 500px;
 }
 
 .footer {

@@ -9,10 +9,10 @@
 <div class="wrapperLogin">
   <div id="formContent">
 
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
-      <input type="password" id="password" class="fadeIn third" name="login" placeholder="Contraseña">
-      <input type="submit" class="fadeIn fourth" value="Entrar">
+    <form class="formLogin">
+      <input type="text" id="login" class=" second" name="login" placeholder="Usuario">
+      <input type="password" id="password" class=" third" name="login" placeholder="Contraseña">
+      <input type="submit" class="fourth" value="Entrar">
     </form>
 
     <div id="formFooter">
