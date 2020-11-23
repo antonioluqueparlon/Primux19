@@ -21,5 +21,6 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="scss/index.css">
 <link rel="stylesheet" href="scss/styleFooter.css">
+<link rel="stylesheet" href="scss/styleContacto.css">
 
   
