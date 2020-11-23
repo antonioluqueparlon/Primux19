@@ -19,5 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="scss/mystyle.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="scss/index.css">
 
   

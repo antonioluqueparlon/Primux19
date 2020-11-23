@@ -51,6 +51,9 @@ body {
     background-color: $bgcolor;
     font-size: $fontsize;
     font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body.card.card-body {
@@ -71,10 +74,16 @@ p {
     color: white;
 }
 
+.clear {
+    clear: both;
+    height: 200px;
+}
+
 footer {
     position: $fixedPos;
     left: 0;
     bottom: 0;
+    margin-top: 5%;
     width: $widthAll;
     text-align: $textAlignCenter;
 }
@@ -124,8 +133,13 @@ $loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e3
     padding: $s20px;
 }
 
-.formLogin{
-    margin-top:10%;
+.formLogin {
+    margin-top: 10%;
+}
+
+.btnEntrar {
+    background-color: $colorTextoFooter;
+    color: $colorWhite2;
 }
 
 #formContent {
@@ -163,6 +177,11 @@ input[type=reset] {
     box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
     border-radius: 5px 5px 5px 5px;
     margin: 5px 20px 40px 20px;
+}
+
+input[type=submit]:hover {
+    background-color: $color2;
+    color: $colorWhite2;
 }
 
 input[type=text],
