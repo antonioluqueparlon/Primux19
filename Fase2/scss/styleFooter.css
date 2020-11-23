@@ -1,4 +1,29 @@
-/* Define standard variables and values for website */
+/*Login */
+.clear {
+  clear: both;
+  height: 200px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  height: 100px;
+  color: #11999e;
+}
+
+.bg-dark {
+  background-color: #212121 !important;
+}
+
 .footer img {
   width: 20px;
   height: 20px;

@@ -1,48 +1,80 @@
-/* Define standard variables and values for website */
-
+$bgcolor: white;
+$fontsize: 18px;
+$colorTexto: black;
+$colorTextoFooter: #11999e;
 $imgFooter: 20px;
+$text: "Merriweather Sans",
+sans-serif;
+$textAlt: 'Arvo',
+serif;
+$textType: bold;
 $height: 100px;
-$fixedPos: fixed;
+$imgCard: 30px;
+
+/*Login */
+
 $color2: #30e3ca;
+$displayInline: inline-block;
+$noTextDecoration: none;
+$textAlignCenter: center;
+$fontWeightA: 400;
+$marginTop15: 5%;
+$displayFlex: flex;
+$itemsCenter: center;
+$flexDirColumn: column;
+$justifyCenter: center;
+$widthAll: 100%;
+$width90: 90%;
+$maxWidth450: 450px;
+$minHeightAll: 100%;
+$s20px: 20px;
+$s30px: 30px;
+$s25px: 25px;
+$s10px: 10px;
+$s0px: 0px;
+$boderRad10: 10px 10px 10px 10px;
+$borderRadFt: 0 0 10px 10px;
+$backgroundWhite: #fff;
+$positionRel: relative;
+$boxShadowLogin: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+$boderTopForm: 1px solid #dce8f1;
+$fixedPos: fixed;
+$noborder: none;
+$colorWhite2: #f6f6f6;
+$colorBlack: #212121;
 
-.footer img {
-  width: $imgFooter;
-  height: $imgFooter;
-}
 
-p {
-  color: white;
+.clear {
+    clear: both;
+    height: 200px;
 }
 
 footer {
-  position: $fixedPos;
-  left: 0;
-  bottom: 0;
-  margin-top: 5%;
-  width: $widthAll;
-  text-align: $textAlignCenter;
-}
-
-.clear {
-  clear: both;
-  height: 500px;
+    position: $fixedPos;
+    left: 0;
+    bottom: 0;
+    margin-top: 5%;
+    width: $widthAll;
+    text-align: $textAlignCenter;
 }
 
 .footer {
-  font-family: $text;
-  font-weight: $textType;
-  height: $height;
-  color: $colorTextoFooter;
+    font-family: $text;
+    font-weight: $textType;
+    height: $height;
+    color: $colorTextoFooter;
 }
 
 .bg-dark {
-  background-color: #212121 !important;
+    background-color: #212121 !important;
 }
 
-#formFooter {
-    background-color: $backgroundWhite;
-    border-top: $boderTopForm;
-    padding: $s25px;
-    text-align: $textAlignCenter;
-    border-radius: $borderRadFt;
+
+.footer img {
+    width: $imgFooter;
+    height: $imgFooter;
+}
+
+p {
+    color: white;
 }
