@@ -5,11 +5,7 @@
 	<?php include("includes/head-tag-contents.php");?>
 </head>
 <body>
-
 <?php include("includes/navigation.php");?>
-<?php include("includes/subNavigation.php");?>
-
-
 
 <main>
 <br>
@@ -19,7 +15,7 @@
 
 <div class="container">
 
-    <div class="row">
+    <div class="row justify-content-center">
 
       <div class="col-lg-8 col-lg-offset-2">
 
@@ -34,14 +30,14 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label for="form_name">Nombre</label>
-                <input id="form_name" type="text" name="nombre" class="form-control" placeholder="Por favor introduce tu nombre *" required="required" data-error="Firstname is required.">
+                <input id="form_name" type="text" name="nombre" class="form-control" placeholder="Introduce tu nombre *" required="required" data-error="Firstname is required.">
                 <div class="help-block with-errors"></div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="form_lastname">Apellidos </label>
-                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Por favor introduce tu apellido *" required="required" data-error="Lastname is required.">
+                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Introduce tu apellido *" required="required" data-error="Lastname is required.">
                 <div class="help-block with-errors"></div>
               </div>
             </div>

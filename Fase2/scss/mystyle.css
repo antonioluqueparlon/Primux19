@@ -5,6 +5,9 @@ body {
   background-color: white;
   font-size: 18px;
   font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .cardApartadoDerecha {
@@ -63,6 +66,15 @@ body.card.card-body img {
   padding: 20px;
 }
 
+.formLogin {
+  margin-top: 10%;
+}
+
+.btnEntrar {
+  background-color: #11999e;
+  color: #f6f6f6;
+}
+
 #formContent {
   border-radius: 10px 10px 10px 10px;
   background: #fff;
@@ -74,6 +86,14 @@ body.card.card-body img {
   -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
+}
+
+#formFooter {
+  background-color: #fff;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
 }
 
 input[type=button],
@@ -94,6 +114,11 @@ input[type=reset] {
   margin: 5px 20px 40px 20px;
 }
 
+input[type=submit]:hover {
+  background-color: #30e3ca;
+  color: #f6f6f6;
+}
+
 input[type=text],
 input[type=password] {
   background-color: #f6f6f6;
@@ -111,7 +136,7 @@ input[type=password] {
 
 /* nav */
 .navText {
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
 }
 
 .navbar-nav .nav-link > {
@@ -119,7 +144,7 @@ input[type=password] {
   font-size: 24px;
   top: 3px;
   line-height: 12px;
-  font-family: 'Merryweather', serif;
+  font-family: "Arvo", serif;
 }
 
 .btnNav {
