@@ -14,5 +14,5 @@
     </div>
     
   </div>
-  <div><p>&copy; <?php print date("Y");?> TechnoTeam.</p></div>
+  <div class="nombre"><p>&copy; <?php print date("Y");?> TechnoTeam.</p></div>
 </footer>
