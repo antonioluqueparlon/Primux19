@@ -1,0 +1,7 @@
+$tamanoImgSeccion: 200px;
+
+.seccion img {
+  width: $tamanoImgSeccion;
+  height: $tamanoImgSeccion;
+  float: left;
+}
