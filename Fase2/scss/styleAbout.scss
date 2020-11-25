@@ -1,0 +1,27 @@
+$color2: #30e3ca;
+
+p.container-fluid {
+  background-image: url("img/imagenfondo.jpg");
+}
+
+#p1 {
+  font-family: "Arvo", serif;
+  align-items: center;
+}
+
+.p1class {
+  align-items: center;
+  margin: auto;
+}
+
+.aboutTexto {
+  color: rgb(224, 52, 52);
+}
+
+.nosotros .cardNosotros {
+  margin-top: 100px;
+  background-color: $color2;
+  font-family: "Merriweather Sans", sans-serif;
+  width: 90%;
+  margin-left:5%;
+}

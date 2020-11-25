@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=styleAbout.css.map */
+p.container-fluid {
+  background-image: url("img/imagenfondo.jpg");
+}
+
+#p1 {
+  font-family: "Arvo", serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p1class {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.aboutTexto {
+  color: #e03434;
+}
+
+.nosotros .cardNosotros {
+  margin-top: 100px;
+  background-color: #30e3ca;
+  font-family: "Merriweather Sans", sans-serif;
+  width: 90%;
+  margin-left: 5%;
+}
+/*# sourceMappingURL=styleAbout.css.map */
