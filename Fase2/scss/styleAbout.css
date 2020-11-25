@@ -17,14 +17,18 @@ p.container-fluid {
 }
 
 .aboutTexto {
-  color: #e03434;
+  color: #212121;
 }
 
 .nosotros .cardNosotros {
   margin-top: 100px;
-  background-color: #30e3ca;
+  background-color: #e4f9f5;
   font-family: "Merriweather Sans", sans-serif;
   width: 90%;
   margin-left: 5%;
+}
+
+.l1class {
+  background-color: #30e3ca;
 }
 /*# sourceMappingURL=styleAbout.css.map */

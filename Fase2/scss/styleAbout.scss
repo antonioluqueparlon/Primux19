@@ -1,4 +1,6 @@
 $color2: #30e3ca;
+$colorBlack: #212121;
+$colorClaro:#e4f9f5;
 
 p.container-fluid {
   background-image: url("img/imagenfondo.jpg");
@@ -15,13 +17,17 @@ p.container-fluid {
 }
 
 .aboutTexto {
-  color: rgb(224, 52, 52);
+  color:$colorBlack;
 }
 
 .nosotros .cardNosotros {
   margin-top: 100px;
-  background-color: $color2;
+  background-color: $colorClaro;
   font-family: "Merriweather Sans", sans-serif;
   width: 90%;
   margin-left:5%;
+}
+
+.l1class{
+    background-color: $color2;
 }
