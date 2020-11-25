@@ -18,10 +18,12 @@
       <div class="col-lg-8 col-sm-12">
         <h1>APARTADO</h1>
           <div class="card img-fluid" >
-            <img class="card-img-top" src="http://lorempixel.com/output/sports-q-c-320-180-9.jpg" alt="Card image" id="imgTop" >
-            <div class="card-img-overlay d-flex align-items-end">
-              <p class="card-text font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit exercitationem rerum dolorem quas consectetur, deleniti ad veniam quidem eligendi et impedit, dignissimos placeat doloremque laboriosam quam nam at quod tempore!</p>
+            <a href="noticia.php">
+            <img class="card-img-top" src="http://lorempixel.com/output/sports-q-c-320-180-9.jpg" alt="Card image" >
+            <div class="card-img-overlay d-flex align-items-end" >
+              <p class="card-text font-weight-bold" id="txtTop">Lorem ipsum dolor sit amet</p>
             </div>
+            </a>
           </div>
       </div>
       <div class="col-lg-4">

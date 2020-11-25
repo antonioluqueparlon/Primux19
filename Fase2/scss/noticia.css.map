@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,WAAW,EAAE,EAAE;EACf,YAAY,EAAE,EAAE;CACnB",
+    "sources": [
+        "noticia.scss"
+    ],
+    "names": [],
+    "file": "noticia.css"
+}

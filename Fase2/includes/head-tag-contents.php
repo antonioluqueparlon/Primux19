@@ -24,5 +24,6 @@
 <link rel="stylesheet" href="scss/styleContacto.css">
 <link rel="stylesheet" href="scss/styleSeccion.css">
 <link rel="stylesheet" href="scss/styleApartado.css">
+<link rel="stylesheet" href="scss/noticia.css">
 
   

@@ -6,7 +6,17 @@
   margin-top: 12pt;
 }
 
-#imgTop {
-  opacity: 0.7;
+#txtTop {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  /* background */
+  background: rgba(0, 0, 0, 0.7);
+  /* Width/Height */
+  padding: .5em;
+  width: 100%;
+  /* Text color */
+  color: #fff;
 }
 /*# sourceMappingURL=styleApartado.css.map */
