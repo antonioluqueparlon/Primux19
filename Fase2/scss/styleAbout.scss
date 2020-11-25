@@ -2,6 +2,7 @@ $color2: #30e3ca;
 $colorBlack: #212121;
 $colorClaro: #e4f9f5;
 $colorverdeMoco:#11999e;
+$blanco:white;
 
 p.container-fluid {
   background-image: url("img/imagenfondo.jpg");
@@ -19,6 +20,10 @@ p.container-fluid {
 
 .aboutTexto {
   color: $colorBlack;
+}
+
+.preguntas{
+  margin-left: 1px;
 }
 
 .nosotros .cardNosotros {
@@ -175,4 +180,20 @@ section .section-title {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+}
+
+
+.imagenAbout{
+  width: 100%;
+  height: 40%;
+  opacity: 0.6;
+}
+
+.textoFoto{
+font-size: 20px;
+color: $colorBlack;
+font-family: "Merriweather Sans", sans-serif;
+align-items: center;
+margin-left: 100px;
+margin-top: 300px;
 }
