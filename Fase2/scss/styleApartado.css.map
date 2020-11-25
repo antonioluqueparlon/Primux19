@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EAChB,UAAU,EAAE,GAAG;CAChB;;AACD,AAAA,uBAAuB,CAAA;EACrB,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,OAAO,CAAA;EACL,OAAO,EAAE,GAAG;CACb",
+    "sources": [
+        "styleApartado.scss"
+    ],
+    "names": [],
+    "file": "styleApartado.css"
+}
