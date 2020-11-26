@@ -6,7 +6,7 @@ $imgFooter: 20px;
 $text: "Merriweather Sans", sans-serif;
 $textAlt: "Arvo", serif;
 $textType: bold;
-$height: 60px;
+$height: 90px;
 $imgCard: 30px;
 
 /*Login */
@@ -52,8 +52,7 @@ footer {
   bottom: 0;
   margin-top: 5%;
   width: $widthAll;
-  text-align: $textAlignCenter;
-  display: none;
+  text-align: $textAlignCenter
 }
 
 .footer {
