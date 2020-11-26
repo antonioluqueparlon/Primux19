@@ -8,7 +8,7 @@ sans-serif;
 $textAlt: 'Arvo',
 serif;
 $textType: bold;
-$height: 100px;
+$height: 60px;
 $imgCard: 30px;
 
 /*Login */
@@ -46,7 +46,7 @@ $colorBlack: #212121;
 
 .clear {
     clear: both;
-    height: 200px;
+    height: 100px;
 }
 
 footer {
@@ -80,6 +80,7 @@ footer {
     height: $imgFooter;
 }
 
-.nombre p {
+.footer span {
     color: white;
+    font-family: 'EB Garamond', serif;
 }
