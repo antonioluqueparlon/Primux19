@@ -56,6 +56,8 @@ footer {
     margin-top: 5%;
     width: $widthAll;
     text-align: $textAlignCenter;
+    display: none;
+
 }
 
 .footer {
@@ -69,6 +71,9 @@ footer {
     background-color: #212121 !important;
 }
 
+.colorFooter{
+    color: $colorTextoFooter;
+}
 
 .footer img {
     width: $imgFooter;

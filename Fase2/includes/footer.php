@@ -2,9 +2,9 @@
 <footer class="bg-dark text-center">
   <div class="footer">
     <div class="d-flex justify-content-around mb-2">
-    <div class="p-2"><a href="about.php">Sobre Nosotros</a></div>
-    <div class="p-2"><a href="#">Conoce al equipo</a></div>
-    <div class="p-2"><a href="contacto.php">Contáctanos</a></div>
+    <div class="p-2"><a class="footer" href="about.php">Sobre Nosotros</a></div>
+    <div class="p-2"><a class="footer" href="#">Conoce al equipo</a></div>
+    <div class="p-2"><a class="footer" href="contacto.php">Contáctanos</a></div>
     </div>
     <div>
     <a href="#"><img src="https://www.flaticon.es/svg/static/icons/svg/1177/1177585.svg"/></a>
