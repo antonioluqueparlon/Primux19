@@ -79,7 +79,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/antonioperez.jpg" alt="card image"></p>
                                     <h4 class="card-title">Antonio Pérez</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -175,7 +175,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/jesus.png" alt="card image"></p>
                                     <h4 class="card-title">Jesús Cano</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -223,7 +223,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/parlon.jpg" alt="card image"></p>
                                     <h4 class="card-title">Antonio Luque</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
