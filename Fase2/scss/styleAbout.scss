@@ -4,6 +4,11 @@ $colorClaro: #e4f9f5;
 $colorverdeMoco:#11999e;
 $blanco:white;
 
+.bodyAbout{
+  width: 100%;
+
+}
+
 p.container-fluid {
   background-image: url("img/imagenfondo.jpg");
 }
@@ -23,7 +28,7 @@ p.container-fluid {
 }
 
 .preguntas{
-  margin-left: 1px;
+  margin-left: 0;
 }
 
 .nosotros .cardNosotros {
@@ -184,7 +189,7 @@ section .section-title {
 
 
 .imagenAbout{
-  width: 100%;
+  width: 97%;
   height: 40%;
   opacity: 0.6;
 }
@@ -202,4 +207,8 @@ margin-top: 300px;
   align-items: center;
   margin: auto auto;
   display: none;
+}
+
+.bodyAbout{
+  width: 100%;
 }

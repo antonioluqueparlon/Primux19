@@ -1,12 +1,10 @@
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
 </head>
-
-<body>
+<body class="bodyAbout">
 
     <?php include("includes/navigation.php"); ?>
 
@@ -129,7 +127,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/irene.jpg" alt="card image"></p>
                                     <h4 class="card-title">Irene López</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -336,7 +334,7 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Teléfono</h4>
                                     <p class="card-text"> Número de Teléfono: 957112233</p>
-                                    <p>Atendemos por Whatsapp</p>
+                                    <p>Podemos Atender por Whatsapp ademas de ser recomendable</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
