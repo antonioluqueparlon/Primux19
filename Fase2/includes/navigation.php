@@ -8,21 +8,21 @@
   <div class="collapse navbar-collapse navText" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="apartado.php">
         <p class="aNav">Tecnología</p>
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="apartado.php">
         <p class="aNav">Deportes</p>
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="apartado.php">
           <p class="aNav">Motor</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="apartado.php">
           <p class="aNav">VideoJuegos</p>
           </a>
       </li>
