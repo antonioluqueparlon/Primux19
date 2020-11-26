@@ -1,5 +1,5 @@
 <div class="clear"></div>
-<footer class="bg-dark text-center">
+<footer class="container-fluid bg-dark ">
   <div class="footer">
     <div class="d-flex justify-content-around ">
     <div class="p-2"><a href="about.php">Sobre Nosotros</a></div>

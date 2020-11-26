@@ -28,4 +28,6 @@
 <link rel="stylesheet" href="scss/styleFooter.css">
 <link rel="stylesheet" href="scss/styleContacto.css">
 <link rel="stylesheet" href="scss/styleSeccion.css">
+<link rel="stylesheet" href="scss/styleApartado.css">
+<link rel="stylesheet" href="scss/noticia.css">
 <link rel="stylesheet" href="scss/styleAbout.css">

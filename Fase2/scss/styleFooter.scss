@@ -50,12 +50,14 @@ $colorBlack: #212121;
 }
 
 footer {
-    position: $fixedPos;
+    position: 0;
     left: 0;
     bottom: 0;
     margin-top: 5%;
     width: $widthAll;
     text-align: $textAlignCenter;
+    display: none;
+
 }
 
 .footer {
@@ -69,6 +71,9 @@ footer {
     background-color: #212121 !important;
 }
 
+.colorFooter{
+    color: $colorTextoFooter;
+}
 
 .footer img {
     width: $imgFooter;
