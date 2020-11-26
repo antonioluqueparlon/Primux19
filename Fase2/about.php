@@ -334,7 +334,7 @@
                             <div class="card">
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Telefono</h4>
-                                    <p class="card-text">TLF: 957112233.</p>
+                                    <p class="card-text">TLF: 957112233333333333333333555555555555555</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
