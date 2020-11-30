@@ -50,7 +50,7 @@
                         <div class="col-12 col-lg-6">
                             <ul class="list mbr-fonts-style display-7">
                                 <li>
-                                    <element class="antonio"><strong>Qué es Trend Top?
+                                    <element class="antonio"><strong>¿Qué es Trend Top?
                                         </strong><br>Es una revista de informacion actualizada al año 2020.&nbsp;</element>
                                 </li><br>
                                 <li>

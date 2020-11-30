@@ -1,4 +1,5 @@
 $tamanoImgSeccion: 200px;
+$colorTexto: black;
 
 .seccion img {
   width: $tamanoImgSeccion;
@@ -8,4 +9,9 @@ $tamanoImgSeccion: 200px;
 
 .seccion h4{
   font-family: 'Arvo', serif;
+}
+
+.seccion a{
+  text-decoration: none;
+  color: $colorTexto;
 }

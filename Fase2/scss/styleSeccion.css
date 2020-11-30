@@ -7,4 +7,9 @@
 .seccion h4 {
   font-family: 'Arvo', serif;
 }
+
+.seccion a {
+  text-decoration: none;
+  color: black;
+}
 /*# sourceMappingURL=styleSeccion.css.map */
