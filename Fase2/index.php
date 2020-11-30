@@ -80,7 +80,7 @@
 			<!-- artigo em destaque -->
 			<div class="featured-article">
 				<a href="#">
-					<img src="http://placehold.it/482x350" alt="" class="thumb">
+					<img src="https://placeimg.com/482/350/random" alt="" class="thumb thumbIndex">
 				</a>
 				<div class="block-title">
 					<h2>Lorem ipsum dolor asit amet</h2>
@@ -93,7 +93,7 @@
 			<ul class="media-list main-list">
 			  <li class="media">
 			    <a class="pull-left" href="#">
-			      <img class="media-object" src="http://placehold.it/150x90" alt="...">
+			      <img class="media-object" src="https://placeimg.com/150/90/food" alt="...">
 			    </a>
 			    <div class="media-body">
 			      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
@@ -102,7 +102,7 @@
 			  </li>
 			  <li class="media">
 			    <a class="pull-left" href="#">
-			      <img class="media-object" src="http://placehold.it/150x90" alt="...">
+          <img class="media-object" src="https://placeimg.com/150/90/animal" alt="...">
 			    </a>
 			    <div class="media-body">
 			      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
@@ -111,7 +111,7 @@
 			  </li>
 			  <li class="media">
 			    <a class="pull-left" href="#">
-			      <img class="media-object" src="http://placehold.it/150x90" alt="...">
+          <img class="media-object" src="https://placeimg.com/150/90/person" alt="...">
 			    </a>
 			    <div class="media-body">
 			      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>

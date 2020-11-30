@@ -9,15 +9,12 @@
 <div class="wrapperLogin">
   <div id="formContent">
 
-    <form class="formLogin">
+    <form class="formLogin" method="POST" action="login.php">
       <input type="text" id="login" class=" second" name="login" placeholder="Usuario">
       <input type="password" id="password" class=" third" name="login" placeholder="Contraseña">
+      <input type="password" id="password" class=" third" name="login" placeholder="Repetir Contraseña">
       <input type="submit" class="fourth" value="Entrar">
     </form>
-
-    <div id="formFooter">
-    <a href="registro.php"><button class="btn  my-2 my-sm-0 btnRegistro">Registrarse</button></a>
-    </div>
 
   </div>
 </div>
