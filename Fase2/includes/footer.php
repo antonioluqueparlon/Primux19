@@ -2,9 +2,8 @@
 <footer class="container-fluid bg-dark ">
   <div class="footer">
     <div class="d-flex justify-content-around ">
-      <div class="p-2"><a class="footer" href="about.php">Sobre Nosotros</a></div>
-      <div class="p-2"><a class="footer" href="work.php">Conoce al equipo</a></div>
-      <div class="p-2"><a class="footer" href="contacto.php">Contáctanos</a></div>
+    <div class="p-2"><a class="footer" href="about.php">Sobre Nosotros</a></div>
+    <div class="p-2"><a class="footer" href="contacto.php">Contáctanos</a></div>
     </div>
     <div>
       <a href="https://www.instagram.com/" class="ml-3"><img src="https://www.flaticon.es/svg/static/icons/svg/1177/1177585.svg" /></a>
