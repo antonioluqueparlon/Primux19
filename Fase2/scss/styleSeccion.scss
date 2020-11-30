@@ -1,17 +1,11 @@
 $tamanoImgSeccion: 200px;
 $colorTexto: black;
 
-.seccion img {
-  width: $tamanoImgSeccion;
-  height: $tamanoImgSeccion;
-  float: left;
+.claseSeccion{
+  margin-top: 50px;
+  
 }
 
-.seccion h4{
-  font-family: 'Arvo', serif;
-}
-
-.seccion a{
-  text-decoration: none;
-  color: $colorTexto;
+.claseSeccion h4{
+  font-size: 38px;
 }
