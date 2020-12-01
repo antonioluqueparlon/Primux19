@@ -20,4 +20,3 @@
 			$CURRENT_PAGE = "Index";
 			$PAGE_TITLE = "Welcome to my homepage!";
 	}
-?>

@@ -1,7 +1,9 @@
-.seccion img {
-  width: 200px;
-  height: 200px;
-  float: left;
+.claseSeccion {
+  margin-top: 50px;
+}
+
+.claseSeccion h4 {
+  font-size: 38px;
 }
 
 .seccion h4 {
