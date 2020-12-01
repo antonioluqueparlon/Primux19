@@ -74,65 +74,53 @@
         </div>
       </div>
     </div>
-    <div class="row tarjetaNoticiaApartado">
-      <div class="col-md-3">
-        <img src="http://lorempixel.com/output/technics-q-c-280-158-1.jpg">
-      </div>
-      <div class="col-md-9">
-        <div class="row">
-            <div class="col text-center">
-              <h3>Titulo noticia</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet itaque in, 
-                quas earum aliquid fugiat id placeat aperiam recusandae, 
-                minima aliquam iusto nesciunt velit reprehenderit! Rem ab amet iusto!
-              </p>
+    <div class="card cardArticulo">
+      <a href="#" class="enlaceNoticia">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+          <div class="card-body">
+              <h3 class="card-title indexNoticiaTitulo">Card title</h3>
+              <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text indexNoticiaTexto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
-      </div>
+        </div>
+      </a>
     </div>
-    <div class="row tarjetaNoticiaApartado">
-      <div class="col-md-3">
-        <img src="http://lorempixel.com/output/technics-q-c-280-158-2.jpg">
-      </div>
-      <div class="col-md-9">
-        <div class="row">
-            <div class="col text-center">
-              <h3>Titulo noticia</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet itaque in, 
-                quas earum aliquid fugiat id placeat aperiam recusandae, 
-                minima aliquam iusto nesciunt velit reprehenderit! Rem ab amet iusto!
-              </p>
+    <div class="card cardArticulo">
+      <a href="#" class="enlaceNoticia">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+          <div class="card-body">
+              <h3 class="card-title indexNoticiaTitulo">Card title</h3>
+              <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text indexNoticiaTexto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
-      </div>
+        </div>
+      </a>
     </div>
-    <div class="row tarjetaNoticiaApartado">
-      <div class="col-md-3">
-        <img src="http://lorempixel.com/output/technics-q-c-280-158-9.jpg">
-      </div>
-      <div class="col-md-9">
-        <div class="row">
-            <div class="col text-center">
-              <h3>Titulo noticia</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet itaque in, 
-                quas earum aliquid fugiat id placeat aperiam recusandae, 
-                minima aliquam iusto nesciunt velit reprehenderit! Rem ab amet iusto!
-              </p>
+    <div class="card cardArticulo">
+      <a href="#" class="enlaceNoticia">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+          <div class="card-body">
+              <h3 class="card-title indexNoticiaTitulo">Card title</h3>
+              <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text indexNoticiaTexto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
-      </div>
+        </div>
+      </a>
     </div>
   </div>
 </section>
