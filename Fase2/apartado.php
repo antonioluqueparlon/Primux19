@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-    <div class="card cardArticulo">
+    <div class="card cardArticulo tarjetaNoticiaApartado">
       <a href="#" class="enlaceNoticia">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -90,7 +90,7 @@
         </div>
       </a>
     </div>
-    <div class="card cardArticulo">
+    <div class="card cardArticulo tarjetaNoticiaApartado">
       <a href="#" class="enlaceNoticia">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -106,7 +106,7 @@
         </div>
       </a>
     </div>
-    <div class="card cardArticulo">
+    <div class="card cardArticulo tarjetaNoticiaApartado">
       <a href="#" class="enlaceNoticia">
         <div class="row no-gutters">
           <div class="col-md-4">
