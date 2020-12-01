@@ -2,17 +2,24 @@
 .noticia{
     margin-left: 8%;
     margin-right: 5%;
+    margin-top: 0pt;
 }
 .titNoticia{
     font-family: 'Arvo', serif;
+    text-align: left;
+    margin-top: 5pt;
   }
 
+
+
 .cuerpoNoticia{
-    margin-right: 20%;
+    margin-right: 15%;
+    margin-left: 0pt;
 }
 .divOtrasNoticias{
     margin: 2pt;
     background-color: $colorClaro;
+    width: 100%;
 }
 .txtNoticias{
     margin-top: 30pt;
@@ -26,7 +33,7 @@
     border-radius: 25px; 
     font-size: 10px; 
     text-align: center; 
-    margin-right: 15px;
+    margin-right: 10px;
     margin-bottom: 10px;
     
 } 
@@ -36,6 +43,6 @@
 }
 
 .imgNoticia{
-   width: 950px;
-   height: 700px;
+   width: 850px;
+   height: 500px;
 }

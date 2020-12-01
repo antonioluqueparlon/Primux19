@@ -6,7 +6,7 @@
   margin-top: 12pt;
 }
 
-#txtTop {
+.txtTop {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -17,6 +17,12 @@
   padding: .5em;
   width: 100%;
   /* Text color */
-  color: #fff;
+  color: #e4f9f5;
+}
+
+.txtCarrousel {
+  width: 70%;
+  left: 15%;
+  height: 30pt;
 }
 /*# sourceMappingURL=styleApartado.css.map */
