@@ -17,7 +17,7 @@ footer {
 .footer {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: bold;
-  height: 60px;
+  height: 90px;
   color: #11999e;
 }
 
@@ -36,6 +36,6 @@ footer {
 
 .footer span {
   color: white;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 /*# sourceMappingURL=styleFooter.css.map */

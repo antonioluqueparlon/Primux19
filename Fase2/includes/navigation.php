@@ -29,9 +29,9 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="">
-      <button class="btn my-2 my-sm-0 btnNav" type="submit">Buscar</button>
+      <button class="btn my-2 my-sm-0 btnNav" type="submit"><i class="fa fa-search"></i></button>
     </form>
-    <a href="login.php"><button class="btn  my-2 my-sm-0 btnNav">Entrar</button></a>
+    <a href="login.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Entrar</button></a>
   </div>
 </nav>
 

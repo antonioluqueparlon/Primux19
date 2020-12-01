@@ -32,3 +32,5 @@
 <link rel="stylesheet" href="scss/styleApartado.css">
 <link rel="stylesheet" href="scss/noticia.css">
 <link rel="stylesheet" href="scss/styleAbout.css">
+<link rel="stylesheet" href="scss/nav.css">
+<link rel="stylesheet" href="scss/login.css">

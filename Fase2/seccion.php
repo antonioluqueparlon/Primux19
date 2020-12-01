@@ -15,70 +15,76 @@
 
 
     <main>
-        <div class="seccion">
-            <section class="content">
-                <div class="col-md-12">
-                    <h1>Últimas noticias</h1>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="noticia.php"><img src="https://miro.medium.com/max/1024/1*vxjAHkrXbGG6gOiPZgjeZA.jpeg"></a>
-                                    <h4>Título de noticia</h4>
-                                    <span class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra, cursus natoque dignissim molestie donec lectus ligula sollicitudin, primis est penatibus gravida euismod aliquet venenatis. Per ultricies dictumst luctus donec nostra sagittis convallis dictum, ultrices curabitur orci consequat pharetra felis nullam cum ligula, augue condimentum ullamcorper vel senectus curae et. Vivamus nullam maecenas torquent congue sociosqu magnis tortor massa nascetur taciti non faucibus, ligula lacinia tristique inceptos proin lectus habitant cras enim tellus eros. Pellentesque volutpat ullamcorper habitant malesuada posuere risus commodo ad, bibendum metus molestie rutrum rhoncus facilisi natoque massa, neque auctor leo dapibus urna dis cubilia nam, curae at est scelerisque habitasse ligula feugiat.</span>
-                                </div>
+        <section class="ultimasNoticias claseSeccion">
+
+            <h1>Últimas Noticias</h1>
+
+            <div class="card cardArticulo">
+                <a href="noticia.php" class="enlaceNoticia">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://m.eltiempo.com/uploads/2019/12/07/5dec47012d257.jpeg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 14 mins ago</small></p>
+                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="noticia.php"><img src="https://miro.medium.com/max/1024/1*vxjAHkrXbGG6gOiPZgjeZA.jpeg"></a>
-                                    <h4>Título de noticia</h4>
-                                    <span class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra, cursus natoque dignissim molestie donec lectus ligula sollicitudin, primis est penatibus gravida euismod aliquet venenatis. Per ultricies dictumst luctus donec nostra sagittis convallis dictum, ultrices curabitur orci consequat pharetra felis nullam cum ligula, augue condimentum ullamcorper vel senectus curae et. Vivamus nullam maecenas torquent congue sociosqu magnis tortor massa nascetur taciti non faucibus, ligula lacinia tristique inceptos proin lectus habitant cras enim tellus eros. Pellentesque volutpat ullamcorper habitant malesuada posuere risus commodo ad, bibendum metus molestie rutrum rhoncus facilisi natoque massa, neque auctor leo dapibus urna dis cubilia nam, curae at est scelerisque habitasse ligula feugiat.</span>
-                                </div>
+                </a>
+            </div>
+            <div class="card cardArticulo">
+                <a href="noticia.php" class="enlaceNoticia">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://www.redeszone.net/app/uploads-redeszone.net/2019/12/novedades-redes-2020.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 36 mins ago</small></p>
+                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="noticia.php"><img src="https://miro.medium.com/max/1024/1*vxjAHkrXbGG6gOiPZgjeZA.jpeg"></a>
-                                    <h4>Título de noticia</h4>
-                                    <span class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra, cursus natoque dignissim molestie donec lectus ligula sollicitudin, primis est penatibus gravida euismod aliquet venenatis. Per ultricies dictumst luctus donec nostra sagittis convallis dictum, ultrices curabitur orci consequat pharetra felis nullam cum ligula, augue condimentum ullamcorper vel senectus curae et. Vivamus nullam maecenas torquent congue sociosqu magnis tortor massa nascetur taciti non faucibus, ligula lacinia tristique inceptos proin lectus habitant cras enim tellus eros. Pellentesque volutpat ullamcorper habitant malesuada posuere risus commodo ad, bibendum metus molestie rutrum rhoncus facilisi natoque massa, neque auctor leo dapibus urna dis cubilia nam, curae at est scelerisque habitasse ligula feugiat.</span>
-                                </div>
+                </a>
+            </div>
+            <div class="card cardArticulo">
+                <a href="noticia.php" class="enlaceNoticia">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/12274/production/_96065347_gettyimages-482855185.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="noticia.php"><img src="https://miro.medium.com/max/1024/1*vxjAHkrXbGG6gOiPZgjeZA.jpeg"></a>
-                                    <h4>Título de noticia</h4>
-                                    <span class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra, cursus natoque dignissim molestie donec lectus ligula sollicitudin, primis est penatibus gravida euismod aliquet venenatis. Per ultricies dictumst luctus donec nostra sagittis convallis dictum, ultrices curabitur orci consequat pharetra felis nullam cum ligula, augue condimentum ullamcorper vel senectus curae et. Vivamus nullam maecenas torquent congue sociosqu magnis tortor massa nascetur taciti non faucibus, ligula lacinia tristique inceptos proin lectus habitant cras enim tellus eros. Pellentesque volutpat ullamcorper habitant malesuada posuere risus commodo ad, bibendum metus molestie rutrum rhoncus facilisi natoque massa, neque auctor leo dapibus urna dis cubilia nam, curae at est scelerisque habitasse ligula feugiat.</span>
-                                </div>
+                </a>
+            </div>
+            <div class="card cardArticulo">
+                <a href="noticia.php" class="enlaceNoticia">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://as01.epimg.net/meristation/imagenes/2020/03/02/betech/1583161547_749146_1583161917_noticia_normal_recorte1.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 54 mins ago</small></p>
+                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <a href="noticia.php"><img src="https://miro.medium.com/max/1024/1*vxjAHkrXbGG6gOiPZgjeZA.jpeg"></a>
-                                    <h4>Título de noticia</h4>
-                                    <span class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra, cursus natoque dignissim molestie donec lectus ligula sollicitudin, primis est penatibus gravida euismod aliquet venenatis. Per ultricies dictumst luctus donec nostra sagittis convallis dictum, ultrices curabitur orci consequat pharetra felis nullam cum ligula, augue condimentum ullamcorper vel senectus curae et. Vivamus nullam maecenas torquent congue sociosqu magnis tortor massa nascetur taciti non faucibus, ligula lacinia tristique inceptos proin lectus habitant cras enim tellus eros. Pellentesque volutpat ullamcorper habitant malesuada posuere risus commodo ad, bibendum metus molestie rutrum rhoncus facilisi natoque massa, neque auctor leo dapibus urna dis cubilia nam, curae at est scelerisque habitasse ligula feugiat.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        </div>
-        </div>
+                </a>
+            </div>
         </section>
+
     </main>
 
     <?php include("includes/footer.php"); ?>

@@ -1,10 +1,8 @@
-.seccion img {
-  width: 200px;
-  height: 200px;
-  float: left;
+.claseSeccion {
+  margin-top: 50px;
 }
 
-.seccion h4 {
-  font-family: 'Arvo', serif;
+.claseSeccion h4 {
+  font-size: 38px;
 }
 /*# sourceMappingURL=styleSeccion.css.map */

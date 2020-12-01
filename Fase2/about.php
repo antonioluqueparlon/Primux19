@@ -6,18 +6,19 @@
     <?php include("includes/head-tag-contents.php"); ?>
 </head>
 
-<body>
+<body class="bodyAbout">
 
     <?php include("includes/navigation.php"); ?>
 
     <section class="content4 cid-sdGXGHOAx1" id="content4-2k">
-    <h1 id="p1">Sobre Trend Top</h1>
-        <div class="card" style="mbr-overlay">
-            <img class="card-img-top imagenAbout" src="img/imagenfondo.jpg" alt="Card image">
-            <div class="card-img-overlay">
-                <h4 class="textoFoto">Somos una revista de informacion actualizada sobre las diferentes secciones mas importantes del mundo de la actualidad(Deportes, Tecnología,Motor,Videojuegos...).
-                    Somos un grupo de alumnos de 2ºDAW del I.E.S Marques de Comares (Lucena-Córdoba) conformado por Antonio Pérez, Jesús Cano, Irene López y Antonio Luque</h4>
+        <h1 id="p1">Sobre Trend Top</h1>
+        <div class="card" style="width:auto">
+            <img class="card-img-top imagenAbout" src="img/imagenfondo.jpg" alt="Imagen TrendTop">
+            <div class="card-body-img-overlay">
+            <p class="card-text textoFoto"> Somos una revista de informacion actualizada sobre las diferentes secciones mas importantes del mundo de la actualidad(Deportes, Tecnología,Motor,Videojuegos...).
+            Somos un grupo de alumnos de 2ºDAW del I.E.S Marques de Comares (Lucena-Córdoba) conformado por Antonio Pérez, Jesús Cano, Irene López y Antonio Luque</p>
             </div>
+           
         </div>
     </section>
 
@@ -52,7 +53,7 @@
                         <div class="col-12 col-lg-6">
                             <ul class="list mbr-fonts-style display-7">
                                 <li>
-                                    <element class="antonio"><strong>Qué es Trend Top?
+                                    <element class="antonio"><strong>¿Qué es Trend Top?
                                         </strong><br>Es una revista de informacion actualizada al año 2020.&nbsp;</element>
                                 </li><br>
                                 <li>
@@ -81,10 +82,10 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/antonioperez.jpg" alt="card image"></p>
                                     <h4 class="card-title">Antonio Pérez</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <p class="card-text">Localidad: Priego</p>
+                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -129,10 +130,10 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/irene.jpg" alt="card image"></p>
                                     <h4 class="card-title">Irene López</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <p class="card-text">Localidad: Priego</p>
+                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -177,10 +178,10 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/jesus.png" alt="card image"></p>
                                     <h4 class="card-title">Jesús Cano</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <p class="card-text">Localidad: Lucena</p>
+                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -225,10 +226,10 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/parlon.jpg" alt="card image"></p>
                                     <h4 class="card-title">Antonio Luque</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <p class="card-text">Localidad: Lucena</p>
+                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -274,10 +275,10 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/email.png" alt="card image"></p>
                                     <h4 class="card-title">Email</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <p class="card-text">Cualquier pregunta a cualquiera de nosotros pulse aquí.</p>
+                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -324,10 +325,10 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/telefono.png" alt="card image"></p>
                                     <h4 class="card-title">Teléfono</h4>
                                     <p class="card-text">Para contactar con nosotros en esta tarjeta se encuentra el numero de teléfono.</p>
-                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -336,7 +337,7 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Teléfono</h4>
                                     <p class="card-text"> Número de Teléfono: 957112233</p>
-                                    <p>Atendemos por Whatsapp</p>
+                                    <p>Podemos Atender por Whatsapp ademas de ser recomendable</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">

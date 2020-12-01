@@ -1,0 +1,54 @@
+.navText {
+  font-family: "Arvo", serif;
+}
+
+.navbar-nav .nav-link > {
+  position: relative;
+  font-size: 24px;
+  top: 3px;
+  line-height: 12px;
+  font-family: "Arvo", serif;
+}
+
+.btnNav {
+  background-color: #11999e;
+  color: #f6f6f6;
+  margin-left: 10px;
+}
+
+.btnNav:hover {
+  text-decoration: none;
+  background-color: #30e3ca;
+}
+
+.aNav {
+  margin-top: 10px;
+  color: #11999e;
+  font-size: 20px;
+}
+
+.aNav:hover {
+  color: #30e3ca;
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-nav .nav-link > {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-nav .nav-link > {
+    top: -7px;
+  }
+}
+/*# sourceMappingURL=nav.css.map */
