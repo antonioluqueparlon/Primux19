@@ -1,19 +1,22 @@
-.introNoticia{
+@import "variables";
+.noticia{
     margin-left: 8%;
     margin-right: 5%;
 }
+.titNoticia{
+    font-family: 'Arvo', serif;
+  }
 
 .cuerpoNoticia{
     margin-right: 20%;
 }
 .divOtrasNoticias{
     margin: 2pt;
-    background-color:#dbd7d7;
+    background-color: $colorClaro;
 }
-.txtOtrasNoticias{
-  
+.txtNoticias{
     margin-top: 30pt;
-    
+    font-weight: bold;
 }
 
 .btn-circleCarrusel{ 
@@ -23,9 +26,15 @@
     border-radius: 25px; 
     font-size: 10px; 
     text-align: center; 
+    margin-right: 15px;
+    margin-bottom: 10px;
     
 } 
 
 .formComentarios{
     width: 100%;
+}
+
+.txtOtrasNoticias{
+   
 }
