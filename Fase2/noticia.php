@@ -31,16 +31,17 @@
 				</p>
 				</div>				
 			</div>
+			<!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
 			<div class="col-12">
 				<h2 class="titNoticia">Otras noticias</h2>
 			</div>
 				<div class="col-sm-6">
 					<div class="card divOtrasNoticias">
 						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="http://placeimg.com/280/158/tech" class="img-fluid" alt="">
+							<div class="col-md-4 col-sm-12">
+								<img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
 							</div>
-							<div class="col-md-8 col-12">
+							<div class="col-md-8 col-sm-12">
 								<div class="card-block px-2">
 									<h4 class="card-title titNoticia">Title</h4>
 									<p class="card-text">Description</p>
@@ -52,10 +53,10 @@
 				<div class="col-sm-6">
 					<div class="card divOtrasNoticias ">
 						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="http://placeimg.com/280/158/animals" class="img-fluid" alt="">
+							<div class="col-md-4 col-sm-12">
+								<img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
 							</div>
-							<div class="col-md-8 col-12">
+							<div class="col-md-8 col-sm-12">
 								<div class="card-block px-2">
 									<h4 class="card-title titNoticia">Title</h4>
 									<p class="card-text ">Description</p>
@@ -67,10 +68,10 @@
 				<div class="col-sm-6">
 					<div class="card divOtrasNoticias">
 						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="http://placeimg.com/280/158/tech" class="img-fluid" alt="">
+							<div class="col-md-4 col-sm-12">
+								<img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
 							</div>
-							<div class="col-md-8 col-12">
+							<div class="col-md-8 col-sm-12">
 								<div class="card-block px-2">
 									<h4 class="card-title titNoticia">Title</h4>
 									<p class="card-text">Description</p>
@@ -82,10 +83,10 @@
 				<div class="col-sm-6">
 					<div class="card divOtrasNoticias ">
 						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="http://placeimg.com/280/158/animals" class="img-fluid" alt="">
+							<div class="col-md-4 col-sm-12">
+								<img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
 							</div>
-							<div class="col-md-8 col-12">
+							<div class="col-md-8 col-sm-12">
 								<div class="card-block px-2">
 									<h4 class="card-title titNoticia">Title</h4>
 									<p class="card-text ">Description</p>
@@ -167,12 +168,8 @@
 
   </div>
   <!--/.Second slide-->
-
- 
-
 </div>
 <!--/.Slides-->
-
 </div>
 			</div>
 
@@ -205,13 +202,8 @@
 			</div>	
 			</div>
 		</div>
-		
-		
-
 </section>
 </main>
-
 <?php include("includes/footer.php");?>
-
 </body>
 </html>
