@@ -285,7 +285,8 @@
                             <div class="card">
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Email</h4>
-                                    <p class="card-text">TrendTop@gmail.com.</p>
+                                    <p>Cualquier duda o problema que tenga sobre el funcionamiento de la pagina, para querer participar con nosotros y demas,escriba un correo a esta dirección</p>
+                                    <p class="card-text">trendtop@gmail.com.</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -324,7 +325,7 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Telefono</h4>
+                                    <h4 class="card-title">Teléfono</h4>
                                     <p class="card-text">Para contactar con nosotros en esta tarjeta se encuentra el numero de teléfono.</p>
                                     <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
@@ -333,8 +334,9 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Telefono</h4>
-                                    <p class="card-text">TLF: 957112233.</p>
+                                    <h4 class="card-title">Teléfono</h4>
+                                    <p class="card-text"> Número de Teléfono: 957112233</p>
+                                    <p>Atendemos por Whatsapp</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">

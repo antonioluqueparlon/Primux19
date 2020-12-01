@@ -1,22 +1,23 @@
 /*Login */
 .clear {
   clear: both;
-  height: 200px;
+  height: 100px;
 }
 
 footer {
-  position: fixed;
+  position: 0;
   left: 0;
   bottom: 0;
   margin-top: 5%;
   width: 100%;
   text-align: center;
+  display: none;
 }
 
 .footer {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: bold;
-  height: 100px;
+  height: 60px;
   color: #11999e;
 }
 
@@ -24,12 +25,17 @@ footer {
   background-color: #212121 !important;
 }
 
+.colorFooter {
+  color: #11999e;
+}
+
 .footer img {
   width: 20px;
   height: 20px;
 }
 
-.nombre p {
+.footer span {
   color: white;
+  font-family: 'EB Garamond', serif;
 }
 /*# sourceMappingURL=styleFooter.css.map */

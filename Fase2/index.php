@@ -13,7 +13,7 @@
 <section class="noticiasDestacadas">
         <div class="row">
             <div class="col-md-3">
-            <a href="#" class="enlaceNoticia">
+            <a href="apartado.php" class="enlaceNoticia">
                 <div class="card-content card-contentIndex">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/nature" alt="">
@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card-content card-contentIndex">
-                <a href="#" class="enlaceNoticia">
+                <a href="apartado.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/animals" alt="">
                     </div>
@@ -42,7 +42,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card-content card-contentIndex">
-                <a href="#" class="enlaceNoticia">
+                <a href="apartado.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/tech" alt="">
                     </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card-content card-contentIndex">
-                <a href="#" class="enlaceNoticia">
+                <a href="apartado.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/food" alt="">
                     </div>

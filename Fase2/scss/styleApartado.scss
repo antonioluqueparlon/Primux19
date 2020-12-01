@@ -1,8 +1,11 @@
+@import "variables";
 .cardApartadoDerecha{
     margin-top: 5pt;
   }
   .tarjetaNoticiaApartado{
     margin-top: 12pt;
+    background-color: $colorClaro;
+
   }
   
   #txtTop{
