@@ -4,6 +4,10 @@ $bgcolor: white;
 $fontsize: 18px;
 $colorTexto: black;
 $colorTextoFooter: #11999e;
+$colorPaleta1: #e4f9f5;
+$colorPaleta2: #30e3ca;
+$colorPaleta4:#212121;
+$colorPaleta5:#636262;
 $imgFooter: 20px;
 $text: "Merriweather Sans",
 sans-serif;
@@ -201,17 +205,6 @@ input[type=password] {
 .aNav:hover {
     color: $color2;
 }
-.bg-secondary{
-    background-color:#5a5b5c !important;
-}
-
-.subNav {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 40px;
-}
-
 
 @media (min-width: 1200px) {
     .navbar-nav .nav-link {

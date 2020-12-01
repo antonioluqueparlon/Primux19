@@ -1,3 +1,4 @@
+@import "mystyle";
 $bgcolor: white;
 $fontsize: 18px;
 $colorTexto: black;
@@ -59,7 +60,8 @@ footer {
   font-family: $text;
   font-weight: $textType;
   height: $height;
-  color: $colorTextoFooter;
+  color: $colorPaleta1;
+  text-decoration: none;
 }
 
 .bg-dark {
@@ -78,4 +80,9 @@ footer {
 .footer span {
   color: white;
   font-family: "EB Garamond", serif;
+}
+
+.footer:hover {
+  color: $colorPaleta2;
+  text-decoration: none;
 }

@@ -5,7 +5,7 @@
 	<?php include("includes/head-tag-contents.php");?>
 </head>
 <body>
-
+<?php include("includes/design-top.php");?>
 <?php include("includes/navigation.php");?>
 
 <main >
@@ -126,64 +126,15 @@
 				</div>
 				</div>
 
-			</div>
-			<!--/.First slide-->
+  </div>
+  <!--/.Second slide-->
 
-			<!--Second slide-->
-			<div class="carousel-item">
+ 
 
-				<div class="col-md-3" style="float:left">
-				<div class="card mb-2">
-					<img class="card-img-top"
-					src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-					<div class="card-body">
-					<h4 class="card-title">Card title</h4>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-						card's content.</p>
-					<a class="btn btn-primary">Button</a>
-					</div>
-				</div>
-				</div>
+</div>
+<!--/.Slides-->
 
-				<div class="col-md-3" style="float:left">
-				<div class="card mb-2">
-					<img class="card-img-top"
-					src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-					<div class="card-body">
-					<h4 class="card-title">Card title</h4>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-						card's content.</p>
-					<a class="btn btn-primary">Button</a>
-					</div>
-				</div>
-				</div>
-
-				<div class="col-md-3" style="float:left">
-				<div class="card mb-2">
-					<img class="card-img-top"
-					src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-					<div class="card-body">
-					<h4 class="card-title">Card title</h4>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-						card's content.</p>
-					<a class="btn btn-primary">Button</a>
-					</div>
-				</div>
-				</div>
-				
-				<div class="col-md-3" style="float:left">
-				<div class="card mb-2">
-					<img class="card-img-top"
-					src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-					<div class="card-body">
-					<h4 class="card-title">Card title</h4>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-						card's content.</p>
-					<a class="btn btn-primary">Button</a>
-					</div>
-				</div>
-				</div>
-
+</div>
 			</div>
 
 			</div>
@@ -217,6 +168,9 @@
 			</div>	
 			</div>
 		</div>
+		
+		
+
 </section>
 </main>
 

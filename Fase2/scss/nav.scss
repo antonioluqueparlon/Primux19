@@ -1,4 +1,4 @@
-@import "variables";
+@import "mystyle";
 .navText {
     font-family: $textAlt;
 }
@@ -24,9 +24,30 @@
 
 .aNav {
     margin-top: 10px;
-    color: $colorTextoFooter;
+    color: $colorPaleta1;
     font-size: 20px;
 }
+
+.aSubNav {
+    margin-top: 4px;
+    width: 100%;
+    color:#e4f9f5;    ;
+    font-size: 18px;
+    //background-color: red;
+}
+
+.subNav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    background: $colorPaleta5;
+}
+
+.aSubNav:hover {
+    color: $color2;
+}
+
 
 .aNav:hover {
     color: $color2;
