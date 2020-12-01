@@ -160,6 +160,16 @@ input[type=password] {
   color: #30e3ca;
 }
 
+.bg-secondary {
+  background-color: #dcdee0 !important;
+}
+
+.subNav {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 1200px) {
   .navbar-nav .nav-link {
     text-align: center;
