@@ -161,13 +161,14 @@ input[type=password] {
 }
 
 .bg-secondary {
-  background-color: #dcdee0 !important;
+  background-color: #5a5b5c !important;
 }
 
 .subNav {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  height: 40px;
 }
 
 @media (min-width: 1200px) {
