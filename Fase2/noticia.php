@@ -15,7 +15,7 @@
 				<h1 class="titNoticia ">NOMBRE NOTICIA</h1>
 			</div>
 			<div class="col-12">
-				<img src="http://lorempixel.com/output/sports-q-c-1150-800-7.jpg" alt="imgNoticia" class="imgNoticia" >
+				<img src="http://lorempixel.com/output/sports-q-c-1150-800-7.jpg" alt="imgNoticia" class="imgNoticia img-fluid" >
 				<!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
 			</div>
 			<div class="row cuerpoNoticia">
