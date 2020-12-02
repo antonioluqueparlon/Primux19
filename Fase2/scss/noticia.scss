@@ -46,3 +46,17 @@
    width: 950px;
    height: 500px;
 }
+
+.linkNoticia {
+    text-decoration:none;
+    color: $colorBlack;
+    font-family: "Merriweather Sans", sans-serif;
+    font: 400;
+}
+
+.respComentarios {
+    text-decoration: underline;
+    color: rgb(34, 83, 126);
+    margin-right: 2pt;
+}
+

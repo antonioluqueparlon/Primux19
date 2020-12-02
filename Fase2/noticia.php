@@ -16,6 +16,7 @@
 			</div>
 			<div class="col-12">
 				<img src="http://lorempixel.com/output/sports-q-c-1150-800-7.jpg" alt="imgNoticia" class="imgNoticia img-fluid" >
+				<p><small class="text-muted">Juan Pérez  02/12/20</small></p>
 				<!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
 			</div>
 			<div class="row cuerpoNoticia">
@@ -36,64 +37,72 @@
 				<h2 class="titNoticia">Otras noticias</h2>
 			</div>
 				<div class="col-sm-6">
-					<div class="card divOtrasNoticias">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-sm-12">
-								<img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
-							</div>
-							<div class="col-md-8 col-sm-12">
-								<div class="card-block px-2">
-									<h4 class="card-title titNoticia">Title</h4>
-									<p class="card-text">Description</p>
+					<a href="noticia.php" class="linkNoticia">
+						<div class="card divOtrasNoticias">
+							<div class="row no-gutters">
+								<div class="col-md-4 col-sm-12">
+									<img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
+								</div>
+								<div class="col-md-8 col-sm-12">
+									<div class="card-block px-2">
+										<h4 class="card-title titNoticia">Title</h4>
+										<p class="card-text">Description</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-6">
-					<div class="card divOtrasNoticias ">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-sm-12">
-								<img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
-							</div>
-							<div class="col-md-8 col-sm-12">
-								<div class="card-block px-2">
-									<h4 class="card-title titNoticia">Title</h4>
-									<p class="card-text ">Description</p>
+					<a href="noticia.php" class="linkNoticia">
+						<div class="card divOtrasNoticias ">
+							<div class="row no-gutters">
+								<div class="col-md-4 col-sm-12">
+									<img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
+								</div>
+								<div class="col-md-8 col-sm-12">
+									<div class="card-block px-2">
+										<h4 class="card-title titNoticia">Title</h4>
+										<p class="card-text ">Description</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-6">
-					<div class="card divOtrasNoticias">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-sm-12">
-								<img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
-							</div>
-							<div class="col-md-8 col-sm-12">
-								<div class="card-block px-2">
-									<h4 class="card-title titNoticia">Title</h4>
-									<p class="card-text">Description</p>
+					<a href="noticia.php" class="linkNoticia">
+						<div class="card divOtrasNoticias">
+							<div class="row no-gutters">
+								<div class="col-md-4 col-sm-12">
+									<img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
+								</div>
+								<div class="col-md-8 col-sm-12">
+									<div class="card-block px-2">
+										<h4 class="card-title titNoticia">Title</h4>
+										<p class="card-text">Description</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>	
 				</div>
 				<div class="col-sm-6">
-					<div class="card divOtrasNoticias ">
-						<div class="row no-gutters">
-							<div class="col-md-4 col-sm-12">
-								<img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
-							</div>
-							<div class="col-md-8 col-sm-12">
-								<div class="card-block px-2">
-									<h4 class="card-title titNoticia">Title</h4>
-									<p class="card-text ">Description</p>
+					<a href="noticia.php" class="linkNoticia">
+						<div class="card divOtrasNoticias ">
+							<div class="row no-gutters">
+								<div class="col-md-4 col-sm-12">
+									<img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
+								</div>
+								<div class="col-md-8 col-sm-12">
+									<div class="card-block px-2">
+										<h4 class="card-title titNoticia">Title</h4>
+										<p class="card-text ">Description</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			
 			<h2 class="titNoticia">Últimas noticias</h2>
@@ -122,7 +131,7 @@
 					<h4 class="card-title titNoticia">Card title</h4>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
 						card's content.</p>
-					<a class="btn btn-primary">Button</a>
+					<a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
 					</div>
 				</div>
 				</div>
@@ -135,7 +144,7 @@
 					<h4 class="card-title titNoticia">Card title</h4>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
 						card's content.</p>
-					<a class="btn btn-primary">Button</a>
+					<a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
 					</div>
 				</div>
 				</div>
@@ -148,7 +157,7 @@
 					<h4 class="card-title titNoticia">Card title</h4>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
 						card's content.</p>
-					<a class="btn btn-primary">Button</a>
+					<a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
 					</div>
 				</div>
 				</div>
@@ -161,7 +170,7 @@
 					<h4 class="card-title titNoticia">Card title</h4>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
 						card's content.</p>
-					<a class="btn btn-primary">Button</a>
+					<a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
 					</div>
 				</div>
 				</div>
@@ -177,10 +186,8 @@
 			<div class="col-12 ">
 				<form action="">
 					<div class="form-group">
-						<label class="titNoticia" for="textArea">Comentarios</label>
-						
+						<label class="titNoticia" for="textArea">Comentarios</label>				
 						<textarea id="my-textarea" class="form-control" name="comentario" rows="3"></textarea>
-						
 						<button type="submit" class="btn btn-secondary mt-1  ">Comentar</button>
 					</div>
 				</form>	
@@ -188,13 +195,17 @@
 			<div class="col">
 				<div class="row no-gutters">
 					<div class="col col-sm-1">
-						<img class="mx-auto d-block" src="http://lorempixel.com/output/people-q-c-48-48-9.jpg" alt="fotoPerf" >
+						<img class="mx-auto d-block img-fluid" src="http://lorempixel.com/output/people-q-c-48-48-9.jpg" alt="fotoPerf" >
 					</div>
 					<div class="col col-sm-11 ">
 						<div class="row no-gutters">
-							<div class="col-12 "><p class="titNoticia">Nombre</p>
+							<div class="col-12 "><small class="titNoticia">Nombre</small>
 							</div>
 							<div class="col-12 ">Comentario
+							</div>
+							<div class="col-12">
+								<small class="respComentarios">Me gusta</small>
+								<small class="respComentarios">Responder</small>
 							</div>
 						</div>
 					</div>

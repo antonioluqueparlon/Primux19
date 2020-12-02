@@ -31,48 +31,58 @@
      <h1>Últimas noticias</h1>
         <div class="row">
           <div class="col-md-12">
-            <div class="card bg-light cardApartadoDerecha">
-              <div class="card-body text-center">
-                <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
-              </div>  
-            </div> 
+            <a href="noticia.php" class="linkNoticia">
+              <div class="card bg-light cardApartadoDerecha">
+                <div class="card-body text-center">
+                  <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                </div>  
+              </div>
+            </a>   
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <div class="card bg-light cardApartadoDerecha">
-              <div class="card-body text-center">
-                <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
-              </div>  
-            </div> 
+            <a href="noticia.php" class="linkNoticia">
+              <div class="card bg-light cardApartadoDerecha">
+                <div class="card-body text-center">
+                  <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                </div>  
+              </div> 
+            </a>  
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <div class="card bg-light cardApartadoDerecha">
-              <div class="card-body text-center">
-                <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
-              </div>  
-            </div> 
+            <a href="noticia.php" class="linkNoticia">
+              <div class="card bg-light cardApartadoDerecha">
+                <div class="card-body text-center">
+                  <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                </div>  
+              </div> 
+            </a>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 d-lg-none d-xl-block">
-            <div class="card bg-light cardApartadoDerecha">
-              <div class="card-body text-center">
-                <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
-              </div>  
-            </div> 
+            <a href="noticia.php" class="linkNoticia">
+              <div class="card bg-light cardApartadoDerecha">
+                <div class="card-body text-center">
+                  <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                </div>  
+              </div>
+            </a> 
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 d-lg-none d-xl-block">
-            <div class="card bg-light cardApartadoDerecha">
-              <div class="card-body text-center">
-                <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
-              </div>  
+            <div class="col-md-12 d-lg-none d-xl-block">
+              <a href="noticia.php" class="linkNoticia">
+                <div class="card bg-light cardApartadoDerecha">
+                  <div class="card-body text-center">
+                    <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                  </div>  
+               </div> 
+              </a>
             </div> 
-          </div>
         </div>
       </div>
        
@@ -89,23 +99,29 @@
         </ul>-->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="img-fluid" src="http://lorempixel.com/output/nightlife-q-c-404-179-9.jpg" alt="" width="70%" height="200">
-            <div class="carousel-caption txtTop txtCarrousel">
-            <h3>titular</h3>
-            </div>   
+            <a href="noticia.php">
+              <img class="img-fluid" src="http://lorempixel.com/output/nightlife-q-c-404-179-9.jpg" alt="" width="70%" height="200">
+              <div class="carousel-caption txtTop txtCarrousel">
+                <h3>titular</h3>
+              </div> 
+            </a>
           </div>
           <div class="carousel-item">
-            <img src="http://lorempixel.com/output/abstract-q-c-404-179-7.jpg"  class="img-fluid" alt="" width="70%" height="200">
-            <div class="carousel-caption txtTop txtCarrousel">
-              <h3>titular</h3>
-            </div>   
+            <a href="noticia.php">
+              <img src="http://lorempixel.com/output/abstract-q-c-404-179-7.jpg"  class="img-fluid" alt="" width="70%" height="200">
+              <div class="carousel-caption txtTop txtCarrousel">
+                <h3>titular</h3>
+              </div>
+            </a>   
           </div>
           <div class="carousel-item">
-            <img src="http://lorempixel.com/output/people-q-c-404-179-7.jpg"  class="img-fluid" alt="" width="70%" height="200">
-            <div class="carousel-caption txtTop txtCarrousel">
-              <h3>titular</h3>
-            </div>   
-          </div>
+            <a href="noticia.php">
+              <img src="http://lorempixel.com/output/people-q-c-404-179-7.jpg"  class="img-fluid" alt="" width="70%" height="200">
+              <div class="carousel-caption txtTop txtCarrousel">
+                <h3>titular</h3>
+              </div>   
+            </a>
+            </div>
             <a class="carousel-control-prev" href="#demo" data-slide="prev">
               <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
             </a>
@@ -121,7 +137,7 @@
     
     <!--TARJETAS DE NOTICIAS -->
     <div class="card cardArticulo tarjetaNoticiaApartado">
-      <a href="#" class="enlaceNoticia">
+      <a href="noticia.php" class="enlaceNoticia">
         <div class="row no-gutters">
           <div class="col-md-12 col-lg-4">
             <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
@@ -137,12 +153,12 @@
       </a>
     </div>
     <div class="card cardArticulo tarjetaNoticiaApartado">
-      <a href="#" class="enlaceNoticia">
+      <a href="noticia.php" class="enlaceNoticia ">
         <div class="row no-gutters">
-          <div class="col-md-4">
+          <div class="col-md-12 col-lg-4">
             <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-12 col-lg-8">
           <div class="card-body">
               <h3 class="card-title indexNoticiaTitulo">Card title</h3>
               <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -153,12 +169,12 @@
       </a>
     </div>
     <div class="card cardArticulo tarjetaNoticiaApartado">
-      <a href="#" class="enlaceNoticia">
+      <a href="noticia.php" class="enlaceNoticia">
         <div class="row no-gutters">
-          <div class="col-md-4">
+          <div class="col-md-12 col-lg-4">
             <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-12 col-lg-8">
           <div class="card-body">
               <h3 class="card-title indexNoticiaTitulo">Card title</h3>
               <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>

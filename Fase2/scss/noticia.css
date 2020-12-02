@@ -45,4 +45,17 @@
   width: 950px;
   height: 500px;
 }
+
+.linkNoticia {
+  text-decoration: none;
+  color: #212121;
+  font-family: "Merriweather Sans", sans-serif;
+  font: 400;
+}
+
+.respComentarios {
+  text-decoration: underline;
+  color: #22537e;
+  margin-right: 2pt;
+}
 /*# sourceMappingURL=noticia.css.map */
