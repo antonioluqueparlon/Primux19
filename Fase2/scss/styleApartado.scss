@@ -8,18 +8,30 @@
   
   .txtTop{
     //opacity: 0.7;
+    border-radius:3px;
     position: absolute;
+    display: flex;
+    align-items: flex-end;
     bottom: 0;
     left: 0;
     z-index: 1;
-    /* background */
-    background: rgba(0, 0, 0, 0.7);
     /* Width/Height */
     padding: .5em;
     width: 100%;
-
     /* Text color */
-    color: $colorClaro
+    color: $colorClaro;
+     /* background */
+     background:  
+     linear-gradient(
+       rgba(0, 0, 0,  0), 
+       rgba(0, 0, 0, 1)
+     ),
+  }
+
+  .tinted-image>h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightgray;
+    margin: 1em;
   }
 
   .txtCarrousel{
