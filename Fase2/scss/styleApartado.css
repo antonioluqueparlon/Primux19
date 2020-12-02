@@ -28,12 +28,6 @@
   background: linear-gradient(rgba(0, 0, 0, 0), black);
 }
 
-.tinted-image > h2 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: lightgray;
-  margin: 1em;
-}
-
 .txtCarrousel {
   width: 70%;
   left: 15%;
