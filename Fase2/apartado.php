@@ -20,7 +20,7 @@
             <a href="noticia.php">
             <img class="card-img-top img-fluid" src="http://lorempixel.com/output/sports-q-c-320-180-9.jpg" alt="Card image" >
             <div class="card-img-overlay d-flex align-items-end" >
-              <p class="card-text font-weight-bold txtTop ">Lorem ipsum dolor sit amet</p>
+              <p class="card-text font-weight-bold txtTop">Lorem ipsum dolor sit amet</p>
             </div>
             </a>
           </div>
