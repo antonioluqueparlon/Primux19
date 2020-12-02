@@ -72,54 +72,55 @@
 </section>
 
   <section class="otrasNoticias">
-  <div class="row">
+  <div class="row otrasNoticiasH1">
     <h1>Otras Noticias</h1>
 </div>
-    <div class="row">
-		<div class="col-md-6 col-lg-6">
-			<!-- artigo em destaque -->
-			<div class="featured-article">
-				<a href="#">
-					<img src="https://placeimg.com/482/350/random" alt="" class="thumb thumbIndex">
-				</a>
-				<div class="block-title">
-					<h2>Lorem ipsum dolor asit amet</h2>
-					<p class="by-author"><small>By Jhon Doe</small></p>
-				</div>
-			</div>
-			<!-- /.featured-article -->
-		</div>
-		<div class="col-md-6 col-lg-6">
-			<ul class="media-list main-list">
-			  <li class="media">
-			    <a class="pull-left" href="#">
-			      <img class="media-object" src="https://placeimg.com/150/90/food" alt="...">
-			    </a>
-			    <div class="media-body">
-			      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
-			      <p class="by-author">By Jhon Doe</p>
-			    </div>
-			  </li>
-			  <li class="media">
-			    <a class="pull-left" href="#">
-          <img class="media-object" src="https://placeimg.com/150/90/animal" alt="...">
-			    </a>
-			    <div class="media-body">
-			      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
-			      <p class="by-author">By Jhon Doe</p>
-			    </div>
-			  </li>
-			  <li class="media">
-			    <a class="pull-left" href="#">
-          <img class="media-object" src="https://placeimg.com/150/90/person" alt="...">
-			    </a>
-			    <div class="media-body">
-			      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
-			      <p class="by-author">By Jhon Doe</p>
-			    </div>
-        </li>
-			</ul>
-		</div>
+<div id="carouselwithIndicators" class="carousel slide w-100" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 carrouselImg" src="https://placeimg.com/1200/600/food" alt="First slide">
+          <div class="carousel-caption  d-md-block">
+          <div class="subtitleCar">
+          <h3>Noticia 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae fugiat obcaecati hic saepe totam illo eum aliquam.</p>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 carrouselImg" src="https://placeimg.com/1200/600/tech" alt="Second slide">
+          <div class="carousel-caption  d-md-block">
+          <div class="subtitleCar">
+          <h3>Noticia 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae fugiat obcaecati hic saepe totam illo eum aliquam.</p>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 carrouselImg" src="https://placeimg.com/1200/600/money" alt="Third slide">
+          <div class="carousel-caption  d-md-block">
+          <div class="subtitleCar">
+            <h3>Noticia 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae fugiat obcaecati hic saepe totam illo eum aliquam.</p>
+          </div>
+          </div>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselwithIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+      <a class="carousel-control-next" href="#carouselwithIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+    </div>
+  </div>
 </section>
 
 
@@ -131,7 +132,7 @@
 <div class="card cardArticulo">
 <a href="#" class="enlaceNoticia">
   <div class="row no-gutters">
-    <div class="col-md-4">
+    <div class="col-md-12 col-lg-4">
       <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
@@ -147,7 +148,7 @@
 <div class="card cardArticulo">
 <a href="#" class="enlaceNoticia">
   <div class="row no-gutters">
-    <div class="col-md-4">
+    <div class="col-md-12 col-lg-4">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFGi3dVsGtzx7EGSC8-GK7OSgaScqlAa396g&usqp=CAU" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
@@ -163,7 +164,7 @@
 <div class="card cardArticulo">
   <a href="#" class="enlaceNoticia">
   <div class="row no-gutters">
-    <div class="col-md-4">
+    <div class="col-md-12 col-lg-4">
       <img src="https://i.blogs.es/187a45/iphone-11-pro-02/450_1000.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
