@@ -194,10 +194,10 @@
 			</div>
 			<div class="col">
 				<div class="row no-gutters">
-					<div class="col col-sm-1">
-						<img class="mx-auto d-block img-fluid" src="http://lorempixel.com/output/people-q-c-48-48-9.jpg" alt="fotoPerf" >
+					<div class="col-1 ">
+						<img class="mx-auto d-block img-fluid " src="http://lorempixel.com/output/people-q-c-48-48-9.jpg" alt="fotoPerf" >
 					</div>
-					<div class="col col-sm-11 ">
+					<div class="col-11 ">
 						<div class="row no-gutters">
 							<div class="col-12 "><small class="titNoticia">Nombre</small>
 							</div>
