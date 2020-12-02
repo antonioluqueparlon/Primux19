@@ -1,19 +1,29 @@
-.introNoticia{
+@import "variables";
+.noticia{
     margin-left: 8%;
     margin-right: 5%;
+    margin-top: 0pt;
 }
+.titNoticia{
+    font-family: 'Arvo', serif;
+    text-align: left;
+    margin-top: 5pt;
+  }
+
+
 
 .cuerpoNoticia{
-    margin-right: 20%;
+    margin-right: 15%;
+    margin-left: 0pt;
 }
 .divOtrasNoticias{
     margin: 2pt;
-    background-color:#dbd7d7;
+    background-color: $colorClaro;
+    width: 100%;
 }
-.txtOtrasNoticias{
-  
+.txtNoticias{
     margin-top: 30pt;
-    
+    font-weight: bold;
 }
 
 .btn-circleCarrusel{ 
@@ -23,5 +33,16 @@
     border-radius: 25px; 
     font-size: 10px; 
     text-align: center; 
+    margin-right: 10px;
+    margin-bottom: 10px;
     
 } 
+
+.formComentarios{
+    width: 100%;
+}
+
+.imgNoticia{
+   width: 950px;
+   height: 500px;
+}
