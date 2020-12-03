@@ -2,11 +2,11 @@
 	switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/Fase2/about.php":
 			$CURRENT_PAGE = "About"; 
-			$PAGE_TITLE = "About Us";
+			$PAGE_TITLE = "Sobre Nosotros";
 			break;
 		case "/Fase2/contacto.php":
 			$CURRENT_PAGE = "Contact"; 
-			$PAGE_TITLE = "Contact Us";
+			$PAGE_TITLE = "COntacto";
 			break;
 		case "/Fase2/apartado.php":
 			$CURRENT_PAGE = "Apartado"; 
@@ -18,5 +18,5 @@
 			break;
 		default:
 			$CURRENT_PAGE = "Index";
-			$PAGE_TITLE = "Welcome to my homepage!";
+			$PAGE_TITLE = "Trend Top";
 	}
