@@ -10,6 +10,7 @@
 
     <?php include("includes/navigation.php"); ?>
 
+    <!-- informacion del grupo -->
     <section class="content4 cid-sdGXGHOAx1" id="content4-2k">
         <h1 id="p1">Sobre Trend Top</h1>
         <div class="card" style="width:auto">
@@ -22,6 +23,7 @@
         </div>
     </section>
 
+<!-- preguntas frecuentes -->
     <section class="preguntas">
 
         <div class="container">
@@ -73,9 +75,10 @@
         </div>
     </section>
 
+    <!-- seccion con informacion de nosotros -->
     <section class="nosotros">
         <div class="row">
-            <!-- Team member -->
+            <!-- Miembro 1 -->
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="image-flip">
                     <div class="mainflip flip-0">
@@ -94,24 +97,25 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Antonio Pérez</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
                                                 <i class="fa fa-google"></i>
                                             </a>
                                         </li>
@@ -122,8 +126,8 @@
                     </div>
                 </div>
             </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
+            <!-- ./Miembro 1 -->
+            <!-- Miembro 2 -->
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="mainflip">
@@ -142,24 +146,25 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Irene López</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
                                                 <i class="fa fa-google"></i>
                                             </a>
                                         </li>
@@ -170,8 +175,8 @@
                     </div>
                 </div>
             </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
+            <!-- /Miembro 2 -->
+            <!-- Miembro 3 -->
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="mainflip">
@@ -190,24 +195,25 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Jesús Cano</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
                                                 <i class="fa fa-google"></i>
                                             </a>
                                         </li>
@@ -218,8 +224,8 @@
                     </div>
                 </div>
             </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
+            <!-- ./Miembro 3 -->
+            <!--  Miembro 4 -->
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="mainflip">
@@ -238,24 +244,25 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">Antonio Luque</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
                                                 <i class="fa fa-google"></i>
                                             </a>
                                         </li>
@@ -266,9 +273,9 @@
                     </div>
                 </div>
             </div>
-            <!-- ./Team member -->
+            <!-- ./ Miembro 4 -->
 
-            <!-- Team member -->
+            <!--  Tarjeta Email -->
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="mainflip">
@@ -288,24 +295,25 @@
                                     <h4 class="card-title">Email</h4>
                                     <p>Cualquier duda o problema que tenga sobre el funcionamiento de la pagina, para querer participar con nosotros y demas,escriba un correo a esta dirección</p>
                                     <p class="card-text">trendtop@gmail.com.</p>
+                                    <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
                                                 <i class="fa fa-google"></i>
                                             </a>
                                         </li>
@@ -316,9 +324,9 @@
                     </div>
                 </div>
             </div>
-            <!-- ./Team member -->
+            <!-- ./ Tarjeta Email -->
 
-            <!-- Team member -->
+            <!-- Tarjeta Telefono -->
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="mainflip">
@@ -338,24 +346,25 @@
                                     <h4 class="card-title">Teléfono</h4>
                                     <p class="card-text"> Número de Teléfono: 957112233</p>
                                     <p>Podemos Atender por Whatsapp ademas de ser recomendable</p>
+                                    <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
                                                 <i class="fa fa-google"></i>
                                             </a>
                                         </li>
@@ -366,13 +375,13 @@
                     </div>
                 </div>
             </div>
-            <!-- ./Team member -->
+            <!-- ./Tarjeta Telefono -->
 
     </section>
 
 
 
-
+<!--Inclusion footer-->
     <?php include("includes/footer.php"); ?>
 
 </body>
