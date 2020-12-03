@@ -16,7 +16,11 @@
 			$CURRENT_PAGE = "Noticia"; 
 			$PAGE_TITLE = "Noticia";
 			break;
+		case "/Fase2/seccion.php":
+			$CURRENT_PAGE = "Seccion"; 
+			$PAGE_TITLE = "Seccion";
+			break;
 		default:
 			$CURRENT_PAGE = "Index";
-			$PAGE_TITLE = "Welcome to my homepage!";
+			$PAGE_TITLE = "Trend Top";
 	}
