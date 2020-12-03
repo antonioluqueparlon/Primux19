@@ -1,0 +1,210 @@
+@charset "UTF-8";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.bodyAbout {
+  width: 100%;
+}
+
+p.container-fluid {
+  background-image: url("img/imagenfondo.jpg");
+}
+
+#p1 {
+  font-family: "Arvo", serif;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: -10px;
+}
+
+.p1class {
+  align-items: center;
+  margin: auto;
+}
+
+.aboutTexto {
+  color: #212121;
+}
+
+.preguntas {
+  margin-left: 0;
+}
+
+.nosotros .cardNosotros {
+  margin-top: 100px;
+  background-color: #e4f9f5;
+  font-family: "Merriweather Sans", sans-serif;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.l1class {
+  background-color: #30e3ca;
+}
+
+ul {
+  list-style: none;
+  /* Quitamos los marcadores */
+  padding: 0;
+  /* Quitamos el padding por defecto de la lista */
+  margin-left: 10px;
+  /* Separamos la lista de la izquierda */
+}
+
+li .antonio::before {
+  /* Añadimos contenido antes de cada elemento de la lista */
+  content: "\2022";
+  /* Insertamos el marcador */
+  padding-right: 8px;
+  /* Establecemos el espacio entre las viñetas y el list item */
+  color: #30e3ca;
+  /* Coloreamos la viñeta */
+  font-size: 50px;
+  line-height: 25px;
+  vertical-align: -11px;
+  width: 15px;
+}
+
+#team {
+  background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #11999e;
+  border-color: #30e3ca;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #11999e;
+  border-color: color2;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#team .card {
+  border: none;
+  background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+  transform: rotateY(0deg);
+  border-radius: 0.25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+  transform: rotateY(180deg);
+}
+
+.mainflip {
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.frontside {
+  position: relative;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  z-index: 2;
+  margin-bottom: 30px;
+}
+
+.backside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  transform: rotateY(-180deg);
+  box-shadow: 5px 7px 9px -4px #9e9e9e;
+}
+
+.frontside,
+.backside {
+  backface-visibility: hidden;
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 1s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 1s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+  min-height: 312px;
+}
+
+.backside .card a {
+  font-size: 18px;
+  color: #30e3ca !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+  color: #30e3ca !important;
+  /*color letras nombres en las tarjeas */
+}
+
+.frontside .card .card-body img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.imagenAbout {
+  width: 100%;
+  height: 70%;
+  opacity: 0.6;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.textoFoto {
+  font-size: 20px;
+  color: #212121;
+  font-family: "Merriweather Sans", sans-serif;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.classcentro {
+  align-items: center;
+  margin: auto auto;
+  display: none;
+}
+
+.bodyAbout {
+  width: 100%;
+}
+
+.classcentro {
+  align-items: center;
+  margin: auto auto;
+  display: none;
+}
+/*# sourceMappingURL=styleAbout.css.map */
