@@ -11,7 +11,7 @@
 		{
 			"label": "Sass Compile",
 			"type": "shell",
-			"command": "node-sass -w scss/mystyle.scss css/mystyle.css",
+			"command": "node-sass -w scss/index.scss css/index.css",
 			"group": "build",
 			"problemMatcher":[]
 		}
