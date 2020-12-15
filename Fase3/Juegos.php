@@ -12,33 +12,39 @@
   <main>
     <br>
 
-    <h1>Juegos</h1><br><br>
+    <h1>Juegos hechos por cada uno de nosotros</h1><br><br>
 
 
     <div class="container">
 
       <div class="row justify-content-center">
-        <div class="col-md-12">
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-6">
-              <a _ngcontent-c6="" href="/TechnoTeam/Fase3/juegos/parlon/index.html"><img _ngcontent-c6="" alt="" class="img-fluid" src="/TechnoTeam/Fase3/img/parlon.jpg"></a>
-            </div>
-
-            <div class="row justify-content-center">
-              <div class="col-md-12">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-lg-6">
-                    <h4 _ngcontent-c6="">Jesús Cano</h4>
-                  </div>
-                  <div _ngcontent-c6="" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                    <a _ngcontent-c6="" href="/TechnoTeam/Fase3/juegos/jesus/index.html"><img _ngcontent-c6="" alt="" class="img-fluid" src="/TechnoTeam/Fase3/img/jesus.png"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <h4>Parlón</h4>
+          <a href="/TechnoTeam/Fase3/juegos/parlon/index.html"><img width="50%" class="img-fluid" src="/TechnoTeam/Fase3/img/parlon.jpg"></a>
+        </div>
+        <div class="col-md-6">
+          <h4>Jesús Cano</h4>
+          <a href="/TechnoTeam/Fase3/juegos/jesus/index.html"><img width="50%" class="img-fluid" src="/TechnoTeam/Fase3/img/jesus.png"></a>
         </div>
       </div>
+
+      <br><br>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h4>Irene</h4>
+          <a href="/TechnoTeam/Fase3/juegos/irene/index.html"><img width="50%" class="img-fluid" src="/TechnoTeam/Fase3/img/irene.jpg"></a>
+        </div>
+        <div class="col-md-6">
+          <h4>Antonio Pérez</h4>
+          <a href="/TechnoTeam/Fase3/juegos/antonioperez/index.html"><img width="50%" class="img-fluid" src="/TechnoTeam/Fase3/img/antonioperez.jpg"></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
 
   </main>
 
