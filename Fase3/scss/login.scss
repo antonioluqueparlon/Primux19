@@ -1,0 +1,121 @@
+@import "variables";
+$colorTexto: black;
+$backgroundWhite: #fff;
+
+/* Login */
+
+$heightLogin: 100%;
+$loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e381e21bc.jpg");
+.bodyLogin {
+    height: 100%;
+    background-image: $loginBg;
+    font-family: $textAlt; 
+} 
+
+.aLogin {
+    color: $colorTextoFooter;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.aLogin:hover {
+    text-decoration: none;
+    color: $color2;
+}
+
+.wrapperLogin {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.formLogin {
+    margin-top: 10%;
+}
+
+.btnEntrar {
+    background-color: $colorTextoFooter;
+    color: $colorWhite2;
+}
+
+#formContent {
+    border-radius: 10px 10px 10px 10px;
+    background: $backgroundWhite;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#formFooter {
+    background-color: $backgroundWhite;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: $colorBlack;
+    border: none;
+    color: $color2;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+}
+
+input[type=submit]:hover {
+    background-color: $color2;
+    color: $colorWhite2;
+}
+
+input[type=text],
+input[type=password] {
+    background-color: $colorWhite2;
+    border: none;
+    color: $colorBlack;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid $colorWhite2;
+}
+
+.btnRegistro {
+    background-color: $colorBlack;
+    border: none;
+    color: $color2;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btnRegistro:hover {
+    background-color: $color2;
+    color: $colorWhite2;
+} 

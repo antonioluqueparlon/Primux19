@@ -1,0 +1,127 @@
+/* Login */
+.bodyLogin {
+  height: 100%;
+  background-image: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e381e21bc.jpg");
+  font-family: "Arvo", serif;
+}
+
+.aLogin {
+  color: #11999e;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.aLogin:hover {
+  text-decoration: none;
+  color: #30e3ca;
+}
+
+.wrapperLogin {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+.formLogin {
+  margin-top: 10%;
+}
+
+.btnEntrar {
+  background-color: #11999e;
+  color: #f6f6f6;
+}
+
+#formContent {
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #fff;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  background-color: #212121;
+  border: none;
+  color: #30e3ca;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+          box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #30e3ca;
+  color: #f6f6f6;
+}
+
+input[type=text],
+input[type=password] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #212121;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+}
+
+.btnRegistro {
+  background-color: #212121;
+  border: none;
+  color: #30e3ca;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+          box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.btnRegistro:hover {
+  background-color: #30e3ca;
+  color: #f6f6f6;
+}
+/*# sourceMappingURL=login.css.map */

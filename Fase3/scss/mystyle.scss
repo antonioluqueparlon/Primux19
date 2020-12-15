@@ -1,0 +1,228 @@
+/* Define standard variables and values for website */ 
+
+$bgcolor: white;
+$fontsize: 18px;
+$colorTexto: black;
+$colorTextoFooter: #11999e;
+$colorPaleta1: #e4f9f5;
+$colorPaleta2: #30e3ca;
+$colorPaleta4:#212121;
+$colorPaleta5:#636262;
+$imgFooter: 20px;
+$text: "Merriweather Sans",
+sans-serif;
+$textAlt: 'Arvo',
+serif;
+$textType: bold;
+$height: 100px;
+$imgCard: 30px;
+
+/*Login */
+
+$color2: #30e3ca;
+$displayInline: inline-block;
+$noTextDecoration: none;
+$textAlignCenter: center;
+$fontWeightA: 400;
+$marginTop15: 5%;
+$displayFlex: flex;
+$itemsCenter: center;
+$flexDirColumn: column;
+$justifyCenter: center;
+$widthAll: 100%;
+$width90: 90%;
+$maxWidth450: 450px;
+$minHeightAll: 100%;
+$s20px: 20px;
+$s30px: 30px;
+$s25px: 25px;
+$s10px: 10px;
+$s0px: 0px;
+$boderRad10: 10px 10px 10px 10px;
+$borderRadFt: 0 0 10px 10px;
+$backgroundWhite: #fff;
+$positionRel: relative;
+$boxShadowLogin: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+$boderTopForm: 1px solid #dce8f1;
+$fixedPos: fixed;
+$noborder: none;
+$colorWhite2: #f6f6f6;
+$colorBlack: #212121;
+
+/* Use the variables */
+
+body {
+    background-color: $bgcolor;
+    font-size: $fontsize;
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body.card.card-body {
+    margin-top: 20pt;
+}
+
+body.card.card-body img {
+    height: $imgCard;
+    width: $imgCard;
+}
+
+
+
+/* Login */
+
+$heightLogin: 100%;
+$loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e381e21bc.jpg");
+.bodyLogin {
+    height: $heightLogin;
+    background-image: $loginBg;
+    font-family: $textAlt;
+}
+
+.aLogin {
+    color: $colorTextoFooter;
+    display: $displayInline;
+    text-decoration: $noTextDecoration;
+    font-weight: $fontWeightA;
+}
+
+.aLogin:hover {
+    text-decoration: $noTextDecoration;
+    color: $color2;
+}
+
+.wrapperLogin {
+    margin-top: $marginTop15;
+    display: $displayFlex;
+    align-items: $itemsCenter;
+    flex-direction: $flexDirColumn;
+    justify-content: $justifyCenter;
+    width: $widthAll;
+    min-height: $minHeightAll;
+    padding: $s20px;
+}
+
+.formLogin {
+    margin-top: 10%;
+}
+
+.btnEntrar {
+    background-color: $colorTextoFooter;
+    color: $colorWhite2;
+}
+
+#formContent {
+    border-radius: $boderRad10;
+    background: $backgroundWhite;
+    padding: $s30px;
+    width: $width90;
+    max-width: $maxWidth450;
+    position: $positionRel;
+    padding: $s0px;
+    box-shadow: $boxShadowLogin;
+    text-align: $textAlignCenter;
+}
+
+#formFooter {
+    background-color: $backgroundWhite;
+    border-top: $boderTopForm;
+    padding: $s25px;
+    text-align: $textAlignCenter;
+    border-radius: $borderRadFt;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: $colorBlack;
+    border: $noborder;
+    color: $color2;
+    padding: 15px 80px;
+    text-align: $textAlignCenter;
+    text-decoration: $noTextDecoration;
+    display: $displayInline;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+}
+
+input[type=submit]:hover {
+    background-color: $color2;
+    color: $colorWhite2;
+}
+
+input[type=text],
+input[type=password] {
+    background-color: $colorWhite2;
+    border: $noborder;
+    color: $colorBlack;
+    padding: 15px 32px;
+    text-align: $textAlignCenter;
+    text-decoration: $noTextDecoration;
+    display: $displayInline;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid $colorWhite2;
+}
+
+
+/* nav */
+
+.navText {
+    font-family: $textAlt;
+}
+
+.navbar-nav .nav-link> {
+    position: relative;
+    font-size: 24px;
+    top: 3px;
+    line-height: 12px;
+    font-family: $textAlt;
+}
+
+.btnNav {
+    background-color: $colorTextoFooter;
+    color: $colorWhite2;
+    margin-left: 10px;
+}
+
+.btnNav:hover {
+    text-decoration: $noTextDecoration;
+    background-color: $color2;
+}
+
+.aNav {
+    margin-top: 10px;
+    color: $colorTextoFooter;
+    font-size: 20px;
+}
+
+.aNav:hover {
+    color: $color2;
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-nav .nav-link> {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-nav .nav-link> {
+        top: -7px;
+    }
+}
