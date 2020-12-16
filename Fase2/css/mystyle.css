@@ -40,10 +40,26 @@ body.card.card-body img {
 
 .wrapperLogin {
   margin-top: 5%;
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+>>>>>>> 656f21133298d3b22ad88673c154336d480214df
   width: 100%;
   min-height: 100%;
   padding: 20px;
