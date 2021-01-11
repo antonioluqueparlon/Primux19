@@ -4,17 +4,20 @@
 
 <head>
   <?php include("../includes/head-tag-contents.php"); ?>
+  <script src="trex/juego.js"></script>
 </head>
 
-<body>
+<body onload="inicializa()">
   <?php include("../includes/navigation.php"); ?>
 
   <main>
     <br>
 
-    <h1>PARLON JUEGO DRAGON BALL</h1><br><br>
+    <h1>PARLON JUEGO</h1><br><br>
 
+    <canvas id="canvas" width="700" height="300" style="border: 2px solid #000000"></canvas>
 
+  
     
   </main>
 
