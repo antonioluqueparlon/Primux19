@@ -302,7 +302,7 @@
 
                         <p>Por otro lado, para instalar en PS5 un juego de PS4 que tengamos <strong>en formato digital</strong> y que no queramos transferir usando los otros métodos (o bien no lo tengamos instalado, simplemente adquirido), bastará con acceder a la biblioteca de juegos, seleccionarlo y darle a la opción Descargar.</p>
                         <!-- BREAK 16 -->
-                        <h2>Mandos y periféricos en PS5</h2>
+                        <h1>Mandos y periféricos en PS5</h1>
 
                         <p>El mítico <strong>DualShock</strong> pasa a mejor vida y cede hueco a la llegada del <a href="https://www.vidaextra.com/hardware/dualsense-ps5-salto-inmersion-bloqueo-gatillos-cuando-arma-se-encasquilla-experiencia-sensorial">DualSense</a>, un <strong>nuevo mando para PS5</strong> que contará con jugosas novedades más allá de su rediseño. Eso también afectará al precio, claro, que pasa a costar <strong>69,99 euros</strong>.</p>
                         <!-- BREAK 17 -->
