@@ -3,6 +3,7 @@
   <div class="footer">
     <div class="d-flex justify-content-around ">
     <div class="p-2"><a class="footer" href="about.php">Sobre Nosotros</a></div>
+    <div class="p-2"><a class="footer" href="#">Términos Legales</a></div>
     <div class="p-2"><a class="footer" href="contacto.php">Contáctanos</a></div>
     </div>
     <div>
