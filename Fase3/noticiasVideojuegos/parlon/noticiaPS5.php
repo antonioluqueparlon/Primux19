@@ -4,6 +4,7 @@
 
 <head>
     <?php include("../includes/head-tag-contents.php"); ?>
+    <script src="scriptReproductor.js"></script>
 </head>
 
 <body>
@@ -18,12 +19,19 @@
                 </div>
                 <div class="col-12">
                     <img src="https://i.blogs.es/8fdd98/ps51/2560_3000.jpeg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <div class="card-img-overlay d-flex align-items-end">
+                        <p class="card-text font-weight-bold txtTop">La nueva generacion de consolas despega con el lanzamiento de PS5</p>
+                    </div>
+
+
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
+
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
+                        <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+
                         <h1>¿Qué precio va a tener PS5?</h1>
                         <p>La nueva <strong>PS5</strong> estará disponible en dos versiones, una con lector de Blu-ray disponible por <a href="https://www.vidaextra.com/redirect?url=https%3A%2F%2Fwww.amazon.es%2FSony-PlayStation-Consola-5%2Fdp%2FB08H93ZRK9&category=listas">499,99 euros</a>, y una edición digital sin lector de discos por <a href="https://www.vidaextra.com/redirect?url=https%3A%2F%2Fwww.amazon.es%2FSony-PlayStation-Consola-5%2Fdp%2FB08H98GVK8%2F&category=listas">399,99 euros</a>. Este es, por descontado, el precio oficial que marca Sony, pero poco a poco es de esperar que vayan surgiendo promociones y packs.</p>
                         <!-- BREAK 3 -->
@@ -31,12 +39,12 @@
 
                         <p>Tal y como comentábamos unas líneas más arriba, <strong>PS5</strong> llegará en dos versiones, la <strong>digital</strong> y otra con <strong>lector de discos</strong>, que por lo demás mantendrán idénticas configuraciones de almacenamiento con un disco SSD de 825 GB.</p>
                         <!-- BREAK 4 -->
-                      
-                        <h2>¿Cómo es el diseño de PS5?</h2>
+
+                        <h1>¿Cómo es el diseño de PS5?</h1>
 
                         <p>El diseño de <strong>PS5</strong> parece hecho a medida para garantizar que la máquina sobrevive al calor generado por su potencia. Con paredes desmontables para limpiar mejor la suciedad interna o acceder al cambio de disco duro.</p>
                         <!-- BREAK 5 -->
-                        
+
                         <div class="article-asset-image article-asset-large">
                             <div class="asset-content">
                                 <img class="sf-lazy " data-sf-srcset="https://i.blogs.es/634b13/ps5-lado/450_1000.jpeg 450w, https://i.blogs.es/634b13/ps5-lado/650_1200.jpeg 681w,https://i.blogs.es/634b13/ps5-lado/1024_2000.jpeg 1024w, https://i.blogs.es/634b13/ps5-lado/1366_2000.jpeg 1366w," data-sf-src="https://i.blogs.es/634b13/ps5-lado/450_1000.jpeg" alt="Ps5 Lado">
@@ -46,15 +54,33 @@
                         </div>
                         <p>En su mayor caso, el de la edición con unidad óptica, las <strong>medidas</strong> de <strong>PS5</strong> llegan hasta los 39 x 10,4 x 26 cm, quedándose en 39 x 9,2 x 26 cm en el caso de las dimensiones de la edición digital. Ambas montan puerto de HDMI, Ethernet, Wi-Fi 6, tres puertos USB-A y uno USB-C.</p>
                         <!-- BREAK 6 -->
-                        <div class="article-asset-video article-asset-large article-asset-center">
-                            <div class="asset-content">
-                                <div class="base-asset-video">
-                                    <iframe width="650" height="366" src="//www.youtube.com/embed/RkC0l4iekYo" allowfullscreen></iframe>
-                                </div>
+                       
+                        <div id="video-container">
+                            <!-- Video -->
+                            <video id="video" width="1040" height="365">
+                                <source src="../videos/ps5hardware.webm" type="video/webm">
+                                <source src="../videos/ps5hardware.ogv" type="video/ogv">
+                                <source src="../videos/ps5hardware.mp4" type="video/mp4">
+                                <p>
+                                    Your browser doesn't support HTML5 video.
+                                    <a href="../videos/ps5hardware.mp4">Download</a> the video instead.
+                                </p>
+                            </video>
+                            <!-- Video Controls -->
+                            <div id="video-controls">
+                                <button type="button" id="play-pause">Reproducir</button>
+                                <input type="range" id="seek-bar" value="0">
+                                <button type="button" id="mute">Silenciar</button>
+                                Nivel Volumen<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+                                <button type="button" id="full-screen">Pantalla Completa</button></button>
                             </div>
                         </div>
-                        <h2>PS5: todas las características técnicas</h2>
 
+                        <br>
+
+
+                        <h1>PS5: todas las características técnicas</h1>
+                        <br>
                         <p>A continuación os dejamos con las características técnicas de la <strong>PS5</strong>:</p>
                         <div class="article-asset-table article-asset-normal m-hr-scroll">
                             <div class="asset-content">
