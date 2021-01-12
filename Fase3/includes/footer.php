@@ -4,6 +4,7 @@
     <div class="d-flex justify-content-around ">
     <div class="p-2"><a class="footer" href="about.php">Sobre Nosotros</a></div>
     <div class="p-2"><a class="footer" href="contacto.php">Contáctanos</a></div>
+    <div class="p-2"><a class="footer" href="terminoslegales.php">Términos Legales</a></div>
     </div>
     <div>
       <a href="https://www.instagram.com/" class="ml-3"><img src="https://www.flaticon.es/svg/static/icons/svg/1177/1177585.svg" /></a>
