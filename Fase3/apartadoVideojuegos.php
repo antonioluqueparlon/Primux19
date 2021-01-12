@@ -17,13 +17,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
-                        <h1>APARTADO</h1>
+                        <h1>LANZAMIENTO GLOBAL PS5</h1>
                         <div class="card img-fluid">
-                            <a href="noticia.php">
+                            <a href="noticiasVideojuegos/parlon/noticiaPS5.php">
                                 <img class="card-img-top img-fluid"
-                                    src="http://lorempixel.com/output/sports-q-c-320-180-9.jpg" alt="Card image">
+                                    src="https://i.blogs.es/8fdd98/ps51/2560_3000.jpeg" alt="Card image">
                                 <div class="card-img-overlay d-flex align-items-end">
-                                    <p class="card-text font-weight-bold txtTop">Lorem ipsum dolor sit amet</p>
+                                    <p class="card-text font-weight-bold txtTop">La nueva generacion de consolas despega con el lanzamiento de PS5</p>
                                 </div>
                             </a>
                         </div>
@@ -37,7 +37,7 @@
                                 <a href="noticia.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                                            <p class="card-text">Las ventas digitales se disparan en 2020 en Reino Unido: estos fueron los 20 juegos más vendidos del año</p>
                                         </div>
                                     </div>
                                 </a>
@@ -48,7 +48,7 @@
                                 <a href="noticia.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                                            <p class="card-text">TheGrefg pulveriza todos los récords de Twitch al presentar su skin de Fortnite</p>
                                         </div>
                                     </div>
                                 </a>
@@ -59,7 +59,8 @@
                                 <a href="noticia.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                                            <p class="card-text">Nintendo Switch domina la primera semana de ventas UK en 2021, con Animal Crossing al frente de su Top 10 Las ventas de sus juegos crecen en un 123% con respecto al inicio de 2020, impulsadas por el confinamiento.
+</p>
                                         </div>
                                     </div>
                                 </a>
@@ -70,23 +71,13 @@
                                 <a href="noticia.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
+                                            <p class="card-text">Los 10 videojuegos peor valorados de la década en Metacritic</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="noticia.php" class="linkNoticia">
-                                    <div class="card bg-light cardApartadoDerecha">
-                                        <div class="card-body text-center">
-                                            <p class="card-text">ASKHAPSGIHWOGOGWPONG</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                       
                     </div>
 
                     <!--FIN DE ÚLTIMAS NOTICIAS EN PANTALLAS GRANDES 
@@ -151,14 +142,14 @@
                         <a href="noticia.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg"
+                                    <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/04/xbox-series-x-new-logo.jpg?itok=jiiO13jS"
                                         class="card-img" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3
-                                                mins ago</small></p>
+                                        <h3 class="card-title indexNoticiaTitulo">Xbox Series X inicia con éxito: GamePass y sus servicios, te los contamos</h3>
+                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 20/12/2020
+                                            </small></p>
                                         <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
                                             below as a natural lead-in to additional content. This content is a little
                                             bit longer.</p>
@@ -171,14 +162,13 @@
                         <a href="noticia.php" class="enlaceNoticia ">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg"
+                                    <img src="https://cdn.vox-cdn.com/thumbor/ak0ZZeT6UIPYpcDSVfS6RcOR73w=/0x0:2640x1749/1200x675/filters:focal(1128x940:1550x1362)/cdn.vox-cdn.com/uploads/chorus_image/image/67414958/twarren_rtx3080.0.jpg"
                                         class="card-img" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3
-                                                mins ago</small></p>
+                                        <h3 class="card-title indexNoticiaTitulo">Conoce las causas de la escasez de AMD Ryzen 5000, RX 6000 y NVIDIA RTX 3000</h3>
+                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 02/01/2021</small></p>
                                         <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
                                             below as a natural lead-in to additional content. This content is a little
                                             bit longer.</p>
@@ -191,14 +181,13 @@
                         <a href="noticia.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg"
+                                    <img src="https://media.vandal.net/i/1706x960/1-2021/2021111940055_1.jpg.webp"
                                         class="card-img" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3
-                                                mins ago</small></p>
+                                        <h3 class="card-title indexNoticiaTitulo">Nintendo Switch domina las ventas de la primera semana de 2021 en Reino Unido</h3>
+                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 12/01/2021</small></p>
                                         <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
                                             below as a natural lead-in to additional content. This content is a little
                                             bit longer.</p>
