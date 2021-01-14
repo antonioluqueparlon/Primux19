@@ -166,7 +166,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia">
+                        <a href="noticiasVideojuegos/parlon/noticiaSwitch.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="https://media.vandal.net/i/1706x960/1-2021/2021111940055_1.jpg.webp" class="card-img" alt="...">
