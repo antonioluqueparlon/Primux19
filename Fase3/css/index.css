@@ -2,6 +2,10 @@
   font-family: 'Arvo', serif;
 }
 
+#textaco {
+  text-align: left;
+}
+
 /* image thumbnail */
 .otrasNoticias {
   margin-top: 10px;
