@@ -236,7 +236,7 @@
                             <tbody>
                                 <tr>
                                     <td>Fotos</td>
-                                    <td>Google Fotos</td>
+                                    <td>Banco de Fotos como Flickr o Personalizadas por nosotros</td>
                                     <td>Reconocimiento-NoComercial-SinObraDerivada CC BY-NC-ND</td>
                                 </tr>
                                 <tr>
