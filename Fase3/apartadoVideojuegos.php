@@ -33,10 +33,10 @@
                         <h1>Últimas noticias</h1>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasVideojuegos/parlon/noticiaConsumoNextGen.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">Las ventas digitales se disparan en 2020 en Reino Unido: estos fueron los 20 juegos más vendidos del año</p>
+                                            <p class="card-text">El consumo de energía de PS5 y Xbox Series X preocupa a la agencia de protección ambiental de EE.UU</p>
                                         </div>
                                     </div>
                                 </a>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasVideojuegos/parlon/noticiaTheGrefg.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">TheGrefg pulveriza todos los récords de Twitch al presentar su skin de Fortnite</p>
@@ -67,10 +67,10 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasVideojuegos/parlon/noticiaPeoresJuegos.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">Los 10 videojuegos peor valorados de la década en Metacritic</p>
+                                            <p class="card-text">Los 10 videojuegos peor valorados de la década</p>
                                         </div>
                                     </div>
                                 </a>
@@ -130,18 +130,18 @@
 
                     <!--TARJETAS DE NOTICIAS -->
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia">
+                        <a href="noticiasVideojuegos/parlon/noticiaPilasXbox.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/04/xbox-series-x-new-logo.jpg?itok=jiiO13jS" class="card-img" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Xbox Series X inicia con éxito: GamePass y sus servicios, te los contamos</h3>
+                                        <h3 class="card-title indexNoticiaTitulo">Xbox zanja la polémica con las pilas de sus mandos: "Ofrecemos intencionadamente elección a jugadores"</h3>
                                         <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 20/12/2020
                                             </small></p>
-                                        <p class="card-text indexNoticiaTexto">La consola de Microsoft empieza con un valance positivo
-                                            y recuperando mucho terreno en el mercado Europeo.</p>
+                                        <p class="card-text indexNoticiaTexto">Unas declaraciones de Duracell insinuaban que la ausencia de batería interna
+                                            se debe a un acuerdo con ellos.</p>
                                     </div>
                                 </div>
                             </div>

@@ -15,12 +15,12 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">Conoce las causas de la escasez de AMD Ryzen 5000, RX 6000 y NVIDIA RTX 3000</h1>
+                    <h1 class="titNoticia ">Xbox zanja la polémica con las pilas de sus mandos: "Ofrecemos intencionadamente elección a jugadores"</h1>
                 </div>
-                <div class="col-12">
-                    <img src="img/rtx.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                <div class="col-12 ">
+                    <img src="img/mandoxbox.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
                     <div class="card-img-overlay d-flex align-items-end">
-                        <p class="card-text font-weight-bold txtTop">Falta de Stock de Tarjetas Gráficas</p>
+                        <p class="card-text font-weight-bold txtTop ">Los mandos de Xbox son famosos por su uso de pilas</p>
                     </div>
 
 
@@ -32,28 +32,40 @@
                     <div class="col-12">
                         <p><small class="text-muted">Antonio Luque 02/12/20</small></p>
 
-                        La falta de stock de AMD y NVIDIA es preocupante, pero no hay una causa específica, sino la concurrencia de varias. Varios distribuidores han manifestado su opinión del problema.
-
-                        En este 2020, hemos visto el aterrizaje de las tarjetas gráficas NVIDIA RTX 3000 y RX 6000, así como los procesadores Ryzen 5000. Todos tienen un punto en común: después del lanzamiento, se han agotado y el re-stock tarda mucho en llegar, ¿qué está pasando? Veamos qué dicen las partes implicadas, y si coinciden con los pronunciamientos oficiales.
-                        <br><br>
-                        <h1>NVIDIA Ampere: las RTX 3080 y 3090 son difíciles de reponer</h1>
-
-                        Varios proveedores se han manifestado de forma anónima, ya que tienen una relación delicada con los principales fabricantes.
-                        Existe un descontento en el sector muy preocupante, ya que ciertos proveedores han dejado perlas como
-                        “nos sentimos como si estuviéramos alimentándonos de los desechos“.
+                        ¿Por qué los <strong>mandos de Xbox</strong> continúan utilizando pilas en 2021? Con el lanzamiento de Xbox Series X,
+                        no fueron pocos los jugadores que se preguntaban la ausencia de una <strong>batería interna</strong> en los mandos,
+                        como ocurre con los mandos de PlayStation 5 o de Nintendo Switch. Y en las últimas horas, unas declaraciones
+                        de <strong>un representante de Duracell</strong> parecían insinuar que el motivo reside en un acuerdo entre Microsoft y
+                        su compañía.
                         <br><br>
 
-                        Es preocupante que los proveedores estén comprando las tarjetas gráficas por encima del PVP recomendado solo
-                        para cumplir los pedidos. Muchos mostraron el descontento asegurando que la situación del suministro de este
-                        otoño ha sido desagradable
+                        Lo cierto es que dichas declaraciones (vía Stealth Optional) dejan mucho abierto a la interpretación.
+                        <strong>En ningún momento confirman</strong> explícitamente que el acuerdo prohíba a Xbox crear un mando con batería interna, y se limitan
+                        a afirmar que Duracell mantiene un acuerdo como <strong>proveedor oficial</strong> de pilas de Microsoft desde hace años. Eso no ha evitado que
+                        algunos medios afirmen que los mandos de Xbox <strong>utilizan pilas de forma obligada </strong> por culpa del acuerdo, aunque desde Redmond ofrecen
+                        una explicación distinta.
+                        <br><br>
+
+
+                        "Nosotros <strong>ofrecemos intencionadamente una elección</strong> a los jugadores en cuanto a su preferencia de
+                        alimentación para los mandos inalámbricos de Xbox estándar", explica un representante de <strong>Microsoft</strong>,
+                        en declaraciones para MCV. "Esto incluye el uso de pilas AA de cualquier marca, de la<strong> Batería Recargable
+                        de Xbox</strong>, de alternativas de carga por parte de nuestros socios, o por el uso de un cable USB-C,
+                        que alimente al mando al enchufarlo a un PC o consola".
+                        <br><br>
+
+                        El hecho de que Microsoft afirme que se trata de una<strong>decisión "intencionada" </strong> indica que no habría un impedimento
+                        para eliminar el uso de pilas, como sería el supuesto acuerdo. Aún así, las redes se han hecho eco de las declaraciones
+                        de Duracell, y veremos si alguno de sus representantes se pronuncia en las próximas horas para aclarar<strong>la naturaleza de
+                        su acuerdo </strong> con Microsoft. Mientras tanto, y si no os habéis podido hacer con una, os invitamos a repasar nuestro análisis
+                        de Xbox Series X y S con todos los detalles de la consola.
 
                         <br><br>
-                        Nos ha llamado la atención el apunte de que las RTX 3080 y RTX 3090 sean las más difíciles de reponer de todo Ampere. Los proveedores aseguran que
-                        las existencias de la RTX 3060 Ti son mejores, pero que estaban vendiendo a pérdidas la GPU Founders Edition.
 
-                        La única buena noticia está en que los proveedores están recibiendo las tarjetas gráficas de la serie RTX 30 de forma casi
-                        regular, lo que es un paso hacia adelante.
-                        
+
+
+
+
 
                     </div>
 

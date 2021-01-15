@@ -11,16 +11,15 @@
 
     <?php include("../includes/navigation.php"); ?>
 
-    <main>
-        <section class="noticia">
+    <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">Conoce las causas de la escasez de AMD Ryzen 5000, RX 6000 y NVIDIA RTX 3000</h1>
+                    <h1 class="titNoticia ">Los 10 videojuegos peor valorados de la década</h1><br>
                 </div>
                 <div class="col-12">
-                    <img src="img/rtx.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <img src="img/peores.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
                     <div class="card-img-overlay d-flex align-items-end">
-                        <p class="card-text font-weight-bold txtTop">Falta de Stock de Tarjetas Gráficas</p>
+                        <p class="card-text font-weight-bold txtTop">Juegos peores valorados</p>
                     </div>
 
 
@@ -32,28 +31,93 @@
                     <div class="col-12">
                         <p><small class="text-muted">Antonio Luque 02/12/20</small></p>
 
-                        La falta de stock de AMD y NVIDIA es preocupante, pero no hay una causa específica, sino la concurrencia de varias. Varios distribuidores han manifestado su opinión del problema.
-
-                        En este 2020, hemos visto el aterrizaje de las tarjetas gráficas NVIDIA RTX 3000 y RX 6000, así como los procesadores Ryzen 5000. Todos tienen un punto en común: después del lanzamiento, se han agotado y el re-stock tarda mucho en llegar, ¿qué está pasando? Veamos qué dicen las partes implicadas, y si coinciden con los pronunciamientos oficiales.
-                        <br><br>
-                        <h1>NVIDIA Ampere: las RTX 3080 y 3090 son difíciles de reponer</h1>
-
-                        Varios proveedores se han manifestado de forma anónima, ya que tienen una relación delicada con los principales fabricantes.
-                        Existe un descontento en el sector muy preocupante, ya que ciertos proveedores han dejado perlas como
-                        “nos sentimos como si estuviéramos alimentándonos de los desechos“.
+                        Cada vez que se cumple una década, toca hacer balance de todo lo que hemos vivido durante los
+                        diez años previos. Y en videojuegos no solo premiamos a los mejores; también nos acordamos de los peores.
+                        A los desarrolladores no debe hacerles mucha gracia, pero resulta evidente que todos los títulos son
+                        sometidos a juicio tanto por parte de los jugadores como de la prensa especializada.
                         <br><br>
 
-                        Es preocupante que los proveedores estén comprando las tarjetas gráficas por encima del PVP recomendado solo
-                        para cumplir los pedidos. Muchos mostraron el descontento asegurando que la situación del suministro de este
-                        otoño ha sido desagradable
-
+                        Como ya hemos dicho adiós al año 2020, hemos echado un vistazo a Metacritic, el portal que recoge
+                        las críticas de todos los videojuegos con la intención de reflejar la valoración media de todos ellos
+                        para listar a los 10 videojuegos peor valorados de la década. Entre ellos se encuentran algunos conocidos
+                        como Afro Samurai 2: Revenge of Kuma, una secuela decepcionante que no superó el 21 de media, o títulos
+                        como el terrible Rambo The Game, en cuyo análisis sacamos a relucir algunas de sus grandes deficiencias.
                         <br><br>
-                        Nos ha llamado la atención el apunte de que las RTX 3080 y RTX 3090 sean las más difíciles de reponer de todo Ampere. Los proveedores aseguran que
-                        las existencias de la RTX 3060 Ti son mejores, pero que estaban vendiendo a pérdidas la GPU Founders Edition.
 
-                        La única buena noticia está en que los proveedores están recibiendo las tarjetas gráficas de la serie RTX 30 de forma casi
-                        regular, lo que es un paso hacia adelante.
-                        
+                        "Su nefasto control, su aburrido planteamiento y sus insoportables escenas de acción despertarán
+                        en el jugador carcajadas o ira en función de su forma de encajar el haber invertido 30 euros en semejante
+                        desatino", comentó en su día Álvaro Castellano al hablar de este videojuego de acción basado en el personaje
+                        interpretado por Sylvester Stallone.
+                        <br><br>
+
+                        Seguramente a algunos de vosotros os haya venido a la mente el nefasto The Quiet Man, que no aparece
+                        en la lista por muy poco, ya que su nota media en PS4 es de 24, frente al 40 que tiene en PC.
+                        En 3DJuegos acabamos definiéndolo como "un completo desastre" debido a sus pobres mecánicas de juego
+                        y nada llamativa historia.
+                        <br><br>
+
+
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Posicion</th>
+                                    <th>Juego</th>
+                                    <th>Plataformas</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Family Party: 30 Great Games Obstacle Arcade</td>
+                                    <td>WII U</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Ride to Hell: Retribution</td>
+                                    <td>PC</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Vroom in the Night Sky</td>
+                                    <td>SWITCH</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Double Dragon II: Wander of the Dragons</td>
+                                    <td>XBOX 360</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Alone in the Dark: Illumination</td>
+                                    <td>PC</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Infestation: Survivor Stories (The War Z)</td>
+                                    <td>PC</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Afro Samurai 2: Revenge of Kuma Volume One</td>
+                                    <td>PS4</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>FlatOut 3: Chaos & Destruction</td>
+                                    <td>PC</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Fast & Furious: Showdown</td>
+                                    <td>XBOX 360</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Rambo: The Video Game</td>
+                                    <td>PS3</td>
+                                </tr>
+                            </thead>
+                        </table>
+
+
 
                     </div>
 

@@ -17,7 +17,7 @@
                 <div class="col-12">
                     <h1 class="titNoticia ">Conoce las causas de la escasez de AMD Ryzen 5000, RX 6000 y NVIDIA RTX 3000</h1>
                 </div>
-                <div class="col-12">
+                <div class="col-12 imgNoticia">
                     <img src="img/rtx.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
                     <div class="card-img-overlay d-flex align-items-end">
                         <p class="card-text font-weight-bold txtTop">Falta de Stock de Tarjetas Gráficas</p>

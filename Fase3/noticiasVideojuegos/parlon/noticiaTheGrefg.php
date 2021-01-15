@@ -15,12 +15,14 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">Conoce las causas de la escasez de AMD Ryzen 5000, RX 6000 y NVIDIA RTX 3000</h1>
+                    <h1 class="titNoticia ">TheGrefg pulveriza todos los récords de Twitch al presentar su skin de Fortnite</h1>
                 </div>
-                <div class="col-12">
-                    <img src="img/rtx.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                <div class="col-12 imgNoticia">
+                    <img src="img/grefg.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
                     <div class="card-img-overlay d-flex align-items-end">
-                        <p class="card-text font-weight-bold txtTop">Falta de Stock de Tarjetas Gráficas</p>
+                        <p class="card-text font-weight-bold txtTop">Los hispanohablantes pulverizan el record con mas
+                            de 2 millones de espectadores en la plataforma
+                        </p>
                     </div>
 
 
@@ -32,28 +34,50 @@
                     <div class="col-12">
                         <p><small class="text-muted">Antonio Luque 02/12/20</small></p>
 
-                        La falta de stock de AMD y NVIDIA es preocupante, pero no hay una causa específica, sino la concurrencia de varias. Varios distribuidores han manifestado su opinión del problema.
-
-                        En este 2020, hemos visto el aterrizaje de las tarjetas gráficas NVIDIA RTX 3000 y RX 6000, así como los procesadores Ryzen 5000. Todos tienen un punto en común: después del lanzamiento, se han agotado y el re-stock tarda mucho en llegar, ¿qué está pasando? Veamos qué dicen las partes implicadas, y si coinciden con los pronunciamientos oficiales.
-                        <br><br>
-                        <h1>NVIDIA Ampere: las RTX 3080 y 3090 son difíciles de reponer</h1>
-
-                        Varios proveedores se han manifestado de forma anónima, ya que tienen una relación delicada con los principales fabricantes.
-                        Existe un descontento en el sector muy preocupante, ya que ciertos proveedores han dejado perlas como
-                        “nos sentimos como si estuviéramos alimentándonos de los desechos“.
+                        <strong>TheGrefg</strong> acaba de pulverizar todos los <strong>récords de Twitch</strong> , y si os suena haber leído esto antes, es
+                        porque no se trata de su primera vez. Después de batir el récord de espectadores simultáneos de Ninja
+                        en diciembre, el streamer español David Cánovas Martínez, más conocido por su nombre profesional, ha
+                        sentado una marca histórica con <strong>cerca de 2,5 millones de espectadores simultáneos</strong> en su canal para presenciar
+                        la presentación de su nueva skin propia de Fortnite, el juego gratuito de Epic Games.
                         <br><br>
 
-                        Es preocupante que los proveedores estén comprando las tarjetas gráficas por encima del PVP recomendado solo
-                        para cumplir los pedidos. Muchos mostraron el descontento asegurando que la situación del suministro de este
-                        otoño ha sido desagradable
-
+                        En la pasada noche, TheGrefg inició una retransmisión para presentar la última pieza de <strong>las 'Icon Series'
+                            de Fortnite</strong> , esto es, esa gama de diseños del juego basadas en los creadores de contenidos más populares
+                        , que incluye una skin especial de Ninja entre otras piezas. Y siendo la <strong>skin de TheGrefg</strong> la última de la
+                        gama que quedaba por anunciarse, las expectativas estaban por todo lo alto. Como mencionamos antes, 2,5
+                        millones de personas llegaron a darse cita al mismo tiempo en su canal para la presentación, lo que dio
+                        lugar a esa escena con la que ilustramos la noticia, cortesía de Polygon.
                         <br><br>
-                        Nos ha llamado la atención el apunte de que las RTX 3080 y RTX 3090 sean las más difíciles de reponer de todo Ampere. Los proveedores aseguran que
-                        las existencias de la RTX 3060 Ti son mejores, pero que estaban vendiendo a pérdidas la GPU Founders Edition.
 
-                        La única buena noticia está en que los proveedores están recibiendo las tarjetas gráficas de la serie RTX 30 de forma casi
-                        regular, lo que es un paso hacia adelante.
-                        
+                        <blockquote class="twitter-tweet">
+                            <p lang="en" dir="ltr">¡Vamos!<a href="https://twitter.com/TheGrefg?ref_src=twsrc%5Etfw">@TheGrefg</a> now holds the record for most concurrent viewers ever on Twitch. <a href="https://t.co/26VceVSJyS">pic.twitter.com/26VceVSJyS</a></p>&mdash; Twitch (@Twitch) <a href="https://twitter.com/Twitch/status/1348754308033089537?ref_src=twsrc%5Etfw">January 11, 2021</a>
+                        </blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <br><br>
+
+                        Esto supone un nuevo récord para el canal de un individuo de manera muy holgada. Pero es que también supone
+                        el <strong>récord histórico absoluto de Twitch</strong> para cualquier retransmisión en general. Como vemos en los registros
+                        de Twitch Tracker, su pico de 2.470.347 millones de espectadores supera con creces el anterior récord del canal
+                        <strong>ELeagueTV</strong> , con un pico de 1.088.063 espectadores, así como las cifras máximas del
+                        <strong>canal oficial de PlayStation</strong> ,
+                        cuyo mayor registro es de 1.014.646 espectadores simultáneos durante sus diversas presentaciones y eventos.
+                        <br><br>
+
+                        En cuanto al objeto del deseo de los jugadores, la <strong>nueva skin de TheGrefg</strong> llegará dentro de poco a la tienda
+                        de Fortnite, con ese diseño inspirado en Goku, de Bola de Dragón, y con la predominancia de los colores
+                        de la bandera de España. Una skin que, según ha confirmado el creador de contenidos, estará disponible
+                        por entre <strong>2.000 y 3.000 paVos</strong> y será reactiva, esto es, su aspecto cambiará durante la partida.
+                        Y llegará acompañada por <strong>un nuevo emote</strong> en el que el personaje baila con un mando, en homenaje
+                        a la comunidad de jugadores que prefiere este sistema de control.
+                        <br><br>
+
+                        Pero, como vemos al final, la skin ha quedado completamente eclipsada por el nuevo hito de un streamer español:
+                        <strong>más del doble</strong> de espectadores simultáneos <strong>que el anterior récord</strong> de Twitch. Un año 2021 que comienza con gran pie
+                        para la comunidad hispana de creadores de contenidos, y veremos <strong>si se vuelve a batir</strong> esta cifra antes de que demos
+                        la bienvenida al próximo 2022. Os recordamos que Fortnite
+                        también está batiendo récords, y en diciembre el juego de Epic Games superó su propio máximo de jugadores simultáneos.
+                        <br><br>
+
 
                     </div>
 
