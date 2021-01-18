@@ -36,7 +36,7 @@
                                 <a href="noticiasVideojuegos/parlon/noticiaConsumoNextGen.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">El consumo de energía de PS5 y Xbox Series X preocupa a la agencia de protección ambiental de EE.UU</p>
+                                            <p class="card-text titNoticiaUltNoticias">El consumo de energía de PS5 y Xbox Series X preocupa a la agencia de protección ambiental de EE.UU</p>
                                         </div>
                                     </div>
                                 </a>
@@ -47,7 +47,7 @@
                                 <a href="noticiasVideojuegos/parlon/noticiaTheGrefg.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">TheGrefg pulveriza todos los récords de Twitch al presentar su skin de Fortnite</p>
+                                            <p class="card-text titNoticiaUltNoticias">TheGrefg pulveriza todos los récords de Twitch al presentar su skin de Fortnite</p>
                                         </div>
                                     </div>
                                 </a>
@@ -58,7 +58,7 @@
                                 <a href="noticia.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">Nintendo Switch domina la primera semana de ventas UK en 2021, con Animal Crossing al frente de su Top 10 Las ventas de sus juegos crecen en un 123% con respecto al inicio de 2020, impulsadas por el confinamiento.
+                                            <p class="card-text titNoticiaUltNoticias">Nintendo Switch domina la primera semana de ventas UK en 2021, con Animal Crossing al frente de su Top 10 Las ventas de sus juegos crecen en un 123% con respecto al inicio de 2020, impulsadas por el confinamiento.
                                             </p>
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@
                                 <a href="noticiasVideojuegos/parlon/noticiaPeoresJuegos.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">Los 10 videojuegos peor valorados de la década</p>
+                                            <p class="card-text titNoticiaUltNoticias">Los 10 videojuegos peor valorados de la década</p>
                                         </div>
                                     </div>
                                 </a>
@@ -133,7 +133,7 @@
                         <a href="noticiasVideojuegos/parlon/noticiaPilasXbox.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/04/xbox-series-x-new-logo.jpg?itok=jiiO13jS" class="card-img" alt="...">
+                                    <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/04/xbox-series-x-new-logo.jpg?itok=jiiO13jS" class="card-img imgApartadoNoticias" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
@@ -151,7 +151,7 @@
                         <a href="noticiasVideojuegos/parlon/noticiaStockGraficas.php" class="enlaceNoticia ">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://cdn.vox-cdn.com/thumbor/ak0ZZeT6UIPYpcDSVfS6RcOR73w=/0x0:2640x1749/1200x675/filters:focal(1128x940:1550x1362)/cdn.vox-cdn.com/uploads/chorus_image/image/67414958/twarren_rtx3080.0.jpg" class="card-img" alt="...">
+                                    <img src="https://cdn.vox-cdn.com/thumbor/ak0ZZeT6UIPYpcDSVfS6RcOR73w=/0x0:2640x1749/1200x675/filters:focal(1128x940:1550x1362)/cdn.vox-cdn.com/uploads/chorus_image/image/67414958/twarren_rtx3080.0.jpg" class="card-img imgApartadoNoticias" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
@@ -169,7 +169,7 @@
                         <a href="noticiasVideojuegos/parlon/noticiaSwitch.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://media.vandal.net/i/1706x960/1-2021/2021111940055_1.jpg.webp" class="card-img" alt="...">
+                                    <img src="https://media.vandal.net/i/1706x960/1-2021/2021111940055_1.jpg.webp" class="card-img imgApartadoNoticias" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">

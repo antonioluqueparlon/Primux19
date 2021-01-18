@@ -68,8 +68,7 @@
 
 .fotoNoticiaestilo {
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 50%;
 }
+/*# sourceMappingURL=noticia.css.map */

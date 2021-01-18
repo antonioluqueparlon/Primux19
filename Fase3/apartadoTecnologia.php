@@ -133,7 +133,7 @@
                         <a href="noticia.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/04/xbox-series-x-new-logo.jpg?itok=jiiO13jS" class="card-img" alt="...">
+                                    <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/04/xbox-series-x-new-logo.jpg?itok=jiiO13jS" class="card-img imgApartadoNoticias" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">

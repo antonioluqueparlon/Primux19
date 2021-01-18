@@ -9,12 +9,8 @@
 .txtTop {
   border-radius: 3px;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   bottom: 0;
   left: 0;
   z-index: 1;
@@ -24,11 +20,8 @@
   /* Text color */
   color: #e4f9f5;
   /* background */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
   background: linear-gradient(rgba(0, 0, 0, 0), black);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -37,3 +30,4 @@
   left: 15%;
   height: 30pt;
 }
+/*# sourceMappingURL=styleApartado.css.map */
