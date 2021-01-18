@@ -10,10 +10,16 @@ document.addEventListener("keydown", function (evento) {
       nivel.muerto = false;
       nivel.velocidad = 9;
       cactus.x = ancho + 100;
-      nivel.puntuacion=0;
+      nivel.puntuacion = 0;
     }
   }
 });
+
+
+
+//CARGAR MUSICA DE FONDO
+//var bgm=document.getElementById('bgm');
+
 
 //VARIABLES DE LAS IMAGANES Y SUS CARGAS
 var imgRex, imgCactus, imgSuelo;
@@ -26,6 +32,9 @@ function cargaImagenes() {
   imgRex.src = "img/rex.png";
   imgCactus.src = "img/cacti.png";
   imgSuelo.src = "img/fondo.png";
+
+  bgm= new Audio();
+  bgm.src= "music/micancion.mp3";
 }
 
 var ancho = 788;
@@ -65,6 +74,7 @@ function dibujaRex() {
 //--------------------------------CACTUS--------------------------------------------------
 function dibujaCactus() {
   ctx.drawImage(imgCactus, 0, 0, 60, 60, cactus.x, cactus.y, 60, 60);
+  //ctx.play(bgm);
 }
 
 function movimientoCactus() {
@@ -100,6 +110,7 @@ function colision() {
     if (trex.y >= suelo - 8) {
       nivel.muerto = true;
       nivel.velocidad = 0;
+      bgm.pause();
     }
   }
 }
@@ -124,21 +135,18 @@ function gravedad() {
   }
 }
 
+function puntuacion() {
+  ctx.font = "30px impact";
+  ctx.fillStyle = "#FF5733";
+  ctx.fillText(`${nivel.puntuacion}`, 600, 50); // aqui es donde va situada la puntuacion arriba a la drecha
 
-
-function puntuacion(){
-    ctx.font="30px impact";
-    ctx.fillStyle="#FF5733";
-    ctx.fillText(`${nivel.puntuacion}`,600,50); // aqui es donde va situada la puntuacion arriba a la drecha
-
-    if(nivel.muerto==true){
-        ctx.font="40px impact";
-        ctx.fillStyle="#0063FF";
-        ctx.fillText("ANTONIO LUQUE 2DAW",150,150);
-        ctx.fillText("(Presiona espacio para volver a empezar)",50,100);
-    }
+  if (nivel.muerto == true) {
+    ctx.font = "40px impact";
+    ctx.fillStyle = "#0063FF";
+    ctx.fillText("ANTONIO LUQUE 2DAW", 150, 150);
+    ctx.fillText("(Presiona espacio para volver a empezar)", 50, 100);
+  }
 }
-
 
 //---------------------------------------------------------------------------------------
 //BUCLE PRINCIPAL SIEMPRE QUE ESTE LA PAGINA ABIERTA
@@ -151,7 +159,9 @@ setInterval(function () {
 function principal() {
   //console.log("principal");
   borraCanvas();
+  playmusic();
   gravedad();
+  //sound.play();
   colision();
   movimientoCactus();
   dibujaSuelo();
