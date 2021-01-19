@@ -72,7 +72,7 @@
                 <a href="noticia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="../../img/imgDeportes/basketFemenino.jpg" class="card-img" alt="Baloncesto femenino">
+                            <img src="../../img/imgDeportes/basketFemenino.jpg" class="card-img imgApartadoNoticias" alt="Baloncesto femenino">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">

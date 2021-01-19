@@ -27,21 +27,21 @@ function scrollFunction() {
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoDeportes.php">
+        <a class="nav-link" href="../../apartadoDeportes.php">
         <p class="aNav">Deportes</p>
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoMotor.php">
+        <a class="nav-link" href="../../apartadoMotor.php">
           <p class="aNav">Motor</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoVideojuegos.php">
+        <a class="nav-link" href="../../apartadoVideojuegos.php">
           <p class="aNav">VideoJuegos</p>
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/Juegos.php">
+        <a class="nav-link" href="../../Juegos.php">
           <p class="aNav">Juegos</p>
           </a>
       </li>

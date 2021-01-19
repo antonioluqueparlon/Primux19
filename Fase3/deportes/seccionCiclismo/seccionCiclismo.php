@@ -21,14 +21,13 @@
                 <a href="noticia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="../../img/imgDeportes/futbol.jpg" class="card-img" alt="despejePortero">
+                            <img src="../../img/imgDeportes/anne.jpg" class="card-img imgApartadoNoticias" alt="Anne fichaje">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Álex Remiro portero del año para TechnoTeam</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 19/01/2021</small></p>
-                                <p class="card-text indexNoticiaTexto">Remiro, actual guardameta titutar de la Real Sociedad es elegido por los usuarios de TechnoTeam como el mejor 
-                                    portero de LaLiga Santander en la temporada 2019/2020 </p>
+                                <h4 class="card-title indexNoticiaTitulo">La nueva aventura de Ane Santesteban</h4>
+                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 18/01/2021</small></p>
+                                <p class="card-text indexNoticiaTexto"> La ciclista vasca de 30 años inicia una nueva etapa en el Team BikeExchange australiano, en el que ejercerá de apoyo de Amanda Spratt y tendrá sus oportunidades.</p>
                             </div>
                         </div>
                     </div>
@@ -38,14 +37,14 @@
                 <a href="noticia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="../../img/imgDeportes/expMessi.jpg" class="card-img" alt="Messi">
+                            <img src="../../img/imgDeportes/ciclismo1.jpg" class="card-img imgApartadoNoticias" alt="Messi">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Expulsión de Messi</h4>
+                                <h4 class="card-title indexNoticiaTitulo">Vuelta ciclista a Andalucía</h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 19/01/2021</small></p>
-                                <p class="card-text indexNoticiaTexto">F.C. Barcelona va a aprovechar las últimas imágenes mostradas en televisión para recurrir la sanción de Lionel Messi 
-                                    tras su agresión a Villalibre en la final de la Supercopa de España. </p>
+                                <p class="card-text indexNoticiaTexto">La icónica Vuelta ciclista a Andalucía tendrá luchando por su 
+                                            clasificación a Valverde, Nibali y "Superman" López en su 67ª edición.</p>
                             </div>
                         </div>
                     </div>
@@ -55,14 +54,14 @@
                 <a href="noticia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="../../img/imgDeportes/futbolBase.jpg" class="card-img" alt="niño jugando">
+                            <img src="../../img/imgDeportes/ciclismo2.jpg" class="card-img imgApartadoNoticias" alt="niño jugando">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Aplazamientos de partidos de fútbol base </h4>
+                                <h4 class="card-title indexNoticiaTitulo">Nuevo equipo UCI dirigido por Contador, Basso y Armstrong </h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 19/01/2021</small></p>
-                                <p class="card-text indexNoticiaTexto">La Real Federación Andaluza emite comunicado oficial a través de su página web en el que se suspende todos aquellos 
-                                    partidos en los que participen equipos de un municipio perimetrado. </p>
+                                <p class="card-text indexNoticiaTexto">Las tres estrellas retiradas del ciclismo unen sus fuerzas y conocimientos para crear un equipo
+                                que compita en todas las pruebas UCI al que esperan llevar a lo más alto del pódium de las grandes vueltas con el fin de limpiar sus nombres. </p>
                             </div>
                         </div>
                     </div>
@@ -72,14 +71,14 @@
                 <a href="noticia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="../../img/imgDeportes/futbolBase.jpg" class="card-img" alt="Fútbol amateur">
+                            <img src="../../img/imgDeportes/ciclismo3.jpg" class="card-img imgApartadoNoticias" alt="Fútbol amateur">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Quejas en los clubs amateurs de Madrid por el estado de las instalación</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 19/01/2021</small></p>
-                                <p class="card-text indexNoticiaTexto"> Los clubs de Madrid se ponen en pie de guerra ante la imposición por parte de la Federación Madrileña de fútbol 
-                                    de jugar este fin de semana a pesar de seguir sufriendo los problemas derivados de la borrasca Filomena </p>
+                                <h4 class="card-title indexNoticiaTitulo">Presentadas las etapas del Tour de Francia 2025</h4>
+                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 15/01/2021</small></p>
+                                <p class="card-text indexNoticiaTexto"> En una presentación a lo grande se mostró el recorrido que llevarán a cabo 
+                                aquellos ciclistas que corran la ronda gala en 2025. Sin dejar atrás sitios icónicos de los Pirineos y los Alpes sorprende su salida desde Túnez </p>
                             </div>
                         </div>
                     </div>
