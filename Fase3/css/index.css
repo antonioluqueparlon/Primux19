@@ -146,4 +146,16 @@ button:hover {
 #volume-bar {
   width: 60px;
 }
+
+.ir-arriba {
+  display: none;
+  padding: 20px;
+  background: #11999e;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 120px;
+  right: 10px;
+}
 /*# sourceMappingURL=index.css.map */

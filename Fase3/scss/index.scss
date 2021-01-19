@@ -174,3 +174,17 @@ button:hover {
 #volume-bar {
 	width: 60px;
 }
+
+//BOTON PARA IR ARRIBA
+
+.ir-arriba {
+	display:none;
+	padding:20px; // grosor del boton
+	background:$colorTextoFooter;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:120px;
+	right:10px;
+} 

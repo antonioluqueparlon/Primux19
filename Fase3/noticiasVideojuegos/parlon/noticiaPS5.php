@@ -5,6 +5,7 @@
 <head>
     <?php include("../includes/head-tag-contents.php"); ?>
     <script src="scriptReproductor.js"></script>
+    
 </head>
 
 <body>
