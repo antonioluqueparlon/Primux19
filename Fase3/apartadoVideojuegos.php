@@ -55,10 +55,13 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasVideojuegos/parlon/noticiaSwitch.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
+<<<<<<< Updated upstream
                                             <p class="card-text titNoticiaUltNoticias">Nintendo Switch domina la primera semana de ventas UK en 2021, con Animal Crossing al frente de su Top 10 Las ventas de sus juegos crecen en un 123% con respecto al inicio de 2020, impulsadas por el confinamiento.
+=======
+                                            <p class="card-text">Las ventas de Nintendo Switch en Japón en 2020 son de récord: casi 7 millones de consolas en un año.
                                             </p>
                                         </div>
                                     </div>

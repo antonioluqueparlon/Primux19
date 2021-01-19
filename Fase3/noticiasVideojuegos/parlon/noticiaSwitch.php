@@ -15,12 +15,12 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">Nintendo Switch domina las ventas de la primera semana de 2021 en Reino Unido</h1>
+                    <h1 class="titNoticia ">Las ventas de Nintendo Switch en Japón en 2020 son de récord: casi 7 millones de consolas en un año</h1>
                 </div>
                 <div class="col-12">
-                    <img src="img/switch.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <img src="img/switch2.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
                     <div class="card-img-overlay d-flex align-items-end">
-                        <p class="card-text font-weight-bold txtTop"></p>
+                        <p class="card-text font-weight-bold txtTop">En Francia, sus ventas crecieron un 40%; nuevos datos de ventas de la híbrida de Nintendo.</p>
                     </div>
 
 
@@ -32,57 +32,53 @@
                     <div class="col-12">
                         <p><small class="text-muted">Antonio Luque 02/12/20</small></p>
 
-                        Las <strong>ventas</strong> de videojuegos en <strong>formato fisico</strong> en <strong>Reino Unido</strong>
-                        durante la <strong>primera semana de enero</strong> de 2021
-                        han crecido un tercio respecto al mismo periodo de 2020, a pesar de la ausencia de nuevos lanzamientos de peso;
-                        la cifra total se estima en más de <strong>260.000 juegos en caja.</strong> El motivo, apuntan desde GamesIndustry,
-                        se debe al esperado nuevo <strong>confinamiento</strong> para prevenir los contagios por coronavirus en el país británico.
-                        Gran parte de los juegos vendidos en este periodo, sin contar ventas digitales, son
-                        <strong>Títulos de Nintendo Switch.</strong>
+                        En los últimos días hemos ido conociendo poco a poco <strong>diversa información</strong> sobre las ventas de las consolas
+                        y de juegos durante <strong>2020</strong> en diferentes partes del mundo. Siempre es interesante repasar los datos, para
+                        ver el estado de cada máquina y ver cuál es el <strong>interés del público</strong>. Actualmente, la consola más vendida
+                        en todo el mundo es <strong>Nintendo Switch</strong>, también por los problemas de stock de Xbox Series X y PS5.
                         <br><br>
 
-                        Los usuarios de la consola híbrida han comprado un <strong>123 % más de juegos en formato físico</strong>
-                        en la primera semana de enero
-                        que en las mismas fechas de 2020, aunque hay que tener en cuenta que hay más jugadores de Switch que
-                        el año pasado, pues la consola vendió en 2020 en ese país más que todas las PlayStation y Xbox juntas.<br><br>
-                        El título más vendido de la semana es Animal Crossing: New Horizons, aunque con un 47 % de unidades
-                        colocadas menos que la semana anterior, algo que es habitual en estas fechas debido a que los jugadores
-                        <strong>aún están disfrutando de los juegos comprados en Navidad.</strong><br><br>
+                        Ahora hemos conocido nuevos datos de ventas en <strong>Japón</strong> y en <strong>Francia</strong> durante 2020, y son de nuevo espectaculares.
+                        En el caso del país nipón, Nintendo Switch vendió <strong>6,85 millones de consolas en el pasado año</strong>, como ha contado
+                        GamesIndustry.biz. PS4 fue la segunda muy lejos de Switch, con <strong>543.000 unidades vendidas.</strong> El top 3 lo cierra
+                        PlayStation 5 con <strong>255.000</strong>. Como os contamos, Switch en Japón superó hace poco la barrera de las 17 millones
+                        de consolas vendidas en total.
+                        <br><br>
 
 
 
-                        Seis de los juegos del top 10 son de Nintendo Switch,<strong>15 si nos fijamos en los 40 títulos más vendidos</strong>.
-                        Mario Kart 8 Deluxe está en segunda posición con un 43 % menos de ventas respecto a la semana pasada,
-                        seguido de Just Dance 2021 (casi el 90 % de las ventas son de la versión de Switch). Más abajo están
-                        Ring Fit Adventure en el puesto número 6, Minecraft: Nintendo Switch Edition en el número 7
-                        y New Super Mario Bros. U Deluxe en el noveno puesto. Por primera vez desde su lanzamiento,
-                        Super Mario 3D All Stars abandona el top 10 cayendo al número 11.
-
-                        El último gran lanzamiento de 2020, Cyberpunk 2077, ha caído al <strong>puesto 20</strong>con un 59 % menos de
-                        unidades vendidas respecto a la semana anterior.
+                        Otros datos interesantes de Japón en el pasado año es que el gasto en videojuegos <strong>se incrementó un 12,5%</strong>
+                        respecto a 2019, alcanzando los <strong>3.500 millones de dólares.</strong> Además, se ha vuelto a confirmar, como ya os
+                        adelantamos, que Animal Crossing: New Horizons fue el juego más vendido en físico en el país
+                        del sol naciente. De hecho, Nintendo tuvo casi el <strong>50%</strong> de las ventas de juegos
+                        en <strong>formato físico</strong> en 2020.
 
                         <br><br>
 
 
 
-                        A continuación os dejamos la lista de los 10 juegos más vendidos en Reino Unido en la semana que acaba el sábado 9 de enero.
-                        <strong>Entre paréntesis, la posición de los juegos en la semana anterior.</strong>
+                        <h1>Nintendo Switch, éxito en Francia</h1>
                         <br><br>
 
-                        <ul>
+                        <div class="article-asset-image article-asset-large">
+                            <div class="asset-content">
+                                <img class="fotoNoticiaestilo " src="img/switch3.jpg" alt="Ps5">
+                            </div>
+                        </div>
+                        <br><br>
 
-                            <li>1. (1) Animal Crossing: New Horizons</li>
-                            <li>2. (3) Mario Kart 8: Deluxe</li>
-                            <li>3. (5) Just Dance 2021</li>
-                            <li>4. (2) FIFA 21</li>
-                            <li>5. (4) Assassin's Creed Valhalla</li>
-                            <li>6. (18) Ring Fit Adventure</li>
-                            <li>7. (7) Minecraft: Nintendo Switch Edition</li>
-                            <li>8. (9) Grand Theft Auto V</li>
-                            <li>9. (10) New Super Mario Bros. U Deluxe</li>
-                            <li>10. (6) Call of Duty: Black Ops Cold War</li>
-                        </ul>
+                        Gracias al medio Le Figaro, hemos conocido que las ventas de Nintendo Switch en 2020 en Francia se
+                        <strong>incrementaron un 40% respecto</strong> a 2019. Allí, Switch ha vendido en 2020 <strong>alrededor de 1,4 millones</strong> de consolas.
+                        Le Figaro recoge unos datos de Nintendo Francia, que dicen que un <strong>7% de los franceses</strong> tienen
+                        la consola (unos 4,7 millones de personas). Eso sí, como dato curioso, PS5 arrebató a Switch el récord del
+                        mejor lanzamiento de una nueva consola en el país galo.
+                        <br><br>
 
+                        La híbrida de Nintendo <strong>sigue arrasando</strong> en todo el mundo. En China, ha vendido más de un millón de consolas de forma oficial;
+                        en Reino Unido, vendió en 2020 más que las consolas PlayStation y Xbox juntas; también fue líder en Estados Unidos.
+                        Veremos a ver cuáles son las <strong>cifras concretas</strong> en el próximo informe oficial, pero serán enormes. Recientemente, también
+                        supimos los juegos más jugados en Switch en 2020 en Europa.
+                        <br><br>
 
 
 
@@ -162,6 +158,8 @@
                             </div>
                         </a>
                     </div>
+
+                    
 
                     <h2 class="titNoticia">Últimas noticias</h2>
                     <div class="row">
