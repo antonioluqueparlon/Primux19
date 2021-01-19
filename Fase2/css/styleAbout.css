@@ -92,7 +92,6 @@ section .section-title {
   text-transform: uppercase;
 }
 
-/*estilos de las tarjetas de los miembros del equipo */
 #team .card {
   border: none;
   background: #ffffff;
@@ -167,7 +166,7 @@ section .section-title {
 .frontside .card .card-title,
 .backside .card .card-title {
   color: #30e3ca !important;
-  /*color letras nombres en las tarjetas */
+  /*color letras nombres en las tarjeas */
 }
 
 .frontside .card .card-body img {
@@ -176,7 +175,6 @@ section .section-title {
   border-radius: 50%;
 }
 
-/*fin del estilo de las tarjetas */
 .imagenAbout {
   width: 100%;
   height: 70%;
