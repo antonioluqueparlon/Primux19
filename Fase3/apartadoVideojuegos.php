@@ -77,6 +77,7 @@
                                 </a>
                             </div>
                         </div>
+                        
 
                     </div>
 
@@ -138,7 +139,7 @@
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Xbox zanja la polémica con las pilas de sus mandos: "Ofrecemos intencionadamente elección a jugadores"</h3>
+                                        <h3 class="card-title indexNoticiaTitulo">Xbox zanja la polémica con las pilas de sus mandos</h3>
                                         <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 20/12/2020
                                             </small></p>
                                         <p class="card-text indexNoticiaTexto">Unas declaraciones de Duracell insinuaban que la ausencia de batería interna

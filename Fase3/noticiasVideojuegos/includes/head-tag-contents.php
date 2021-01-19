@@ -23,7 +23,7 @@
         });
 
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 0) {
+            if ($(this).scrollTop() > 30) { // scrolltop marca el nivel de scroll que se hace
                 $('.ir-arriba').slideDown(300);
             } else {
                 $('.ir-arriba').slideUp(300);
