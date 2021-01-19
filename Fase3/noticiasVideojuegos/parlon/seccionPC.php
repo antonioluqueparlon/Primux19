@@ -20,7 +20,7 @@
             <h1>PC</h1>
 
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticiaStockGraficas.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="img/rtx.jpg" class="card-img" alt="...">
@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticiaProjectMara.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="img/fotorealismo.png" class="card-img" alt="...">

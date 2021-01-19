@@ -62,7 +62,7 @@
 
                         <div class="article-asset-image article-asset-large">
                             <div class="asset-content">
-                                <img class="fotoNoticiaestilo " src="img/switch3.jpg" alt="Ps5">
+                                <img class="fotoNoticiaestilo " src="img/switch3.jpg" alt="switch">
                             </div>
                         </div>
                         <br><br>

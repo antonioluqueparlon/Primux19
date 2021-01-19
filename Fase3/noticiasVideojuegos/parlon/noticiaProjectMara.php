@@ -56,40 +56,49 @@
                         <br><br>
 
                         Teniendo en cuenta el éxito y la aceptación tras un juego tan único como Hellblade: Senua's Sacrifice,
-                        no hay duda de que el estudio británico Ninja Theory tiene en el punto de vista los juegos narrativos,
+                        no hay duda de que el estudio británico <strong>Ninja Theory</strong> tiene en el punto de vista los juegos narrativos,
                         el horror y la tergiversación del mundo real tal y como lo conocemos. Con una premisa parecida a esta
-                        en mente, el año pasado se anunció al mundo Project Mara, un juego experimental llamado a desafiar la
-                        narrativa tradicional con métodos más innovadores.
+                        en mente, el año pasado se anunció al mundo Project Mara, un juego experimental llamado a <strong>desafiar la
+                            narrativa tradicional</strong> con métodos más innovadores.
                         <br><br>
 
-                        Aparentemente, parte del proceso consiste en reinventarse a nivel tecnológico: el camino a seguir será el fotorrealismo,
+                        Aparentemente, parte del proceso consiste en reinventarse a nivel tecnológico: el camino a seguir será el <strong>fotorrealismo</strong>,
                         gracias más que probablemente a las virtudes del motor Unreal Engine 5. Sus responsables han compartido en Youtube
-                        un pequeño documental sobre el proceso de desarrollo de los gráficos que darán vida a esta nueva aventura,
+                        un <strong>pequeño documental</strong> sobre el proceso de desarrollo de los gráficos que darán vida a esta nueva aventura,
                         y resulta todo un espectáculo del que también se puede aprender mucho.
                         <br><br>
 
                         En el vídeo, el creativo Tameem Antoniades explica que una de sus ambiciones es "capturar la realidad obsesivamente".
-                        Para ello, el equipo de desarrollo escoge una localización reducida, un apartamento, que debe estar recreado a la perfección.
+                        Para ello, el equipo de desarrollo escoge una localización reducida,<strong>un apartamento,</strong> que debe estar recreado a la perfección.
                         Y cuando hablamos de perfección, nos referimos a un nivel microscópico: aparentemente, hay meses de trabajo tras los shaders
                         y texturas que permiten al
-                        juego recrear no solo la tridimensionalidad de los objetos a simple vista, sino también sus fibras, oquedades y rugosidades.
+                        juego recrear no solo la tridimensionalidad de los objetos a simple vista, sino también sus
+                        <strong>fibras, oquedades y rugosidades.</strong>
                         <br><br>
 
 
                         La escala tras esta tecnología resulta también muy importante, porque cubre diferentes capas y objetos de toda clase:
-                        es por eso que se han usado escáneres LiDAR (que se están comenzando a implementar en dispositivos móviles como el
+                        es por eso que se han usado <strong>escáneres LiDAR</strong> (que se están comenzando a implementar en dispositivos móviles como el
                         iPhone 12 Pro) para medir mediante láser la distancia entre objetos con mayor precisión. ¿Los resultados? Como puedes ver,
-                        abrumadores: recurriendo a métodos procedurales,
+                        abrumadores: recurriendo a <strong>métodos procedurales,</strong>
                         se puede cubrir un suelo con polvo, pelo y microfibras; o un grifo con gotas de agua creíbles. La cuestión es ver en qué quedará todo esto.
                         <br><br>
 
-                        <h1>Los estudios de Xbox y sus videojuegos</h1>
+                        <h1>Los estudios de Xbox y sus videojuegos</h1><br><br>
 
-                        Ninja Theory fue uno de los muchos estudios absorbidos por Microsoft a lo largo de los últimos años:
+                        <div class="article-asset-image article-asset-large">
+                            <div class="asset-content">
+                                <img class="fotoNoticiaestilo " src="img/projectmara2.jpg" alt="switch">
+                            </div>
+                        </div>
+
+                        <br><br>
+
+                        Ninja Theory fue uno de los muchos estudios <strong>absorbidos por Microsoft</strong> a lo largo de los últimos años:
                         una tendencia que, cuando creíamos concluida, volvió por todo lo alto con la compra de Bethesda.
                         Aún es pronto para ver cómo de bien o mal se resuelven estos acuerdos, pero al menos ya tenemos una idea de los juegos
                         en los que trabaja Xbox Game Studios. Curiosamente, los autores de Hellblade encajan con
-                        el perfil de aventura individual centrada en la historia que más se había echado de menos durante la generación de Xbox One.
+                        el perfil de <strong>aventura individual</strong> centrada en la historia que más se había echado de menos durante la generación de Xbox One.
                         <br><br>
 
                     </div>
