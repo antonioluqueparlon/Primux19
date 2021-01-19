@@ -14,7 +14,7 @@ function scrollFunction() {
 
 </script>
 <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.php"><img src="../Fase3/img/logo2.png"></a>
+  <a class="navbar-brand" href="index.php"><img src="../../img/logo2.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -22,7 +22,7 @@ function scrollFunction() {
   <div class="collapse navbar-collapse navText" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoTecnologia.php">
+        <a class="nav-link" href="../../apartadoTecnologia.php">
         <p class="aNav">Tecnología</p>
           </a>
       </li>

@@ -13,6 +13,8 @@
 
     <h1>JUEGO DE MEMORIA</h1><br><br>
     <!--div principal-->
+    <canvas id="canvas" width="500" height="20" style="display:none">
+    </canvas>
   <div class="juego">
     <!--MARCADOR DE PUNTUACIÓN-->
   <h3 id="puntos">Puntuación:</h3><strong id="result"></strong>

@@ -186,17 +186,16 @@
                         <a href="noticia.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg"
-                                        class="card-img" alt="...">
+                                    <img src="../Fase3/img/imgDeportes/ciclismo1.jpg"
+                                        class="card-img imgApartadoNoticias" alt="ciclismo">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3
-                                                mins ago</small></p>
-                                        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
-                                            below as a natural lead-in to additional content. This content is a little
-                                            bit longer.</p>
+                                        <h3 class="card-title indexNoticiaTitulo">Vuelta ciclista a Andalucía</h3>
+                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 19/01/2021</small></p>
+                                        <p class="card-text indexNoticiaTexto">La icónica Vuelta ciclista a Andalucía tendrá luchando por su 
+                                            clasificación a Valverde, Nibali y "Superman" López en su 67ª edición.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
