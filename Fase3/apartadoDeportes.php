@@ -112,7 +112,7 @@
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="deportes/noticiasDeportes/noticiaCiclismo.php">
+                                    <a href="deportes/noticiasDeportes/noticiaCiclismoAnne.php">
                                         <img src="../Fase3/img/imgDeportes/anne.jpg"
                                             class="img-fluid" alt="" width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
