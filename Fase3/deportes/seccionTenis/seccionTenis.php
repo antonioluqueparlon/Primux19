@@ -20,7 +20,7 @@
             <h1>Últimas Noticias</h1>
 
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaViajeOpenAustralia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/nadal.jpg" class="card-img imgApartadoNoticias" alt="Nadal aeropuerto">
@@ -36,7 +36,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaCuarentenaDjokovic.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/djokovic.jpg" class="card-img imgApartadoNoticias" alt="Djokovic">
@@ -46,7 +46,7 @@
                                 <h4 class="card-title indexNoticiaTitulo">Australia niega la petición de Djokovic para la cuarentena</h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 18/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto"> "No hay trato especial para nadie" fue la respuesta que recibió el serbio.
-El serbio pidió que se relajasen las medidas de cuarentena para los participantes en el torneo pero Daniel Andrews confirmó que rechazaron las demandas del tenista de Belgrado. </p>
+                                El serbio pidió que se relajasen las medidas de cuarentena para los participantes en el torneo pero Daniel Andrews confirmó que rechazaron las demandas del tenista de Belgrado. </p>
                             </div>
                         </div>
                     </div>

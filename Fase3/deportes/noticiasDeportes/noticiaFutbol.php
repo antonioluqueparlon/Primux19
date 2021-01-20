@@ -14,42 +14,31 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">hola</h1>
+                    <h1 class="titNoticia ">Athletic Bilbao campeón de la Supercopa de España</h1>
                 </div>
                 <div class="col-12">
-                    <img src="http://lorempixel.com/output/sports-q-c-1150-800-7.jpg" alt="imgNoticia"
+                    <img src="../../img/imgDeportes/athleticBilbao.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Jesús Cano Ruiz 20/01/2021</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit integer per curae, sociosqu congue
-                            molestie penatibus non enim auctor feugiat interdum himenaeos, vitae metus aliquet
-                            parturient aliquam in semper fermentum arcu. Volutpat ac platea venenatis nisi sagittis ante
-                            mi neque, sollicitudin cursus litora class turpis potenti aliquet sem augue, condimentum
-                            urna egestas mauris curabitur luctus suspendisse. Semper urna non viverra fringilla leo
-                            suspendisse erat facilisi malesuada,
-                            auctor velit et bibendum dis feugiat porta aliquet commodo, vitae porttitor mi integer hac
-                            rhoncus fusce habitant.
-                            Odio fringilla sociis gravida viverra suspendisse est luctus phasellus, nulla ornare enim
-                            mattis ultrices primis eu sem, vitae hac himenaeos massa ultricies metus euismod.<br><br>
-                            Semper venenatis quisque ad donec accumsan fames scelerisque congue duis facilisis,
-                            habitasse justo ultrices magna torquent litora parturient consequat id senectus, tellus
-                            vitae blandit aenean eleifend sagittis nibh elementum phasellus.
-                            Accumsan mauris integer varius sapien aenean imperdiet curabitur cubilia quis leo posuere
-                            lacus rutrum, primis suscipit nulla ante hac pellentesque sociosqu egestas pretium velit
-                            porttitor. Malesuada sociis fringilla dictum purus massa nibh, sagittis quam donec habitasse
-                            feugiat fames, congue eleifend et faucibus scelerisque.<br><br>
-                            Vel volutpat ultrices taciti sociis nulla mi euismod justo, eros bibendum imperdiet mus
-                            metus arcu cras eu, congue vitae rhoncus vestibulum ut lacus a.
-                            Ridiculus aptent aenean nunc cursus id netus arcu posuere metus mauris, tristique hac
-                            malesuada facilisis vitae at eleifend lectus semper, justo varius sollicitudin habitasse nec
-                            lobortis torquent convallis sapien. Tempor egestas enim facilisi venenatis montes mus
-                            convallis dictum vivamus gravida, sociosqu lobortis blandit congue proin posuere erat
-                            malesuada elementum eu, odio inceptos litora id tristique suspendisse suscipit dis
-                            nulla.<br>
+                            Final de Supercopa de España en la Cartuja en la que se enfrentaron FC Barcelona y Athletic de Bilbao 
+                            en un partido apasionante en el que el club barcelonista salió dejando hacer al conjunto de Marcelino 
+                            después de verse superado durante los primeros 20 minutos en el partido de liga que tuvo a cabo hace poco más de 1 semana.<br><br>
+                            Llegando al fin de la primera parte vimos como en dos zarpazos separados por 3 minutos ambos equipos anotaban, dándole más emoción aún al partido. 
+                            En la segunda mitad se hizo más claro el dominio azulgrana sobre un equipo que mostraba síntomas de cansancio debido al esfuerzo físico que estaba realizando sin balón.
+                            No obstante el equipo vasco creaba peligro en sus llegadas al área y más aún en las acciones a balón parado a través de la cuál llegaría un gol de Raúl García que sería anulado por el VAR debido a que el jugador se encontraba 
+                            en posición antirreglamentaria.<br><br>
+                            Tras una buena combinación y llegada por banda de Jordi Alba, remataría a gol Griezmann sin que Unai Simón pudiese hacer nada.
+                            <br>Marcelino realizó los cambios pertinentes para dar un soplo de aire fresco y de pulmones al equipo que mostraba claros síntomas de cansancio. No fue hasta los instantes finales 
+                            del partido cuando el Athletic de Bilbao consiguió empatar el encuentro gracias a un gol de Villalibre tras una acción a balón parado. 
+                            <br>LLegamos a la prórroga cuando Iñaki Williams sacó un gran disparo que entró por toda la escuadra de la portería defendida por Ter Stegen. 
+                            A partir de ese momento el conjunto bilbaino se sintió como pez en el agua defendiendo el resultado, consiguiendo el título.
+                            Se vivió una celebración por todo lo alto con Villalibre tocando la trompeta y con el recuerdo de todo el mundo hacia Asier Garitano el entrenador que ha sido artífice de llegar a la supercopa
+                            y que fue destituido hace unas semanas.<br>
                         </p>
                     </div>
                 </div>
@@ -58,7 +47,7 @@
                     <h2 class="titNoticia">Otras noticias</h2>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="noticiaCiclismo.php" class="linkNoticia">
                         <div class="card divOtrasNoticias">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
@@ -75,7 +64,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="../../noticiasVideojuegos/parlon/noticiaSwitch.php" class="linkNoticia">
                         <div class="card divOtrasNoticias ">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
@@ -154,7 +143,7 @@
                                         <div class="card-body">
                                             <h4 class="card-title">Howard ficha por 69ers</h4>
                                             <p class="card-text">Howard explica los detalles de su renovación fallida con los Ángeles Lakers</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <a href="noticiaBaloncestoHoward.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -167,7 +156,7 @@
                                         <div class="card-body">
                                             <h4 class="card-title">Los 10 peores juegos de la última década</h4>
                                             <p class="card-text">Desde TechnoTeam hemos seleccionado los 10 juegos fallidos de la década.</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <a href="../../noticiasVideojuegos/parlon/noticiaPeoresJuegos.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -216,7 +205,7 @@
                                         <div class="card-body">
                                             <h4 class="card-title">The Grefg bate récords</h4>
                                             <p class="card-text">La pasada noche el youtuber batió todos los récords de visualizaciones en TWITCH</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <a href="../../noticiasVideojuegos/parlon/noticiaTheGrefg.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +218,7 @@
                                         <div class="card-body">
                                             <h4 class="card-title">Paralizado el fútbol amateur</h4>
                                             <p class="card-text">RFAF paraliza toda la competición de fútbol base debido a las restricciones</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <a href="noticiaFutbolAmateur.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
