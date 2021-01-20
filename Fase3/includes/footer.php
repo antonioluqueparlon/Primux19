@@ -1,6 +1,6 @@
 <div class="clear"></div>
-<footer class="container-fluid bg-dark ">
-  <div class="footer">
+<footer id="footer" class="container-fluid bg-dark ">
+  <div id="footer" class="footer">
     <div class="d-flex justify-content-around ">
     <div class="p-2"><a class="footer" href="about.php">Sobre Nosotros</a></div>
     <div class="p-2"><a class="footer" href="contacto.php">Contáctanos</a></div>
