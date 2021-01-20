@@ -19,7 +19,7 @@
                     <div class="col-lg-8 col-md-12">
                         <h1>El detallazo del Athletic: Garitano en la foto de campeones</h1>
                         <div class="card img-fluid">
-                            <a href="noticia.php">
+                            <a href="deportes/noticiasDeportes/noticiaFutbol.php">
                                 <img class="card-img-top img-fluid"
                                     src="../Fase3/img/imgDeportes/athleticBilbao.jpg" alt="Card image">
                                 <div class="card-img-overlay d-flex align-items-end">
@@ -104,28 +104,28 @@
                                 <div class="carousel-item active">
                                     <a href="noticia.php">
                                         <img class="img-fluid"
-                                            src="http://lorempixel.com/output/nightlife-q-c-404-179-9.jpg" alt=""
+                                            src="../Fase3/img/imgDeportes/basketFemenino.jpg" alt="baloncesto femenino"
                                             width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
+                                            <h3>UCO basket femenino</h3>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="carousel-item">
                                     <a href="noticia.php">
-                                        <img src="http://lorempixel.com/output/abstract-q-c-404-179-7.jpg"
+                                        <img src="../Fase3/img/imgDeportes/anne.jpg"
                                             class="img-fluid" alt="" width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
+                                            <h3>Anne cambia equipo</h3>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="carousel-item">
                                     <a href="noticia.php">
-                                        <img src="http://lorempixel.com/output/people-q-c-404-179-7.jpg"
+                                        <img src="../Fase3/img/imgDeportes/doncic.jpg"
                                             class="img-fluid" alt="" width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
+                                            <h3>Triple doble histórico de Doncic</h3>
                                         </div>
                                     </a>
                                 </div>
