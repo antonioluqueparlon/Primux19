@@ -73,76 +73,76 @@
 
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                     <div class="col-12">
-                        <h2 class="titNoticia">Otras noticias</h2>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="noticia.php" class="linkNoticia">
-                            <div class="card divOtrasNoticias">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4 col-sm-12">
-                                        <img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
-                                    </div>
-                                    <div class="col-md-8 col-sm-12">
-                                        <div class="card-block px-2">
-                                            <h4 class="card-title titNoticia">Title</h4>
-                                            <p class="card-text">Description</p>
-                                        </div>
+                    <h2 class="titNoticia">Otras noticias</h2>
+                </div>
+                <div class="col-sm-6">
+                    <a href="../../deportes/noticiasDeportes/noticiaCiclismo.php" class="linkNoticia">
+                        <div class="card divOtrasNoticias">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="../../img/imgDeportes/ciclismo1.jpg" class="img-fluid card-img" alt="">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-block px-2">
+                                        <h4 class="card-title titNoticia">Vuelta ciclista a Andalucía</h4>
+                                        <p class="card-text">Recorrerá Andalucía del día 17 al 21 de Febrero</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="noticia.php" class="linkNoticia">
-                            <div class="card divOtrasNoticias ">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4 col-sm-12">
-                                        <img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
-                                    </div>
-                                    <div class="col-md-8 col-sm-12">
-                                        <div class="card-block px-2">
-                                            <h4 class="card-title titNoticia">Title</h4>
-                                            <p class="card-text ">Description</p>
-                                        </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="../../noticiasVideojuegos/parlon/noticiaSwitch.php" class="linkNoticia">
+                        <div class="card divOtrasNoticias ">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="../../noticiasVideojuegos/parlon/img/switch.jpg" class="img-fluid card-img" alt="">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-block px-2">
+                                        <h4 class="card-title titNoticia">Venta récord de Nintendo Switch</h4>
+                                        <p class="card-text ">Se marca una cifra récord de ventas de Nintendo Switch en Japón</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="noticia.php" class="linkNoticia">
-                            <div class="card divOtrasNoticias">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4 col-sm-12">
-                                        <img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
-                                    </div>
-                                    <div class="col-md-8 col-sm-12">
-                                        <div class="card-block px-2">
-                                            <h4 class="card-title titNoticia">Title</h4>
-                                            <p class="card-text">Description</p>
-                                        </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="noticia.php" class="linkNoticia">
+                        <div class="card divOtrasNoticias">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-block px-2">
+                                        <h4 class="card-title titNoticia">Title</h4>
+                                        <p class="card-text">Description</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="noticia.php" class="linkNoticia">
-                            <div class="card divOtrasNoticias ">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4 col-sm-12">
-                                        <img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
-                                    </div>
-                                    <div class="col-md-8 col-sm-12">
-                                        <div class="card-block px-2">
-                                            <h4 class="card-title titNoticia">Title</h4>
-                                            <p class="card-text ">Description</p>
-                                        </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="noticia.php" class="linkNoticia">
+                        <div class="card divOtrasNoticias ">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-block px-2">
+                                        <h4 class="card-title titNoticia">Title</h4>
+                                        <p class="card-text ">Description</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
+                </div>
 
                     <h2 class="titNoticia">Últimas noticias</h2>
                     <div class="row">
@@ -175,12 +175,11 @@
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="../../img/imgDeportes/balonmano.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
+                                                <h4 class="card-title">La penúltima cátedra del capitán Raúl Entrerríos</h4>
+                                                <p class="card-text">Cerca de cumplir 40 años, sigue siendo uno de los líderes de España.
+                                                     Será su último Mundial con la selección española antes de su retirada.</p>
                                                 <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
@@ -188,26 +187,22 @@
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="img/xboxportatil.PNG" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
-                                                <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <h4 class="card-title">Una Xbox portátil de ensueño: Series Z tiene todo lo que necesitas pero tristemente no es real</h4>
+                                                <p class="card-text">Un aficionado crea un render en realidad aumentada que muestra la consola, y no es la primera vez.</p>
+                                                <a href="noticiaXboxPortatil.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="img/grefg.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
-                                                <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <h4 class="card-title">TheGrefg pulveriza todos los récords de Twitch al presentar su skin de Fortnite</h4>
+                                                <p class="card-text">Los hispanohablantes pulverizan el record con mas de 2 millones de espectadores en la plataforma</p>
+                                                <a href="noticiaTheGrefg.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -220,52 +215,44 @@
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="img/mariokart.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
-                                                <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <h4 class="card-title">Una bici estática y el anillo de Ring Fit es todo lo que necesita este jugador para competir en Mario Kart 8</h4>
+                                                <p class="card-text">Si quieres competir contra Mario y compañía, tendrás que pedalear más fuerte que nadie.</p>
+                                                <a href="noticiaMarioKart.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="https://static1.abc.es/media/tecnologia/2021/01/13/ciber-2-kVEI--620x349@abc.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
-                                                <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <h4 class="card-title">Los grandes errores que cometen las empresas después de sufrir un ciberataque</h4>
+                                                <p class="card-text">En los últimos cuatro años, los ciberdelitos han crecido un 135% </p>
+                                                <a href="noticiasTecnologia/noticias/noticiaEmpresa.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="../../img/imgDeportes/futbolAmateur.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
-                                                <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <h4 class="card-title">Paralizado el fútbol amateur</h4>
+                                                <p class="card-text">RFAF paraliza toda la competición de fútbol base debido a las restricciones</p>
+                                                <a href="../../deportes/noticiasDeportes/noticiaFutbolAmateur.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="../../img/imgDeportes/ciclismo1.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
-                                                <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <h4 class="card-title">Vuelta ciclista a Andalucía</h4>
+                                                <p class="card-text">La icónica Vuelta ciclista a Andalucía tendrá luchando por su clasificación a Valverde, Nibali y "Superman" López en su 67ª edición.</p>
+                                                <a href="../../deportes/noticiasDeportes/noticiaCiclismo.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
