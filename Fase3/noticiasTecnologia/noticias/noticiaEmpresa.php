@@ -30,7 +30,7 @@
 
                             «En una crisis informática muchas veces se pierden los papeles y se actúa de forma precipitada, lo que provoca no sólo que las consecuencias se agraven sino que los resultados finales no sean los deseados», afirma José María Soler, director general de Soler GDI. «Por eso, ante cualquier incidencia, por pequeña que sea, que pueda inducir a una disrupción en los sistemas tecnológicos de la organización, hay que actuar con la cabeza fría y rodearse de expertos que tengan la experiencia y la capacidad necesarias para resolverla provocando el menor impacto en el negocio». En este sentido, la firma ha recopilado los mayores errores que se cometen tras sufrir una crisis informática.</p>
                         <!-- BREAK 3 -->
-                        <h1>No borrar las evidencias</h1>
+                        <h2>No borrar las evidencias</h2>
 
                         <p>«Nunca se debe restaurar una copia de seguridad sin haber salvado todas las pruebas de la crisis», recuerda Soler. Y es que estas piezas pueden ayudar a conocer mejor el tipo de ataque que se ha sufrido y, de este modo, estar mejor preparados en el futuro para evitar sus efectos. Además, no se debe olvidar la información básica sobre el incidente o no mantener la cadena de custodia. Esto es necesario para que las autoridades competentes puedan buscar a los culpables y llevarlos ante la justicia es necesario extraer todas las pruebas conforme al procedimiento forense.</p>
                         <!-- BREAK 4 -->

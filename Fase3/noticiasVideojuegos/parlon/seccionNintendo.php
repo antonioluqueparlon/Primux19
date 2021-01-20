@@ -20,7 +20,7 @@
             <h1>NINTENDO</h1>
 
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticiaSwitch.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="img/switch.jpg" class="card-img" alt="...">
@@ -36,7 +36,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticiaSwitch2.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="https://media.vandal.net/i/1706x960/1-2021/2021111940055_1.jpg.webp" class="card-img" alt="...">
@@ -52,32 +52,32 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticiaMarioKart.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/12274/production/_96065347_gettyimages-482855185.jpg" class="card-img" alt="...">
+                            <img src="img/mariokart.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <h4 class="card-title indexNoticiaTitulo">Una bici estática y el anillo de Ring Fit es todo lo que necesita este jugador para competir en Mario Kart 8</h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualización hace 38 min</small></p>
-                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
+                                <p class="card-text indexNoticiaTexto">Si quieres competir contra Mario y compañía, tendrás que pedalear más fuerte que nadie.</p>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticia25Nintendo.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="https://as01.epimg.net/meristation/imagenes/2020/03/02/betech/1583161547_749146_1583161917_noticia_normal_recorte1.jpg" class="card-img" alt="...">
+                            <img src="img/25ds.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <h4 class="card-title indexNoticiaTitulo">El 25 aniversario de Pokémon calienta motores con un vídeo promocional y una colaboración con Katy Perry</h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualización hace 54 min</small></p>
-                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
+                                <p class="card-text indexNoticiaTexto">A la espera de un nuevo Direct, los fans tendrán que conformarse con productos y novedades.</p>
                             </div>
                         </div>
                     </div>

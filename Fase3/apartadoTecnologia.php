@@ -33,7 +33,7 @@
                         <h1>Últimas noticias</h1>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasTecnologia/noticias/noticiaMedidorAire.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">Xiaomi lanza un medidor para ver la calidad del aire en tu móvil</p>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasTecnologia/noticias/noticiaGadgetVirus.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">Mejores gadgets para luchar contra los virus y bacterias en casa</p>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasTecnologia/noticias/noticiaCerraduraInteligente.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!
@@ -133,7 +133,7 @@
                         <a href="noticia.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2020/04/xbox-series-x-new-logo.jpg?itok=jiiO13jS" class="card-img imgApartadoNoticias" alt="...">
+                                    <img src="https://i.blogs.es/775434/samsung-galaxy-s21-caja/1366_2000.jpg" class="card-img" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
@@ -152,7 +152,7 @@
                         <a href="noticia.php" class="enlaceNoticia ">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://cdn.vox-cdn.com/thumbor/ak0ZZeT6UIPYpcDSVfS6RcOR73w=/0x0:2640x1749/1200x675/filters:focal(1128x940:1550x1362)/cdn.vox-cdn.com/uploads/chorus_image/image/67414958/twarren_rtx3080.0.jpg" class="card-img" alt="...">
+                                    <img src="https://i.blogs.es/7e5989/htc-desire-21-pro-5g/1366_2000.jpg" class="card-img" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
@@ -170,7 +170,7 @@
                         <a href="noticia.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://media.vandal.net/i/1706x960/1-2021/2021111940055_1.jpg.webp" class="card-img" alt="...">
+                                    <img src="https://i.blogs.es/df5c9b/3d-sonic-sensor-gen-2-1280x720/1366_2000.jpg" class="card-img" alt="...">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
