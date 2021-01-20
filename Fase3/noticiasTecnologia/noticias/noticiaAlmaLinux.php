@@ -14,39 +14,35 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia">AlmaLinux será el otro gran aspirante al trono del 'viejo' CentOS, y viene apadrinado por los desarrolladores de CloudLinux</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Irene López 19/01/21</small></p>
+                    <img src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Irene López 18/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>Red Hat tomó hace unas semanas la polémica decisión de cambiar radicalmente el enfoque de su distribución CentOS, dejando de dar soporte a su última versión, y sustituyéndola por 'CentOS Stream', una distribución 'rolling release'.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            Eso provocó una reacción airada por parte de la comunidad de usuarios de CentOS, que rápidamente empezó a proyectar alternativas que fueran capaces de proporcionar el mismo servicio: ofrecer una recompilación de Red Hat Enterprise Linux desprovista de los logos y marcas de Red Hat.
+
+                            La primera de esas alternativas que se concretó fue RockyLinux, impulsada nada menos que por uno de los dos co-creadores de CentOS, Gregory Kurtzner, y cuyo lanzamiento está proyectado para el segundo trimestre de este año.
+
+                            Sin embargo, los desarrolladores de CloudLinux, una popular distribución enfocada a servidores web y centros de datos y que también está basada a su vez en RHEL, **se prestaron a anunciar su propia distribución comunitaria y clónica de CentOS**.</p>
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>AlmaLinux llegará antes que Rocky Linux</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>Una distribución a la que, durante varias semanas, nos hemos referido por el nombre provisión de 'Project Lenix' y que, desde ahora, sabemos que ha sido definitivamente renombrada como AlmaLinux, como homenaje a la comunidad de ususarios y desarrolladores, el "alma de Linux" según el CEO de CloudLinux.
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
-                        <!-- BREAK 4 -->
+                            AlmaLinux llega con la promesa de un patrocinio anual por parte de CloudLinux Inc. de un millón de dólares anuales, con la que esperan poder seguir ofreciendo una opción compatible a nivel binario con RHEL 8 y que facilite una transición sencilla desde CentOS.
 
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
+                            Así, el objetivo de CloudLinux sería el de seguir ofreciendo actualizaciones estables y fiables de la primera versión de AlmaLinux hasta 2029; es decir, un soporte de 8 años, frente a los 10 prometidos (y ahora incumplidos) hasta ahora por CentOS.
 
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
+                            Entonces, ¿por qué alternativa apostar? ¿RockyLinux o AlmaLinux? La respuesta es sencilla: según los calendarios de lanzamiento anunciados por ambos proyectos, AlmaLinux estará disponible para su descarga antes de marzo, mientras que no podremos compararla con RockyLinux hasta el segundo trimestre.</p>
 
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
-
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
-
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
-
-                            </div>
+                    </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                     <div class="col-12">
                         <h2 class="titNoticia">Otras noticias</h2>

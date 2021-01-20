@@ -14,39 +14,80 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia">Qué robot aspirador escoger si tienes mascotas en casa</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Irene López 19/01/21</small></p>
+                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/02/robot-aspirador-6-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Irene López 20/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>Cada vez es más fácil tener un robot aspirador en casa. Hace unos años, tener un dispositivo de este tipo estaba al alcance de los bolsillos más pudiente. Pero, las cosas han cambiado mucho, y gracias a la revolución tecnológica que estamos viviendo, puedes encontrar una amplia variedad de modelos a precios mucho más comedidos de lo que te imaginas.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            Por este motivo, los rivales de Roomba que puedes encontrar a la venta son bastantes. Eso sí, has de tener en cuenta que, en este tipo de dispositivos, has de tener muy claro el uso que le vas a dar. Puede que solo quieras un robot aspirador para que te aspire el suelo de tu casa. O igual prefieres un modelo más completo, que también te pase la mopa y friegue el suelo para que tengas el hogar más limpio del mundo. ¿Tienes un perro o gato en tu casa? Entonces es otro factor que debes tener en cuenta.</p>
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>¿Qué modelo de robot aspirador escoger si tengo mascotas en casa?</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>Sí, nuestros amigos de cuatro patas forman parte de nuestra familia. Sí, estos animales son una compañía excelente, haciendo que pasemos unos cuantos buenos ratos. Pero, seamos claros, constantemente están soltando pelo, dejando todo el suelo de casa con esas características bolas que dejan claro que no todo son ventajas. Por suerte, hay una solución.
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
+                            Y esta, pasa por comprar un robot aspirador que cuente con unas características específicas que le permitan limpiar el suelo de pelo de mascotas. ¿Creías que todos los modelos disponibles cuentan con esta funcionalidad? Nada más lejos de la realidad. Y es que, debido a la composición de este elemento, hace falta que el robot limpiador cuente con una potencia de succión suficiente para poder aspirar sin problemas el pelo de tu perro o gato.
+
+                            Por otro lado, también es importante que las escobillas sean capaces de recoger el pelo sin mayores problemas. Y no, no todos los robots limpiadores disponibles en el mercado cuentan con esta funcionalidad. Por este motivo, a la hora de escoger un gadget de este tipo es bastante importante mirar bien las características para no llevarte una decepción cuando lo pruebes en casa.
+
+                            Por lo tanto, si buscamos un robot aspirador que nos ayude a acabar con esos pelos que van dejando nuestras mascotas por todos los rincones de la casa, debemos fijarnos sobre todo en estos dos aspectos, la potencia de succión y el tipo de cepillo. Es decir, necesitamos que cuente con una buena potencia para aspirar los pelos más incrustados en determinadas superficies como las alfombras y que además, el cepillo no se enrede con esos pelos y haga que la succión se vea perjudicada por ello.</p>
                         <!-- BREAK 4 -->
 
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
+                        <h2>Mejores modelos para combatir el pelo de tus mascotas</h2>
 
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
-
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
-
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
-
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
-
+                        <p>Para ponerte las cosas fáciles, hemos preparado un recopilatorio con los mejores modelos del mercado que tengan la capacidad de recoger el pelo de tu mascota sin mayores problemas. Y sí, hay unos cuantos robots aspirador con esta capacidad. ¿No quieres volverte loco? Estos son los mejores modelos que vas a poder encontrar en el mercado.</p>
+                        <div class="card cardArticulo tarjetaNoticiaApartado">
+                            <div class="row no-gutters">
+                                <div class="col-md-12 col-lg-4">
+                                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/02/robot-aspirador-zaco-v3.jpg" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-12 col-lg-8">
+                                    <div class="card-body">
+                                        <strong class="card-title indexNoticiaTitulo">ZACO V3sPro</strong>
+                                        <p class="card-text indexNoticiaTimer"></p>
+                                        <p class="card-text indexNoticiaTexto">Comenzamos este recopilatorio con el robot aspirador especializado en pelo de mascotas más económico de este recopilatorio. Hablamos de un modelo que cuenta con un cepillo especial para recoger sin problema alguno este tipo de elemento. Súmale sus 4 modos disponibles, además de poder activarlo a distancia, junto a un precio de escándalo, es uno de los mejores chollos a tener en cuenta si estás buscando un dispositivo económico.</p>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="card cardArticulo tarjetaNoticiaApartado">
+                            <div class="row no-gutters">
+                                <div class="col-md-12 col-lg-4">
+                                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/02/robot-aspirador-vileda.jpg" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-12 col-lg-8">
+                                    <div class="card-body">
+                                        <strong class="card-title indexNoticiaTitulo">Vileda VR 201 PetPro</strong>
+                                        <p class="card-text indexNoticiaTimer"></p>
+                                        <p class="card-text indexNoticiaTexto">Sí, este robot limpiador de Vileda ha sido diseñado de forma específica para enfrentarse a cualquier tipo de pelo de mascotas. De ahí su nombre. Para ello, cuenta con un cepillo especial para recoger el pelo de todo tipo de animales, además de un doble filtro contra alérgenos y polen. Y ojo, que su autonomía de 90 minutos garantiza que dejará el suelo de tu casa como los chorros del oro con una sola carga.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card cardArticulo tarjetaNoticiaApartado">
+                            <div class="row no-gutters">
+                                <div class="col-md-12 col-lg-4">
+                                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2019/12/robot-aspirador-roomba.jpg" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-12 col-lg-8">
+                                    <div class="card-body">
+                                        <strong class="card-title indexNoticiaTitulo">iRobot Roomba 960</strong>
+                                        <p class="card-text indexNoticiaTimer"></p>
+                                        <p class="card-text indexNoticiaTexto">Pasamos a una de las joyas de la corona dentro del mercado de los robots aspiradores. Sí, iRobot sigue ofreciendo una gama de productos de altura. Y el nombre que se ha ganado su familia Roomba es más que justificado. Este iRobot Roomba 960 en particular cuenta con todo lo necesario para dejar el suelo de tu hogar limpio como una patena. ¿Lo mejor? Que ahora tiene un descuento de 320 euros que lo hace mucho más apetecible.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                     <div class="col-12">
                         <h2 class="titNoticia">Otras noticias</h2>

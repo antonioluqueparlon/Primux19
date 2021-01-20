@@ -14,37 +14,31 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia ">Microsoft Teams for Education alcanza los 200 millones de usuarios y anuncia la llegada de mejoras para educación</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Irene López 19/01/21</small></p>
+                    <img src="https://i.blogs.es/21e16b/teams/1366_2000.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Irene López 20/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>Hace unos días, Satya Nadella, CEO de Microsoft, afirmó que Microsoft Teams pronto sería "tan importante como los navegadores de Internet", una declaración que suena en parte a vaticinio y en parte a declaración de intenciones.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            Y es que Nadella sugirió que Microsoft se está mirando, a la hora de desarrollarlo, en el espejo de lo que WeChat representa para los usuarios chinos: allí "WeChat es Internet, ese sería un buen ejemplo".
+
+                            Así, destacó que Teams se está transformando en algo más allá de una mera herramienta de comunicación, pasando a convertirse en una "capa organizativa" de otros servicios online.
+
+                            Y precisamente una de las versiones de MS Teams, Teams for Education, la que ejerce actualmente de buque insignia de la plataforma Microsoft for Education que, según reveló ayer la compañía con ocasión del evento Bettfest 2021,cuenta actualmente con 200 millones de usuarios, entre gestores, docentes y estudiantes.</p>
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>Mejoras en Microsoft for Education</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>El principal objetivo del Bettfest ha sido el de presentar diferentes dispositivos de hardware enfocados al entorno escolar, como Microsoft Pen 2 y todo un catálogo de portátiles de bajo coste (a partir de los 185 dólares) con Windows 10, una apuesta muy necesaria ante el auge protagonizado en los últimos meses por los Chromebooks.
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
-                        <!-- BREAK 4 -->
+                            Sin embargo, también han presentado algunas novedades referentes a su plataforma cloud educativa. Así, por ejemplo, han anunciado para la próxima primavera la integración en Teams for Education de su nueva herramienta Reflect destinada a "crear un espacio para que los estudiantes puedan navegar al tiempo que se expresan sobre aquello que les afecta en la escuela y fuera de la misma"
 
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
-
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
-
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
-
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
-
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
+                            Reflect también se integrará con Education Insights, la app que permite a los docentes llevar a cabo un seguimiento de todas las actividades online en las que participan sus alumnos, así como de su progreso con las mismas.</p>
 
                             </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

@@ -67,10 +67,10 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasTecnologia/noticias/noticiaRobotAspirador.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text">Esta batería externa Xiaomi con 10.000 mAh y carga rápida, es la mejor opción para viajar</p>
+                                            <p class="card-text">Qué robot aspirador escoger si tienes mascotas en casa</p>
                                         </div>
                                     </div>
                                 </a>
@@ -130,7 +130,7 @@
 
                     <!--TARJETAS DE NOTICIAS -->
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia">
+                        <a href="noticiasTecnologia/noticias/noticiaGalaxyS21.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="https://i.blogs.es/775434/samsung-galaxy-s21-caja/1366_2000.jpg" class="card-img" alt="...">
@@ -149,7 +149,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia ">
+                        <a href="noticiasTecnologia/noticias/noticiaHTC.php" class="enlaceNoticia ">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="https://i.blogs.es/7e5989/htc-desire-21-pro-5g/1366_2000.jpg" class="card-img" alt="...">
@@ -167,7 +167,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia">
+                        <a href="noticiasTecnologia/noticias/noticiaQualcomm.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="https://i.blogs.es/df5c9b/3d-sonic-sensor-gen-2-1280x720/1366_2000.jpg" class="card-img" alt="...">

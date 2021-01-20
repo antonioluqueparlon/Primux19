@@ -14,39 +14,29 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia">JingOS: así es esta nueva distribución Linux para tablets basada en Ubuntu e inspirada al completo por iPadOS</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Irene López 19/01/21</small></p>
+                    <img src="https://i.blogs.es/98fabb/ipad/1366_2000.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Irene López 18/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>El mercado de sistemas operativos para tablets y convertibles lleva parado mucho tiempo. Apple lo lidera con iPadOS en los iPad, y Microsoft ha logrado que Windows 10 sea relevante en dispositivos táctiles tras el fracaso de Windows RT. El sistema operativo que no tiene demasiado protagonismo en este ámbito es Linux, y cambiar las tornas de eso es lo que van a intentar los creadores de JingOS.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            Como sus propios desarrolladores anuncian, JingOS no es más que el fruto de la búsqueda de contar con una interfaz como la de iPadOS en el mundo Linux, con enfoque para tablets. Esto no quiere decir que no pueda usarse en teclado y ratón en cualquier ordenador con procesador x86, sino que simplemente no es su enfoque. </p>
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>Un sistema para tablets basado en Ubuntu 20.04 KDE 5.75 y Plasma Mobile 5.20</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>Jingling Tech, la compañía detrás de JingOS, ha anunciado que el próximo 31 de enero lanzarán la primera versión descargable para el público, JingOS v0.6. Se trata de una versión preview que han probado en equipos como la Surface Pro 6 o el Huawei Matebook 14 (y de momento son los únicos equipos listados con compatibilidad). Para alcanzar la versión 1.0 habrá que esperar a finales de junio de este año, cuando además planean dar soporte a la JingPad C1, una tablet ARM.
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
+                            Por el camino, por ejemplo en marzo, planean añadir una tienda de aplicaciones propia (JingOS App Store), y además, para el 31 de marzo, afirman que contarán con bastante más soporte que el mencionado a Huawei y a la Surface. En el vídeo de JingOS, se puede ver cómo usan el dispositivo con trackpad, y dicen que la apuesta en este sentido está inspirada a la de iPadOS con el control táctil del Magic Keyboard.</p>
                         <!-- BREAK 4 -->
 
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
-
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
-
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
-
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
-
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
-
-                            </div>
+                        <p>JingOS es un sistema basado en Ubuntu 20.04, KDE 5.75 y Plasma Mobile 5.20, y como tal, tiene la misma flexibilidad que podemos esperar con cualquier equipo de Linux de escritorio, sobre el papel. No esconden en ningún momento la inspiración, con mucho blanco y azul visible en la forma en que también está en el iPad, y con aplicaciones nativas que también se parecen mucho a las de iPad. Las ventajas respecto a uno son evidentes: poder contar con una línea de comandos nativa, poder programar directamente en el dispositivo, etc.</p>
+                        </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                     <div class="col-12">
                         <h2 class="titNoticia">Otras noticias</h2>

@@ -14,37 +14,27 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia">Wine 6.0 llega centrando de nuevo sus novedades en el 'gaming' en Linux</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Irene López 19/01/21</small></p>
+                    <img src="https://i.blogs.es/3d3132/wine-3-0-linux/1366_2000.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Irene López 18/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>Como cada año en enero desde 2017, el equipo de Wine ha lanzado una nueva versión. En este caso, Wine 6.0, que llega cargada de novedades. Las más importantes vuelven a estar centradas en los videojuegos. Desde la última versión grande de 2020 ha llovido y se han ido recibiendo mejoras, pero ahora es cuando Wine vuelve a dar un salto.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            Aunque Wine es un software pensado para ejecutar aplicaciones de Windows en Linux, lo cierto es que actualmente, las suites y programas que más interesaría utilizar, como Adobe Creative Cloud, Office 365 y los programas de Autodesk, no funcionan correctamente y tienen un rendimiento lejano al que ofrecen nativamente en Windows y macOS. Eso hace que desde WineHQ se centren más en cuestiones de gráficos que sí están impulsando los juegos en la plataforma.
+
+                            Este año, muchas de las novedades vienen del trabajo de CodeWeavers, los desarrolladores de CrossOver. Es interesante ahora que están poniendo tanto esfuerzo, en por ejemplo, el gaming en Macs con Apple silicon M1.</p>
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>8.300 nuevos cambios para seguir mejorando el gaming</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>Desde la web oficial de WineQH han mencionado que este año de trabajo ha servido para dotar al proyecto Wine de 8.300 cambios individuales, entre los que los más destacados son:
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
-                        <!-- BREAK 4 -->
-
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
-
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
-
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
-
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
-
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
+                            Módulos de núcleo para que los DLL como NTLDLL o KERNEL32 lleguen en formato PE y haya menos problemas con sistemas anticopia. Las mejoras más importantes vuelven a estar centradas en gaming, algo que gustará a muchos usuarios, y que ha sido crucial para que Steam Play Proton traiga miles de juegos a la plataforma. Por otra parte, quizá se echa de menos mención a que la compatibilidad de grandes aplicaciones profesionales de Adobe o Microsoft siga mejorando al mismo ritmo.</p>
 
                             </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

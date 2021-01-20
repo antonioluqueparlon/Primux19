@@ -14,37 +14,28 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia">Windows 10 Sun Valley: el regreso de los bordes redondeados a Windows</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <img src="https://i.blogs.es/d6130a/sunvalley_roundedstart_mock/1366_2000.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
                     <p><small class="text-muted">Irene López 19/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>Ya sabemos que Microsoft está planeando un gran "rejuvenecimiento visual y radical de Windows", es algo que viene cocinándose desde hace algún tiempo, y aunque poco hemos visto de cómo se lucirá esto, todo apunta a que con Windows 10 Sun Valley, la próxima gran actualización que llegará en la segunda mitad del año, empezaremos a notar los cambios.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            En Windows Central dicen haber obtenido imágenes de varios de los cambios que se avecinan, y de forma similar a lo que hemos observado en la build casi final de Windows 10X que se ha filtrado, algo queda muy claro a simple vista: vuelven los bordes redondeados a Windows.</p>
+
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>Windows 10 21H2: la actualización de octubre 2021</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>Si bien Microsoft no ha ofrecido detalles sobre Windows 10 21H2, nombre clave "Sun Valley", esta debería estar llegando en octubre de 2021, como el resto de actualizaciones de otoño de Windows 10 hasta la fecha. Esta será la actualización mayor del año, mientras que Windows 10 21H1, será una más pequeña que recibiremos esta primavera.</p>
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
-                        <!-- BREAK 4 -->
+                        <p>Con Windows 10 Sun Valley se están implementando cambios en múltiples elementos de la shell. El Menú inicio, el Centro de actividades, y las Jump Lists tienen bordes redondeados y están separados de la barra de tareas.
 
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
-
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
-
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
-
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
-
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
+                            Además, las notificaciones, ajustes rápidos y los controles de reproducción multimedia se han separado del Centro de actividades con sus propios cuadros de notificación y con el mismo estilo de bordes redondeados.</p>
 
                             </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
