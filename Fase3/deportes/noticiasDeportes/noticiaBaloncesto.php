@@ -71,16 +71,16 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="../../noticiasTecnologia/noticias/noticiaCerraduraInteligente.php" class="linkNoticia">
                         <div class="card divOtrasNoticias">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
-                                    <img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
+                                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" class="img-fluid card-img" alt="">
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="card-block px-2">
-                                        <h4 class="card-title titNoticia">Title</h4>
-                                        <p class="card-text">Description</p>
+                                        <h4 class="card-title titNoticia">Cerradura inteligente</h4>
+                                        <p class="card-text">Xiaomi lanza al mercado una cerradura inteligente</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,16 +88,16 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="../../noticiasTecnologia/noticias/noticiaMedidorAire.php" class="linkNoticia">
                         <div class="card divOtrasNoticias ">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
-                                    <img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
+                                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/01/Purificador-de-Xiaomi-930x489.jpg" class="img-fluid card-img" alt="">
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="card-block px-2">
-                                        <h4 class="card-title titNoticia">Title</h4>
-                                        <p class="card-text ">Description</p>
+                                        <h4 class="card-title titNoticia">Purificador de aire</h4>
+                                        <p class="card-text ">Xiaomi lanza un gadget que mide la pureza del aire</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,14 +154,12 @@
                                 <div class="col-md-3" style="float:left">
                                     <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
-                                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                                            src="https://topesdegama.com/app/uploads-topesdegama.com/2020/01/Purificador-de-Xiaomi-930x489.jpg"
                                             alt="Card image cap">
                                         <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the
-                                                card's content.</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <h4 class="card-title">Medidor de aire</h4>
+                                            <p class="card-text">Xiaomi lanza un gadget, muy útil en nuestro día a día, para el móvil que mide la pureza del aire</p>
+                                            <a href="../../noticiasTecnologia/noticias/noticiaMedidorAire.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -169,14 +167,13 @@
                                 <div class="col-md-3" style="float:left">
                                     <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
-                                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                                            src="../../img/imgDeportes/balonmano.jpg"
                                             alt="Card image cap">
                                         <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the
-                                                card's content.</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <h4 class="card-title">La penúltima cátedra de Raúl Entrerríos</h4>
+                                            <p class="card-text">Cerca de cumplir 40 años, sigue siendo uno de los líderes de España.
+                                        </p>
+                                            <a href="noticiaREntrerrios.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -216,14 +213,12 @@
                                 <div class="col-md-3" style="float:left">
                                     <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
-                                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                                            src="../../img/imgDeportes/ciclismo2.jpg"
                                             alt="Card image cap">
                                         <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the
-                                                card's content.</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <h4 class="card-title">Vuelta a Andalucía</h4>
+                                            <p class="card-text">La vuelta a Andalucía contará con grandes ciclistas en su 67ª edición, marcada por el COVID-19.</p>
+                                            <a href="noticiaCiclismo.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -231,14 +226,12 @@
                                 <div class="col-md-3" style="float:left">
                                     <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
-                                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                                            src="../../img/imgDeportes/djokovic.jpg"
                                             alt="Card image cap">
                                         <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the
-                                                card's content.</p>
-                                            <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                            <h4 class="card-title">Djokovic recibe respuesta a sus declaraciones</h4>
+                                            <p class="card-text">Ante sus quejas por la cuarentena.</p>
+                                            <a href="noticiaCuarentenaDjokovic.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
                                 </div>
