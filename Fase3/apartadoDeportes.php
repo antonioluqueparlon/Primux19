@@ -19,7 +19,7 @@
                     <div class="col-lg-8 col-md-12">
                         <h1>El detallazo del Athletic: Garitano en la foto de campeones</h1>
                         <div class="card img-fluid">
-                            <a href="noticia.php">
+                            <a href="deportes/noticiasDeportes/noticiaFutbol.php">
                                 <img class="card-img-top img-fluid"
                                     src="../Fase3/img/imgDeportes/athleticBilbao.jpg" alt="Card image">
                                 <div class="card-img-overlay d-flex align-items-end">
@@ -104,28 +104,28 @@
                                 <div class="carousel-item active">
                                     <a href="noticia.php">
                                         <img class="img-fluid"
-                                            src="http://lorempixel.com/output/nightlife-q-c-404-179-9.jpg" alt=""
+                                            src="../Fase3/img/imgDeportes/basketFemenino.jpg" alt="baloncesto femenino"
                                             width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
+                                            <h3>UCO basket femenino</h3>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="carousel-item">
                                     <a href="noticia.php">
-                                        <img src="http://lorempixel.com/output/abstract-q-c-404-179-7.jpg"
+                                        <img src="../Fase3/img/imgDeportes/anne.jpg"
                                             class="img-fluid" alt="" width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
+                                            <h3>Anne cambia equipo</h3>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="carousel-item">
                                     <a href="noticia.php">
-                                        <img src="http://lorempixel.com/output/people-q-c-404-179-7.jpg"
+                                        <img src="../Fase3/img/imgDeportes/doncic.jpg"
                                             class="img-fluid" alt="" width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
+                                            <h3>Triple doble histórico de Doncic</h3>
                                         </div>
                                     </a>
                                 </div>
@@ -186,17 +186,16 @@
                         <a href="noticia.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
-                                    <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg"
-                                        class="card-img" alt="...">
+                                    <img src="../Fase3/img/imgDeportes/ciclismo1.jpg"
+                                        class="card-img imgApartadoNoticias" alt="ciclismo">
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3
-                                                mins ago</small></p>
-                                        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
-                                            below as a natural lead-in to additional content. This content is a little
-                                            bit longer.</p>
+                                        <h3 class="card-title indexNoticiaTitulo">Vuelta ciclista a Andalucía</h3>
+                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 19/01/2021</small></p>
+                                        <p class="card-text indexNoticiaTexto">La icónica Vuelta ciclista a Andalucía tendrá luchando por su 
+                                            clasificación a Valverde, Nibali y "Superman" López en su 67ª edición.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
