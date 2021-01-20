@@ -126,7 +126,7 @@
                             <div class="carousel-item active">
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="../../img/imgDeportes/howard.jpg"
                                             alt="Card image cap">
@@ -139,7 +139,7 @@
                                 </div>
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2 ">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="../../noticiasVideojuegos/parlon/img/peores.jpg"
                                             alt="Card image cap">
@@ -152,7 +152,7 @@
                                 </div>
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
                                             alt="Card image cap">
@@ -167,7 +167,7 @@
                                 </div>
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
                                             alt="Card image cap">
@@ -188,12 +188,12 @@
                             <div class="carousel-item">
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="../../noticiasVideojuegos/parlon/img/grefg.jpg"
                                             alt="Card image cap">
                                         <div class="card-body">
-                                            <h4 class="card-title">The Grefg bate récords</h4>
+                                            <h4 class="card-title">The Grefg bate récords en TWITCH</h4>
                                             <p class="card-text">La pasada noche el youtuber batió todos los récords de visualizaciones en TWITCH</p>
                                             <a href="../../noticiasVideojuegos/parlon/noticiaTheGrefg.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
@@ -201,7 +201,7 @@
                                 </div>
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="../../img/imgDeportes/futbolBase.jpg"
                                             alt="Card image cap">
@@ -214,7 +214,7 @@
                                 </div>
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
                                             alt="Card image cap">
@@ -229,7 +229,7 @@
                                 </div>
 
                                 <div class="col-md-3" style="float:left">
-                                    <div class="card mb-2">
+                                    <div class="card mb-2 tarjetaUltimasNOticias">
                                         <img class="card-img-top imgUltimasNoticias"
                                             src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
                                             alt="Card image cap">
