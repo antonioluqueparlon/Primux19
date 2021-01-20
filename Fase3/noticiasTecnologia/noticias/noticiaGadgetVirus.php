@@ -14,53 +14,40 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">ERRORES AL SUFRIR UN CIBERATAQUE</h1>
+                    <h1 class="titNoticia ">Xiaomi lanza un medidor para ver la calidad del aire en tu móvil</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://static1.abc.es/media/tecnologia/2021/01/13/ciber-2-kVEI--620x349@abc.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Alejandra Jiménez 10/01/21</small></p>
+                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/01/Purificador-de-Xiaomi-930x489.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Pablo Gómez 18/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>El Centro de Estudios Internacionales y Estratégicos de EE.UU. informó hace unas semanas de que las pérdidas por incidentes relacionados con el cibercrimen superaron los 945.000 millones de dólares en 2020 sólo en ese país, casi el doble que en 2018. Si a estas cifras añadimos las pérdidas causadas por daño reputacional, las mermas debidas a una crisis informática pueden superan con creces los dos billones de dólares. En España, según el Departamento de Delitos Telemáticos de la Unidad Central Operativa de la Guardia Civil, en los últimos cuatro años, los ciberdelitos han crecido un 135%.
-
-                            Cuando ocurre un incidente que afecta a las infraestructuras técnicas, lo más recomendable, según los expertos, es mantener la calma y continuar con el plan de continuidad de negocio, en caso de que exista, ya que el protocolo de actuación vendrá definido en ese plan. Según Soler GDI, gabinete dedicado a la gestión de crisis informáticas, en caso de que no exista un plan de continuidad, se deben tomar decisiones estratégicas durante el proceso de crisis, por lo que es imprescindible contar con profesionales preparados para resolver cada situación.
-
-                            «En una crisis informática muchas veces se pierden los papeles y se actúa de forma precipitada, lo que provoca no sólo que las consecuencias se agraven sino que los resultados finales no sean los deseados», afirma José María Soler, director general de Soler GDI. «Por eso, ante cualquier incidencia, por pequeña que sea, que pueda inducir a una disrupción en los sistemas tecnológicos de la organización, hay que actuar con la cabeza fría y rodearse de expertos que tengan la experiencia y la capacidad necesarias para resolverla provocando el menor impacto en el negocio». En este sentido, la firma ha recopilado los mayores errores que se cometen tras sufrir una crisis informática.</p>
+                        <p>El mundo entero ha cambiado y ha tenido que adaptarse a vivir con el Covid-19. Todo el mundo se ha visto obligado a transformar y amoldar su vida a esta nueva normalidad, que en muchos casos es muy complicada. El coronavirus es un virus que se ha demostrado que no hace distinciones, puede cogerlo en la calle, en casa o en el trabajo. Hoy queremos dar unos consejos para cuando estemos en el hogar y valorar la posibilidad de adquirir los mejores accesorios para combatir el virus.</p>
                         <!-- BREAK 3 -->
-                        <h2>No borrar las evidencias</h2>
+                        <h2>El Covid-19 permanece en el aire</h2>
 
-                        <p>«Nunca se debe restaurar una copia de seguridad sin haber salvado todas las pruebas de la crisis», recuerda Soler. Y es que estas piezas pueden ayudar a conocer mejor el tipo de ataque que se ha sufrido y, de este modo, estar mejor preparados en el futuro para evitar sus efectos. Además, no se debe olvidar la información básica sobre el incidente o no mantener la cadena de custodia. Esto es necesario para que las autoridades competentes puedan buscar a los culpables y llevarlos ante la justicia es necesario extraer todas las pruebas conforme al procedimiento forense.</p>
+                        <p>Se conoce que el virus se trasmite por el contacto entre personas, por eso es necesario tener distancia social y hábitos de higiene. Ahora, muchos estudios avalados, ya certifican que los aerosoles que produce el Covid-19 son también contagiosos. Estos aerosoles provienen de las partículas de saliva, de estornudo o de tos que se quedan flotando en el ambiente.
+                            Desde que se descubrió este problema, muchos expertos dicen que hay que evitar interiores con mucha gente. Pero claro, las autoridades nos exigen no estar en la calle o en lugares interiores con mucha gente, pero, ¿Qué hacemos cuando estamos en nuestro hogar? Está comprobado que la casi la única forma de estar 100% a salvo, es ayudándote de buenos gadgets con los que poder higienizar tu hogar al máximo.</p>
                         <!-- BREAK 4 -->
 
-                        <h2>Pensar que no te volverá a pasar</h2>
+                        <h2>El tamaño de las habitaciones, un factor clave</h2>
 
-                        <p>Según un estudio de CrowdStrike, siete de cada diez empresas que experimentan una intrusión vuelven a sufrir un ataque, por lo que es imprescindible analizar si existen variables, técnicas o humanas, que pueden provocar que el incidente se repita. Además, es importante que una vez restaurado, el sistema se mantenga en cuarentena durante un tiempo para evitar que amenazas ocultas pasen inadvertidas.</p>
+                        <p>A la hora de fijarnos en la compra de uno, es necesario tener en cuenta es el tamaño de la zona que quieras limpiar. Es necesario que cuenten con una capacidad para poder limpiar el aire 5 veces cada hora.</p>
+
                         <!-- BREAK 5 -->
 
-                        <h2>No estar al tanto de tu situación</h2>
+                        <h2>¿Qué accesorios ayudan a combatir el coronavirus?</h2>
 
-                        <p>En muchas ocasiones, el descontrol sobre las infraestructuras tecnológicas de la empresa es tal que pasan meses antes de que se descubra el ataque, lo que dificulta después la resolución y la recuperación de los activos.</p>
-                        <!-- BREAK 6 -->
-                        <h2>Formatear para eliminar</h2>
+                        <h4>Esterilizadores portátiles UV</h4>
+                        <p>El esterilizador UV portátil es, a día de hoy, uno de los gadgets desinfectantes más vendidos en Internet. Un esterilizador ultravioleta es un artefacto que permite desinfectar y eliminar bacterias y microrganismos con el empleo de rayos UV, son muy útiles para desinfectar toda clase de objetos, desde móviles, hasta relojes, o cualquier elemento cotidiano que solemos tocar habitualmente con nuestras manos. Así que, si te encontrabas en búsqueda de uno, has llegado al lugar indicado. Protege tu salud.</p>
 
-                        <p>Formatear los sistemas no sólo nos hará perder la información almacenada, en muchas ocasiones sensible o imprescindible para la actividad empresarial, sino que se borrarán también las evidencias del ataque y no se podrá ni mejorar la protección, ni la respuesta ante posibles nuevos ataques pero tampoco se podrá reclamar nada al borrar todas las evidencias del ataque.</p>
-                        <!-- BREAK 7 -->
-                        <h2>Obviar los protocolos</h2>
+                        <h4>Medidores de aire</h4>
+                        <p>En el ámbito doméstico lo hace a través de un sensor que toma datos constantes de la concentración de monóxido de carbono que hay en el ambiente. Cuando se alcance un índice por encima de los umbrales determinados salta de manera automática una señal de alarma. En el caso de detectores de garajes o de tipo industrial consta de una central con una serie de sensores y motores de extracción del gas tóxico.</p>
 
-                        <p>A veces, por desconocimiento de los planes establecidos no se siguen los protocolos y se cometen errores fatales para la continuidad del negocio. En este caso, contar con certificaciones como ISO 22301 puede ayudar a resolver estos conflictos.</p>
-                        <!-- BREAK 8 -->
-                        <h2>No informar a los usuarios de la brecha</h2>
-
-                        <p>No informar a los usuarios afectados de una brecha de seguridad o de un ciberataque. En el caso de que se sufra un ataque en el que se deje al descubierto información personal de clientes o usuarios, la empresa afectada tiene la obligación de informar inmediatamente a los afectados para que tomen sus propias medidas (como modificar la contraseña de acceso a los servicios afectados) y limitar los daños.</p>
-                        <!-- BREAK 9 -->
-                        <h2>Pensar que lo pueden resolver solos</h2>
-
-                        <p>Tal vez el error más grave: pensar que se puede resolver sin ayuda de profesionales. Las grandes empresas cuentan con equipos dedicados a la continuidad de negocio y a la seguridad pero la mayoría de pequeñas y medianas empresas no pueden contar con estos recursos internos. En ese caso, ante cualquier crisis informática, es importante contar con socios de confianza que puedan ayudar a resolver el problema con la menor incidencia posible en el negocio.</p>
-                        <!-- BREAK 10 -->
-
+                        <h4>Purificadores de aire con filtro HEPA</h4>
+                        <p>Los científicos han demostrado que el virus puede mantenerse en el aire. En este caso, se ha valorado desde muchos organismos que la solución para purificar el aire y el ambiente sea la de comprar este purificador. Se usan para purificar el aire en espacios donde la ventilación no es suficiente. Su función es evitar la propagación de bacterias y virus, por lo que sirven para prevenir infecciones. Es el acrónimo de “filtro de aire de partículas de alta eficiencia”. Según dicen los expertos/científicos, este filtro es un sistema que es capaz de eliminar más del 99,9% de los aerosoles de la corriente de aire que los atraviesa. Aseguran que los filtros de aire HEPA son “es la mejor forma de limpiar el aire que existe en la actualidad”.</p>
 
                         <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                         <div class="col-12">
