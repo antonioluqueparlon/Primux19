@@ -55,10 +55,11 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="noticiasVideojuegos/parlon/noticiaSwitch.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
-                                            <p class="card-text titNoticiaUltNoticias">Nintendo Switch domina la primera semana de ventas UK en 2021, con Animal Crossing al frente de su Top 10 Las ventas de sus juegos crecen en un 123% con respecto al inicio de 2020, impulsadas por el confinamiento.
+                                            <p class="card-text">Las ventas de Nintendo Switch en Japón en 2020 son de récord: casi 7 millones de consolas en un año.
+
                                             </p>
                                         </div>
                                     </div>
@@ -76,6 +77,7 @@
                                 </a>
                             </div>
                         </div>
+                        
 
                     </div>
 
@@ -137,7 +139,7 @@
                                 </div>
                                 <div class="col-md-12 col-lg-8">
                                     <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Xbox zanja la polémica con las pilas de sus mandos: "Ofrecemos intencionadamente elección a jugadores"</h3>
+                                        <h3 class="card-title indexNoticiaTitulo">Xbox zanja la polémica con las pilas de sus mandos</h3>
                                         <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 20/12/2020
                                             </small></p>
                                         <p class="card-text indexNoticiaTexto">Unas declaraciones de Duracell insinuaban que la ausencia de batería interna
@@ -166,7 +168,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticiasVideojuegos/parlon/noticiaSwitch.php" class="enlaceNoticia">
+                        <a href="noticiasVideojuegos/parlon/noticiaSwitch2.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="https://media.vandal.net/i/1706x960/1-2021/2021111940055_1.jpg.webp" class="card-img imgApartadoNoticias" alt="...">

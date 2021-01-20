@@ -20,16 +20,16 @@
             <h1>PC</h1>
 
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticiaStockGraficas.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="https://m.eltiempo.com/uploads/2019/12/07/5dec47012d257.jpeg" class="card-img" alt="...">
+                            <img src="img/rtx.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <h4 class="card-title indexNoticiaTitulo">Conoce las causas de la escasez las NVIDIA RTX 3000</h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 14 mins ago</small></p>
-                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
+                                <p class="card-text indexNoticiaTexto">La crisis y la falta de componentes hacen que los clientes no dispongan aún de las nuevas tecnologías de Nvidia</p>
                             </div>
                         </div>
                     </div>
@@ -52,16 +52,16 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="noticiaProjectMara.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/12274/production/_96065347_gettyimages-482855185.jpg" class="card-img" alt="...">
+                            <img src="img/fotorealismo.png" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <h4 class="card-title indexNoticiaTitulo">Gráficos fotorrealistas y terror en lo nuevo de los autores de Hellblade: esta es la tecnología tras Project Mara</h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
+                                <p class="card-text indexNoticiaTexto">Desde el amparo de Xbox Game Studios, el equipo británico tiene un juego experimental entre manos.</p>
                             </div>
                         </div>
                     </div>

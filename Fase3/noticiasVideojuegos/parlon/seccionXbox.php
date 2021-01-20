@@ -39,13 +39,13 @@
                 <a href="noticia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="https://www.redeszone.net/app/uploads-redeszone.net/2019/12/novedades-redes-2020.jpg" class="card-img" alt="...">
+                            <img src="img/psvsxbox.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 36 mins ago</small></p>
-                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
+                                <h4 class="card-title indexNoticiaTitulo">El consumo de energía Xbox Series X y PS5 preocupa a la agencia de protección ambiental de EE.UU</h4>
+                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualización hace 36 min</small></p>
+                                <p class="card-text indexNoticiaTexto">El estamento ha elaborado un informe e insta a Sony y Microsoft a promover un uso responsable del ahorro energético.</p>
                             </div>
                         </div>
                     </div>
@@ -55,13 +55,13 @@
                 <a href="noticia.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/12274/production/_96065347_gettyimages-482855185.jpg" class="card-img" alt="...">
+                            <img src="img/mandoxbox.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
+                                <h4 class="card-title indexNoticiaTitulo">Xbox zanja la polémica con las pilas de sus mandos</h4>
                                 <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
+                                <p class="card-text indexNoticiaTexto">Unas declaraciones de Duracell insinuaban que la ausencia de batería interna se debe a un acuerdo con ellos.</p>
                             </div>
                         </div>
                     </div>
