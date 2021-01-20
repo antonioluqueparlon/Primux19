@@ -110,16 +110,16 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="../../deportes/noticiasDeportes/noticiaViajeOpenAustralia.php" class="linkNoticia">
                         <div class="card divOtrasNoticias">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
-                                    <img src="http://placeimg.com/280/158/tech" class="img-fluid card-img" alt="">
+                                    <img src="../../img/imgDeportes/nadal.jpg" class="img-fluid card-img" alt="">
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="card-block px-2">
-                                        <h4 class="card-title titNoticia">Title</h4>
-                                        <p class="card-text">Description</p>
+                                        <h4 class="card-title titNoticia">Nadal, Djokovic y Thiem volaron juntos desde Barcelona</h4>
+                                        <p class="card-text">Rafa Nadal, Novak Djokovic y Dominic Thiem y están en Adelaida para cumplir los 14 días de cuarentena antes de competir en el Abierto de Australia.</p>
                                     </div>
                                 </div>
                             </div>
@@ -127,16 +127,16 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="noticia25Nintendo.php" class="linkNoticia">
                         <div class="card divOtrasNoticias ">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
-                                    <img src="http://placeimg.com/280/158/animals" class="img-fluid card-img" alt="">
+                                    <img src="../../noticiasVideojuegos/parlon/img/25ds.jpg" class="img-fluid card-img" alt="">
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="card-block px-2">
-                                        <h4 class="card-title titNoticia">Title</h4>
-                                        <p class="card-text ">Description</p>
+                                        <h4 class="card-title titNoticia">El 25 aniversario de Pokémon calienta motores con un vídeo promocional y una colaboración con Katy Perry</h4>
+                                        <p class="card-text ">A la espera de un nuevo Direct, los fans tendrán que conformarse con productos y novedades.</p>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@
                                 <div class="carousel-item active">
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="../../img/imgDeportes/athleticBilbao.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">El detallazo del Athletic: Garitano en la foto de campeones</h4>
@@ -174,11 +174,11 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="../../img/imgDeportes/balonmano.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">La penúltima cátedra del capitán Raúl Entrerríos</h4>
-                                                <p class="card-text">Cerca de cumplir 40 años, sigue siendo uno de los líderes de España.
+                                                <p class="card-text">Con 40 años, sigue siendo uno de los líderes de España.
                                                      Será su último Mundial con la selección española antes de su retirada.</p>
                                                 <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
@@ -186,10 +186,10 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="img/xboxportatil.PNG" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Una Xbox portátil de ensueño: Series Z tiene todo lo que necesitas pero tristemente no es real</h4>
+                                                <h4 class="card-title">Una Xbox portátil de ensueño: Series Z </h4>
                                                 <p class="card-text">Un aficionado crea un render en realidad aumentada que muestra la consola, y no es la primera vez.</p>
                                                 <a href="noticiaXboxPortatil.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
@@ -197,10 +197,10 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="img/grefg.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">TheGrefg pulveriza todos los récords de Twitch al presentar su skin de Fortnite</h4>
+                                                <h4 class="card-title">TheGrefg pulveriza todos los récords de Twitch</h4>
                                                 <p class="card-text">Los hispanohablantes pulverizan el record con mas de 2 millones de espectadores en la plataforma</p>
                                                 <a href="noticiaTheGrefg.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
@@ -214,10 +214,10 @@
                                 <div class="carousel-item">
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="img/mariokart.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Una bici estática y el anillo de Ring Fit es todo lo que necesita este jugador para competir en Mario Kart 8</h4>
+                                                <h4 class="card-title">Una bici estática es todo lo que necesitas para competir en Mario Kart 8</h4>
                                                 <p class="card-text">Si quieres competir contra Mario y compañía, tendrás que pedalear más fuerte que nadie.</p>
                                                 <a href="noticiaMarioKart.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
@@ -225,7 +225,7 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="https://static1.abc.es/media/tecnologia/2021/01/13/ciber-2-kVEI--620x349@abc.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Los grandes errores que cometen las empresas después de sufrir un ciberataque</h4>
@@ -236,7 +236,7 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="../../img/imgDeportes/futbolAmateur.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Paralizado el fútbol amateur</h4>
@@ -247,11 +247,11 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
                                             <img class="card-img-top" src="../../img/imgDeportes/ciclismo1.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Vuelta ciclista a Andalucía</h4>
-                                                <p class="card-text">La icónica Vuelta ciclista a Andalucía tendrá luchando por su clasificación a Valverde, Nibali y "Superman" López en su 67ª edición.</p>
+                                                <h4 class="card-title">Vuelta ciclista a Andalucía </h4>
+                                                <p class="card-text">La icónica Vuelta ciclista a Andalucía tendrá luchando por su clasificación a Valverde, Nibali y "Superman" López.</p>
                                                 <a href="../../deportes/noticiasDeportes/noticiaCiclismo.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
