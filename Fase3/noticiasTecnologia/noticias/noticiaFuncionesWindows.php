@@ -14,37 +14,39 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia">Algunas funciones poco conocidas de Windows 10 que pueden resultar extremadamente útiles</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Irene López 19/01/21</small></p>
+                    <img src="https://i.blogs.es/85b3ee/portapapeles/1366_2000.png" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Irene López 18/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>Cuando Windows 10 se lanzó en el 2015, Microsoft había dicho que sería la última versión de Windows y que a partir de entonces trabajarían sobre esa misma base añadiendo mejoras y novedades con el paso del tiempo. Hasta ahora son nueve las actualizaciones mayores que ha recibido el sistema, y con cada una siempre hay un par de cosas nuevas que se han añadido.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            Sin embargo, muchas de esas cosas han pasado desapercibidas o son poco conocidas, tanto que hay usuarios que quizás nunca las han usado a pesar de que podrían beneficiarse bastante de ellas. Esta lista contiene algunas de las características más útiles que Windows 10 ha recibido en sus más de cinco años de vida, que pueden hacerte la vida mucha más fácil al usar el ordenador y hasta aumentar tu productividad.</p>
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>Portapapeles vitaminado</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>Esta es en definitiva una de mis funciones favoritas de Windows 10, el nuevo portapapeles de Windows apareció por primera vez en la October 2018 Update, pero como no se activa por defecto ni tampoco el sistema hace un gran trabajo alertando de su existencia, es posible que ni sepas que existe.
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
+                            Lo que esto hace es guardar un historial de todo lo que copias en Windows y mantenerlo a mano para que lo puedas pegar con solo usar un atajo de teclado. Solo tienes que presionar la tecla de Windows + V en lugar de CTRL + V para ver la lista de cosas guardadas.</p>
                         <!-- BREAK 4 -->
+                        <h2>Sonido espacial</h2>
 
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
+                        <p>Existe una forma muy simple de mejorar un poquitín la calidad de sonido que escuchas a través de tus auriculares conectados a Windows 10. Gracias a la función Sonido espacial o Windows Sonic obtienes un emulador de sonido surround para tus auriculares que pueden hacer que todo suene mejor, incluso si tienes unos baratos.
 
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
+                            Es algo un tanto subjetivo y varía también con cada persona y sus auriculares, pero definitivamente vale la pena probar. Lo único que tienes que hacer para activarlo es hacer click derecho sobre el icono de volumen de Windows en la barra de tareas y luego seleccionar la opción Sonido espacial > Windows Sonic para auriculares.
 
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
+                            Ahí probablemente veas otras opciones de mejoras de sonido como Dolby o DTS, pero todas esas requieren la instalación de una app de terceros que además no es gratuita.</p>
+                        <!-- BREAK 5 -->
+                        <h2>Selector de emojis</h2>
 
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
+                        <p>Con lo tanto que a muchos nos encantan los emojis y lo común que se ha hecho el usarlos para escribir cuando nos comunicamos online, es raro que Windows 10 no insista más en hacernos saber de su teclado de emojis, pero ahí está, escondido detrás de un atajo de teclado un tanto extraño: Win + ; (tecla de Windows más punto y coma).
 
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
+                            Lo mejor de todo es que no solo aparece el selector flotante de emojis en cuanto presionas esas teclas, sino que puedes escribir todo tipo de términos para buscar emojis, o puedes navegar a través de ellos usando las teclas de flechas o el puntero del ratón.</p>
 
                             </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

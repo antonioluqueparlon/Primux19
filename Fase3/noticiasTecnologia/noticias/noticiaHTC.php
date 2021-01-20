@@ -14,37 +14,32 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!</h1>
+                    <h1 class="titNoticia ">HTC Desire 21 Pro 5G: el primer Desire con 5G tiene pantalla de 90 Hz y cuatro cámaras traseras</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-1-930x487.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Irene López 19/01/21</small></p>
+                    <img src="https://i.blogs.es/7e5989/htc-desire-21-pro-5g/1366_2000.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Irene López 20/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>Uno de los grandes referentes a la hora de comprar una cerradura inteligente, es el fabricante Xiaomi. El gigante asiático, todo un referente a la hora de comprar todo tipo de gadgets, presume de catálogo de altura. Y ahora se le une un nuevo modelo.
+                        <p>Mucho tiempo hace desde la última vez que vimos un móvil de HTC. Medio año, para ser exactos. La firma taiwanesa presentó el pasado mes de junio el HTC Desire 20 Pro y el HTC U20 5G, su primer gama media con 5G, y ahora vuelve a la carga con el HTC Desire 21 Pro 5G, que es el primer Desire compatible con la nueva red móvil.
 
-                            Dentro de u familia de cerraduras Aqara, contamos con las N100, N200 y P100. Modelos muy vitaminados y que no te decepcionarán. Pero el gigante con sede en Pekín ha dado un nuevo salto de calidad con su Xiaomi Smart Door Lock Pro.</p>
-                        <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/cerradura-inteligente-xiaomi-2.jpg">
+                            El dispositivo ha sido lanzado en Taiwán, su país natal, donde ya se puede comprar por 12.990 dólares taiwaneses, que son alrededor de 350 euros al cambio. Por el momento no hay novedades sobre su llegada a España, aunque en ese sentido cabe recordar que el HTC Desire 20 Pro sí que lo hizo, por lo que habrá que estar atentos. Dicho lo cual, repasemos qué ofrece el nuevo gama media 5G de HTC.</p>
                         <!-- BREAK 3 -->
-                        <h2>Una cerradura inteligente con desbloqueo facial</h2>
+                        <h2>Un diseño sencillo y pantalla de 90 Hz</h2>
 
-                        <p>Sin lugar a dudas, el gran exponente de esta cerradura conectada de Xiaomi tiene que ver con su sistema de desbloqueo facial. Para ello, la firma ha integrado dos pequeñas cámaras en la parte superior, que son las encargadas de controlar nuestro entorno y realizar una lectura del rostro cuando un usuario se acerca.
+                        <p>En lo que a diseño se refiere, el HTC Desire 21 Pro 5G es un terminal bastante sencillo. La parte trasera está acabada en color gris oscuro o lila, con pequeños detalles de color dorado como podemos ver en el marco de la cámara y el botón de inicio (donde la firma ha integrado el lector de huellas). Poco más. En la parte trasera tenemos el logo de la empresa, un pequeño texto que dice "5G" y el módulo con las cuatro cámaras, de las que hablaremos más adelante.
 
-                            Para ello cuentan con capacidad para grabar en tiempo real a una resolución de 1920 x 1080 píxeles (Full HD), con lo que todo son ventajas. Más, si se tiene en cuenta que muy probablemente puedas conectarte a la cámara a distancia para ver lo que sucede en tu rellano desde cualquier lugar.</p>
+                            Si le damos la vuelta y echamos un vistazo a la pantalla, veremos un panel IPS/LCD de 6,7 pulgadas con resolución FullHD+ en formato 20:9. Esta es compatible con HDR10 y tiene una tasa de refresco de 90 Hz, algo que poco a poco vemos cada vez más en los terminales de gama media. No tenemos notch, sino que la firma ha apostado por un agujerear el panel en la zona superior central para esconder la cámara interna.</p>
                         <!-- BREAK 4 -->
 
-                        <h2>La Xiaomi Smart Door Lock Pro tiene 6 métodos de desbloqueo</h2>
+                        <h2>Snapdragon 690 y cuatro cámaras</h2>
 
-                        <p>Cabe destacar que, aunque el sistema de desbloqueo facial es el más característico de la nueva cerradura de Xiaomi, decir que la Xiaomi Smart Door Lock Pro cuenta con otros seis métodos adicionales. Para empezar, cuenta con un teclado numérico para poder utilizar un método de desbloqueo tradicional. También esconde un lector de huellas dactilares en el pomo de la cerradura, para que solo tengas que abrir la puerta para desbloquearla. Como irás viendo, este gadget de Xiaomi es de lo más completo.
+                        <p>Pasamos así a hablar del motor. El HTC Desire 21 Pro 5G es, como su propio apellido indica, un dispositivo compatible con redes 5G, y lo es gracias al SoC Snapdragon 690. Este procesador está fabricado en un proceso de ocho nanómetros y consta de ocho núcleos a una velocidad máxima de 2GHz y de la GPU Adreno 619L. Además, es compatible con redes 5G NSA y SA, las actuales y las futuras.
 
-                            A esto hay que sumarle conectividad Bluetooth y NFC para que cualquier dispositivo compatible nos sirva para abrir la puerta. Incluso podremos utilizar la Xiaomi Mi Band 5 para ello, haciendo que todo el proceso sea todavía más fácil. Sin duda, un producto versátil y que cumplirá de sobra con las exigencias de los usuarios más exigentes.
-
-                            Todo sin perder ese ADN tan característico de las cerraduras inteligentes de Xiaomi. De esta manera, nos encontramos con un producto realmente bien construido con acabados en acero inoxidable y cristal templado para que la cerradura Xiaomi Smart Door Lock Pro sea la envidia de tus vecinos. Y sí, cuenta con diferentes sistemas para evitar que los amantes de lo ajeno fuercen a cerradura para acceder a tu hogar. La guinda del pastel lo pone el hecho de que, además de funcionar con My Home, la interfaz de productos inteligentes de Xiaomi, también es compatible con Apple HomeKit, por lo que no te faltarán opciones independientemente del sistema operativo que utilices.
-
-                            En cuanto al precio y fecha de lanzamiento, el dispositivo costará 1.699 yuanes, 217 euros al cambio. Por ahora no hay planes de que este producto de Xiaomi salga de las fronteras chinas, pero habrá que ver si algún distribuidor que realice envíos a España añade esta cerradura en su catálogo, porque puede ser uno de los grandes bombazos en venta. Especialmente a un precio tan atractivo.</p>
+                            Está acompañado por 8 GB de memoria RAM y 128 GB de almacenamiento interno, siendo esta la única configuración disponible. Ahora bien, el almacenamiento se puede ampliar mediante tarjetas microSD. A todo esto le da vida Android 10 y una batería de 5.000 mAh (que explica el grosor de 9,4 milímetros y los 205 gramos de peso) con carga rápida de 18W. Un conjunto, como podemos ver, bastante solvente a la par que sencillo, al menos sobre el papel.</p>
 
                             </div>
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
