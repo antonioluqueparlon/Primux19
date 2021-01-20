@@ -14,53 +14,33 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">ERRORES AL SUFRIR UN CIBERATAQUE</h1>
+                    <h1 class="titNoticia ">Xiaomi lanza un medidor para ver la calidad del aire en tu móvil</h1>
                 </div>
                 <div class="col-12">
-                    <img src="https://static1.abc.es/media/tecnologia/2021/01/13/ciber-2-kVEI--620x349@abc.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Alejandra Jiménez 10/01/21</small></p>
+                    <img src="https://topesdegama.com/app/uploads-topesdegama.com/2020/11/medidor-aire-xiaomi-1-930x486.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
+                    <p><small class="text-muted">Estéban Ordóñez 18/01/21</small></p>
                     <br>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p>El Centro de Estudios Internacionales y Estratégicos de EE.UU. informó hace unas semanas de que las pérdidas por incidentes relacionados con el cibercrimen superaron los 945.000 millones de dólares en 2020 sólo en ese país, casi el doble que en 2018. Si a estas cifras añadimos las pérdidas causadas por daño reputacional, las mermas debidas a una crisis informática pueden superan con creces los dos billones de dólares. En España, según el Departamento de Delitos Telemáticos de la Unidad Central Operativa de la Guardia Civil, en los últimos cuatro años, los ciberdelitos han crecido un 135%.
-
-                            Cuando ocurre un incidente que afecta a las infraestructuras técnicas, lo más recomendable, según los expertos, es mantener la calma y continuar con el plan de continuidad de negocio, en caso de que exista, ya que el protocolo de actuación vendrá definido en ese plan. Según Soler GDI, gabinete dedicado a la gestión de crisis informáticas, en caso de que no exista un plan de continuidad, se deben tomar decisiones estratégicas durante el proceso de crisis, por lo que es imprescindible contar con profesionales preparados para resolver cada situación.
-
-                            «En una crisis informática muchas veces se pierden los papeles y se actúa de forma precipitada, lo que provoca no sólo que las consecuencias se agraven sino que los resultados finales no sean los deseados», afirma José María Soler, director general de Soler GDI. «Por eso, ante cualquier incidencia, por pequeña que sea, que pueda inducir a una disrupción en los sistemas tecnológicos de la organización, hay que actuar con la cabeza fría y rodearse de expertos que tengan la experiencia y la capacidad necesarias para resolverla provocando el menor impacto en el negocio». En este sentido, la firma ha recopilado los mayores errores que se cometen tras sufrir una crisis informática.</p>
+                        <p> La calidad del ambiente que respiramos es muy importante. El dióxido de carbono es un indicador muy importante para saber la pureza del aire y Xiaomi lo sabe. Por este motivo, acaba de presentar un medidor de calidad de aire realmente completo, que controlas con el teléfono móvil y a un precio más que atractivo.</p>
                         <!-- BREAK 3 -->
-                        <h2>No borrar las evidencias</h2>
+                        <h2>Un gadget Xiaomi para cuidar tu salud</h2>
 
-                        <p>«Nunca se debe restaurar una copia de seguridad sin haber salvado todas las pruebas de la crisis», recuerda Soler. Y es que estas piezas pueden ayudar a conocer mejor el tipo de ataque que se ha sufrido y, de este modo, estar mejor preparados en el futuro para evitar sus efectos. Además, no se debe olvidar la información básica sobre el incidente o no mantener la cadena de custodia. Esto es necesario para que las autoridades competentes puedan buscar a los culpables y llevarlos ante la justicia es necesario extraer todas las pruebas conforme al procedimiento forense.</p>
+                        <p>Bajo el nombre de Qingping Air Detector Lite, estamos ante un producto que ha sido lanzado a través de la página de financiación colectiva del fabricante asiático, donde está teniendo un gran éxito debido a sus funcionalidades. Más que nada porque es capaz de medir cinco elementos diferentes: temperatura, humedad, niveles de CO2, niveles de PM2.5 y niveles PM10. Con ello, sabremos en todo momento si la calidad del aire en nuestra casa es la adecuada.
+
+                            A nivel estético nos encontramos con un producto con forma redondeada y muy compacta (mide tan solo 63.6 x 46 x 54.6 mm), y acabados en policarbonato para dotar a este medidor de calidad del aire de un plus de resistencia.
+                            Destacar la pantalla OLED que monta en la parte frontal, para presumir de unos ángulos de visión perfectos, además de un menor consumo de batería. Y ojo con el indicador LED que hay justo encima de la pantalla. Este elemento cambia de color en función de calidad del aire en la sala donde hayas colocado este dispositivo. Si está todo dentro de los parámetros correctos, se iluminará en color verde. Si el ambiente comienza a estar cargado, pasará a un tono anaranjado. Y si la situación empeora, pasará a iluminarse en rojo además de enviarte una notificación al móvil.</p>
                         <!-- BREAK 4 -->
 
-                        <h2>Pensar que no te volverá a pasar</h2>
+                        <h2>Es compatible con HomeKit de Apple</h2>
 
-                        <p>Según un estudio de CrowdStrike, siete de cada diez empresas que experimentan una intrusión vuelven a sufrir un ataque, por lo que es imprescindible analizar si existen variables, técnicas o humanas, que pueden provocar que el incidente se repita. Además, es importante que una vez restaurado, el sistema se mantenga en cuarentena durante un tiempo para evitar que amenazas ocultas pasen inadvertidas.</p>
-                        <!-- BREAK 5 -->
+                        <p>El fabricante con sede en Pekín se ha centrado en el apartado de la domótica. Por este motivo, la gran mayoría de gadgets que está lanzando al mercado son productos conectados. Así que, como no podía ser de otra manera, el Qingping Air Detector Lite es un producto compatible tanto con Xiaomi Mi Home, como con HomeKit de Apple.
 
-                        <h2>No estar al tanto de tu situación</h2>
+                            Con ello, podrás controlar este medidor de niveles de calidad del aire con tu teléfono móvil, independientemente del sistema operativo que utilice. Podrás ver en tiempo real los parámetros de temperatura, humedad, niveles de CO2, niveles de PM2.5 y niveles PM10. ¿Alguno supera los niveles recomendables? Te mandará una notificación a tu teléfono para que abras las ventanas.
 
-                        <p>En muchas ocasiones, el descontrol sobre las infraestructuras tecnológicas de la empresa es tal que pasan meses antes de que se descubra el ataque, lo que dificulta después la resolución y la recuperación de los activos.</p>
-                        <!-- BREAK 6 -->
-                        <h2>Formatear para eliminar</h2>
-
-                        <p>Formatear los sistemas no sólo nos hará perder la información almacenada, en muchas ocasiones sensible o imprescindible para la actividad empresarial, sino que se borrarán también las evidencias del ataque y no se podrá ni mejorar la protección, ni la respuesta ante posibles nuevos ataques pero tampoco se podrá reclamar nada al borrar todas las evidencias del ataque.</p>
-                        <!-- BREAK 7 -->
-                        <h2>Obviar los protocolos</h2>
-
-                        <p>A veces, por desconocimiento de los planes establecidos no se siguen los protocolos y se cometen errores fatales para la continuidad del negocio. En este caso, contar con certificaciones como ISO 22301 puede ayudar a resolver estos conflictos.</p>
-                        <!-- BREAK 8 -->
-                        <h2>No informar a los usuarios de la brecha</h2>
-
-                        <p>No informar a los usuarios afectados de una brecha de seguridad o de un ciberataque. En el caso de que se sufra un ataque en el que se deje al descubierto información personal de clientes o usuarios, la empresa afectada tiene la obligación de informar inmediatamente a los afectados para que tomen sus propias medidas (como modificar la contraseña de acceso a los servicios afectados) y limitar los daños.</p>
-                        <!-- BREAK 9 -->
-                        <h2>Pensar que lo pueden resolver solos</h2>
-
-                        <p>Tal vez el error más grave: pensar que se puede resolver sin ayuda de profesionales. Las grandes empresas cuentan con equipos dedicados a la continuidad de negocio y a la seguridad pero la mayoría de pequeñas y medianas empresas no pueden contar con estos recursos internos. En ese caso, ante cualquier crisis informática, es importante contar con socios de confianza que puedan ayudar a resolver el problema con la menor incidencia posible en el negocio.</p>
-                        <!-- BREAK 10 -->
-
+                            Sin duda, un producto muy útil y que apenas ocupa espacio en tu hogar, además de contar con una batería capaz de aguantar sin cargarse una semana, por lo que no tendrás cables de por medio. ¿Su precio? El Qingping Air Detector Lite del fabricante chino ya se puede reservar en su plataforma de crownfunding a un precio de 399 yuanes, unos 50 euros al cambio.</p>
 
                         <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                         <div class="col-12">
