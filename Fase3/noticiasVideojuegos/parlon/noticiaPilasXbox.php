@@ -164,13 +164,11 @@
 
                                     <div class="col-md-3" style="float:left">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                            <img class="card-img-top" src="../../img/imgDeportes/athleticBilbao.jpg" alt="Card image cap">
                                             <div class="card-body">
-                                                <h4 class="card-title">Card title</h4>
-                                                <p class="card-text">Some quick example text to build on the card title and
-                                                    make up the bulk of the
-                                                    card's content.</p>
-                                                <a href="noticia.php" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <h4 class="card-title">El detallazo del Athletic: Garitano en la foto de campeones</h4>
+                                                <p class="card-text">Final Supercopa España: El club publicó un tuit con el exentrenador y Marcelino</p>
+                                                <a href="../../deportes/noticiasDeportes/noticiaFutbol.php" class="btn btn-primary linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>

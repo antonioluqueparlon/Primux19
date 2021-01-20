@@ -5,6 +5,7 @@
 <head>
     <?php include("../includes/head-tag-contents.php"); ?>
     <script src="scriptReproductor.js"></script>
+    
 </head>
 
 <body>
@@ -71,7 +72,7 @@
                                 <button type="button" id="play-pause">Reproducir</button>
                                 <input type="range" id="seek-bar" value="0">
                                 <button type="button" id="mute">Silenciar</button>
-                                Nivel Volumen<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+                                <label id="colorBlanco"> Nivel Volumen </label><input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
                                 <button type="button" id="full-screen">Pantalla Completa</button></button>
                             </div>
                         </div>
