@@ -10,23 +10,23 @@
 
 
 <main class="indexTT">
-<section class="noticiasDestacadas">
+<section class="noticiasDestacadas ">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 tarjetaUltimasNOticias ">
             <a href="../Fase3/noticiasTecnologia/noticias/noticiaAlmaLinux.php" class="enlaceNoticia">
-                <div class="card-content card-contentIndex">
-                    <div class="card-img card-imgIndex">
+                <div class="card-content card-contentIndex tarjetaUltimasNOticias">
+                    <div class="card-img card-imgIndex ">
                         <img class="imagenTarjetaIndex" src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="">
                     </div>
-                    <div class="card-desc card-descIndex">
+                    <div class="card-desc card-descIndex ">
                         <h3>AlmaLinux</h3>
                         <p>El otro gran aspirante al trono del 'viejo' CentOS, y viene apadrinado por los desarrolladores de CloudLinux</p> 
                     </div>
                 </a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card-content card-contentIndex">
+            <div class="col-md-3 tarjetaUltimasNOticias">
+                <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                 <a href="../Fase3/noticiasVideoJuegos/parlon/noticiaCarcasasPS5.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex" src="../Fase3/noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
@@ -38,8 +38,8 @@
                 </a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card-content card-contentIndex">
+            <div class="col-md-3 tarjetaUltimasNOticias">
+                <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                 <a href="../Fase3/noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex" src="../Fase3/noticiasMotor/img/dakarJuego380.jpg" alt="">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card-content card-contentIndex">
+                <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                 <a href="../Fase3/deportes/noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex" src="img/imgDeportes/basketFemenino.jpg" alt="">
