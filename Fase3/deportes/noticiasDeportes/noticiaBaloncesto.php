@@ -230,7 +230,7 @@
                                             alt="Card image cap">
                                         <div class="card-body">
                                             <h4 class="card-title">Djokovic recibe respuesta a sus declaraciones</h4>
-                                            <p class="card-text">Ante sus quejas por la cuarentena.</p>
+                                            <p class="card-text">Ante sus quejas por la cuarentena que deben guardar en Australia</p>
                                             <a href="noticiaCuarentenaDjokovic.php" class="btn btn-primary linkNoticia">Ver más</a>
                                         </div>
                                     </div>
