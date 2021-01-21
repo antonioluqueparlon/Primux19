@@ -14,7 +14,7 @@ function scrollFunction() {
 
 </script>
 <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.php"><img src="../../img/logo2.png"></a>
+  <a class="navbar-brand" href="../../index.php"><img src="../../img/logo2.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
     <span class="navbar-toggler-icon"></span>
   </button>
