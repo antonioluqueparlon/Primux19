@@ -140,9 +140,7 @@
                                         <h3 class="card-title indexNoticiaTitulo">Ni cargador, ni microSD, ni auriculares: Samsung los elimina en los Galaxy S21 y hace pensar que será lo habitual</h3>
                                         <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 14/01/2021
                                             </small></p>
-                                        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
-                                            below as a natural lead-in to additional content. This content is a little
-                                            bit longer.</p>
+                                        <p class="card-text indexNoticiaTexto">Samsung se une así a una tendencia que inició Apple con los iPhone 12 </p>
                                     </div>
                                 </div>
                             </div>
@@ -158,9 +156,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title indexNoticiaTitulo">HTC Desire 21 Pro 5G: el primer Desire con 5G tiene pantalla de 90 Hz y cuatro cámaras traseras</h3>
                                         <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 14/01/2021</small></p>
-                                        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
-                                            below as a natural lead-in to additional content. This content is a little
-                                            bit longer.</p>
+                                        <p class="card-text indexNoticiaTexto">La firma taiwanesa presentó el pasado mes de junio el HTC Desire 20 Pro y el HTC U20 5G</p>
                                     </div>
                                 </div>
                             </div>
@@ -176,9 +172,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title indexNoticiaTitulo">Qualcomm presenta su nuevo lector de huellas ultrasónico bajo la pantalla: dice ser un 50% más rápido que el anterior</h3>
                                         <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 14/01/2021</small></p>
-                                        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text
-                                            below as a natural lead-in to additional content. This content is a little
-                                            bit longer.</p>
+                                        <p class="card-text indexNoticiaTexto">Qualcomm acaba de presentar la última generación de su sensor de huellas dactilares integrado en la pantalla.</p>
                                     </div>
                                 </div>
                             </div>
