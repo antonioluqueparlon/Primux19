@@ -20,7 +20,7 @@
             <h1>Últimas Noticias</h1>
 
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaFutbolRemiro.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/futbol.jpg" class="card-img" alt="despejePortero">
@@ -37,7 +37,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaExpMessi.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/expMessi.jpg" class="card-img" alt="Messi">
@@ -54,7 +54,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaFutbolAmateur.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/futbolBase.jpg" class="card-img" alt="niño jugando">
@@ -71,7 +71,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaFutbolMadrid.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/futbolAmateur.jpg" class="card-img" alt="Fútbol amateur">

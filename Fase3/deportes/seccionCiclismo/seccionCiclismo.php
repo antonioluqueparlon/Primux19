@@ -18,7 +18,7 @@
             <h1>Últimas Noticias</h1>
 
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaCiclismoAnne.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/anne.jpg" class="card-img imgApartadoNoticias" alt="Anne fichaje">
@@ -34,7 +34,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaCiclismo.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/ciclismo1.jpg" class="card-img imgApartadoNoticias" alt="Messi">
@@ -51,7 +51,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaCiclismoAnne.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/ciclismo2.jpg" class="card-img imgApartadoNoticias" alt="niño jugando">
@@ -68,7 +68,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaCiclismo.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/ciclismo3.jpg" class="card-img imgApartadoNoticias" alt="Fútbol amateur">

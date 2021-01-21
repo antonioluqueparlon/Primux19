@@ -19,7 +19,7 @@
             <h1>Últimas Noticias</h1>
 
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaBaloncestoHoward.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/doncic.jpg" class="card-img imgApartadoNoticias" alt="Luka Doncic">
@@ -35,7 +35,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaBaloncestoHoward.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/zapas.jpg" class="card-img imgApartadoNoticias" alt="Howard">
@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/basketAmateur.jpg" class="card-img imgApartadoNoticias" alt="basketAmateur">
@@ -69,7 +69,7 @@
                 </a>
             </div>
             <div class="card cardArticulo">
-                <a href="noticia.php" class="enlaceNoticia">
+                <a href="../noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img src="../../img/imgDeportes/basketFemenino.jpg" class="card-img imgApartadoNoticias" alt="Baloncesto femenino">

@@ -34,7 +34,7 @@
                         <h1>Últimas noticias</h1>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="deportes/noticiasDeportes/noticiaBaloncestoHoward.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text titNoticiaUltNoticias">El récord de Doncid del que nadie puede presumir en la historia de la NBA</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="deportes/noticiasDeportes/noticiaViajeOpenAustralia.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text titNoticiaUltNoticias">Nadal, Djokovic y Thiem volaron juntos desde Barcelona</p>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="deportes/noticiasDeportes/noticiaFutbol.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text titNoticiaUltNoticias">Simeone necesita que João Félix remonte el vuelo</p>
@@ -67,7 +67,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="deportes/noticiasDeportes/noticiaCuarentenaDjokovic.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text titNoticiaUltNoticias">Australia niega la petición de Djokovic para la cuarentena</p>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="noticia.php" class="linkNoticia">
+                                <a href="deportes/noticiasDeportes/noticiaCiclismoAnne.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text titNoticiaUltNoticias">La nueva aventura de Ane Santesteban</p>
@@ -102,7 +102,7 @@
         </ul>-->
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <a href="noticia.php">
+                                    <a href="deportes/noticiasDeportes/noticiaBaloncesto.php">
                                         <img class="img-fluid"
                                             src="../Fase3/img/imgDeportes/basketFemenino.jpg" alt="baloncesto femenino"
                                             width="70%" height="200">
@@ -112,7 +112,7 @@
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="noticia.php">
+                                    <a href="deportes/noticiasDeportes/noticiaCiclismoAnne.php">
                                         <img src="../Fase3/img/imgDeportes/anne.jpg"
                                             class="img-fluid" alt="" width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
@@ -121,7 +121,7 @@
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="noticia.php">
+                                    <a href="deportes/noticiasDeportes/noticiaBaloncesto.php">
                                         <img src="../Fase3/img/imgDeportes/doncic.jpg"
                                             class="img-fluid" alt="" width="70%" height="200">
                                         <div class="carousel-caption txtTop txtCarrousel">
@@ -148,7 +148,7 @@
 
                     <!--TARJETAS DE NOTICIAS -->
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia">
+                        <a href="deportes/noticiasDeportes/noticiaREntrerrios.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="../Fase3/img/imgDeportes/balonmano.jpg"
@@ -166,7 +166,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia ">
+                        <a href="deportes/noticiasDeportes/noticiaExpMessi.php" class="enlaceNoticia ">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="../Fase3/img/imgDeportes/expMessi.jpg"
@@ -183,7 +183,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticia.php" class="enlaceNoticia">
+                        <a href="deportes/noticiasDeportes/noticiaCiclismo.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="../Fase3/img/imgDeportes/ciclismo1.jpg"
