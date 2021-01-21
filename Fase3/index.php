@@ -16,7 +16,7 @@
             <a href="../Fase3/noticiasTecnologia/noticias/noticiaAlmaLinux.php" class="enlaceNoticia">
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                     <div class="card-img card-imgIndex ">
-                        <img class="imagenTarjetaIndex" src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="">
+                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex ">
                         <h3>AlmaLinux</h3>
@@ -29,7 +29,7 @@
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                 <a href="../Fase3/noticiasVideoJuegos/parlon/noticiaCarcasasPS5.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex" src="../Fase3/noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
+                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="../Fase3/noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
                         <h3>"Somos intocables"</h3>
@@ -42,7 +42,7 @@
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                 <a href="../Fase3/noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex" src="../Fase3/noticiasMotor/img/dakarJuego380.jpg" alt="">
+                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="../Fase3/noticiasMotor/img/dakarJuego380.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
                         <h3>El Dakar, nuevo videojuego</h3>
@@ -55,7 +55,7 @@
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                 <a href="../Fase3/deportes/noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex" src="img/imgDeportes/basketFemenino.jpg" alt="">
+                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="img/imgDeportes/basketFemenino.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
                         <h3>Baloncesto femenino en la UCO</h3>
