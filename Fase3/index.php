@@ -79,6 +79,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
+        <a href="../Fase3/noticiasMotor/subseccionFormulaE/n1FE.php" class="enlaceNoticia">
           <img class="d-block w-100 carrouselImg" src="../Fase3/noticiasMotor/img/formulae.jpg" alt="First slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
@@ -88,6 +89,7 @@
           </div>
         </div>
         <div class="carousel-item">
+        <a href="../Fase3/noticiasTecnologia/noticias/noticiaBugWindows.php" class="enlaceNoticia">
           <img class="d-block w-100 carrouselImg" src="https://i.blogs.es/02b07c/windows-10-bug/1366_2000.jpg" alt="Second slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
@@ -97,6 +99,7 @@
           </div>
         </div>
         <div class="carousel-item">
+        <a href="../Fase3/noticiasVideojuegos/parlon/noticiaMarioKart.php" class="enlaceNoticia">
           <img class="d-block w-100 carrouselImg" src="../Fase3/noticiasVideojuegos/parlon/img/mariokart.jpg" alt="Third slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
@@ -134,7 +137,7 @@
     <div class="col-md-8">
     <div class="card-body">
         <h3 class="card-title indexNoticiaTitulo">El terrible error de face time</h3>
-        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualización hace 1 min</small></p>
         <p class="card-text indexNoticiaTexto">Signal, FB Messenger y Google Duo sufrían un error similar al de FaceTime: con una llamada se podía espiar a otros</p>
       </div>
     </div>
@@ -150,7 +153,7 @@
     <div class="col-md-8">
     <div class="card-body">
         <h3 class="card-title indexNoticiaTitulo">La tarjeta gráfica de Nvidia RTX 30 más barata</h3>
-        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualización hace 3 min</small></p>
         <p class="card-text indexNoticiaTexto">Tal y como estaba previsto,Nvidia ha presentado su nueva gama de tarjetas gráficas de la familia RTX 3060.</p>
       </div>
     </div>
@@ -166,7 +169,7 @@
     <div class="col-md-8">
       <div class="card-body">
         <h3 class="card-title indexNoticiaTitulo">WRC: Bottas quiere correr el Rally del Ártico tras acabar sexto en Finlandia</h3>
-        <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualización hace 9 min</small></p>
         <p class="card-text indexNoticiaTexto">Valtteri Bottas finalizó sexto en el Rally del Ártico en Finlandia que formará parte del Mundial en 2021, y no descarta competir en él ya que la pretemporada de F1 no arrancará hasta marzo.</p>
       </div>
     </div>

@@ -64,6 +64,7 @@
                                 <button type="button" id="full-screen">Pantalla Completa</button></button>
                             </div>
                         </div>
+                    </div>
 
                         
                     <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
