@@ -161,8 +161,8 @@
                                 <div class="carousel-item active">
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://static1.abc.es/media/tecnologia/2021/01/13/ciber-2-kVEI--620x349@abc.jpg" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://static1.abc.es/media/tecnologia/2021/01/13/ciber-2-kVEI--620x349@abc.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Ciberataque</h4>
                                                 <p class="card-text">Errores al sufrir un ciberataque</p>
@@ -172,8 +172,8 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://i.blogs.es/c93fab/girl-3718515_1920/1366_2000.jpg" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://i.blogs.es/c93fab/girl-3718515_1920/1366_2000.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">FaceTime</h4>
                                                 <p class="card-text">Con una llamada se podía espiar a otros</p>
@@ -183,8 +183,8 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://i.blogs.es/2cb17e/files-vista-de-carpeta/1366_2000.jpg" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://i.blogs.es/2cb17e/files-vista-de-carpeta/1366_2000.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Files</h4>
                                                 <p class="card-text">El Explorador de Windows 10 que llevábamos años esperando</p>
@@ -194,8 +194,8 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://i.blogs.es/85b3ee/portapapeles/1366_2000.png" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias ">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://i.blogs.es/85b3ee/portapapeles/1366_2000.png" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Windows</h4>
                                                 <p class="card-text">Funciones poco conocidas de Windows 10</p>
@@ -211,8 +211,8 @@
                                 <div class="carousel-item">
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://i.blogs.es/9a5143/adios/1366_2000.jpg" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://i.blogs.es/9a5143/adios/1366_2000.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Samsung</h4>
                                                 <p class="card-text">El futuro de los Samsung Galaxy Note</p>
@@ -222,8 +222,8 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://topesdegama.com/app/uploads-topesdegama.com/2020/01/Purificador-de-Xiaomi-930x489.jpg" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://topesdegama.com/app/uploads-topesdegama.com/2020/01/Purificador-de-Xiaomi-930x489.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Gadgets</h4>
                                                 <p class="card-text">Xiaomi lanza un medidor para ver la calidad del aire en tu móvil</p>
@@ -233,8 +233,8 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://i.blogs.es/775434/samsung-galaxy-s21-caja/1366_2000.jpg" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://i.blogs.es/775434/samsung-galaxy-s21-caja/1366_2000.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">Galaxy S21</h4>
                                                 <p class="card-text">Ni cargador, ni microSD, ni auriculares</p>
@@ -244,8 +244,8 @@
                                     </div>
 
                                     <div class="col-md-3" style="float:left">
-                                        <div class="card mb-2">
-                                            <img class="card-img-top" src="https://i.blogs.es/7e5989/htc-desire-21-pro-5g/1366_2000.jpg" alt="Card image cap">
+                                        <div class="card mb-2 tarjetaUltimasNOticias">
+                                            <img class="card-img-top imgUltimasNoticias" src="https://i.blogs.es/7e5989/htc-desire-21-pro-5g/1366_2000.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title">HTC</h4>
                                                 <p class="card-text">HTC Desire 21 Pro 5G</p>
