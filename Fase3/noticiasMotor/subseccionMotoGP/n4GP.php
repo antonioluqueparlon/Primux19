@@ -14,26 +14,26 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">Dovizioso ya no oculta sus críticas a Ducati</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/dovizioso.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        <p>Andrea Dovizioso no se corta verbalmente desde que no tiene equipo en MotoGP. Tras ocho temporadas en Ducati, ahora mismo está 'desempleado' ('unemployed'). El de Forlí no ha encajado bien su salida de la marca de Borgo Panigale. Su frustración la ha pagado con Gigi Dall'Igna. En una entrevista con la 'Gazzetta dello Sport' se ha despachado a gusta contra la figura del director general del equipo rojo.</p>
+                        <p>"¿Cuál era la relación con Gigi? Cero. Pero en los últimos años era el 30%. Desde que Jorge Lorenzo llegó en 2017, al hablar y entrar en contrastes, mi equipo y yo nos aislamos un poco. Ya no hablamos del desarrollo de la moto, no tuvimos reuniones para desarrollarla. En Ducati hay el potencial para hacerlo. De estos ocho años es lo único que lamento, porque podríamos haber hecho más. Gigi y yo desde 2017 no hemos hablado con calma, yo le transmitía mi 'feedback', él lo recibía y la gestionaba de la mejor manera", apostilla.</p>
 
+                        <img src="../img/serio.png" alt="imgNoticia"
+                        class="imgNoticia img-fluid">
 
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
-                        </p>
+                        <p>Y va más allá cuando culpa a Dall'Igna de que Ducati no le haya renovado. "Estas decisiones vienen sólo de Gigi. La gente habla de Ducati, pero están equivocados, todas las decisiones tomadas desde que está allí son suyas. Como Lorenzo en lugar de Márquez en 2017. A principios de 2016 había existido la posibilidad de llevárselo, Gigi incluso le dijo que no a Márquez en 2016, sólo quería a Lorenzo", desvela.</p>
+                        </br>
+                        <h3><strong>Dall'igna incluso le dijo que no a Márquez en 2016, sólo quería a Lorenzo"</strong></h3></br>
+                        <p>Dovi sostiene que no hubo nunca intención de que siguiera vestido de rojo. "Digamos que no hubo un comportamiento transparente, a diferencia de Petrucci, a quien se le dijo antes de la temporada que no tenía sitio. Pero después Gigi ha dicho que se acabó en la reunión técnica de 2019 entre Sachsenring y Austria. Se suponía que era una reunión técnica. Teníamos ideas diferentes, había fricciones y queríamos reunirnos con todos los ingenieros. Comenzó como una reunión técnica, pero terminó como un enfrentamiento entre nosotros dos. Gigi se sintió atacado, golpeado. Creo que en ese momento cerró las puertas, pero lo hizo en silencio y lo que dice lo confirma. Luego, en 2020, se hicieron declaraciones sobre mi motivación. Se dijo que yo quería esto, y lo otro. Todo mentira. Nunca hubo una oferta, no hubo negociaciones. Todavía no sabía que ya no me querían, pero lo que dijo fue la confirmación de que para Dall'Igna ya se había acabado después de la reunión de 2019", recalca.</p>
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

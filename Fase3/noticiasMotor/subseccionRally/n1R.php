@@ -14,26 +14,31 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">WRC: Bottas quiere correr el Rally del Ártico tras acabar sexto en Finlandia</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/bottas.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
-
-
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
+                        <h5><strong>Valtteri Bottas finalizó sexto en el Rally del Ártico en Finlandia que formará parte del Mundial en 2021, y no descarta competir en él ya que la pretemporada de F1 no arrancará hasta marzo.</strong></h5>
+                        <p>El piloto de Mercedes en F1 participó en el Rally del Ártico en Laponia con un Citroën DS3 WRC. A pesar de haber corrido con un coche antiguo, quedó a casi cuatro minutos del vencedor, Juho Hänninen, quien lo hizo con un Toyota Yaris WRC.</p>
+                        <p>El Rally del Árctico será parte del calendario 2021 del WRC en febrero tras un acuerdo de última hora para sustituir a Suecia después de ser cancelado. Como la segunda fecha del Mundial se disputará un mes antes de que la pretemporada de F1 se realice en Bahrein en marzo, es posible que Bottas tome parte en él.</p>
+                        
+                        <img src="../img/artico.png" alt="imgNoticia" class="imgNoticia img-fluid"></p>
+                        
+                        <p>"Aún no sé si el programa me lo permitirá, todo depende de ello. No sé si tendré que hacer algo con Mercedes en ese momento", comentó Bottas.
+                        </br>"Si hay una ventana abierta en mi calendario, valoraría realmente participar en el Rally del Árctico en Finlandia. Pero todo dependerá de si puedo conseguir un buen coche y cerrar un acuerdo con un equipo". 
                         </p>
+                        <p>"Suelo ir a Inglaterra a finales de febrero a trabajar en la fábrica de Mercedes. Pero no parece lógico hacerlo ahora que estamos preparando la temporada de una manera diferente. Ahora, la mayoría de conversaciones con el equipo se llevan a cabo de forma remota, y afortunadamente, todos los temas que discutimos son casi familiares para mí".</p>
+                        <p>"Francamente, seguiré trabajando. Sin embargo, es algo que depende de muchos factores. Mi agenda está muy ocupada. Este año el calendario de Fórmula 1 consta de 23 carreras y es muy difícil planificar otras cosas. Veremos qué oportunidades se me presentan. También es muy importante qué coche puedo tener. Los rallies son un hobby para mí, pero no es un hobby barato".</p>
+                        <p>Respecto al rally en el que participó señaló: " Me divertí mucho más que el año pasado y aprendí muchas cosas. También tuve dificultades este año porque todavía no tengo experiencia como piloto de rallies".</p>
+                    
+                    
+                    
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

@@ -19,7 +19,7 @@
                 <div class="col-12">
                     <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">

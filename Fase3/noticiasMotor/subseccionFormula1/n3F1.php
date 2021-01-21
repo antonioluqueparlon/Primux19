@@ -14,24 +14,27 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">La renovación de Hamilton: "Definitivamente, hay algo que huele mal"</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/Hamilton.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
                         <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        El retraso en el anuncio de la renovación de contrato entre Lewis Hamilton y Mercedes AMG F1, es uno de los temas que sigue intrigando en al 'paddock' de la F1. El último en opinar es Marc Priestley, exmecánico de McLaren, que tiene un exitoso vídeoblog en Youtube en el que comenta los temas de actualidad de la F1. Para el británico, hay algo que no cuadra. </br></br>
+                        "No creo que sea una situación de pánico todavía entre Mercedes y Lewis Hamilton, pero definitivamente hay algunos puntos difíciles", señala Priestley.</br></br>
+                        "No soy una de esas personas que no cree en los rumores de Internet sobre alguien que dice saber que quiere un par de ceros extra añadidos a su salario, o que quiere un coche gratis. ¿Cómo diablos alguien sabe eso? Se trata de negociaciones privadas, a menos que alguien lo haya filtrado específicamente, lo que me cuesta creer", asegura.</br></br>
+
+                        "Así que espero que se llegue a una conclusión exitosa, pero definitivamente hay algo que huele mal y seguro que están encontrando aspectos difíciles de superar", añade el que fuera operario de la fábrica de Woking y que trabajó personalmente con Hamilton durante varios años.
+Al hoy comentarista de 'Sky Sports', la situación le recuerda a la de Ayrton Senna en 1993 en McLaren. Senna en realidad quería unirse a Williams lo antes posible y, por lo tanto, Ron Dennis optó por pagarle por carrera disputada. 
+</br></br>
+"Toda la temporada existía la posibilidad de que Senna dejara el equipo en cualquier momento", rememora.
 
 
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
 
                         </p>
                     </div>

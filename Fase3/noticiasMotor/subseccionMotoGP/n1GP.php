@@ -14,26 +14,24 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">Muere Jan de Vries, el gran enemigo de Ángel Nieto</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/vries.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        <p>Ángel Nieto no pudo sobrevivir a un grave accidente en Ibiza y murió a los 70 años el 3 de agosto de 2017. Ahora se ha ido su gran rival en 50cc: Jan de Vries. El holandés, que ha fallecido debido a un paro cardiaco, fue una leyenda también. No tanto como el hombre del 12+1, pero fue todo un bicampeón del mundo en la mencionada categoría (1971 y 1973).</p>
+                        <p>De Vries acababa de cumplir 77 años y es recordado por ser el primer holandés en ganar una corona mundial y por su bonita rivalidad con Nieto. Nacido en 1944, originario de Sint Jacobiparochie, fue contratado por Kreidler. Su estreno tuvo lugar en el TT de Assen en 1968, y un año más tarde corrió el campeonato casi completo. En 1969 logró su primera victoria.</p>
+                        <img src="../img/vries2.png" alt="imgNoticia"
+                        class="imgNoticia img-fluid"></p>
+                        <p>Enlazó tres grandes temporadas. En 1971 logró el primer título. Y al año siguiente igualó a todo con Nieto (mismos puntos, victorias y podios), pero el campeonato fue para el español tras sumar todos los tiempos finales de las carreras. Ya en 1973 se volvió a mostrar como el más fuerte. Ganó cinco carreras y se llevó su segunda corona.</p>
+                        <p>Su carrera fue corta. Disputó 36 carreras, de las cuales ganó 14, sumó 27 podios en total y firmó 13 vueltas rápidas. En sus palmarés también hay dos títulos nacionales, obtenidos en 1967 y 1972.</p>
+                        <p>Tras su retirada, De Vries trabajó como mecánico, e incluso lo hizo durante un tiempo para el mítico ganador de '12+1' títulos.</p>
 
-
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
-                        </p>
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

@@ -14,26 +14,24 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">Oficial: Adrián Fernández por Alonso López con Biaggi</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/fernandez.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        <p>Husqvarna hizo oficial que Adrián Fernández, hermano de Raúl, ocupará la plaza de Alonso López en el equipo de Biaggi en el Mundial de Moto3 de 2021.</p>
+                        <p>López había sido renovado por el conjunto del expiloto romano y hasta eso se hizo público, pero la escuadra con sede en Mónaco ha decidido despedir a Alonso y firmar a 'Pitito', como es conocido.</p>
+                        <p>Fernández compitió el año pasado en el Mundial júnior de Moto3 en el FIM CEV Repsol. Acabó séptimo con 79 puntos. Ya debutó en el Mundial en el Gran Premio de Portugal 2020, en Portimao. Lo hizo de la mano del equipo Snipers sustituyendo a Filip Salac a bordo de una Honda. Acabó 18º. Ahora llevará una Husqvarna, idéntica a la KTM.</p>
 
+                        <img src="../img/moto.png" alt="imgNoticia"
+                        class="imgNoticia img-fluid"><p><small class="text-muted">Adrian, en Portimao</small></p></br>
 
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
-                        </p>
+                        <p>Alonso, por su parte, ya se ha repuesto del mazazo moral de verse fuera cuando estaba confirmado y piensa seguir corriendo. Tiene ofertas de distintas categorías y busca un proyecto atractivo para explotar el talento que ya demostró en el pasado. Su reto es volver al Mundial cuanto antes y no descarta pasar por un buen equipo en el FIM CEV de Moto2 para lograrlo.</p>
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

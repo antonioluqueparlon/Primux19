@@ -14,26 +14,37 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">Alpine estudia entrar en la Fórmula E junto a Lotus</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/alpine.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
-
-
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
+                        <h5><strong>Alpine y Lotus están evaluando crear un equipo de Fórmula E, además de desarrollar un programa en el Mundial de Resistencia de la FIA (WEC). </strong></h5>
+                        </br><p>Este jueves, el Grupo Renault y Lotus publicaron un comunicado anunciando que ambos fabricantes estudian cooperar en una serie de áreas.</p>
+                        <p>Aunque la idea principal es el desarrollo de un coche deportivo eléctrico de calle, ambas partes también están trabajando para aprovechar la plataforma de competición de Alpine. 
+                        Además del cambio de marca de Renault, que se ha rebautizado en la Fórmula 1 como Alpine desde 2021, dentro de esta reestructuración también están valorando un programa de Fórmula E y del WEC. 
                         </p>
+                        <p>Alpine ya estará presente en la categoría máxima del Mundial de Resistencia en 2021 con un Rebellion R-13 LMP1, y anteriormente señaló que estaba evaluando el programa con un Hypercar LMDh.
+                        "Es una exploración de competiciones de motor, exactamente como se describe", explicó a Motorsport.com un portavoz de Lotus. "Estamos explorando conjuntamente las oportunidades potenciales en los deportes de motor".     
+                        </p>
+
+                        <p>"Obviamente, Lotus tiene una gran historia en la competición y un largo historial de éxitos al máximo nivel, y Renault y Alpine son expertos en Fórmula E, Fórmula 1, carreras de resistencia y más".</p>
+                        <p>"Esto podría deparar algunas oportunidades muy interesantes, pero en esta etapa simplemente se está analizando". </p>
+
+                        <img src="../img/reigle.jpeg" alt="imgNoticia"
+                        class="imgNoticia img-fluid">
+                        <p><small class="text-muted">James Reigle, director ejecutivo de formula E</small></p></br>
+
+                        <p>El Grupo Renault ya está representado en la Fórmula E a través del equipo Nissan e.dams, que fue rebautizado con el nombre del fabricante japonés en la temporada 2018-19. </p>
+                        <p>En una conversación exclusiva con Motorsport.com, el director ejecutivo de la Fórmula E, Jamie Reigle, reconoció que había estado en conversaciones con las partes interesadas tras la decisión de Audi y BMW de retirarse. Además, señaló que confiaba en que la Fórmula E mantuviera la parrilla de 12 equipos. </p>
+
+                        <p>"Luego está la cuestión de la llegada de nuevos fabricantes. Sin dar nombres, hablamos con uno justo antes de Navidad. Dijeron 'Ey, miramos [la Fórmula E] en 2018. Parecía muy competitiva, un poco cara, sabíamos que tendríamos que gastar una cierta cantidad en la unidad de potencia. Por eso no vinimos en 2018. Tal y como lo vemos hoy en día con el Gen3, se tomaron muy en serio el control de costes, tanto del lado de los equipos como de los fabricantes, y sigue creciendo, queremos echar otro vistazo". </p>
+                        <p>A principios de esta semana, McLaren Racing anunció que había firmado una opción para entrar en la Fórmula E cuando se ponga en marcha la normativa del Gen3 en 2022. Además, llevará a cabo un análisis de los costes, la probabilidad de ser competitivos y si encaja con la visión de McLaren Automotive de la hibridación de sus coches de calle. </p>
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

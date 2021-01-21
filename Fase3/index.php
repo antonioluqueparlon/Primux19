@@ -13,57 +13,53 @@
 <section class="noticiasDestacadas">
         <div class="row">
             <div class="col-md-3">
-            <a href="apartado.php" class="enlaceNoticia">
+            <a href="../Fase3/noticiasTecnologia/noticias/noticiaAlmaLinux.php" class="enlaceNoticia">
                 <div class="card-content card-contentIndex">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/nature" alt="">
+                        <img class="imagenTarjetaIndex" src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
-                        <h3>Noticia 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                            voluptas totam</p> 
+                        <h3>AlmaLinux</h3>
+                        <p>El otro gran aspirante al trono del 'viejo' CentOS, y viene apadrinado por los desarrolladores de CloudLinux</p> 
                     </div>
                 </a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card-content card-contentIndex">
-                <a href="apartado.php" class="enlaceNoticia">
+                <a href="../Fase3/noticiasVideoJuegos/parlon/noticiaCarcasasPS5.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/animals" alt="">
+                        <img class="imagenTarjetaIndex" src="../Fase3/noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
-                        <h3>Noticia 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                            voluptas totam</p>
+                        <h3>"Somos intocables"</h3>
+                        <p>Un fabricante de carcasas de PS5 se declara "intocable" por Sony tras encontrar una inesperada brecha legal</p>
                     </div>
                 </a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card-content card-contentIndex">
-                <a href="apartado.php" class="enlaceNoticia">
+                <a href="../Fase3/noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/tech" alt="">
+                        <img class="imagenTarjetaIndex" src="../Fase3/noticiasMotor/img/dakarJuego380.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
-                        <h3>Noticia 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                            voluptas totam</p> 
+                        <h3>El Dakar, nuevo videojuego</h3>
+                        <p>El estudio portugués Saber Porto –ex BigMoon– está desarrollando un nuevo juego basado en el Dakar</p> 
                     </div>
                 </a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card-content card-contentIndex">
-                <a href="apartado.php" class="enlaceNoticia">
+                <a href="../Fase3/deportes/noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex" src="https://placeimg.com/380/230/food" alt="">
+                        <img class="imagenTarjetaIndex" src="img/imgDeportes/basketFemenino.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
-                        <h3>Noticia 4</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                            voluptas totam</p>  
+                        <h3>Baloncesto femenino en la UCO</h3>
+                        <p>La Universidad cubriría el vacío que tenía en un deporte mayoritario como el baloncesto</p>  
                     </div>
                   </a>
                 </div>
@@ -83,29 +79,29 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100 carrouselImg" src="https://placeimg.com/1200/600/food" alt="First slide">
+          <img class="d-block w-100 carrouselImg" src="../Fase3/noticiasMotor/img/formulae.jpg" alt="First slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
-          <h3>Noticia 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae fugiat obcaecati hic saepe totam illo eum aliquam.</p>
+          <h3>La salida de Audi y BMW de la Fórmula E</h3>
+            <p>Eso provocará la llegada de nuevos fabricantes</p>
           </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100 carrouselImg" src="https://placeimg.com/1200/600/tech" alt="Second slide">
+          <img class="d-block w-100 carrouselImg" src="https://i.blogs.es/02b07c/windows-10-bug/1366_2000.jpg" alt="Second slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
-          <h3>Noticia 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae fugiat obcaecati hic saepe totam illo eum aliquam.</p>
+          <h3>Windows 10 tiene un bug que puede corromper tu disco duro</h3>
+            <p>El investigador de seguridad Jonas L ha descubierto una vulnerabilidad en el sistema de archivos NTFS de Windows que permite corromper un disco con un simple comando de una sola línea.</p>
           </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100 carrouselImg" src="https://placeimg.com/1200/600/money" alt="Third slide">
+          <img class="d-block w-100 carrouselImg" src="../Fase3/noticiasVideojuegos/parlon/img/mariokart.jpg" alt="Third slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
-            <h3>Noticia 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae fugiat obcaecati hic saepe totam illo eum aliquam.</p>
+            <h3>Mario Kart 8 se reinventa</h3>
+            <p>Una bici estática y el anillo de Ring Fit es todo lo que necesita este jugador para competir en Mario Kart 8</p>
           </div>
           </div>
 
@@ -130,48 +126,48 @@
     <h1>Últimas Noticias</h1>
 
 <div class="card cardArticulo">
-<a href="#" class="enlaceNoticia">
+<a href="../Fase3/noticiasTecnologia/noticias/noticiaFaceTime.php" class="enlaceNoticia">
   <div class="row no-gutters">
     <div class="col-md-12 col-lg-4">
-      <img src="https://as01.epimg.net/meristation/imagenes/2020/06/17/betech/1592423233_521074_1592423565_noticia_normal_recorte1.jpg" class="card-img" alt="...">
+      <img src="https://i.blogs.es/c93fab/girl-3718515_1920/1366_2000.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
     <div class="card-body">
-        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
+        <h3 class="card-title indexNoticiaTitulo">El terrible error de face time</h3>
         <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
-        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text indexNoticiaTexto">Signal, FB Messenger y Google Duo sufrían un error similar al de FaceTime: con una llamada se podía espiar a otros</p>
       </div>
     </div>
   </div>
 </a>
 </div>
 <div class="card cardArticulo">
-<a href="#" class="enlaceNoticia">
+<a href="../Fase3/noticiasVideojuegos/parlon/noticiaGraficas2.php" class="enlaceNoticia">
   <div class="row no-gutters">
     <div class="col-md-12 col-lg-4">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFGi3dVsGtzx7EGSC8-GK7OSgaScqlAa396g&usqp=CAU" class="card-img" alt="...">
+      <img src="../Fase3/noticiasVideojuegos/parlon/img/rtx3060.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
     <div class="card-body">
-        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
+        <h3 class="card-title indexNoticiaTitulo">La tarjeta gráfica de Nvidia RTX 30 más barata</h3>
         <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
-        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text indexNoticiaTexto">Tal y como estaba previsto,Nvidia ha presentado su nueva gama de tarjetas gráficas de la familia RTX 3060.</p>
       </div>
     </div>
   </div>
 </a>
 </div>
 <div class="card cardArticulo">
-  <a href="#" class="enlaceNoticia">
+  <a href="../Fase3/noticiasMotor/subseccionRally/n1R.php" class="enlaceNoticia">
   <div class="row no-gutters">
     <div class="col-md-12 col-lg-4">
-      <img src="https://i.blogs.es/187a45/iphone-11-pro-02/450_1000.jpg" class="card-img" alt="...">
+      <img src="../Fase3/noticiasMotor/img/bottas400.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h3 class="card-title indexNoticiaTitulo">Card title</h3>
+        <h3 class="card-title indexNoticiaTitulo">WRC: Bottas quiere correr el Rally del Ártico tras acabar sexto en Finlandia</h3>
         <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
-        <p class="card-text indexNoticiaTexto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text indexNoticiaTexto">Valtteri Bottas finalizó sexto en el Rally del Ártico en Finlandia que formará parte del Mundial en 2021, y no descarta competir en él ya que la pretemporada de F1 no arrancará hasta marzo.</p>
       </div>
     </div>
   </div>

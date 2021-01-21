@@ -14,26 +14,25 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">Nani Roma, 5º en su 25º Dakar: "Volveremos más fuertes en 2022"</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/naniRoma.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        <h5><strong>Nani Roma y Alex Winocq lograron cerrar el top 5 del Dakar 2021 en coches en el estreno del equipo Bahrain Raid Xtreme y su BRX T1.</strong></h5>
+                        <p>Hace un año el Dakar acabó con sabor amargo para Nani Roma, con más pena que gloria, como diría aquel. Pero la edición 2021 ha vuelto a hacer sonreír al gigante de Folgueroles, que se ha medido con los mejores en las 12 etapas en su 25ª participación. </p>
+                        <p>Tras liderar el proyecto de Bahrain Raid Xtreme desde que la estructura gestionada por Prodrive estrenara su coche el pasado mes de octubre, Roma ha pasado de quedarse sin Dani Oliveras, su copiloto, a pocos días del Prólogo del Dakar 2021, a cerrar el top 5 de la general. </p>
+                        <p>Aunque sus 12 jornadas en el desierto saudí no han estado exentas de sobresaltos, Roma gestionó con maestría la escasa diferencia que tenía sobre Vladimir Vailyev y Khalid Al Qassimi para completar un estreno notable del BRX Hunter T1.</p>
+                        <p>“Dakar terminado. Estamos muy contentos y muy agradecidos al equipo, que ha hecho un gran trabajo. El coche ha funcionado muy bien. Se ganaron el Tuareg antes de salir, y terminar en quinta posición es magnífico", asegura el catalán.</p>
+                        <p>"Ha sido un Dakar muy difícil para nosotros. Empezó torcido, pero hemos sabido correr tranquilos, correr bien, y obtener un buen resultado. 25 Dakares y un bonito quinto puesto. Hemos demostrado que construimos un coche realmente fuerte, con mucho potencial. Estamos solo al comienzo del viaje. Hemos hecho un trabajo increíble, incluso mayor por la situación con la COVID-19. Ha habido muchos retos en los últimos meses, pero el equipo ha seguido creyendo hasta el final".</p>
+                        <p>El equipo se quedó sin su otra unidad, pilotada por Sébastien Loeb y Daniel Elena, en la segunda parte de la Maratón (etapa 8), pero después de haber completado la construcción y las mejoras del prototipo 4x4 en tiempo récord, el 5º puesto de Roma sabe a gloria.</p>
 
 
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
-                        </p>
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

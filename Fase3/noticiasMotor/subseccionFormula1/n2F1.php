@@ -14,24 +14,23 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">Mazepin, consciente de que tendrá "un solo disparo en la F1"</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/mazepin.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
                         <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        Nikita Mazepin (Moscú, 1999) es consciente de que tendrá una sola oportunidad para demostrar su valía en la F1. El piloto ruso, envuelto en la polémica por su controvertido vídeo en el que tocaba un pecho a una modelo en un coche, durante una juerga que fue filtrada en redes sociales, sabe que se le va a mirar con lupa. Haas ya le ha avisado de que no habrá segundas oportunidades y además se deberá medir al campeón de la F2 vigente, Mick Schumacher, que desembarca con todo el apoyo de Ferrari y una campaña mediática poco vista al su alrededor.
+"Sabes que cuando entras en la F1 hay sólo casi una oportunidad y en mi caso no va a ser diferente", asume Mazepin sobre 2021. </br> </br>
 
-
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
+Al ruso le traen sin cuidado las palabra del director del equipo Guenther Steiner, quien afirmó. "El dinero que trae Mazepín le da estabilidad a Haas", aludiendo a la fortuna de su padre Dmitry Mazepín que se estima en unos 13.000 millones de dólares (casi cuadruplica a los Stroll, con unos 2.500 millones), un imperio que proviene de la empresa química Uralchem Integrated Chemicals Company, centrada en la producción de fertilizantes.
+"Independientemente de lo que haya dicho Guenther, diría que mi trabajo es superar a mi compañero de equipo, como siempre, y hacerlo lo mejor que pueda. Así que la presión todavía está sobre mis hombros. Creo que estoy listo para la F1 y quiero mostrárselo al equipo en primer lugar", afirma el joven piloto.
+</br>
 
                         </p>
                     </div>

@@ -14,26 +14,34 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">La salida de Audi y BMW de la Fórmula E abre nuevas puertas</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/formulae.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
-
-
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
+                    <h5><strong>Jamie Reigle, CEO de la Fórmula E, dice que no se sintió del todo sorprendido por el anuncio de las salidas de Audi y BMW, pero considera que eso provocará la llegada de nuevos fabricantes.
+</strong></h5>
+                        </br>
+                        <p>Después de años de crecimiento continuo, la Fórmula E sufrió su primer revés importante en diciembre de 2020 con el anuncio de las salidas de Audi y BMW, que terminarán su participación en la categoría eléctrica después de la temporada 2021.</p>
+                        <p>Jamie Reigle, CEO de la Fórmula E, no ve la decisión de los dos fabricantes alemanes como algo negativo, sino como una puerta para que otras compañías lleguen a la categoría. "Es interesante lo que significan las decisiones de Audi y BMW para la Fórmula E", dijo Reigle en una entrevista con Motorsport.com.</p>
+                        <P>“Hemos tenido conversaciones con otros fabricantes que nos expresaban su inquietud por entrar en la Fórmula E, lo que representaría un desafío debido a las inversiones en el sistema de propulsión, la dura competencia y la cantidad de fabricantes involucrados'", explicó el directivo.</p>
+                        <p>
+                        Actualmente no existe espacio para que otros competidores ingresen a la parrilla, ya que se ha agotado el número máximo de 24 coches, pero eso cambiará con la salida de Audi y BMW. "La combinación de espacios libres y el hecho de que nos tomamos muy en serio el límite de costes cambia el perfil de inversión", expresó Reigle, que ahora ve la oportunidad ideal para que los nuevos fabricantes “tengan un mejor sentimiento” respecto a entrar a la categoría.
+                        Estas sensaciones se confirmaron esta semana con la decisión del equipo McLaren de asegurarse una opción para entrar a la Fórmula E en 2022. Y Renault, que ya está representada en la Fórmula E con su empresa hermana Nissan, anunció que examinaría una propuesta para competir con su marca Alpine.
                         </p>
+                        <p>
+                        A pesar de esas noticias positivas, Reigle lamenta la retirada de Audi y BMW. "No puedo mirarte a la cara y decirte que estoy feliz de verlos marchar. Son marcas fantásticas con una larga trayectoria en el automovilismo. Por supuesto, nos gustaría que continuaran en el campeonato".
+                        Sin embargo, para él no fue de total sorpresa las decisiones tomadas por las dos compañías y que hicieron del inicio de diciembre un mes complicado.
+                        </p>
+                        “Debo decir que me decepcionaron las decisiones, pero no puedo decir que me soprendieran por completo”.
+                        </br></br>
+                        Y aunque la retirada de las dos marcas no sea compensada por otras en este momento, considera que la Fórmula E sigue bien posicionada. "Dependiendo de cómo contemos, tenemos de siete a nueve fabricantes en la Fórmula E. Es un número relativamente grande en relación con el número total de participantes. Creo que podríamos tener éxito incluso con un número menor", finalizó.
+
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

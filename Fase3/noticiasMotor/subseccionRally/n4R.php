@@ -14,26 +14,44 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">El Dakar tendrá nuevo videojuego: primeros detalles</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/dakarJuego.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        <h5><strong>El estudio portugués Saber Porto –ex BigMoon– está desarrollando un nuevo videojuego oficial de mundo abierto del Rally Dakar con muchas novedades.</strong></h5>
+                        <p>Ha pasado ya mucho tiempo desde que las últimas actualizaciones del videojuego Dakar 18 –el primero de la mítica carrera con mundo abierto– llegase a videoconsolas y PC. Concretamente, cerca de dos años desde que el Desafío Inca llegó como paquete gratuito de contenido extra en febrero de 2019. </p>
+                        <p>Pero, según ha podido saber Motorsport.com, el estudio Bigmoon –que en 2019 fue comprado por Saber Interactive, responsable de títulos como Spintires, Mudrunner o Snowrunner– está trabajando desde hace meses en la nueva entrega del videojuego oficial del Dakar.</p>
+                        <p>Bajo el nombre de Saber Porto, el equipo de desarrolladores ha renovado y ampliado su plantilla en los últimos meses y esperan estrenar el nuevo título en la segunda mitad de 2021 para PlayStation 4 y 5, Xbox X Series, Xbox One y PC.</p>
+
+                        <h3><strong>¿Qué contenido incluirá el nuevo videojuego del Dakar?</strong></h3></br>
+
+                        <p>Según fuentes consultadas por Motorsport.com, Saber Porto tomó nota de todos los fallos que presentó su Dakar 18, que principalmente se centraron en las físicas de los vehículos y el comportamiento errático de la IA (Inteligencia Artificial), y están trabajando en mejorarlos radicalmente.</p>
+                        <p>Si bien es cierto que la propuesta fue novedosa y única hasta el momento, se centró demasiado en simular la navegación con el libro de ruta y poco en la jugabilidad del título. </p>
+                        <p>En esta nueva entrega, contaremos con las ediciones 2020 y 2021 del Dakar en Arabia Saudí, con un total de 25 etapas basadas en los roadbook originales diseñados por David Castera, director del Dakar, y su equipo de ASO. Por supuesto, tendremos un enorme mapa abierto en cada tramo para perdernos y esta vez la escala pasará de ser de 1:33 a 1:25 (cinco kilómetros reales serán uno en el juego).</p>
+
+                        <p>Por supuesto, el juego se centrará nuevamente en ser capaces de navegar (motos y quads) o seguir las indicaciones de nuestro copiloto (coches, camiones y SSV/T3) a lo largo y ancho de Arabia Saudí, y con unas físicas rehechas de cero.</p>
+                        
+                        <img src="../img/custom.jpg" alt="imgNoticia"
+                        class="imgNoticia img-fluid"></p>
+                        
+                        <p>Además, parece ser que una de las opciones más solicitadas por la comunidad, la de poder crear nuestro propio equipo, mono de carreras y decoración del vehículo y usarlo también en el modo online, llegará en esta nueva entrega.</p>
+
+                        <h3><strong>¿Cómo será el modo online del nuevo videojuego del Dakar?</strong></h3></br>
+                        <p>Hasta donde ha podido saber Motorsport.com, el nuevo título apostará notablemente por el modo online, potenciando sus funcionalidades y contará con crossplay (los jugadores de consolas podrán competir contra los de PC), servidores dedicados y servidores cliente.</p>
+
+                        <img src="../img/dakar.jpg" alt="imgNoticia"
+                        class="imgNoticia img-fluid">
+
+                        <p>Al parecer, desde la compañía portuguesa estarían pensando en organizar una competición virtual a través de este nuevo videojuego, denominada eDakar, en la que participarían algunos de los pilotos reales. </p>
+                        <p>Además, el nuevo título del Dakar contará con otros modos de juego que no sean el recorrido oficial para poder disfrutar de los increíbles paisajes y vehículos, como el Búsqueda del Tesoro que incluyó Dakar 18.</p>
 
 
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
-                        </p>
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

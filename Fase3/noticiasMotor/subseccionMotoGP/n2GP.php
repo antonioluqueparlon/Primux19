@@ -14,26 +14,26 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">Los test de pretemporada de MotoGP en Sepang se suspenden por el covid</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/motogp.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
-                        <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        <p>La FIM, IRTA y Dorna Sports anuncia de forma oficial que el 'Shakedown' (14 al 16 de febrero) y el primer test de pretemporada (19 al 21 de febrero) previstos ambos en Sepang (Malasia) para iniciar la temporada 2021 de MotoGP, quedan cancelados .</p>
+                        <p>"La pandemia de Covid-19 en curso y los bloqueos y complicaciones resultantes han obligado a la cancelación de ambos eventos", señalan en un comunicado oficial.</p>
+                        <p>Por el momento, sigue en pie el tercero de los test programados, en el Circuito Internacional de Losail del 10 al 12 de marzo,, una semana antes de la primera carrera del año en el mismo escenario, prevista para el 26-28 de febrero, que curiosamente coincidiría con la primera prueba de la Fórmula 1 en Sakhir, anunciada hoy de forma oficial.</p>
 
+                        <img src="../img/motogpcancel.jpg" alt="imgNoticia"
+                        class="imgNoticia img-fluid"></p>
 
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
-
-                        </p>
+                        <p>Sin embargo, de forma oficiosa, corre el rumor de que se va a intentar habilitar una fecha de pruebas extra antes de la de Qatar, posiblemente en el circuito de Jerez, una cita que estará determinada por la evolución de la pandemia en España y en Europa.</p>
+                    
+                    
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->

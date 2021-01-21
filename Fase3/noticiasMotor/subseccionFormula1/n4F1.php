@@ -14,24 +14,34 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">No tengo dudas: Sainz tendrá éxito en Ferrari</h1>
+                    <h1 class="titNoticia ">El nuevo motor del Ferrari SF21: ganancias térmicas, eléctricas y de refrigeración
+</h1>
                 </div>
                 <div class="col-12">
-                    <img src="../img/sainzFerrari.jpg" alt="imgNoticia"
+                    <img src="../img/ferrari.jpg" alt="imgNoticia"
                         class="imgNoticia img-fluid">
-                    <p><small class="text-muted">Juan Pérez 02/12/20</small></p>
+                    <p><small class="text-muted">Antonio Pérez 02/12/20</small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
                     <div class="col-12">
                         <p></br>
-                        Carlos Sainz sabe que va a tardar en adaptarse a Ferrari, porque no ha tenido test, porque tendrá apenas día y medio en pretemporada y porque el propio piloto suele tomarse tiempo para encajar en el coche y en el equipo a donde va hasta que coge vuelo y ya no lo deja.</br></br>
-                        "Tiene un gran talento, creo que está pilotando a un nivel increíble", reconoce Sainz. "Para mí, se está mostrando como uno de los mejores en la parrilla en este momento. Así que será difícil igualarlo, especialmente al principio, sin pretemporada ni nada", comentó recientemente el flamante fichaje de Ferrari, que ayer probó por primera vez el nuevo SF21 en el simulador.
-                        No será sencillo aparecer en la primera cita de Bahréin a finales de marzo y tratar de igualar sus cronos con los de Charles Leclerc, aunque sus ex de McLaren no tienen dudas sobre su rendimiento.</br></br>
+                        Hay mucha expectación por saber si Ferrari será capaz de enjugar esos 60-70CV de déficit de potencia que se dejó en 2020 respecto a Mercedes, al tener que adaptarse a las nuevas limitaciones en el flujo de combustible y refrigerantes que la FIA impuso a finales de 2019. Esa diferencia lastró a la Scuderia, que completó la peor temporada desde 1080 y que ahora trata de solventar con el, nuevo motor, el 066, en la nomenclatura de la marca, que se habría apodado en a factoría como 'superrrápido'.</br></br>
 
+                        En un extenso artículo, Franco Nugnes, en la edición italiana de 'Motorsport.com' relata de forma pormenorizada los puntos en los que trabaja Ferrari en el nuevo motor que llevará Carlos Sainz en 2021, quien ya trabaja de forma intensa en el simulador de Maranello con los nuevos datos teóricos.</br></br>
 
-Será una temporada muy interesante porque ha habido movimiento de pilotos y será muy interesante ver cómo lo hará Carlos contra Charles, que es muy fuerte. Por lo que hemos visto en estos dos años en McLaren, Carlos lo tiene todo para convertirse en un piloto de primer nivel", asegura el alemán al que el propio Sainz ha piropeado como uno de los grandes artífices del resurgimiento del equipo inglés.
-"El motivo es la forma en que pilota Carlos e interactúa con el equipo fuera del coche, y el entorno que tiene a su alrededor, por eso no tengo ninguna duda de que hará un gran trabajo y tendrá éxito con Ferrari", subraya.
+                        "El motor 2021 del equipo se encuentra ahora en las etapas de diseño avanzadas, y se entiende que presenta algunos desarrollos interesantes que se espera brindarán un buen impulso en cuanto a la potencia", afirma Nugnes en su información.</br></br>
+
+                        "En lugar de optar por algo revolucionario, se entiende que Ferrari busca realizar cambios incrementales en todos los aspectos de las propiedades térmicas y el tren de potencia eléctrico, lo que cree que sumará una ganancia general considerable", afirma sobre la nueva unidad.</br></br>
+
+                        </p>
+
+                        <img src="../img/ferrari2021.jpg" alt="imgNoticia" class="imgNoticia img-fluid"></p>
+
+                        <h3><strong>Un cambio clave en el motor</strong></h3></br>
+<p>
+                        "En cambio, la novedad clave que introducirá el jefe de motores de Ferrari, Enrico Gualtieri, es el debut de una culata de cilindros 'superrápida, que originalmente se esperaba que se presentara en 2022. El nuevo diseño ayudará a conseguir una mayor atomización del combustible y una mayor presión en la cámara de combustión, ya que los equipos intentarán acercarse al límite de 500 bares de presión que marca la normativa", asegura la información de 'Motorsport.com'.</br></br>
+                        "Además se añade una corona de pistón de nuevo diseño (que permanece fabricada en acero) y conductos de admisión en el árbol de levas, donde se cree que Ferrari ha analizado el uso de nuevas aleaciones que ayudarán a garantizar que la fiabilidad no se vea comprometida por el aumento en el rendimiento. Los problemas de fiabilidad por los escapes estrechos también parecen haberse resuelto, ya que, gracias a una nueva caja de cambios, el área de la botella de Coca Cola (la parte trasera de la tapa del motor) será más grande y, por lo tanto, los tubos pueden estar alojados en un espacio más pequeño", sin que la refrigeración se sea comprometida, explica Nugnes.
 
                         </p>
                     </div>
