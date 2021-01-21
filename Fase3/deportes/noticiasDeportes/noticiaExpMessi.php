@@ -4,7 +4,7 @@
 
 <head>
     <?php include("../includes/head-tag-contents.php");?>
-    <script src="../../noticiasVideojuegos/scriptReproductor.js"></script>
+    <script src="../../noticiasVideojuegos/parlon/scriptReproductor.js"></script>
 </head>
 
 <body>
@@ -35,7 +35,8 @@
                             A partir de ese momento el conjunto bilbaino se sintió como pez en el agua defendiendo el resultado, consiguiendo el título.
                             Se vivió una celebración por todo lo alto con Villalibre tocando la trompeta y con el recuerdo de todo el mundo hacia Asier Garitano el entrenador que ha sido artífice de llegar a la supercopa
                             y que fue destituido hace unas semanas.<br><br>
-                            <div id="video-container">
+                        </p>
+                        <div id="video-container">
                             <!-- Video -->
                             <video id="video" width="1040" height="365">
                                 <source src="../video/expulsion.webm" type="video/webm">
@@ -55,7 +56,7 @@
                                 <button type="button" id="full-screen">Pantalla Completa</button></button>
                             </div>
                         </div
-                        </p>
+                        
                     </div>
                 </div>
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
