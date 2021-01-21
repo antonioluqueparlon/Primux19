@@ -64,7 +64,7 @@
                     <h2 class="titNoticia">Otras noticias</h2>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="noticiaCiclismo.php" class="linkNoticia">
                         <div class="card divOtrasNoticias">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
@@ -81,7 +81,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="noticia.php" class="linkNoticia">
+                    <a href="../../noticiasVideojuegos/parlon/noticiaSwitch.php" class="linkNoticia">
                         <div class="card divOtrasNoticias ">
                             <div class="row no-gutters">
                                 <div class="col-md-4 col-sm-12">
