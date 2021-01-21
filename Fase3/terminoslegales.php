@@ -109,18 +109,6 @@
                             de participación que muestren las opiniones y/o comentarios de los usuarios del site.
                         </p>
                         <hr>
-
-                        <div class="font-weight-bold">Propiedad intelectual e industrial</div><br>
-                        <p id="textaco">
-
-                            El presente website y todos los derechos de propiedad intelectual e industrial sobre los elementos que lo componen: contenidos, logos, marcas, símbolos, código fuente, etc. son titularidad de <strong>TrendTop</strong>. Todos los derechos reservados.
-
-                            Quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización expresa y por escrito de <strong>TrendTop</strong>.
-
-                            El Usuario se compromete a respetar los derechos de Propiedad Intelectual e Industrial titularidad de <strong>TrendTop</strong>, y por ello reconoce que la reproducción, distribución, comercialización, transformación, y en general, cualquier otra forma de explotación, por cualquier procedimiento, de todo o parte de los contenidos de este Sitio Web y sus páginas webs constituye una infracción de los derechos de propiedad intelectual y/o industrial del titular del Website o de los titulares de los mismos.
-                        </p>
-
-                        <hr>
                         <div class="font-weight-bold">Modificaciones</div><br>
                         <p id="textaco">
                             <strong>TrendTop</strong> se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en la web <strong>TrendTop</strong>, pudiendo cambiar, suprimir o añadir tanto los contenidos y servicios que se presten a través de la misma como la forma en la que éstos aparezcan presentados o localizados en el Website.
