@@ -15,7 +15,7 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">Las ventas de Nintendo Switch en Japón en 2020 son de récord: casi 7 millones de consolas en un año</h1>
+                    <h1 class="titNoticia ">Las ventas de Nintendo Switch en Japón en 2020 son de récord: casi 7 millones de consolas en un año</h1><br><br>
                 </div>
                 <div class="col-12">
                     <img src="img/switch2.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
@@ -79,6 +79,9 @@
                         Veremos a ver cuáles son las <strong>cifras concretas</strong> en el próximo informe oficial, pero serán enormes. Recientemente, también
                         supimos los juegos más jugados en Switch en 2020 en Europa.
                         <br><br>
+
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210780/las-ventas-de-nintendo-switch-en-japon-en-2020-son-de/</small></p>
+
 
 
 

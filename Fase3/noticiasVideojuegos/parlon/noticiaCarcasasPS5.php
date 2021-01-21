@@ -57,6 +57,9 @@
                         presión de la comunidad: algunos consideraban el producto como otra forma de especulación.
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210830/un-fabricante-de-carcasas-de-ps5-se-declara-intocable-por/</small></p>
+
+
 
 
                     </div>

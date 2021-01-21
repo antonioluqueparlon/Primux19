@@ -66,6 +66,8 @@
                         siendo <strong>su última y más sonada incorporación Insomniac Games.</strong>
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210799/el-nuevo-equipo-de-sony-en-san-diego-trabaja-en-marcas/</small></p>
+
 
                     </div>
 

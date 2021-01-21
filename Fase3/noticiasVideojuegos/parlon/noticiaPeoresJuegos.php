@@ -117,6 +117,9 @@
                             </thead>
                         </table>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210388/los-10-videojuegos-peor-valorados-de-la-decada-en-metacritic/</small></p>
+
+
 
 
                     </div>

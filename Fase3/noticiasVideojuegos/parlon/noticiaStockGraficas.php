@@ -53,6 +53,9 @@
 
                         La única buena noticia está en que los proveedores están recibiendo las tarjetas gráficas de la serie RTX 30 de forma casi
                         regular, lo que es un paso hacia adelante.
+
+                        <p><small class="text-muted">Fuente: https://www.profesionalreview.com/2020/12/08/falta-stock-amd-nvidia/#:~:text=Las%20razones%20de%20la%20falta%20de%20stock%20de%20AMD%20y%20NVIDIA&text=Las%20principales%20causas%20son%20las,Descatalogaron%20NVIDIA%20Turing%20demasiado%20pronto.</small></p>
+
                         
 
                     </div>

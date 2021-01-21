@@ -101,6 +101,9 @@
                         el perfil de <strong>aventura individual</strong> centrada en la historia que más se había echado de menos durante la generación de Xbox One.
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210801/graficos-fotorrealistas-y-terror-en-lo-nuevo-de-los-autores/</small></p>
+
+
                     </div>
 
 

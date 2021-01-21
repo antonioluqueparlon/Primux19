@@ -78,6 +78,9 @@
                         también está batiendo récords, y en diciembre el juego de Epic Games superó su propio máximo de jugadores simultáneos.
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210659/thegrefg-pulveriza-todos-los-records-de-twitch-al-presentar/</small></p>
+
+
 
                     </div>
 

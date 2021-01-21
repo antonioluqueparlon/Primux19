@@ -96,6 +96,8 @@
                         hizo de este producto el juego más vendido en España de diciembre. Una propuesta que no pierde fuelle,
                         de la que os hablamos en nuestro análisis de Mario Kart 8 Deluxe.
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210745/una-bici-estatica-y-el-anillo-de-ring-fit-es-todo-lo-que/</small></p>
+
 
 
 

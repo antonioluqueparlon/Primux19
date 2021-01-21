@@ -84,6 +84,8 @@
                         con pinzas pero que parece del todo plausible: es, ni más ni menos, la dirección que ha tomado la franquicia en el pasado.
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210705/el-25-aniversario-de-pokemon-calienta-motores-con-un-video/</small></p>
+
                     </div>
 
 

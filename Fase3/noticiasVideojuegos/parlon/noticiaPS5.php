@@ -336,6 +336,9 @@
 
                             </div>
                         </div>
+                        
+                        <p><small class="text-muted">Fuente: https://www.vidaextra.com/juegos-nuevos/nueva-ps5-informacion</small></p>
+
                     </div>
 
 

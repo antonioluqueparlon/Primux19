@@ -89,6 +89,9 @@
 
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210798/una-xbox-portatil-de-ensueno-series-z-tiene-todo-lo-que/</small></p>
+
+
 
 
                     </div>

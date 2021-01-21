@@ -61,6 +61,9 @@
                         que cada vez se unen más títulos.
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/209769/todos-los-detalles-de-geforce-rtx-3060-ti-la-tarjeta/</small></p>
+
+
 
 
 

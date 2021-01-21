@@ -62,6 +62,9 @@
 
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210556/xbox-zanja-la-polemica-con-las-pilas-de-sus-mandos/#:~:text=Noticia-,Xbox%20zanja%20la%20pol%C3%A9mica%20con%20las%20pilas%20de%20sus%20mandos,Ofrecemos%20intencionadamente%20elecci%C3%B3n%20a%20jugadores%22&text=Con%20el%20lanzamiento%20de%20Xbox,5%20o%20de%20Nintendo%20Switch.</small></p>
+
+
 
 
 

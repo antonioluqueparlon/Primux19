@@ -66,6 +66,8 @@
                         especialmente en lo referente a las opciones de ahorro energético, para concienciar y que se <strong>promueva un uso responsable.</strong>
                         <br><br>
 
+                        <p><small class="text-muted">Fuente: https://www.3djuegos.com/noticias-ver/210731/el-consumo-de-energia-de-ps5-y-xbox-series-x-preocupa-a-la/</small></p>
+
                     </div>
 
 

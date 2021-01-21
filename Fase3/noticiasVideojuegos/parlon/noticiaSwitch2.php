@@ -15,12 +15,12 @@
         <section class="noticia">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="titNoticia ">Nintendo Switch domina las ventas de la primera semana de 2021 en Reino Unido</h1>
+                    <h1 class="titNoticia ">Nintendo Switch domina las ventas de la primera semana de 2021 en Reino Unido</h1><br><br>
                 </div>
                 <div class="col-12">
                     <img src="img/switch.jpg" alt="imgNoticia" class="imgNoticia img-fluid">
                     <div class="card-img-overlay d-flex align-items-end">
-                        <p class="card-text font-weight-bold txtTop"></p>
+                        <p class="card-text font-weight-bold txtTop">Nintendo Switch se lleva el mercado inglés</p>
                     </div>
 
 
@@ -83,6 +83,8 @@
                             <li>10. (6) Call of Duty: Black Ops Cold War</li>
                         </ul>
 
+
+                        <p><small class="text-muted">Fuente: https://vandal.elespanol.com/noticia/1350740890/nintendo-switch-domina-las-ventas-de-la-primera-semana-de-2021-en-reino-unido/</small></p>
 
 
 
