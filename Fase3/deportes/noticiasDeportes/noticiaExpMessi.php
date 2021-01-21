@@ -48,12 +48,12 @@
                                 </p>
                             </video>
                             <!-- Video Controls -->
-                            <div id="video-controls">
-                                <button type="button" id="play-pause">Reproducir</button>
+                            <div id="video-controls" class="centrado">
+                                <button type="button" id="play-pause"><img id="reproductor" src="../../img/play.png"></button>
                                 <input type="range" id="seek-bar" value="0">
-                                <button type="button" id="mute">Silenciar</button>
+                                <button type="button" id="mute"><img id="reproductor" src="../../img/sound.png"></button>
                                 <label id="colorBlanco"> Nivel Volumen </label><input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
-                                <button type="button" id="full-screen">Pantalla Completa</button></button>
+                                <button type="button" id="full-screen"><img id="reproductor" src="../../img/fullScreen.png"></button></button>
                             </div>
                         </div
                         
