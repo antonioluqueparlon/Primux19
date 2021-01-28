@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-3 tarjetaUltimasNOticias">
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-                <a href="../Fase3/noticiasVideoJuegos/parlon/noticiaCarcasasPS5.php" class="enlaceNoticia">
+                <a href="../Fase3/noticiasVideoJuegos/parlon/noticia25Nintendo.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex imgUltimasNoticias" src="../Fase3/noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
                     </div>
