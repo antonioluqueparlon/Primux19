@@ -29,7 +29,7 @@
       </div>
       <div class="col-md-3 tarjetaUltimasNOticias">
         <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-          <a href="noticiasTecnologia/noticias/noticiaAlmaLinux.php" class="enlaceNoticia">
+          <a href="noticiasVideojuegos/parlon/noticia25Nintendo.php" class="enlaceNoticia">
             <div class="card-img card-imgIndex">
               <img class="imagenTarjetaIndex imgUltimasNoticias" src="noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
             </div>
