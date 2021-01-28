@@ -19,9 +19,9 @@
                     <div class="col-lg-8 col-md-12">
                         <h1>Lo más visto</h1>
                         <div class="card img-fluid">
-                            <a href="../Fase3/noticiasMotor/subseccionFormula1/n1F1.php">
+                            <a href="noticiasMotor/subseccionFormula1/n1F1.php">
                                 <img class="card-img-top img-fluid"
-                                    src="../Fase3/noticiasMotor/img/sainzFerrari.jpg" alt="Card image">
+                                    src="noticiasMotor/img/sainzFerrari.jpg" alt="Card image">
                                 <div class="card-img-overlay d-flex align-items-end">
                                     <p class="card-text font-weight-bold txtTop">"No tengo dudas: Sainz tendrá éxito en Ferrari"</p>
                                 </div>
@@ -34,7 +34,7 @@
                         <h1>Últimas noticias</h1>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="../Fase3/noticiasMotor/subseccionFormula1/n2F1.php" class="linkNoticia">
+                                <a href="noticiasMotor/subseccionFormula1/n2F1.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">Mazepin, consciente de que tendrá "un solo disparo en la F1"</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="../Fase3/noticiasMotor/subseccionFormula1/n3F1.php" class="linkNoticia">
+                                <a href="noticiasMotor/subseccionFormula1/n3F1.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">La renovación de Hamilton</p>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="../Fase3/noticiasMotor/subseccionFormula1/n4F1.php" class="linkNoticia">
+                                <a href="noticiasMotor/subseccionFormula1/n4F1.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">El nuevo motor del Ferrari SF21</p>
@@ -67,7 +67,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="../Fase3/noticiasMotor/subseccionFormulaE/n1FE.php" class="linkNoticia">
+                                <a href="noticiasMotor/subseccionFormulaE/n1FE.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">La salida de Audi y BMW de la Fórmula E abre nuevas puertas
@@ -79,7 +79,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="../Fase3/noticiasMotor/subseccionFormulaE/n2FE.php" class="linkNoticia">
+                                <a href="noticiasMotor/subseccionFormulaE/n2FE.php" class="linkNoticia">
                                     <div class="card bg-light cardApartadoDerecha">
                                         <div class="card-body text-center">
                                             <p class="card-text">Coronavirus: eventos cancelados</p>
@@ -149,7 +149,7 @@
 
                     <!--TARJETAS DE NOTICIAS -->
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="../Fase3/noticiasMotor/subseccionRally/n1R.php" class="enlaceNoticia">
+                        <a href="noticiasMotor/subseccionRally/n1R.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="../Fase3/noticiasMotor/img/wrc400.jpg"
@@ -166,7 +166,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="../Fase3/noticiasMotor/subseccionRally/n3R.php" class="enlaceNoticia ">
+                        <a href="noticiasMotor/subseccionRally/n3R.php" class="enlaceNoticia ">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="../Fase3/noticiasMotor/img/naniRoma400.jpg"
@@ -183,7 +183,7 @@
                         </a>
                     </div>
                     <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="../Fase3/noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
+                        <a href="noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
                             <div class="row no-gutters">
                                 <div class="col-md-12 col-lg-4">
                                     <img src="../Fase3/noticiasMotor/img/dakarJuego400.jpg"

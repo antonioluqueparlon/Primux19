@@ -14,7 +14,7 @@ function scrollFunction() {
 
 </script>
 <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.php"><img src="../Fase3/img/logo2.png"></a>
+  <a class="navbar-brand" href="index.php"><img src="img/logo2.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -22,26 +22,26 @@ function scrollFunction() {
   <div class="collapse navbar-collapse navText" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoTecnologia.php">
+        <a class="nav-link" href="apartadoTecnologia.php">
         <p class="aNav">Tecnología</p>
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoDeportes.php">
+        <a class="nav-link" href="apartadoDeportes.php">
         <p class="aNav">Deportes</p>
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoMotor.php">
+        <a class="nav-link" href="apartadoMotor.php">
           <p class="aNav">Motor</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/apartadoVideojuegos.php">
+        <a class="nav-link" href="apartadoVideojuegos.php">
           <p class="aNav">VideoJuegos</p>
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Fase3/Juegos.php">
+        <a class="nav-link" href="Juegos.php">
           <p class="aNav">Juegos</p>
           </a>
       </li>

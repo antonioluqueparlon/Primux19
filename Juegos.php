@@ -20,11 +20,11 @@
       <div class="row justify-content-center">
         <div class="col-md-6">
           <h4>Parlón</h4>
-          <a href="../Fase3/juegos/parlon/index.php"><img width="50%" class="img-fluid" src="../Fase3/img/parlon.jpg"></a>
+          <a href="juegos/parlon/index.php"><img width="50%" class="img-fluid" src="img/parlon.jpg"></a>
         </div>
         <div class="col-md-6">
           <h4>Jesús Cano</h4>
-          <a href="../Fase3/juegos/jesus/index.php"><img width="50%" class="img-fluid" src="../Fase3/img/jesus.png"></a>
+          <a href="juegos/jesus/index.php"><img width="50%" class="img-fluid" src="img/jesus.png"></a>
         </div>
       </div>
 
@@ -33,11 +33,11 @@
       <div class="row justify-content-center">
         <div class="col-md-6">
           <h4>Irene</h4>
-          <a href="../Fase3/juegos/irene/index.php"><img width="50%" class="img-fluid" src="../Fase3/img/irene.jpg"></a>
+          <a href="juegos/irene/index.php"><img width="50%" class="img-fluid" src="img/irene.jpg"></a>
         </div>
         <div class="col-md-6">
           <h4>Antonio Pérez</h4>
-          <a href="../Fase3/juegos/antonioperez/index.php"><img width="50%" class="img-fluid" src="../Fase3/img/antonioperez.jpg"></a>
+          <a href="juegos/antonioperez/index.php"><img width="50%" class="img-fluid" src="img/antonioperez.jpg"></a>
         </div>
 
       </div>

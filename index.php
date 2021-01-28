@@ -1,19 +1,19 @@
-<?php include("./includes/a_config.php");?>
+<?php include("includes/a_config.php");?>
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("./includes/head-tag-contents.php");?>
+	<?php include("includes/head-tag-contents.php");?>
 </head>
 <body>
 
-<?php include("./includes/navigation.php");?>
+<?php include("includes/navigation.php");?>
 
 
 <main class="indexTT">
 <section class="noticiasDestacadas ">
         <div class="row">
             <div class="col-md-3 tarjetaUltimasNOticias ">
-            <a href="../Fase3/noticiasTecnologia/noticias/noticiaAlmaLinux.php" class="enlaceNoticia">
+            <a href="noticiasTecnologia/noticias/noticiaAlmaLinux.php" class="enlaceNoticia">
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                     <div class="card-img card-imgIndex ">
                         <img class="imagenTarjetaIndex imgUltimasNoticias" src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="">
@@ -27,9 +27,9 @@
             </div>
             <div class="col-md-3 tarjetaUltimasNOticias">
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-                <a href="../Fase3/noticiasVideoJuegos/parlon/noticia25Nintendo.php" class="enlaceNoticia">
+                <a href="noticiasVideoJuegos/parlon/noticiaCarcasasPS5.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="../Fase3/noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
+                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
                         <h3>"Somos intocables"</h3>
@@ -40,9 +40,9 @@
             </div>
             <div class="col-md-3 tarjetaUltimasNOticias">
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-                <a href="../Fase3/noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
+                <a href="noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
-                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="../Fase3/noticiasMotor/img/dakarJuego380.jpg" alt="">
+                        <img class="imagenTarjetaIndex imgUltimasNoticias" src="noticiasMotor/img/dakarJuego380.jpg" alt="">
                     </div>
                     <div class="card-desc card-descIndex">
                         <h3>El Dakar, nuevo videojuego</h3>
@@ -53,7 +53,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-                <a href="../Fase3/deportes/noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
+                <a href="deportes/noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
                     <div class="card-img card-imgIndex">
                         <img class="imagenTarjetaIndex imgUltimasNoticias" src="img/imgDeportes/basketFemenino.jpg" alt="">
                     </div>
@@ -79,8 +79,8 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-        <a href="../Fase3/noticiasMotor/subseccionFormulaE/n1FE.php" class="enlaceNoticia">
-          <img class="d-block w-100 carrouselImg" src="../Fase3/noticiasMotor/img/formulae.jpg" alt="First slide">
+        <a href="noticiasMotor/subseccionFormulaE/n1FE.php" class="enlaceNoticia">
+          <img class="d-block w-100 carrouselImg" src="noticiasMotor/img/formulae.jpg" alt="First slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
           <h3>La salida de Audi y BMW de la Fórmula E</h3>
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="carousel-item">
-        <a href="../Fase3/noticiasTecnologia/noticias/noticiaBugWindows.php" class="enlaceNoticia">
+        <a href="noticiasTecnologia/noticias/noticiaBugWindows.php" class="enlaceNoticia">
           <img class="d-block w-100 carrouselImg" src="https://i.blogs.es/02b07c/windows-10-bug/1366_2000.jpg" alt="Second slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
@@ -99,8 +99,8 @@
           </div>
         </div>
         <div class="carousel-item">
-        <a href="../Fase3/noticiasVideojuegos/parlon/noticiaMarioKart.php" class="enlaceNoticia">
-          <img class="d-block w-100 carrouselImg" src="../Fase3/noticiasVideojuegos/parlon/img/mariokart.jpg" alt="Third slide">
+        <a href="noticiasVideojuegos/parlon/noticiaMarioKart.php" class="enlaceNoticia">
+          <img class="d-block w-100 carrouselImg" src="noticiasVideojuegos/parlon/img/mariokart.jpg" alt="Third slide">
           <div class="carousel-caption  d-md-block">
           <div class="subtitleCar">
             <h3>Mario Kart 8 se reinventa</h3>
@@ -129,7 +129,7 @@
     <h1>Últimas Noticias</h1>
 
 <div class="card cardArticulo">
-<a href="../Fase3/noticiasTecnologia/noticias/noticiaFaceTime.php" class="enlaceNoticia">
+<a href="noticiasTecnologia/noticias/noticiaFaceTime.php" class="enlaceNoticia">
   <div class="row no-gutters">
     <div class="col-md-12 col-lg-4">
       <img src="https://i.blogs.es/c93fab/girl-3718515_1920/1366_2000.jpg" class="card-img" alt="...">
@@ -145,10 +145,10 @@
 </a>
 </div>
 <div class="card cardArticulo">
-<a href="../Fase3/noticiasVideojuegos/parlon/noticiaGraficas2.php" class="enlaceNoticia">
+<a href="noticiasVideojuegos/parlon/noticiaGraficas2.php" class="enlaceNoticia">
   <div class="row no-gutters">
     <div class="col-md-12 col-lg-4">
-      <img src="../Fase3/noticiasVideojuegos/parlon/img/rtx3060.jpg" class="card-img" alt="...">
+      <img src="noticiasVideojuegos/parlon/img/rtx3060.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
     <div class="card-body">
@@ -161,10 +161,10 @@
 </a>
 </div>
 <div class="card cardArticulo">
-  <a href="../Fase3/noticiasMotor/subseccionRally/n1R.php" class="enlaceNoticia">
+  <a href="noticiasMotor/subseccionRally/n1R.php" class="enlaceNoticia">
   <div class="row no-gutters">
     <div class="col-md-12 col-lg-4">
-      <img src="../Fase3/noticiasMotor/img/bottas400.jpg" class="card-img" alt="...">
+      <img src="noticiasMotor/img/bottas400.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
