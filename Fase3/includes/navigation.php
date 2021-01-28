@@ -69,3 +69,50 @@ function scrollFunction() {
 	</ul>
 </div>
 -->
+
+<!-- MENSAJE COOKIES -->
+<div class="modal fade cookiealert" id="cookiespopup" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+
+                    <div class="modal_content">
+
+                        <div class="cookies_popup_body">
+                            <h3 class="text-titleNuevo">Nosotros valoramos tu privacidad</h3>
+                            <hr>
+                            <p class="colortextocookie text-justify">En nuestro sitio web utilizamos cookies propias y terceros (Google Analytics) para mejorar tu experiencia de usuario y recoger datos estadísticos sobre el uso de nuestra web por parte de los usuarios. Las cookies se asocian únicamente al navegador que está utilizando, de modo que no se almacena ningún tipo de datos personales sobre el usuario que visita nuestra página web. Usted puede configurar su navegador para que notifique y/o rechace la instalación de las cookies, sin que ello perjudique la posibilidad del usuario de poder acceder a las distintas zonas de la web. Si navegas por nuestra web, estarás aceptando el uso de las cookies en las condiciones establecidas en esta Política de Cookies. Esta política puede ser actualizada, por lo que te invitamos a revisarla de forma regular.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="cpb_btns">
+                                <a href="http://www.interior.gob.es/politica-de-cookies" target="_blank" class="enlacePrimario">
+                                    Leer Más
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cpb_btns">
+                                <button type="button" class="btn btn-secundary btn-block acceptcookies" aria-label="Close">
+                                    Aceptar
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/cookiealertTerminos.js"></script>
+    <script>startApp();</script>

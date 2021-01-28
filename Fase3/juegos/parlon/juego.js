@@ -41,7 +41,7 @@ var ancho = 788;
 var alto = 260; // cambiado a 260 por bug, a 300 era el original
 var canvas, ctx;
 
-function inicializa() {
+function inicializa() { // lo llamo en el body onload
   canvas = document.getElementById("canvas");
   ctx = canvas.getContext("2d");
   cargaImagenes();
@@ -56,10 +56,10 @@ function borraCanvas() {
 var suelo = 200;
 var trex = {
   y: suelo,
-  vy: 0,
-  gravedad: 2,
-  salto: 28,
-  vymax: 9,
+  vy: 1000,
+  gravedad: 80,
+  salto: 198,
+  vymax: 98,
   saltando: false,
 }; // OBJETO TREX CON SUS VARIABLES DE SALTO,POSICION INICIAL Y DEMAS POR DEFECTO
 var nivel = { velocidad: 9, puntuacion: 0, muerto: false };

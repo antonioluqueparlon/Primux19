@@ -182,4 +182,24 @@ button:hover {
   width: 1040;
   height: 365;
 }
+
+.cookiealert {
+  z-index: 999999999999 !important;
+}
+
+.cookies_popup_body h3 {
+  text-align: center;
+}
+
+.cookies_popup_body p {
+  text-align: center;
+}
+
+.cookiealert .modal-body {
+  padding: 45px 100px;
+}
+
+.colortextocookie {
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */
