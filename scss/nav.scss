@@ -75,5 +75,50 @@
     } 
 }
 
+//intento desplegable de la busqueda en la bbdd
+
+.desplegableBusqueda{
+    color: white;
+}
+
+
+//Cosas para el mensaje cookies
+.cookiealert {
+    z-index: 999999999999 !important;
+}
+.cookies_popup_body h3 {
+    text-align: center;
+}
+.cookies_popup_body p {
+    text-align: center;
+}
+
+.cookiealert .modal-body {
+    padding: 45px 100px;
+}
+
+.colortextocookie {
+    color: rgb(0, 0, 0);
+}
+
+.cookie-alertNovedades {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 320px;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    background-color: white;
+}
+
+.cookie-alertNovedades.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
 
 

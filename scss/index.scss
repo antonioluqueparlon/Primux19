@@ -224,7 +224,7 @@ button:hover {
 }
 
 .colortextocookie {
-    color: rgb(0, 0, 0);
+    color: rgb(238, 234, 5);
 }
 
 .cookie-alertNovedades {
@@ -237,7 +237,7 @@ button:hover {
     opacity: 0;
     transform: translateY(100%);
     transition: all 500ms ease-out;
-    background-color: $bg-secundary;
+    background-color: white;
 }
 
 .cookie-alertNovedades.show {

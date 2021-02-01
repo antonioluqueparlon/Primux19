@@ -200,6 +200,29 @@ button:hover {
 }
 
 .colortextocookie {
-  color: white;
+  color: #eeea05;
+}
+
+.cookie-alertNovedades {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 320px;
+  margin: 0 !important;
+  z-index: 999;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  background-color: white;
+}
+
+.cookie-alertNovedades.show {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-transition-delay: 1000ms;
+          transition-delay: 1000ms;
 }
 /*# sourceMappingURL=index.css.map */
