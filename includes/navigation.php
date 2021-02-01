@@ -60,23 +60,13 @@
       //echo '< class="single">';
       $result = mysqli_query($conn, $sql);
       while ($item = mysqli_fetch_assoc($result)) {
-        echo '
-        <div class="">
-          <div class="img">
-            <img src="' . $item['imagen'] . '">
-          </div>
-          <div class="desplegableBusqueda">
-            <h2 href=' . $item['enlace'] . '</h2>
-            <a class="aNav" href=' . $item['enlace'] . '>'.$item['titulo'].'</a>
-          </div>
-        
-        </div>';
+        echo '';
       }
     }
 
 
     ?>
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0" action="busqueda.php">
       <input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search">
       <button class="btn my-2 my-sm-0 btnNav" type="submit"><i class="fa fa-search"></i></button>
       <ul id="response"></ul>
