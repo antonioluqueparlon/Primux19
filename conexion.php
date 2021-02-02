@@ -1,6 +1,6 @@
 <?php 
-    $conn = mysqli_connect('localhost', 'root', '', 'technoteam');
+    $conn = mysqli_connect('localhost', 'TechnoTeam', '1234', 'technoteam');
     if(!$conn){
-        echo 'Error en la base datos';
+        echo 'Error en la conexión a la base datos';
     }
 ?>
