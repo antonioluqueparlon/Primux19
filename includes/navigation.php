@@ -1,3 +1,57 @@
+<?php
+
+session_start();
+//setcookie('entra','si','10');
+
+//$bandera = true;
+
+//include_once('conexion.php');
+
+//if (isset($_POST['buscar']) && (!empty($_POST["busqueda"]))) {
+//$busqueda = $_POST['busqueda'];
+
+/*try {
+    $opciones = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+    $conex = new PDO('mysql:host=localhost; dbname=technoteam; charset=UTF8mb4', 'root', '', $opciones);
+    $result = $conex->query("SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%' LIMIT 3");
+
+    if ($result->rowCount()) {
+
+      session_start();
+      session_name();
+      while ($obj = $result->fetch(PDO::FETCH_OBJ)) {
+        $_SESSION['titulo'] = $obj->titulo;
+        $_SESSION['contenido'] = $obj->contenido;
+        $_SESSION['descripcion'] = $obj->descripcion;
+      }
+      $_SESSION['email'] = $_POST['email'];
+      header('location: busqueda.php');
+    } else {
+      $bandera = false;
+      $_SESSION['bandera'] = "no";
+      header('location: busqueda.php');
+    }
+
+    $error = $conex->errorInfo();
+  } catch (PDOException $exc) {
+
+    echo $exc->getTraceAsString(); // error de php
+    echo 'Error:' . $exc->getMessage(); // error del servidor de bd
+  }
+
+  //if (!empty($_GET['busqueda'])) {
+  //$busqueda = $_GET['busqueda'];
+  //$sql = "SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%' LIMIT 3";
+  //echo '< class="single">';
+  //$result = mysqli_query($conn, $sql);
+  //while ($obj = $result->fetch(PDO::FETCH_OBJ)) {
+  // $_SESSION['titulo'] = $obj->titulo;
+  //echo '';
+  //}
+  //}
+}
+*/ ?>
+
 <script>
   window.onscroll = function() {
     scrollFunction()
@@ -53,11 +107,15 @@
 
     include_once('conexion.php');
 
-
-    if (!empty($_GET['busqueda'])) {
-      $busqueda = $_GET['busqueda'];
-      $sql = "SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%'";
-      //echo '< class="single">';
+    if (!empty($_POST['busqueda'])) {
+      $busqueda = explode(" ", $_POST['busqueda']);
+      $sql = "SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda[0] . "%'";
+      for ($i = 1; $i < count($busqueda); $i++) {
+        if (!empty($busqueda[$i])) {
+          $sql .= "AND titulo LIKE '%" . $busqueda[$i] . "%'";
+        }
+      }
+      $sql .= "LIMIT 3";
       $result = mysqli_query($conn, $sql);
       while ($item = mysqli_fetch_assoc($result)) {
         echo '';
@@ -65,10 +123,12 @@
     }
 
 
+
     ?>
-    <form class="form-inline my-2 my-lg-0" action="busqueda.php">
+    <form class="form-inline my-2 my-lg-0" id="form" action="busqueda.php" method="POST">
+      <!-- bisqueda.php -->
       <input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search">
-      <button class="btn my-2 my-sm-0 btnNav" type="submit"><i class="fa fa-search"></i></button>
+      <button class="btn my-2 my-sm-0 btnNav" name="buscar" type="submit"><i class="fa fa-search"></i></button>
       <ul id="response"></ul>
     </form>
 
