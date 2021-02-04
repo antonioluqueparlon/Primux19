@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-01-2021 a las 10:35:59
+-- Tiempo de generación: 03-02-2021 a las 10:02:00
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.10
 
@@ -31,7 +31,7 @@ CREATE TABLE `comentario` (
   `id` int(11) NOT NULL,
   `idUsuario` int(11) NOT NULL,
   `idNoticia` int(11) NOT NULL,
-  `cuerpo` varchar(1000) DEFAULT NULL,
+  `cuerpo` varchar(5000) DEFAULT NULL,
   `puntuacion` int(11) DEFAULT NULL,
   `fecha` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -48,7 +48,8 @@ CREATE TABLE `noticia` (
   `fecha` date NOT NULL,
   `titulo` varchar(200) NOT NULL,
   `imagen` varchar(400) NOT NULL,
-  `contenido` varchar(3000) NOT NULL
+  `contenido` mediumtext NOT NULL,
+  `descripcion` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -68,7 +69,7 @@ CREATE TABLE `usuario` (
   `pais` varchar(45) NOT NULL,
   `codigoPostal` varchar(45) NOT NULL,
   `telefono` varchar(45) NOT NULL,
-  `rol` varchar(45) NOT NULL,
+  `rol` set('administrador','editor','usuario') NOT NULL,
   `imagen` varchar(400) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -117,7 +118,7 @@ ALTER TABLE `noticia`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Restricciones para tablas volcadas
