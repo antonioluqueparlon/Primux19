@@ -15,7 +15,7 @@
     <section class="noticiasDestacadas ">
       <div class="row">
         <div class="col-md-3 tarjetaUltimasNOticias ">
-          <a href="noticiasTecnologia/noticias/noticiaAlmaLinux.php" class="enlaceNoticia">
+          <a href="<?php echo $sql ?>" class="enlaceNoticia">
             <div class="card-content card-contentIndex tarjetaUltimasNOticias">
               <div class="card-img card-imgIndex ">
                 <img class="imagenTarjetaIndex imgUltimasNoticias" src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="">
