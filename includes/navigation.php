@@ -1,3 +1,57 @@
+<?php
+require_once './clases/Usuario.php';
+require_once './clases/Noticia.php';
+require_once './clases/NoticiaController.php';
+session_start();
+//setcookie('entra','si','10');
+
+//$bandera = true;
+
+//if (isset($_POST['buscar']) && (!empty($_POST["busqueda"]))) {
+//$busqueda = $_POST['busqueda'];
+
+/*try {
+    $opciones = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+    $conex = new PDO('mysql:host=localhost; dbname=technoteam; charset=UTF8mb4', 'root', '', $opciones);
+    $result = $conex->query("SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%' LIMIT 3");
+
+    if ($result->rowCount()) {
+
+      session_start();
+      session_name();
+      while ($obj = $result->fetch(PDO::FETCH_OBJ)) {
+        $_SESSION['titulo'] = $obj->titulo;
+        $_SESSION['contenido'] = $obj->contenido;
+        $_SESSION['descripcion'] = $obj->descripcion;
+      }
+      $_SESSION['email'] = $_POST['email'];
+      header('location: busqueda.php');
+    } else {
+      $bandera = false;
+      $_SESSION['bandera'] = "no";
+      header('location: busqueda.php');
+    }
+
+    $error = $conex->errorInfo();
+  } catch (PDOException $exc) {
+
+    echo $exc->getTraceAsString(); // error de php
+    echo 'Error:' . $exc->getMessage(); // error del servidor de bd
+  }
+
+  //if (!empty($_GET['busqueda'])) {
+  //$busqueda = $_GET['busqueda'];
+  //$sql = "SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%' LIMIT 3";
+  //echo '< class="single">';
+  //$result = mysqli_query($conn, $sql);
+  //while ($obj = $result->fetch(PDO::FETCH_OBJ)) {
+  // $_SESSION['titulo'] = $obj->titulo;
+  //echo '';
+  //}
+  //}
+}
+*/ ?>
+
 <script>
   window.onscroll = function() {
     scrollFunction()
@@ -47,38 +101,23 @@
         </a>
       </li>
     </ul>
-    <!-- barra de busqueda -->
+
+    <!-- BARRA DE BUSQUEDA ARREGLAR -->
 
     <?php
 
-    include_once('conexion.php');
-
-
-    if (!empty($_GET['busqueda'])) {
-      $busqueda = $_GET['busqueda'];
-      $sql = "SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%'";
-      //echo '< class="single">';
-      $result = mysqli_query($conn, $sql);
-      while ($item = mysqli_fetch_assoc($result)) {
-        echo '
-        <div class="">
-          <div class="img">
-            <img src="' . $item['imagen'] . '">
-          </div>
-          <div class="desplegableBusqueda">
-            <h2 href=' . $item['enlace'] . '</h2>
-            <a class="aNav" href=' . $item['enlace'] . '>'.$item['titulo'].'</a>
-          </div>
-        
-        </div>';
-      }
+    if (isset($_POST['buscar'])) {
+      echo 'hola';
     }
 
 
+
+
     ?>
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0" id="form" action="busqueda.php" method="POST">
+      <!-- busqueda.php -->
       <input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search">
-      <button class="btn my-2 my-sm-0 btnNav" type="submit"><i class="fa fa-search"></i></button>
+      <button class="btn my-2 my-sm-0 btnNav" name="buscar" type="submit"><i class="fa fa-search"></i></button>
       <ul id="response"></ul>
     </form>
 
@@ -90,21 +129,6 @@
   </div>
 </nav>
 
-<!--
-<div class="container">
-	<ul class="nav nav-pills">
-	  <li class="nav-item">
-	    <a class="nav-link <?php if ($CURRENT_PAGE == "Index") { ?>active<?php } ?>" href="index.php">Home</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link <?php if ($CURRENT_PAGE == "About") { ?>active<?php } ?>" href="about.php">About Us</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link <?php if ($CURRENT_PAGE == "Contact") { ?>active<?php } ?>" href="contacto.php">Contact</a>
-	  </li>
-	</ul>
-</div>
--->
 
 <!-- MENSAJE COOKIES -->
 <div class="modal fade cookiealert" id="cookiespopup" data-backdrop="static" data-keyboard="false">
@@ -118,7 +142,7 @@
         <div class="modal_content">
 
           <div class="cookies_popup_body">
-            <h3 class="text-titleNuevo">Nosotros valoramos tu privacidad</h3>
+            <h3 class="text-titleNuevo">Nosotros valoramos tu privacidad <i class="fas fa-cookie-bite"></i></h3>
             <hr>
             <p class="colortextocookie text-justify">En nuestro sitio web utilizamos cookies propias y terceros (Google Analytics) para mejorar tu experiencia de usuario y recoger datos estadísticos sobre el uso de nuestra web por parte de los usuarios. Las cookies se asocian únicamente al navegador que está utilizando, de modo que no se almacena ningún tipo de datos personales sobre el usuario que visita nuestra página web. Usted puede configurar su navegador para que notifique y/o rechace la instalación de las cookies, sin que ello perjudique la posibilidad del usuario de poder acceder a las distintas zonas de la web. Si navegas por nuestra web, estarás aceptando el uso de las cookies en las condiciones establecidas en esta Política de Cookies. Esta política puede ser actualizada, por lo que te invitamos a revisarla de forma regular.
             </p>
@@ -129,15 +153,16 @@
 
           <div class="col-md-6">
             <div class="cpb_btns">
-              <a href="http://www.interior.gob.es/politica-de-cookies" target="_blank" class="enlacePrimario">
-                Leer Más
+              <!--<a href="../terminoslegales.php" target="_blank" class="enlacePrimario btn btn-block btn-secundary btnNav"> -->
+              <a href="http://www.interior.gob.es/politica-de-cookies" target="_blank" class="enlacePrimario btn btn-block btn-secundary btnNav">
+                Leer Más sobre las cookies
               </a>
             </div>
           </div>
 
           <div class="col-md-6">
             <div class="cpb_btns">
-              <button type="button" class="btn btn-secundary btn-block acceptcookies" aria-label="Close">
+              <button type="button" class="btn btn-secundary btn-block btnNav acceptcookies" aria-label="Close">
                 Aceptar
               </button>
             </div>
