@@ -1,7 +1,7 @@
 <?php
-require_once './clases/Usuario.php';
-require_once './clases/Noticia.php';
-require_once './clases/NoticiaController.php';
+require_once './crud/Modelo/Usuario.php';
+require_once './crud/Modelo/Noticia.php';
+require_once './crud/Controller/NoticiaController.php';
 session_start();
 //setcookie('entra','si','10');
 
