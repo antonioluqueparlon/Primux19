@@ -14,60 +14,36 @@
   <main class="indexTT">
     <section class="noticiasDestacadas ">
       <div class="row">
+      <?php
+       $noticia = NoticiaController::recuperarTodasNoticias();
+       foreach ($noticia as $values) {
+         //echo $values->enlace;
+      ?>
         <div class="col-md-3 tarjetaUltimasNOticias ">
-          <a href="<?php echo $sql ?>" class="enlaceNoticia">
+          <a href="<?php echo $values->enlace; ?>" class="enlaceNoticia">
             <div class="card-content card-contentIndex tarjetaUltimasNOticias">
               <div class="card-img card-imgIndex ">
-                <img class="imagenTarjetaIndex imgUltimasNoticias" src="https://i.blogs.es/b20745/screenshot_19/1366_2000.jpg" alt="">
+                <img class="imagenTarjetaIndex imgUltimasNoticias" src="<?php echo $values->imagen; ?>" alt="">
               </div>
               <div class="card-desc card-descIndex ">
-                <h3>AlmaLinux</h3>
-                <p>El otro gran aspirante al trono del 'viejo' CentOS, y viene apadrinado por los desarrolladores de CloudLinux</p>
+                <h3><?php echo $values->titulo; ?></h3>
+                <p><?php echo $values->titulo; ?></p>
               </div>
           </a>
         </div>
       </div>
-      <div class="col-md-3 tarjetaUltimasNOticias">
-        <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-          <a href="noticiasVideojuegos/parlon/noticiaCarcasasPS5.php" class="enlaceNoticia">
-            <div class="card-img card-imgIndex">
-              <img class="imagenTarjetaIndex imgUltimasNoticias" src="noticiasVideojuegos/parlon/img/carcasanegra.jpg" alt="">
-            </div>
-            <div class="card-desc card-descIndex">
-              <h3>"Somos intocables"</h3>
-              <p>Un fabricante de carcasas de PS5 se declara "intocable" por Sony tras encontrar una inesperada brecha legal</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-3 tarjetaUltimasNOticias">
-        <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-          <a href="noticiasMotor/subseccionRally/n4R.php" class="enlaceNoticia">
-            <div class="card-img card-imgIndex">
-              <img class="imagenTarjetaIndex imgUltimasNoticias" src="noticiasMotor/img/dakarJuego380.jpg" alt="">
-            </div>
-            <div class="card-desc card-descIndex">
-              <h3>El Dakar, nuevo videojuego</h3>
-              <p>El estudio portugués Saber Porto –ex BigMoon– está desarrollando un nuevo juego basado en el Dakar</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card-content card-contentIndex tarjetaUltimasNOticias">
-          <a href="deportes/noticiasDeportes/noticiaBaloncesto.php" class="enlaceNoticia">
-            <div class="card-img card-imgIndex">
-              <img class="imagenTarjetaIndex imgUltimasNoticias" src="img/imgDeportes/basketFemenino.jpg" alt="">
-            </div>
-            <div class="card-desc card-descIndex">
-              <h3>Baloncesto femenino en la UCO</h3>
-              <p>La Universidad cubriría el vacío que tenía en un deporte mayoritario como el baloncesto</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      </div>
+      <?php
+       }
+      ?>
+
+
     </section>
+
+
+
+
+
+
 
     <section class="otrasNoticias">
       <div class="row otrasNoticiasH1">

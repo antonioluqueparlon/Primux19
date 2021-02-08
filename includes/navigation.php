@@ -1,11 +1,11 @@
 <?php
-
+require_once './clases/Usuario.php';
+require_once './clases/Noticia.php';
+require_once './clases/NoticiaController.php';
 session_start();
 //setcookie('entra','si','10');
 
 //$bandera = true;
-
-//include_once('conexion.php');
 
 //if (isset($_POST['buscar']) && (!empty($_POST["busqueda"]))) {
 //$busqueda = $_POST['busqueda'];
@@ -101,31 +101,23 @@ session_start();
         </a>
       </li>
     </ul>
-    <!-- barra de busqueda -->
+
+    <!-- BARRA DE BUSQUEDA ARREGLAR -->
 
     <?php
 
-    include_once('conexion.php');
-
-    if (!empty($_POST['busqueda'])) {
-      $busqueda = explode(" ", $_POST['busqueda']);
-      $sql = "SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda[0] . "%'";
-      for ($i = 1; $i < count($busqueda); $i++) {
-        if (!empty($busqueda[$i])) {
-          $sql .= "AND titulo LIKE '%" . $busqueda[$i] . "%'";
-        }
-      }
-      $sql .= "LIMIT 3";
-      $result = mysqli_query($conn, $sql);
-      while ($item = mysqli_fetch_assoc($result)) {
-        echo '';
-      }
-    }
+if (!empty($_POST['busqueda'])){
+$busqueda = explode(" ", $_POST['busqueda']);
+$sql = NoticiaController::recuperarNoticiaContienePalabraClave($busqueda);
+foreach($sql as $value){
+  echo $value->titulo;
+}
+}
 
 
 
     ?>
-    <form class="form-inline my-2 my-lg-0" id="form" action="busqueda.php" method="POST">
+    <form class="form-inline my-2 my-lg-0" id="form" action="" method="POST">
       <!-- bisqueda.php -->
       <input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search">
       <button class="btn my-2 my-sm-0 btnNav" name="buscar" type="submit"><i class="fa fa-search"></i></button>
@@ -140,21 +132,6 @@ session_start();
   </div>
 </nav>
 
-<!--
-<div class="container">
-	<ul class="nav nav-pills">
-	  <li class="nav-item">
-	    <a class="nav-link <?php if ($CURRENT_PAGE == "Index") { ?>active<?php } ?>" href="index.php">Home</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link <?php if ($CURRENT_PAGE == "About") { ?>active<?php } ?>" href="about.php">About Us</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link <?php if ($CURRENT_PAGE == "Contact") { ?>active<?php } ?>" href="contacto.php">Contact</a>
-	  </li>
-	</ul>
-</div>
--->
 
 <!-- MENSAJE COOKIES -->
 <div class="modal fade cookiealert" id="cookiespopup" data-backdrop="static" data-keyboard="false">
@@ -179,8 +156,9 @@ session_start();
 
           <div class="col-md-6">
             <div class="cpb_btns">
+              <!--<a href="../terminoslegales.php" target="_blank" class="enlacePrimario btn btn-block btn-secundary btnNav"> -->
               <a href="http://www.interior.gob.es/politica-de-cookies" target="_blank" class="enlacePrimario btn btn-block btn-secundary btnNav">
-                Leer Más
+                Leer Más sobre las cookies
               </a>
             </div>
           </div>

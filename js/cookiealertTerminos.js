@@ -13,6 +13,7 @@
     }
     // When clicking on the agree button, create a 1 year
     // cookie to remember user's choice and close the banner
+    //acceptCookies.click(function () {
     acceptCookies.click(function () {
         setCookie("acceptCookies", true, 365);
         $(".cookiealert").modal("hide");

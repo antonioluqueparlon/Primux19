@@ -4,7 +4,22 @@
 
 <head>
   <?php include("includes/head-tag-contents.php"); ?>
+  <script>
+    $(document).ready(function() {
+      $("#reloadCaptcha").click(function() {
+        var captchaImage = $('#captcha').attr('src');
+        captchaImage = captchaImage.substring(0, captchaImage.lastIndexOf("?"));
+        captchaImage = captchaImage + "?rand=" + Math.random() * 1000;
+        $('#captcha').attr('src', captchaImage);
+      });
+    });
+  </script>
 </head>
+
+
+<?php
+?>
+
 
 <body>
   <?php include("includes/navigation.php"); ?>
@@ -68,12 +83,29 @@
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <input type="submit" class="btn btn-success btn-info" value="Enviar">
-                </div>
-              </div>
 
-            </div>
+
+                <div class="form-group">
+                  <label for="captcha" class="text-info">
+                    <?php if ($message) { ?>
+                      <span class="text-warning"><strong><?php echo $message; ?></strong></span>
+                    <?php } ?>
+                  </label><br>
+                  <input type="text" name="securityCode" id="securityCode" class="form-control" placeholder="Código de seguridad">
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label"> <img style="border: 1px solid #D3D0D0" src="get_captcha.php?rand=<?php echo rand(); ?>" id='captcha'></label>
+
+                  <div class="col-md-8"><br>
+                    <a href="javascript:void(0)" id="reloadCaptcha"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></a> Recargar codigo
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-info" value="Enviar">
+                  </div>
+                </div>
+
+              </div>
 
           </form>
 
