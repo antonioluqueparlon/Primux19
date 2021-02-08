@@ -106,19 +106,16 @@ session_start();
 
     <?php
 
-if (!empty($_POST['busqueda'])){
-$busqueda = explode(" ", $_POST['busqueda']);
-$sql = NoticiaController::recuperarNoticiaContienePalabraClave($busqueda);
-foreach($sql as $value){
-  echo $value->titulo;
-}
-}
+    if (isset($_POST['buscar'])) {
+      echo 'hola';
+    }
+
 
 
 
     ?>
-    <form class="form-inline my-2 my-lg-0" id="form" action="" method="POST">
-      <!-- bisqueda.php -->
+    <form class="form-inline my-2 my-lg-0" id="form" action="busqueda.php" method="POST">
+      <!-- busqueda.php -->
       <input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search">
       <button class="btn my-2 my-sm-0 btnNav" name="buscar" type="submit"><i class="fa fa-search"></i></button>
       <ul id="response"></ul>
