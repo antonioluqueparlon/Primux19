@@ -59,7 +59,7 @@ class NoticiaController {
             $conex = new Conexion();
             //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
             // CON NOTICIAS QUE QUEREMOS QUE SALGAN
-            $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT 4 ");
+            $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
                     $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
