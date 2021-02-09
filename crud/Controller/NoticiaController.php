@@ -1,6 +1,6 @@
 <?php
-require_once 'conexion.php';
-require_once 'Noticia.php';
+require_once 'crud/Modelo/conexion.php';
+require_once 'crud/Modelo/Noticia.php';
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -57,7 +57,9 @@ class NoticiaController {
     public static function recuperarTodasNoticias() {
         try {
             $conex = new Conexion();
-            $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT 100 ");
+            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
+            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
+            $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
                     $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,

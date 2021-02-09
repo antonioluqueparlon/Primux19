@@ -15,6 +15,7 @@
     <section class="noticiasDestacadas ">
       <div class="row">
       <?php
+      //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
        $noticia = NoticiaController::recuperarTodasNoticias();
        foreach ($noticia as $values) {
          //echo $values->enlace;
