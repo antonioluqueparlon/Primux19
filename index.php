@@ -21,14 +21,14 @@
          //echo $values->enlace;
       ?>
         <div class="col-md-3 tarjetaUltimasNOticias ">
-          <a href="<?php echo $values->enlace; ?>" class="enlaceNoticia">
+          <a href="noticia.php?id=<?php echo $values->id;?>" class="enlaceNoticia">
             <div class="card-content card-contentIndex tarjetaUltimasNOticias">
               <div class="card-img card-imgIndex ">
                 <img class="imagenTarjetaIndex imgUltimasNoticias" src="<?php echo $values->imagen; ?>" alt="">
               </div>
               <div class="card-desc card-descIndex ">
                 <h3><?php echo $values->titulo; ?></h3>
-                <p><?php echo $values->titulo; ?></p>
+                <p><?php echo $values->descripcion; ?></p>
               </div>
           </a>
         </div>

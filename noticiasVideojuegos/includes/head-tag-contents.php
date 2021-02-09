@@ -23,25 +23,13 @@
         });
 
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 30) { // scrolltop marca el nivel de scroll que se hace
+            if ($(this).scrollTop() > 30) {
                 $('.ir-arriba').slideDown(300);
             } else {
                 $('.ir-arriba').slideUp(300);
             }
         });
 
-
-
-    });
-
-    $(document).ready(function() {
-        $('.ir-arriba').click(function() {
-            var destino = $(this.hash); //this.hash lee el atributo href de este
-            $('html, body').animate({
-                scrollTop: destino.offset().top
-            }, 700); //Llega a su destino con el tiempo deseado
-            return false;
-        });
     });
 </script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -65,5 +53,6 @@
 <link rel="stylesheet" href="../../css/styleAbout.css">
 <link rel="stylesheet" href="../../css/nav.css">
 <link rel="stylesheet" href="../../css/login.css">
+<script src="js/main.js"></script>
 
 <span class="ir-arriba fab fa-airbnb"></span>

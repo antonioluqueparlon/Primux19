@@ -3,54 +3,7 @@ require_once './crud/Modelo/Usuario.php';
 require_once './crud/Modelo/Noticia.php';
 require_once './crud/Controller/NoticiaController.php';
 session_start();
-//setcookie('entra','si','10');
-
-//$bandera = true;
-
-//if (isset($_POST['buscar']) && (!empty($_POST["busqueda"]))) {
-//$busqueda = $_POST['busqueda'];
-
-/*try {
-    $opciones = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
-    $conex = new PDO('mysql:host=localhost; dbname=technoteam; charset=UTF8mb4', 'root', '', $opciones);
-    $result = $conex->query("SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%' LIMIT 3");
-
-    if ($result->rowCount()) {
-
-      session_start();
-      session_name();
-      while ($obj = $result->fetch(PDO::FETCH_OBJ)) {
-        $_SESSION['titulo'] = $obj->titulo;
-        $_SESSION['contenido'] = $obj->contenido;
-        $_SESSION['descripcion'] = $obj->descripcion;
-      }
-      $_SESSION['email'] = $_POST['email'];
-      header('location: busqueda.php');
-    } else {
-      $bandera = false;
-      $_SESSION['bandera'] = "no";
-      header('location: busqueda.php');
-    }
-
-    $error = $conex->errorInfo();
-  } catch (PDOException $exc) {
-
-    echo $exc->getTraceAsString(); // error de php
-    echo 'Error:' . $exc->getMessage(); // error del servidor de bd
-  }
-
-  //if (!empty($_GET['busqueda'])) {
-  //$busqueda = $_GET['busqueda'];
-  //$sql = "SELECT * FROM noticia WHERE titulo LIKE '%" . $busqueda . "%' LIMIT 3";
-  //echo '< class="single">';
-  //$result = mysqli_query($conn, $sql);
-  //while ($obj = $result->fetch(PDO::FETCH_OBJ)) {
-  // $_SESSION['titulo'] = $obj->titulo;
-  //echo '';
-  //}
-  //}
-}
-*/ ?>
+?>
 
 <script>
   window.onscroll = function() {
@@ -102,16 +55,13 @@ session_start();
       </li>
     </ul>
 
-    <!-- BARRA DE BUSQUEDA ARREGLAR -->
+    <!-- BARRA DE BUSQUEDA  -->
 
     <?php
 
     if (isset($_POST['buscar'])) {
-      echo 'hola';
+      echo '';
     }
-
-
-
 
     ?>
     <form class="form-inline my-2 my-lg-0" id="form" action="busqueda.php" method="POST">
