@@ -1,6 +1,6 @@
 <?php
-require_once 'crud/Modelo/conexion.php';
-require_once 'crud/Modelo/Noticia.php';
+require_once 'Modelo/conexion.php';
+require_once 'Modelo/Noticia.php';
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
