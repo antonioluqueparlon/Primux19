@@ -39,13 +39,28 @@ class NoticiaController {
     public static function buscarNoticia($id) {
         try {
             $conex = new Conexion();
-            $result = $conex->query("SELECT * FROM noticia WHERE id='$id'");
+            $result = $conex->query("SELECT * FROM noticia as n  WHERE id='$id'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 $registro = $result->fetchObject();
                 $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->titulo, 
                         $registro->descripcion, $registro->contenido, $registro->imagen);
                
                 return $noticia;
+            } else
+                return false;
+        } catch (Exception $ex) {
+            echo "<br><a href=index.php>IR al inicio</a><br>";
+            die('ERROR con la BD' . $ex->getMessage());
+        }
+    }
+
+    public static function buscarUsuarioEnNoticia($idNoticia, $idUsuario) {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT nombre FROM usuario as usu, noticia as n WHERE n.id='$idNoticia' and n.idUsuario=$idUsuario and n.idUsuario=usu.id");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                  $registro= $result->fetchObject();             
+                return $registro->nombre;
             } else
                 return false;
         } catch (Exception $ex) {

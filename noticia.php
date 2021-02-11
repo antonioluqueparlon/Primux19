@@ -14,6 +14,7 @@
         <?php
 
         $noticia = NoticiaController::buscarNoticia($_GET['id']);
+        $usuario= NoticiaController::buscarUsuarioEnNoticia($noticia->id, $noticia->idUsuario);
 
         ?>
         <section class="noticia">
@@ -23,7 +24,7 @@
                 </div>
                 <div class="col-12">
                     <img src="<?php echo $noticia->imagen; ?>" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted"><?php echo $noticia->idUsuario->email ?></small></p>
+                    <p><small class="text-muted"><?php echo $usuario ?></small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
