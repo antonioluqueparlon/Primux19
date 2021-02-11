@@ -34,21 +34,19 @@ class UsuarioController{
     
 
     public static function comprobarUsuario($email, $password) {
-        $conex = new Conexion();
-        if ($conex->connect_errno != 0) {
-            echo $conex->connect_error;
-        } else {
-            $consulta1 = $conex->query("SELECT * from usuario WHERE email = '$email' AND password = '$password'");
-            if ($conex->errno != 0) {
-                return $conex->error;
-            } else {
-                if ($conex->affected_rows < 1) {
-                    return FALSE;
-                }
-
-
-                return TRUE;
+        try {
+            $conex=new Conexion();
+            $result=$conex->query("SELECT * FROM usuario WHERE email='$email' and password='$password'");
+            if($result->rowCount()){ //Esto es si encuentra 
+                $registro = $result->fetchObject();
+                $usuario = new Usuario($registro->id, $registro->email, $registro->password, $registro->nombre, $registro->primerApellido, 
+                $registro->segundoApellido, $registro->fechaNacimiento, $registro->pais, $registro->codigoPostal, $registro->telefono, $registro->rol, $registro->imagen);
+            return $usuario;
             }
+            else return false;
+        } catch (Exception $ex) {
+            echo "<br><a href=index.php>IR al inicio</a><br>";
+            die('ERROR con la BD'.$ex->getMessage());
         }
     }
 
@@ -87,7 +85,7 @@ class UsuarioController{
             $conex = new Conexion();
             $conex->exec("update usuario set email=$usuario->email, password=$usuario->password, nombre=$usuario->nombre,
             primerApellido=$usuario->primerApellido, segundoApellido=$usuario->segundoApellido, fechaNacimiento=$usuario->fechaNacimiento,
-            pais=$usuario->pais, codigoPostal=$usuario->codigoPostal, telefono = $usuario->telefono, rol=$usuario->rol, imagen=$usuario->imagen");
+            pais=$usuario->pais, codigoPostal=$usuario->codigoPostal, telefono = $usuario->telefono, rol=$usuario->rol, imagen=$usuario->imagen where id=$usuario->id");
         } catch (Exception $ex) {
             echo "Error:" . $ex->getMessage();
         }

@@ -10,7 +10,7 @@ if (isset($_POST['edit'])) {
         $ruta = "img/fotos/" . $fich_unic;
         move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
     } else {
-        $ruta = $juego->imagen;
+        $ruta = $noticia->imagen;
     }
     $not = new Noticia($_POST['id'],$_POST['idUsuario'], $fecha, $_POST['titulo'], $_POST['descripcion'], $_POST['contenido'], $ruta);
     //JuegoControlador::insertarJuego($juego);
