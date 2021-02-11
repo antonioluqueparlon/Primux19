@@ -53,6 +53,21 @@ class NoticiaController {
             die('ERROR con la BD' . $ex->getMessage());
         }
     }
+
+    public static function buscarUsuarioEnNoticia($idNoticia, $idUsuario) {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT nombre FROM usuario as usu, noticia as n WHERE n.id='$idNoticia' and n.idUsuario=$idUsuario and n.idUsuario=usu.id");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                  $registro= $result->fetchObject();             
+                return $registro->nombre;
+            } else
+                return false;
+        } catch (Exception $ex) {
+            echo "<br><a href=index.php>IR al inicio</a><br>";
+            die('ERROR con la BD' . $ex->getMessage());
+        }
+    }
     //FUNCIONA
     public static function recuperarTodasNoticias() {
         try {
