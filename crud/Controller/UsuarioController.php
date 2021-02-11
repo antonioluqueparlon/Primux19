@@ -1,5 +1,5 @@
 <?php
-require_once 'Modelo/conexion.php';
+require_once 'Modelo/Conexion.php';
 require_once 'Modelo/Usuario.php';
 
 class UsuarioController{
