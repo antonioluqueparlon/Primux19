@@ -12,7 +12,7 @@ $usuario = UsuarioController::buscarPorCorreo("j.can.rui.est@iesmarquesdecomares
 echo $usuario->nombre . "<br>";
 
 echo "================ COMPROBACIÓN USUARIO ======================<br>";
-$us = UsuarioController::comprobarUsuario("j.can.rui.est@iesmarquesdecomares.org","1234567");
+$us = UsuarioController::comprobarUsuario("jesucr4@gmail.com","1234");
 echo $us->nombre . " " . $us->rol;
 
 ?>
