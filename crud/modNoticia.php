@@ -4,18 +4,25 @@ $noticia = NoticiaController::buscarNoticia(11);
 
 
 if (isset($_POST['edit'])) {
+   /*
+    echo $_POST['id']."<br>";
+    echo $_POST['idUsuario']."<br>";
+    echo "Titulo: " . $_POST['titulo']."<br>";
+    echo "Descripcion: " . $_POST['descripcion']."<br>";
+    echo "Contenido: " . $_POST['contenido']."<br>";
+*/
     $fecha = date('Y-m-d');
     if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
         $fich_unic = time() . "-" . $_FILES['foto']['name'];
-        $ruta = "img/fotos/" . $fich_unic;
+        $ruta = "../crud/imgCrud/" . $fich_unic;
         move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
     } else {
         $ruta = $noticia->imagen;
     }
     $not = new Noticia($_POST['id'],$_POST['idUsuario'], $fecha, $_POST['titulo'], $_POST['descripcion'], $_POST['contenido'], $ruta);
-    //JuegoControlador::insertarJuego($juego);
-    NoticiaController::actualizarNoticia($not);
-    header("Location:index.php");
+    
+    NoticiaController::actualizarNoticia($not, $_POST['id']);
+    //header("Location:index.php");
 }
 ?>
 <head>

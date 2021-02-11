@@ -26,8 +26,8 @@ class Noticia {
         $this->idUsuario = $idUsuario;
         $this->fecha = $fecha;
         $this->titulo = $titulo;
-        $this->contenido = $contenido;
         $this->descripcion = $descripcion;
+        $this->contenido = $contenido;
         $this->imagen = $imagen;
     }
     
