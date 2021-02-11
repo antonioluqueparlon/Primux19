@@ -1,6 +1,6 @@
 <?php
 
-require_once 'conexion.php';
+require_once 'crud/Modelo/Conexion.php';
 
 class Usuario {
     private $id;
@@ -51,26 +51,7 @@ class Usuario {
         }
     }
 
-    public static function buscarPorCorreo($email) {
-        $conex = new Conexion();
-        if ($conex->connect_errno != 0) {
-            echo $conex->connect_error;
-        } else {
-            $consulta1 = $conex->query("SELECT * from usuario WHERE email = '$email'");
-            if ($conex->errno != 0) {
-                return $conex->error;
-            } else {
-                if ($conex->affected_rows > 0) {
-                    $object = $consulta1->fetch_object();
-                    return new self($object->id, $object->email, $object->password, $object->nombre, $object->primerApellido, $object->segundoApellido, $object->fechaNacimiento, $object->pais, $object->codigoPostal, $object->telefono, $object->rol, $object->imagen);
-                } else {
-                    return false;
-                }
-            }
-        }
-    }
     
-
     public static function comprobarUsuario($email, $password) {
         $conex = new Conexion();
         if ($conex->connect_errno != 0) {
@@ -90,24 +71,7 @@ class Usuario {
         }
     }
 
-    public static function recuperarUsuarios() {
-        $conex = new Conexion();
-        if ($conex->connect_errno) {
-            return FALSE;
-        } else {
-            $result = $conex->query("SELECT * FROM usuario");
-            if ($conex->affected_rows != 0) {
-                while ($object = $result->fetch_object()) {
-                    $p = new self($object->id, $object->email, $object->password, $object->nombre, $object->primerApellido, $object->segundoApellido, $object->fechaNacimiento, $object->pais, $object->codigoPostal, $object->telefono, $object->rol, $object->imagen);
-                    $array[] = $p;
-                }
-                return $array;
-            } else {
-                return FALSE;
-            }
-        }
-        $conex->close();
-    }
+
 
     public static function EliminarUsuario($email) {
         $conex = new Conexion();
