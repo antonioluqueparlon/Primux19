@@ -18,7 +18,7 @@
   margin: 2pt;
   background-color: $colorClaro;
   width: 100%;
-  height: 98%;
+  height: 220px;
 }
 .txtNoticias {
   margin-top: 30pt;
@@ -77,5 +77,10 @@
 
 .imgUltimasNoticias {
   height: 250px;
-  width: 100%;
+}
+
+.fotoOtras{
+  height: 178px;
+  width: 220px;
+  margin: auto;
 }

@@ -1,7 +1,5 @@
 <?php
-require_once './crud/Modelo/Usuario.php';
-require_once './crud/Modelo/Noticia.php';
-require_once './crud/Controller/NoticiaController.php';
+
 session_start();
 ?>
 

@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-12">
                     <img src="<?php echo $noticia->imagen; ?>" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted"><?php echo $usuario ?></small></p>
+                    <p><small class="text-muted"><?php echo $usuario.' '.$noticia->fecha ?></small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
@@ -52,7 +52,7 @@
                             <div class="card divOtrasNoticias">
                                 <div class="row no-gutters">
                                     <div class="col-md-4 col-sm-12">
-                                        <img src="<?php echo $values->imagen; ?>" class="img-fluid card-img" alt="">
+                                        <img src="<?php echo $values->imagen; ?>" class="img-fluid card-img fotoOtras" alt="">
                                     </div>
                                     <div class="col-md-8 col-sm-12">
                                         <div class="card-block px-2">
@@ -97,7 +97,7 @@
 
                                     <div class="col-md-3 " style="float:left">
                                         <div class="card mb-2 tarjetaUltimasNOticias">
-                                            <img class="card-img-top" src="<?php echo $values->imagen; ?>" alt="Card image cap">
+                                            <img class="card-img-top fotoArriba" src="<?php echo $values->imagen; ?>" alt="Card image cap">
                                             <div class="card-body">
                                                 <h4 class="card-title"><?php echo $values->titulo; ?></h4>
                                                 <p class="card-text"><?php echo $values->descripcion; ?></p>
