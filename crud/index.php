@@ -10,6 +10,7 @@
 </head>
 <?php
 require_once './Controller/UsuarioController.php';
+
 if (isset($_POST['añadir'])){
         $rol = 0;
         foreach ($_POST['rol'] as $value) {
@@ -41,6 +42,7 @@ if(isset($_POST['modificar'])){
 <div class="container">
     <h2>Añadir usuario</h2><!-- comment -->
     <a href="prueba.php">Ir a prueba</a>
+    <a href="addNoticia.php">Ir a noticia</a>
     <form method="POST" enctype="multipart/form-data">
        email: <br> <input type="text" name="email"><br><br>
         contraseña: <br><input type="password" name="password"><br><br>

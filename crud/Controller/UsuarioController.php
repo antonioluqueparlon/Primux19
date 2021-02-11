@@ -7,7 +7,8 @@ class UsuarioController{
         try{
             $conex = new Conexion();
             $conex->exec("Insert into usuario (email, password, nombre, primerApellido, segundoApellido, fechaNacimiento, pais, codigoPostal, telefono, rol, imagen) values
-            ('$usu->email','$usu->password','$usu->nombre','$usu->primerApellido','$usu->segundoApellido','$usu->fechaNacimiento','$usu->pais','$usu->codigoPostal','$usu->telefono','$usu->rol','$usu->imagen')"
+            ('$usu->email','$usu->password','$usu->nombre','$usu->primerApellido','$usu->segundoApellido',
+            '$usu->fechaNacimiento','$usu->pais','$usu->codigoPostal','$usu->telefono','$usu->rol','$usu->imagen')"
             );
         }catch (PDOException $ex) {
             die('ERROR EN LA BD'.$ex->getMessage());
@@ -80,12 +81,15 @@ class UsuarioController{
       }
     }
     
-    public static function modificarUsuario(Usuario $usuario) {
+    public static function modificarUsuario(Usuario $usuario, $idUsuario) {
         try {
             $conex = new Conexion();
-            $conex->exec("update usuario set email=$usuario->email, password=$usuario->password, nombre=$usuario->nombre,
-            primerApellido=$usuario->primerApellido, segundoApellido=$usuario->segundoApellido, fechaNacimiento=$usuario->fechaNacimiento,
-            pais=$usuario->pais, codigoPostal=$usuario->codigoPostal, telefono = $usuario->telefono, rol=$usuario->rol, imagen=$usuario->imagen where id=$usuario->id");
+            $conex->exec("update usuario set id='$usuario->id', email='$usuario->email', password='$usuario->password', 
+            nombre='$usuario->nombre',
+            primerApellido='$usuario->primerApellido', 
+            segundoApellido='$usuario->segundoApellido', fechaNacimiento='$usuario->fechaNacimiento',
+            pais='$usuario->pais', codigoPostal='$usuario->codigoPostal', telefono ='$usuario->telefono',
+            rol='$usuario->rol', imagen='$usuario->imagen' where id='$idUsuario'");
         } catch (Exception $ex) {
             echo "Error:" . $ex->getMessage();
         }
