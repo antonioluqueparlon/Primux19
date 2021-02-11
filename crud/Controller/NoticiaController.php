@@ -1,7 +1,7 @@
 <?php
 
-require_once 'Modelo/conexion.php';
-require_once 'Modelo/Noticia.php';
+require_once 'crud/Modelo/Conexion.php';
+require_once 'crud/Modelo/Noticia.php';
 
 
 class NoticiaController {
@@ -195,12 +195,12 @@ class NoticiaController {
         }
     }
     //EN PRUEBAS
-    public static function actualizarNoticia(Noticia $noticia, $idNoticia) {
+    public static function actualizarNoticia(Noticia $noticia) {
         try {
             $conex = new Conexion();
-            $conex->exec("update noticia set id='$noticia->id', idUsuario='$noticia->idUsuario', "
-                    . "fecha='$noticia->fecha', titulo='$noticia->titulo', imagen='$noticia->imagen', "
-                    . "contenido='$noticia->contenido', descripcion='$noticia->descripcion'  where id='$idNoticia'");
+            $conex->exec("update noticia set id=$noticia->id, idUsuario=$noticia->idUsuario, "
+                    . "fecha=$noticia->fecha, titulo=$noticia->titulo, imagen=$noticia->imagen, "
+                    . "contenido=$noticia->descripcion  where id=$noticia->id");
         } catch (Exception $ex) {
             echo "Error:" . $ex->getMessage();
         }
