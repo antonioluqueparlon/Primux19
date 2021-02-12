@@ -5,6 +5,7 @@
     <meta name="keywords" content="" />
 <?php } ?>
 
+<meta name="google-site-verification" content="-dQ3Ysq-TQ7qGO_wZu8UAzDUoEidhpKbCyGKneJeWKI" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta charset="UTF-8">
