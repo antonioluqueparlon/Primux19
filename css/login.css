@@ -91,7 +91,8 @@ input[type=submit]:hover {
 }
 
 input[type=text],
-input[type=password] {
+input[type=password],
+select {
   background-color: #f6f6f6;
   border: none;
   color: #212121;
@@ -102,7 +103,27 @@ input[type=password] {
   font-size: 16px;
   margin: 5px;
   width: 85%;
-  border: 2px solid #f6f6f6;
+  border: 2px solid #212121;
+}
+
+.dateBox{
+  background-color: #f6f6f6;
+  border: none;
+  color: #212121;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #212121;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .btnRegistro {

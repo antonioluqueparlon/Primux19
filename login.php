@@ -4,6 +4,10 @@
 
 //Consulta sobre el usuario en bbdd
 
+if(isset($_SESSION["loginFinal"])){
+  header('Location: index.php');
+}
+
 if(isset($_POST["Entrar"])){
     $usuario = $_POST["user"];
     $pass = $_POST["password"];
