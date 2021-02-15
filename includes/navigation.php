@@ -2,7 +2,6 @@
 require_once './crud/Modelo/Usuario.php';
 require_once './crud/Modelo/Noticia.php';
 require_once './crud/Controller/NoticiaController.php';
-session_start();
 ?>
 
 <script>
@@ -74,8 +73,19 @@ session_start();
 
 
 
-
+    <?php if(!isset($_SESSION['loginFinal'])){ ?>
     <a href="login.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Entrar</button></a>
+    <?php }else{
+      ?>
+          <div class="dropdown">
+          <a href="cuenta.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Mi Cuenta</button></a>
+          <div class="dropdown-content">
+            <a href="logout.php">Salir</a>
+          </div>
+        </div>
+      <?php } ?> 
+
+  
   </div>
 </nav>
 

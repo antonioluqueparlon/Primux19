@@ -10,4 +10,5 @@ class Conexion extends PDO { //O puede extender de mysqli segun vayamos a utiliz
         parent::__construct($this->dsn, $this->usu, $this->pass, $this->opciones);
     }
 }
+//Password123#@! 
 ?>

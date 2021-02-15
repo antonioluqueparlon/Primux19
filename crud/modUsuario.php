@@ -10,28 +10,27 @@
 </head>
 <?php
 require_once './Controller/UsuarioController.php';
-$usuario = UsuarioController::buscarPorCorreo("jesucr4@gmail.com");
+$usuario = UsuarioController::buscarPorCorreo("j.can.rui.est@iesmarquesdecomares.org");
 
 if (isset($_POST['añadir'])){
-    
         $rol = 0;
         foreach ($_POST['rol'] as $value) {
             $rol += $value;
         }
        if (is_uploaded_file($_FILES['foto']['tmp_name'])){
            $fich_unic=time() ."-". $_FILES['foto']['name'];
-           $ruta = "../crud/imgCrud/".$fich_unic;
+           $ruta = "./crud/imgCrud/".$fich_unic;
            move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
        }else{
             $ruta = $usuario->imagen;
        }
-           $usuario = new Usuario($_POST['idUsuario'],$_POST['email'],$_POST['password'],$_POST['nombre'],$_POST['priApell'],$_POST['segApell'],
+           $usuario = new Usuario($_POST['email'],$_POST['password'],$_POST['nombre'],$_POST['priApell'],$_POST['segApell'],
            $_POST['fechaNacimiento'],$_POST['pais'],$_POST['cp'],$_POST['telefono'],$rol, $ruta);
            
-           UsuarioController::modificarUsuario($usuario, $_POST['idUsuario']);
+           UsuarioController::modificarUsuario($usuario);
        
        
-      // header("Location:prueba.php");
+       header("Location:prueba.php");
 
 }
 
@@ -40,7 +39,6 @@ if (isset($_POST['añadir'])){
     <h2>modificar usuario</h2><!-- comment -->
     
     <form method="POST" enctype="multipart/form-data">
-    <?php echo $usuario->id; ?>
        email: <br> <input type="text" name="email" value="<?php echo $usuario->email;?>"><br><br>
         contraseña: <br><input type="password" name="password" value="<?php echo $usuario->password;?>"><br><br>
        Nombre:<br> <input type="text" name="nombre" value="<?php echo $usuario->nombre ;?>"><br><br>

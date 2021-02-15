@@ -5,6 +5,7 @@
     <meta name="keywords" content="" />
 <?php } ?>
 
+<meta name="google-site-verification" content="-dQ3Ysq-TQ7qGO_wZu8UAzDUoEidhpKbCyGKneJeWKI" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta charset="UTF-8">
@@ -13,6 +14,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
 <script>
     $(document).ready(function() {
 
