@@ -46,6 +46,24 @@ class NoticiaController {
         }
     }
 
+    public static function buscarNoticiaRandom() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia order by rand() limit 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                $registro = $result->fetchObject();
+                $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->titulo, 
+                        $registro->descripcion, $registro->contenido, $registro->imagen);
+               
+                return $noticia;
+            } else
+                return false;
+        } catch (Exception $ex) {
+            echo "<br><a href=index.php>IR al inicio</a><br>";
+            die('ERROR con la BD' . $ex->getMessage());
+        }
+    }
+
     public static function buscarUsuarioEnNoticia($idNoticia, $idUsuario) {
         try {
             $conex = new Conexion();
@@ -152,6 +170,7 @@ class NoticiaController {
             die("ERROR En la BD").$ex->getMessage();
         }
     }
+    
     
     //FUNCIONA CORRECTAMENTE
     public static function recuperarNoticiaContienePalabraClave($palabra) {
