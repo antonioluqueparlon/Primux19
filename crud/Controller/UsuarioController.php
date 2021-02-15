@@ -1,6 +1,6 @@
 <?php
-require_once 'Modelo/conexion.php';
-require_once 'Modelo/Usuario.php';
+require_once 'crud/Modelo/conexion.php';
+require_once 'crud/Modelo/Usuario.php';
 
 class UsuarioController{
     public static function insertarUsuario(Usuario $usu) {

@@ -1,7 +1,7 @@
 <?php
 
-require_once 'Modelo/conexion.php';
-require_once 'Modelo/Noticia.php';
+require_once 'crud/Modelo/conexion.php';
+require_once 'crud/Modelo/Noticia.php';
 
 
 class NoticiaController {
