@@ -1,25 +1,27 @@
 <?php
-
+require_once '../../crud/Modelo/Usuario.php';
+require_once '../../crud/Modelo/Noticia.php';
+require_once '../crud/NoticiaController.php';
 session_start();
 ?>
 
 <script>
-  window.onscroll = function() {
-    scrollFunction()
-  };
+window.onscroll = function() {
+  scrollFunction()
+};
 
-  function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      document.getElementById("navbar").style.padding = "30px 10px";
-      document.getElementById("logo").style.fontSize = "25px";
-    } else {
-      document.getElementById("navbar").style.padding = "80px 10px";
-      document.getElementById("logo").style.fontSize = "35px";
-    }
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
   }
+}
 </script>
 <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.php"><img src="img/logo2.png"></a>
+  <a class="navbar-brand" href="../../index.php"><img src="../../img/logo2.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,31 +29,31 @@ session_start();
   <div class="collapse navbar-collapse navText" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="apartadoTecnologia.php">
-          <p class="aNav">Tecnología</p>
-        </a>
+        <a class="nav-link" href="../../apartadoTecnologia.php">
+        <p class="aNav">Tecnología</p>
+          </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="apartadoDeportes.php">
-          <p class="aNav">Deportes</p>
-        </a>
+        <a class="nav-link" href="../../apartadoDeportes.php">
+        <p class="aNav">Deportes</p>
+          </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="apartadoMotor.php">
-          <p class="aNav">Motor</p>
-        </a>
+        <a class="nav-link" href="../../apartadoMotor.php">
+          <p class="aNav">Motor</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="apartadoVideojuegos.php">
+        <a class="nav-link" href="../../apartadoVideojuegos.php">
           <p class="aNav">VideoJuegos</p>
-        </a>
+          </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Juegos.php">
+        <a class="nav-link" href="../../Juegos.php">
           <p class="aNav">Juegos</p>
-        </a>
+          </a>
       </li>
     </ul>
+
 
     <!-- BARRA DE BUSQUEDA  -->
 
@@ -62,6 +64,7 @@ session_start();
     }
 
     ?>
+    
     <form class="form-inline my-2 my-lg-0" id="form" action="busqueda.php" method="POST">
       <!-- busqueda.php -->
       <input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search">
@@ -70,13 +73,9 @@ session_start();
     </form>
 
 
-
-
-
     <a href="login.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Entrar</button></a>
   </div>
 </nav>
-
 
 <!-- MENSAJE COOKIES -->
 <div class="modal fade cookiealert" id="cookiespopup" data-backdrop="static" data-keyboard="false">
@@ -123,7 +122,7 @@ session_start();
   </div>
 </div>
 
-<script src="./js/cookiealertTerminos.js"></script>
+<script src="../../js/cookiealertTerminos.js"></script>
 <script>
   startApp();
 </script>

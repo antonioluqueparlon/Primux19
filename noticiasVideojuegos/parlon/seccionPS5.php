@@ -1,4 +1,4 @@
-<?php include("includes/a_config.php"); ?>
+<?php include("../includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
 <script>
@@ -6,7 +6,7 @@
 </script>
 
 <head>
-    <?php include("includes/head-tag-contents.php"); 
+    <?php include("../includes/head-tag-contents.php"); 
     ?>
 </head>
 
@@ -14,24 +14,24 @@
 
     <!--<?php //include("includes/design-top.php"); 
         ?>-->
-    <?php include("includes/navigation.php"); ?>
-    <?php include("includes/subNavigationMotor.php"); ?>
+    <?php include("../includes/navigation.php"); ?>
+    <?php include("../includes/subNavigationVideojuegos.php"); ?>
 
 
     <main>
         <section class="ultimasNoticias claseSeccion">
 
-            <h1>Formula E </h1>
+            <h1>PLAYSTATION </h1>
 
             <?php
             //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
-            $noticia = NoticiaController::recuperarNoticiaSeccionFormulaE();
+            $noticia = NoticiaController::recuperarNoticiaSeccionPS();
             foreach ($noticia as $values) {
                 //echo $values->enlace;
             ?>
 
                 <div class="card cardArticulo">
-                    <a href="noticia.php?id=<?php echo $values->id;?>" class="enlaceNoticia">
+                    <a href="noticiaPS5.php" class="enlaceNoticia">
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <img src="<?php echo $values->imagen; ?>" class="card-img" alt="...">
@@ -54,7 +54,7 @@
 
     </main>
 
-    <?php include("includes/footer.php"); ?>
+    <?php include("./includes/footer.php"); ?>
 
 </body>
 

@@ -1,5 +1,5 @@
 <?php
-require_once 'crud/Modelo/Conexion.php';
+require_once 'crud/Modelo/conexion.php';
 require_once 'crud/Modelo/Noticia.php';
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -55,75 +55,6 @@ class NoticiaController {
     }
     //FUNCIONA
     public static function recuperarTodasNoticias() {
-        try {
-            $conex = new Conexion();
-            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
-            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
-            $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
-            if ($result->rowCount()) { //Esto es si encuentra 
-                while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
-                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
-
-                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
-                    $noticias[] = clone($noticia);
-                }
-                return $noticias;
-            } else {
-                return false;
-            }
-        } catch (PDOException $ex) {
-            die("ERROR En la BD").$ex->getMessage();
-        }
-    }
-
-    public static function recuperarTodasNoticiasOtras() {
-        try {
-            $conex = new Conexion();
-            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
-            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
-            $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
-            if ($result->rowCount()) { //Esto es si encuentra 
-                while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
-                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
-
-                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
-                    $noticias[] = clone($noticia);
-                }
-                return $noticias;
-            } else {
-                return false;
-            }
-        } catch (PDOException $ex) {
-            die("ERROR En la BD").$ex->getMessage();
-        }
-    }
-
-    public static function recuperarTodasNoticiasUltimas1() {
-        try {
-            $conex = new Conexion();
-            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
-            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
-            $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
-            if ($result->rowCount()) { //Esto es si encuentra 
-                while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
-                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
-
-                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
-                    $noticias[] = clone($noticia);
-                }
-                return $noticias;
-            } else {
-                return false;
-            }
-        } catch (PDOException $ex) {
-            die("ERROR En la BD").$ex->getMessage();
-        }
-    }
-
-    public static function recuperarTodasNoticiasUltimas2() {
         try {
             $conex = new Conexion();
             //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
