@@ -2,6 +2,11 @@
 <!DOCTYPE html>
 <html>
 
+<?php
+
+
+?>
+
 <head>
   <?php include("includes/head-tag-contents.php"); ?>
   <script>
@@ -14,6 +19,7 @@
       });
     });
   </script>
+  
 </head>
 
 
@@ -83,35 +89,29 @@
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
-
-
-                <div class="form-group">
-                  <label for="captcha" class="text-info">
-                    <?php if ($message) { ?>
-                      <span class="text-warning"><strong><?php echo $message; ?></strong></span>
-                    <?php } ?>
-                  </label><br>
-                  <input type="text" name="securityCode" id="securityCode" class="form-control" placeholder="Código de seguridad">
-                </div>
-                <div class="form-group">
-                  <label class="col-md-4 control-label"> <img style="border: 1px solid #D3D0D0" src="get_captcha.php?rand=<?php echo rand(); ?>" id='captcha'></label>
-
-                  <div class="col-md-8"><br>
-                    <a href="javascript:void(0)" id="reloadCaptcha"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></a> Recargar codigo
-                  </div>
-
-                  <div class="col-md-12">
-                    <input type="submit" class="btn btn-success btn-info" value="Enviar">
-                  </div>
-                </div>
-
               </div>
 
-          </form>
+              <div class="elem-group">
+                <label for="captcha">Por favor introduce el captcha</label>
+                <img src="captcha.php" alt="CAPTCHA" class="captcha-image"><i class="fas fa-redo refresh-captcha"></i>
+                <br>
+                <input type="text" id="captcha" name="captcha_challenge" pattern="[A-Z]{6}">
+              </div>
+
+              <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-info" value="Enviar">
+              </div>
+
+
+            </div>
 
         </div>
 
+        </form>
+
       </div>
+
+    </div>
 
     </div>
 
@@ -123,3 +123,74 @@
 </body>
 
 </html>
+
+<?php
+
+if($_POST) {
+  $visitor_name = "";
+  $visitor_email = "";
+  $email_title = "";
+  $concerned_department = "";
+  $visitor_message = "";
+
+  if(isset($_POST['captcha_challenge']) && $_POST['captcha_challenge'] == $_SESSION['captcha_text']) {
+   
+      if(isset($_POST['visitor_name'])) {
+          $visitor_name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
+      }
+       
+      if(isset($_POST['visitor_email'])) {
+          $visitor_email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['visitor_email']);
+          $visitor_email = filter_var($visitor_email, FILTER_VALIDATE_EMAIL);
+           
+      }
+       
+      if(isset($_POST['email_title'])) {
+          $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
+      }
+       
+      if(isset($_POST['concerned_department'])) {
+          $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
+      }
+       
+      if(isset($_POST['visitor_message'])) {
+          $visitor_message = htmlspecialchars($_POST['visitor_message']);
+      }
+       
+      if($concerned_department == "billing") {
+          $recipient = "billing@domain.com";
+      }
+      else if($concerned_department == "marketing") {
+          $recipient = "marketing@domain.com";
+      }
+      else if($concerned_department == "technical support") {
+          $recipient = "tech.support@domain.com";
+      }
+      else {
+          $recipient = "contact@domain.com";
+      }
+       
+      $headers  = 'MIME-Version: 1.0' . "\r\n"
+      .'Content-type: text/html; charset=utf-8' . "\r\n"
+      .'From: ' . $visitor_email . "\r\n";
+       
+      if(mail($recipient, $email_title, $visitor_message, $headers)) {
+          echo '<p>Thank you for contacting us. You will get a reply within 24 hours.</p>';
+      } else {
+          echo '<p>We are sorry but the email did not go through.</p>';
+      }
+  } else {
+      echo '<p>You entered an incorrect Captcha.</p>';
+  }
+   
+} else {
+  echo '<p>Something went wrong</p>';
+}
+?>
+
+<script>
+    var refreshButton = document.querySelector(".refresh-captcha");
+    refreshButton.onclick = function() {
+      document.querySelector(".captcha-image").src = 'captcha.php?' + Date.now();
+    }
+  </script>

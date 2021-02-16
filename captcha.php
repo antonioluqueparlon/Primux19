@@ -1,46 +1,49 @@
 <?php
-session_start();
-$captcha = "";
-$captchaHeight = 60;
-$captchaWidth = 140;
-$totalCharacters = 6;
-$possibleLetters = "123456789mnbvcxzasdfghjklpoiuytrewwq";
-$captchaFont = "monofont.ttf";
-$randomDots = 50;
-$randomLines = 25;
-$textColor = "6d87cf";
-$noiseColor = "6d87cf";
-$character = 0;
-while ($character < $totalCharacters) {
-$captcha .= substr($possibleLetters, mt_rand(0, strlen($possibleLetters)-1), 1);
-$character++;
+
+session_start(); 
+
+$permitted_chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ123456789';
+  
+function generate_string($input) {
+    $input_length = strlen($input);
+    $random_string = '';
+    for($i = 0; $i < 6; $i++) {
+        $random_character = $input[mt_rand(0, $input_length - 1)];
+        $random_string .= $random_character;
+    }
+    return $random_string;
 }
-$captchaFontSize = $captchaHeight * 0.65;
-$captchaImage = @imagecreate($captchaWidth,$captchaHeight);
-$backgroundColor = imagecolorallocate($captchaImage,255,255,255);
-$arrayTextColor = hextorgb($textColor);
-$textColor = imagecolorallocate($captchaImage,$arrayTextColor['red'],$arrayTextColor['green'],$arrayTextColor['blue']);
-$arrayNoiseColor = hextorgb($noiseColor);
-$imageNoiseColor = imagecolorallocate($captchaImage,$arrayNoiseColor['red'],$arrayNoiseColor['green'],$arrayNoiseColor['blue']);
-for( $captchaDotsCount=0; $captchaDotsCount<$randomDots; $captchaDotsCount++ ) {
-imagefilledellipse($captchaImage,mt_rand(0,$captchaWidth),mt_rand(0,$captchaHeight),2,3,$imageNoiseColor);
+$image = imagecreatetruecolor(200, 50);
+ 
+$red = rand(125, 175);
+$green = rand(125, 175);
+$blue = rand(125, 175);
+ 
+$colors = imagecolorallocate($image, $red - 20*mt_rand(0,4), $green - 20*mt_rand(0,4), $blue - 20*mt_rand(0,4));
+ 
+imagefill($image, 0, 0, $colors);
+
+//Obtengo los colores del texto que van a ser blanco y negro
+$black = imagecolorallocate($image, 0, 0, 0);
+$white = imagecolorallocate($image, 255, 255, 255);
+$textcolors = [$black, $white];
+ 
+//Fuente del texto
+$fonts = dirname(__FILE__) .'/fonts/Arvo-Bold.ttf';
+ 
+
+$captcha_string = generate_string($permitted_chars);
+ 
+$_SESSION['captcha_text'] = $captcha_string;
+ 
+for($i = 0; $i < 6; $i++) {
+  $letter_space = 170/6;
+  $initial = 15;
+   
+  imagettftext($image, 20, rand(-15, 15), $initial + $i*$letter_space, rand(25, 45), $textcolors[rand(0, 1)], $fonts, $captcha_string[$i]);
 }
-for( $captchaLinesCount=0; $captchaLinesCount<$randomLines; $captchaLinesCount++ ) {
-imageline($captchaImage,mt_rand(0,$captchaWidth),mt_rand(0,$captchaHeight),mt_rand(0,$captchaWidth),mt_rand(0,$captchaHeight),$imageNoiseColor);
-}
-$text_box = imagettfbbox($captchaFontSize,0,$captchaFont,$captcha);
-$x = ($captchaWidth - $text_box[4])/2;
-$y = ($captchaHeight - $text_box[5])/2;
-imagettftext($captchaImage,$captchaFontSize,0,$x,$y,$textColor,$captchaFont,$captcha);
-header('Content-Type: image/jpeg');
-imagejpeg($captchaImage);
-imagedestroy($captchaImage);
-$_SESSION['captcha'] = $captcha;
-function hextorgb ($hexstring){
-$integar = hexdec($hexstring);
-return array(
-"red" => 0xFF & ($integar >> 0x10),
-"green" => 0xFF & ($integar >> 0x8),
-"blue" => 0xFF & $integar
-);
-}
+ 
+header('Content-type: image/png');
+imagepng($image);
+imagedestroy($image);
+?>

@@ -19,10 +19,19 @@
 
 .wrapperLogin {
   margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   min-height: 100%;
   padding: 20px;
@@ -45,7 +54,8 @@
   max-width: 450px;
   position: relative;
   padding: 0px;
-  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
@@ -69,7 +79,8 @@ input[type=reset] {
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+          box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
   border-radius: 5px 5px 5px 5px;
   margin: 5px 20px 40px 20px;
 }
@@ -80,7 +91,8 @@ input[type=submit]:hover {
 }
 
 input[type=text],
-input[type=password] {
+input[type=password],
+select {
   background-color: #f6f6f6;
   border: none;
   color: #212121;
@@ -91,7 +103,27 @@ input[type=password] {
   font-size: 16px;
   margin: 5px;
   width: 85%;
-  border: 2px solid #f6f6f6;
+  border: 2px solid #212121;
+}
+
+.dateBox{
+  background-color: #f6f6f6;
+  border: none;
+  color: #212121;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #212121;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .btnRegistro {
@@ -104,7 +136,8 @@ input[type=password] {
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+          box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
   border-radius: 5px 5px 5px 5px;
 }
 
