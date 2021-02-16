@@ -87,8 +87,7 @@ input[type=submit]:hover {
 }
 
 input[type=text],
-input[type=password],
-input [type=date] {
+input[type=password] {
     background-color: $colorWhite2;
     border: none;
     color: $colorBlack;

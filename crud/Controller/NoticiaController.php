@@ -1,6 +1,6 @@
 <?php
 
-require_once 'crud/Modelo/conexion.php';
+require_once 'crud/Modelo/Conexion.php';
 require_once 'crud/Modelo/Noticia.php';
 
 
@@ -32,24 +32,6 @@ class NoticiaController {
         try {
             $conex = new Conexion();
             $result = $conex->query("SELECT * FROM noticia as n  WHERE id='$id'");
-            if ($result->rowCount()) { //Esto es si encuentra 
-                $registro = $result->fetchObject();
-                $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->titulo, 
-                        $registro->descripcion, $registro->contenido, $registro->imagen);
-               
-                return $noticia;
-            } else
-                return false;
-        } catch (Exception $ex) {
-            echo "<br><a href=index.php>IR al inicio</a><br>";
-            die('ERROR con la BD' . $ex->getMessage());
-        }
-    }
-
-    public static function buscarNoticiaRandom() {
-        try {
-            $conex = new Conexion();
-            $result = $conex->query("SELECT * FROM noticia order by rand() limit 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 $registro = $result->fetchObject();
                 $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->titulo, 
@@ -171,7 +153,6 @@ class NoticiaController {
         }
     }
     
-    
     //FUNCIONA CORRECTAMENTE
     public static function recuperarNoticiaContienePalabraClave($palabra) {
         try {
@@ -214,12 +195,12 @@ class NoticiaController {
         }
     }
     //EN PRUEBAS
-    public static function actualizarNoticia(Noticia $noticia, $idNoticia) {
+    public static function actualizarNoticia(Noticia $noticia) {
         try {
             $conex = new Conexion();
-            $conex->exec("update noticia set id='$noticia->id', idUsuario='$noticia->idUsuario', "
-                    . "fecha='$noticia->fecha', titulo='$noticia->titulo', imagen='$noticia->imagen', "
-                    . "contenido='$noticia->contenido', descripcion='$noticia->descripcion'  where id='$idNoticia'");
+            $conex->exec("update noticia set id=$noticia->id, idUsuario=$noticia->idUsuario, "
+                    . "fecha=$noticia->fecha, titulo=$noticia->titulo, imagen=$noticia->imagen, "
+                    . "contenido=$noticia->descripcion  where id=$noticia->id");
         } catch (Exception $ex) {
             echo "Error:" . $ex->getMessage();
         }
