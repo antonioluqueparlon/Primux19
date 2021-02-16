@@ -1,6 +1,6 @@
 <?php
 
-require_once 'crud/Modelo/Conexion.php';
+require_once 'crud/Modelo/conexion.php';
 
 class Usuario {
     private $id;
