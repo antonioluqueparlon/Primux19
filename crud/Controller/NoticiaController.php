@@ -583,8 +583,360 @@ class NoticiaController {
             die("ERROR En la BD").$ex->getMessage();
         }
     }
+
+    public static function recuperarNoticiaApartadoDeportesMasReciente() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Deportes' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoDeportesDerecha() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Deportes' order by fecha LIMIT 5");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoDeportesDerechaUnasolo() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Deportes' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+
+    public static function recuperarNoticiasUltimasNoticiasDeportes() {
+        try {
+            $conex = new Conexion();
+            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
+            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
+            $result = $conex->query("SELECT * FROM noticia where apartado='Deportes' ORDER BY fecha desc LIMIT  3");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    //motor
+
+    public static function recuperarNoticiaApartadoMotorMasReciente() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Motor' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoMotorDerecha() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Motor' order by fecha LIMIT 5");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoMotorDerechaUnasolo() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Motor' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+
+    public static function recuperarNoticiasUltimasNoticiasMotor() {
+        try {
+            $conex = new Conexion();
+            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
+            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
+            $result = $conex->query("SELECT * FROM noticia where apartado='Motor' ORDER BY fecha desc LIMIT  3");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    //tecnologia
     
+    public static function recuperarNoticiaApartadoTecnologiaMasReciente() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Tecnologia' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoTecnologiaDerecha() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Tecnologia' order by fecha LIMIT 5");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoTecnologiaDerechaUnasolo() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Tecnologia' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+
+    public static function recuperarNoticiasUltimasNoticiasTecnologia() {
+        try {
+            $conex = new Conexion();
+            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
+            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
+            $result = $conex->query("SELECT * FROM noticia where apartado='Tecnologia' ORDER BY fecha desc LIMIT  3");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    //videojuegos
     
+    public static function recuperarNoticiaApartadoVideojuegosMasReciente() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Videojuegos' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoVideojuegosDerecha() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Videojuegos' order by fecha LIMIT 5");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+    public static function recuperarNoticiaApartadoVideojuegosDerechaUnasolo() {
+        try {
+            $conex = new Conexion();
+            $result = $conex->query("SELECT * FROM noticia where apartado like 'Videojuegos' order by fecha LIMIT 1");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
+
+
+    public static function recuperarNoticiasUltimasNoticiasVideojuegos() {
+        try {
+            $conex = new Conexion();
+            //PARA QUE VAYAN CAMBIANDO LAS NOTICIAS EN EL INDEX HACEMOS RAND Y LO LIMITAMOS A 4 QUE SON LAS TARJETAS
+            // CON NOTICIAS QUE QUEREMOS QUE SALGAN
+            $result = $conex->query("SELECT * FROM noticia where apartado='Videojuegos' ORDER BY fecha desc LIMIT  3");
+            if ($result->rowCount()) { //Esto es si encuentra 
+                while ($registro = $result->fetchObject()) {
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                            $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
+
+                    //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
+                    $noticias[] = clone($noticia);
+                }
+                return $noticias;
+            } else {
+                return false;
+            }
+        } catch (PDOException $ex) {
+            die("ERROR En la BD").$ex->getMessage();
+        }
+    }
 
     
 
