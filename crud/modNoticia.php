@@ -14,7 +14,7 @@ if (isset($_POST['edit'])) {
     }
     $not = new Noticia($_POST['id'],$_POST['idUsuario'], $fecha, $_POST['titulo'], $_POST['descripcion'], $_POST['contenido'], $ruta);
     //JuegoControlador::insertarJuego($juego);
-    NoticiaController::actualizarNoticia($not);
+    NoticiaController::actualizarNoticia($not,$_POST['id']);
     header("Location:index.php");
 }
 ?>
