@@ -58,3 +58,64 @@
 <script src="js/main.js"></script>
 
 <span class="ir-arriba fab fa-airbnb"></span>
+
+<!--script comentarios -->
+
+<script>
+    function commentBox() {
+        var name = document.getElementById('name').value;
+        var comment = document.getElementById('comment').value;
+
+        if (name == "" || comment == "") {
+            alert("Porfavor introduce la informacion requerida!");
+        } else {
+            var parent = document.createElement('div');
+            var el_name = document.createElement('h5');
+            var el_message = document.createElement('p');
+            var el_line = document.createElement('hr');
+            var txt_name = document.createTextNode(name);
+            var txt_message = document.createTextNode(comment);
+            el_name.appendChild(txt_name);
+            el_message.appendChild(txt_message);
+            el_line.style.border = '1px solid #000';
+            parent.appendChild(el_name);
+            parent.appendChild(el_line);
+            parent.appendChild(el_message);
+            parent.setAttribute('class', 'pane');
+            document.getElementById('result').appendChild(parent);
+
+            document.getElementById('name').value = "";
+            document.getElementById('comment').value = "";
+        }
+
+    }
+</script>
+
+<style>
+        label {
+            color: grey;
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        .clasificacion {
+            direction: rtl;
+            /* right to left */
+            unicode-bidi: bidi-override;
+            /* bidi de bidireccional */
+        }
+
+        label:hover {
+            color: orange;
+        }
+
+        label:hover~label {
+            color: orange;
+        }
+
+        input[type="radio"]:checked~label {
+            color: orange;
+        }
+    </style>
