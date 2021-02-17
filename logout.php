@@ -10,6 +10,6 @@ $google_client->revokeToken();
 session_destroy();
 
 //redirect page to index.php
-header('Location:http://localhost:3000/login.php');
+header('Location:http://'.$_SERVER['HTTP_HOST'].'/login.php');
 
 ?>

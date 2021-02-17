@@ -1,7 +1,5 @@
 <?php
 
-require_once 'crud/Modelo/Conexion.php';
-
 class Usuario {
     private $id;
     private $email;

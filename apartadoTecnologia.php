@@ -11,72 +11,52 @@
     <?php include("includes/navigation.php"); ?>
     <?php include("includes/subNavigationTecnologia.php"); ?>
 
-
-    <main>
-        <section class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12">
-                        <h1>Los grandes errores que cometen las empresas después de sufrir un ciberataque</h1>
-                        <div class="card img-fluid">
-                            <a href="noticiasTecnologia/noticias/noticiaEmpresa.php">
-                                <img class="card-img-top img-fluid" src="https://static1.abc.es/media/tecnologia/2021/01/13/ciber-2-kVEI--620x349@abc.jpg" alt="Card image">
-                                <div class="card-img-overlay d-flex align-items-end">
-                                    <p class="card-text font-weight-bold txtTop">En los últimos cuatro años, los ciberdelitos han crecido un 135%</p>
-                                </div>
-                            </a>
+    <?php
+    //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
+    $noticia1 = NoticiaController::recuperarNoticiaApartadoTecnologiaMasReciente();
+    foreach ($noticia1 as $value) {
+    ?>
+        <main>
+            <section class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                            <h1><?php echo $value->titulo; ?></h1>
+                            <div class="card img-fluid">
+                                <a href="noticia.php?id=<?php echo $value->id; ?>">
+                                    <img class="card-img-top img-fluid" src="<?php echo $value->imagen ?>" alt="Card image">
+                                    <div class="card-img-overlay d-flex align-items-end">
+                                        <p class="card-text font-weight-bold txtTop"> <?php echo $value->descripcion ?></p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    <?php
+                }
+                    ?>
 
                     <!--ÚLTIMA NOTICIAS QUE APARECEN A LA IZQUIERDA EN PANTALLAS GRANDES Y DESAPARECE EN PANTALLAS DE MÓVIL-->
                     <div class="col-lg-4 col-md-12 d-sm-none d-none d-md-block">
                         <h1>Últimas noticias</h1>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a href="noticiasTecnologia/noticias/noticiaMedidorAire.php" class="linkNoticia">
-                                    <div class="card bg-light cardApartadoDerecha">
-                                        <div class="card-body text-center">
-                                            <p class="card-text">Xiaomi lanza un medidor para ver la calidad del aire en tu móvil</p>
+                        <?php
+                        //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
+                        $noticia1 = NoticiaController::recuperarNoticiaApartadoTecnologiaDerecha();
+                        foreach ($noticia1 as $value) {
+                        ?>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="noticia.php?id=<?php echo $value->id; ?>" class="linkNoticia">
+                                        <div class="card bg-light cardApartadoDerecha">
+                                            <div class="card-body text-center">
+                                                <p class="card-text titNoticiaUltNoticias"><?php echo $value->titulo; ?></p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a href="noticiasTecnologia/noticias/noticiaGadgetVirus.php" class="linkNoticia">
-                                    <div class="card bg-light cardApartadoDerecha">
-                                        <div class="card-body text-center">
-                                            <p class="card-text">Mejores gadgets para luchar contra los virus y bacterias en casa</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a href="noticiasTecnologia/noticias/noticiaCerraduraInteligente.php" class="linkNoticia">
-                                    <div class="card bg-light cardApartadoDerecha">
-                                        <div class="card-body text-center">
-                                            <p class="card-text">Xiaomi lanza una cerradura inteligente ¡con desbloqueo facial!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 d-lg-none d-xl-block">
-                                <a href="noticiasTecnologia/noticias/noticiaRobotAspirador.php" class="linkNoticia">
-                                    <div class="card bg-light cardApartadoDerecha">
-                                        <div class="card-body text-center">
-                                            <p class="card-text">Qué robot aspirador escoger si tienes mascotas en casa</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
+                        <?php
+                        }
+                        ?>
                     </div>
 
                     <!--FIN DE ÚLTIMAS NOTICIAS EN PANTALLAS GRANDES 
@@ -91,30 +71,40 @@
           <li data-target="#demo" data-slide-to="2"></li>
         </ul>-->
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <a href="noticia.php">
-                                        <img class="img-fluid" src="http://lorempixel.com/output/nightlife-q-c-404-179-9.jpg" alt="" width="70%" height="200">
-                                        <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-item">
-                                    <a href="noticia.php">
-                                        <img src="http://lorempixel.com/output/abstract-q-c-404-179-7.jpg" class="img-fluid" alt="" width="70%" height="200">
-                                        <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-item">
-                                    <a href="noticia.php">
-                                        <img src="http://lorempixel.com/output/people-q-c-404-179-7.jpg" class="img-fluid" alt="" width="70%" height="200">
-                                        <div class="carousel-caption txtTop txtCarrousel">
-                                            <h3>titular</h3>
-                                        </div>
-                                    </a>
-                                </div>
+                                <?php
+                                //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
+                                $noticia1 = NoticiaController::recuperarNoticiaApartadoTecnologiaDerechaUnasolo();
+                                foreach ($noticia1 as $value) {
+                                ?>
+                                    <div class="carousel-item active">
+                                        <a href="noticia.php?id=<?php echo $value->id; ?>">
+                                            <img class="img-fluid" src="<?php echo $value->imagen; ?>" alt="baloncesto femenino" width="70%" height="200">
+                                            <div class="carousel-caption txtTop txtCarrousel">
+                                                <h3><?php echo $value->titulo; ?></h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <?php
+                                }
+                                ?>
+
+                                <?php
+                                //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
+                                $noticia1 = NoticiaController::recuperarNoticiaApartadoTecnologiaDerecha();
+                                foreach ($noticia1 as $value) {
+                                ?>
+                                    <div class="carousel-item">
+                                        <a href="noticia.php?id=<?php echo $value->id; ?>">
+                                            <img src="<?php echo $value->imagen; ?>" class="img-fluid" alt="" width="70%" height="200">
+                                            <div class="carousel-caption txtTop txtCarrousel">
+                                                <h3><?php echo $value->titulo; ?></h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <?php
+                                }
+                                ?>
+
                                 <a class="carousel-control-prev" href="#demo" data-slide="prev">
                                     <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
                                 </a>
@@ -128,61 +118,37 @@
                     <!-- /.carousel -->
 
 
-                    <!--TARJETAS DE NOTICIAS -->
-                    <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticiasTecnologia/noticias/noticiaGalaxyS21.php" class="enlaceNoticia">
-                            <div class="row no-gutters">
-                                <div class="col-md-12 col-lg-4">
-                                    <img src="https://i.blogs.es/775434/samsung-galaxy-s21-caja/1366_2000.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-md-12 col-lg-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Ni cargador, ni microSD, ni auriculares: Samsung los elimina en los Galaxy S21 y hace pensar que será lo habitual</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 14/01/2021
-                                            </small></p>
-                                        <p class="card-text indexNoticiaTexto">Samsung se une así a una tendencia que inició Apple con los iPhone 12 </p>
+                    <?php
+                    $noticiasUltimas = NoticiaController::recuperarNoticiasUltimasNoticiasTecnologia();
+                    foreach ($noticiasUltimas as $values) {
+                    ?>
+                        
+                            <!--TARJETAS DE NOTICIAS -->
+                            <div class="card cardArticulo tarjetaNoticiaApartado">
+                                <a href="noticia.php?id=<?php echo $value->id; ?>" class="enlaceNoticia">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-12 col-lg-4">
+                                            <img src="<?php echo $values->imagen; ?>" class="card-img imgApartadoNoticias" alt="Imagen">
+                                        </div>
+                                        <div class="col-md-12 col-lg-8">
+                                            <div class="card-body">
+                                                <h3 class="card-title indexNoticiaTitulo"><?php echo $values->titulo; ?></h3>
+                                                <p class="card-text indexNoticiaTimer"><small class="text-muted"><?php echo $values->fecha; ?></small></p>
+                                                <p class="card-text indexNoticiaTexto"><?php echo $values->descripcion; ?></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                        </a>
+                            
+                        <?php
+                    }
+                        ?>
                     </div>
-                    <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticiasTecnologia/noticias/noticiaHTC.php" class="enlaceNoticia ">
-                            <div class="row no-gutters">
-                                <div class="col-md-12 col-lg-4">
-                                    <img src="https://i.blogs.es/7e5989/htc-desire-21-pro-5g/1366_2000.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-md-12 col-lg-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">HTC Desire 21 Pro 5G: el primer Desire con 5G tiene pantalla de 90 Hz y cuatro cámaras traseras</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 14/01/2021</small></p>
-                                        <p class="card-text indexNoticiaTexto">La firma taiwanesa presentó el pasado mes de junio el HTC Desire 20 Pro y el HTC U20 5G</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card cardArticulo tarjetaNoticiaApartado">
-                        <a href="noticiasTecnologia/noticias/noticiaQualcomm.php" class="enlaceNoticia">
-                            <div class="row no-gutters">
-                                <div class="col-md-12 col-lg-4">
-                                    <img src="https://i.blogs.es/df5c9b/3d-sonic-sensor-gen-2-1280x720/1366_2000.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-md-12 col-lg-8">
-                                    <div class="card-body">
-                                        <h3 class="card-title indexNoticiaTitulo">Qualcomm presenta su nuevo lector de huellas ultrasónico bajo la pantalla: dice ser un 50% más rápido que el anterior</h3>
-                                        <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualizacion: 14/01/2021</small></p>
-                                        <p class="card-text indexNoticiaTexto">Qualcomm acaba de presentar la última generación de su sensor de huellas dactilares integrado en la pantalla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-        </section>
-    </main>
+            </section>
+        </main>
 
-    <?php include("includes/footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
 
 </body>
 

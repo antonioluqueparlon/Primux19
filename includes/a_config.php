@@ -38,7 +38,7 @@ $google_client->setClientId('906960082307-ci8nv0fk2jlgpsavochp0tbrmirm0qbv.apps.
 $google_client->setClientSecret('-jJzmpQu8bbNJ4N2R1_Dg5bt');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://technoteam.iesmarquesdecomares.org/index.php');
+$google_client->setRedirectUri('http://'.$_SERVER['HTTP_HOST'].'/login.php');
 
 //
 $google_client->addScope('email');
