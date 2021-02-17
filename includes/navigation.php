@@ -74,19 +74,19 @@ require_once './crud/Controller/NoticiaController.php';
 
 
 
-    <?php if(!isset($_SESSION['loginFinal'])){ ?>
-    <a href="login.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Entrar</button></a>
-    <?php }else{
-      ?>
-          <div class="dropdown">
-          <a href="cuenta.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Mi Cuenta</button></a>
-          <div class="dropdown-content">
-            <a href="logout.php">Salir</a>
-          </div>
+    <?php if (!isset($_SESSION['loginFinal'])) { ?>
+      <a href="login.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Entrar</button></a>
+    <?php } else {
+    ?>
+      <div class="dropdown">
+        <a href="cuenta.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Mi Cuenta</button></a>
+        <div class="dropdown-content">
+          <a href="logout.php">Salir</a>
         </div>
-      <?php } ?> 
+      </div>
+    <?php } ?>
 
-  
+
   </div>
 </nav>
 
@@ -137,6 +137,21 @@ require_once './crud/Controller/NoticiaController.php';
 </div>
 
 <script src="./js/cookiealertTerminos.js"></script>
-<script>
-  startApp();
-</script>
+
+
+<?php if (isset($_SESSION['loginFinal'])) {
+?>
+  <div class="card cookie-alertNovedades">
+    <div class="card-body">
+      <h5 class="card-title">&#x1F36A;<strong>¿Quieres estar al día con nuestras noticias?</strong></h5>
+      <p class="card-text text-justify">Acepta la cookie para recibir las últimas actualizacioens sobre las noticias a las que estés suscrito y disfrutar de una mejor experiencia en TechnoTeam</p>
+      <div class="btn-toolbar justify-content-end">
+        <a href="#" class="btn btn-secundary btn-block btnNav btn-link denie-cookiesNovedades">Denegar</a>
+        <a href="#" class="btn btn-secundary btn-block btnNav accept-cookiesNovedades">Aceptar</a>
+      </div>
+    </div>
+  </div>
+  <script src="./js/cookiealertNovedades.js"></script>
+<?php
+}
+?>

@@ -2,11 +2,6 @@
 <!DOCTYPE html>
 <html>
 
-<?php
-
-
-?>
-
 <head>
   <?php include("includes/head-tag-contents.php"); ?>
   <script>
@@ -126,7 +121,7 @@
 
 <?php
 
-if($_POST) {
+/*if($_POST) {
   $visitor_name = "";
   $visitor_email = "";
   $email_title = "";
@@ -186,6 +181,7 @@ if($_POST) {
 } else {
   echo '<p>Something went wrong</p>';
 }
+*/
 ?>
 
 <script>
