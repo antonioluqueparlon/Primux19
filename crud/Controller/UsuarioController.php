@@ -109,6 +109,25 @@ class UsuarioController{
                 die('ERROR con la BD' . $ex->getMessage());
             }
         }
+
+        public static function obtenerUsuarioMail($mail) {
+            try {
+                $conex = new Conexion();
+                $result = $conex->query("SELECT * FROM usuario WHERE email='$mail'");
+                if ($result->rowCount()) { //Esto es si encuentra 
+                    $registro = $result->fetchObject();
+                    $usuario = new Usuario($registro->id, $registro->email, $registro->password, $registro->nombre, 
+                            $registro->primerApellido, $registro->segundoApellido, $registro->fechaNacimiento, $registro->pais, $registro->codigoPostal, $registro->telefono,
+                            $registro->rol,$registro->imagen);
+                   
+                    return $usuario;
+                } else
+                    return false;
+            } catch (Exception $ex) {
+                echo "<br><a href=index.php>IR al inicio</a><br>";
+                die('ERROR con la BD' . $ex->getMessage());
+            }
+        }
     
 
             public static function buscarUsuarioMail($mail) {

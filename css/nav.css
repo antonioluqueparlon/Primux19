@@ -74,6 +74,33 @@ canvas {
   color: #f6f6f6;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: white;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
 #formContent {
   border-radius: 10px 10px 10px 10px;
   background: #fff;

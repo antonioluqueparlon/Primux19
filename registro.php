@@ -28,9 +28,10 @@ if(isset($_POST["registrarse"])){
     $rol = $_POST["rol"];
 
     if(!UsuarioController::buscarUsuarioMail($usuario)){
-      $usuario = new Usuario($id,$usuario,$pass,$nombre,$apellido1,$apellido2,$fNac,$pais,$cp,$telefono,$rol,"");
+      $usuario = new Usuario($id,$usuario,$pass,$nombre,$apellido1,$apellido2,$fNac,$pais,$cp,$telefono,$rol,"newUser.png");
       UsuarioController::insertarUsuario($usuario);
       $_SESSION['usuarioRegistrado'] = true;
+      $_SESSION['user_email_address'] = $_POST["email"];
       $_SESSION['loginFinal'] = true;
       $_SESSION['rol'] = $rol;
       header('Location: index.php');
@@ -90,7 +91,7 @@ if(isset($_POST["registrarse"])){
           echo "value='" . $_POST['nombre'] . "'";
           }elseif(isset($_SESSION['user_email_address'])) {
             echo "value='" . $_SESSION['user_first_name'] . "'";
-            }?> pattern="[a-z ,.'-]+" required>
+            }?> pattern="[a-zA-Z ,.'-]+" required>
       <div class="invalid-feedback">
               Añade un nombre
       </div>

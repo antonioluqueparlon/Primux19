@@ -81,7 +81,7 @@ require_once './crud/Controller/NoticiaController.php';
       <div class="dropdown">
         <a href="cuenta.php"><button class="btn  my-2 my-sm-0 btnNav"><i class="fa fa-user"></i> Mi Cuenta</button></a>
         <div class="dropdown-content">
-          <a href="logout.php">Salir</a>
+          <a href="logout.php"><button class="btn  my-2 my-sm-0 btnNav">Cerrar Sesión</button></a>
         </div>
       </div>
     <?php } ?>
