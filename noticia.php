@@ -44,6 +44,11 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                         </p>
                     </div>
                 </div>
+                <?php
+                 if (isset($_SESSION['rol'])){
+                    if ($_SESSION['rol']== "editor" | $_SESSION['rol']=="administrador"){
+                      ?>
+              
                 <form action="editarNoticia.php" method="POST">
                 <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
                 <input type="submit" class="btn" value="Editar" name="editar">
@@ -52,7 +57,10 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                 <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
                 <input type="submit" class="btn-danger" value="Eliminar" name="eliminar">
                 </form>
-                
+                <?php
+                    }
+                }
+                ?>
 
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                 <div class="col-12">
