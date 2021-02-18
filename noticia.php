@@ -1,9 +1,15 @@
-<?php include("includes/a_config.php"); ?>
+<?php include("includes/a_config.php");
+require_once 'crud/Controller/NoticiaController.php'; ?>
 <!DOCTYPE html>
 <html>
 
 <head>
-    <?php include("includes/head-tag-contents.php"); ?>
+    <?php 
+    if(isset($_POST['eliminar'])){
+        NoticiaController::borrarNoticia($_POST['idNoticia']);
+        header("Location:index.php");
+    }
+    include("includes/head-tag-contents.php"); ?>
 </head>
 
 <body>
@@ -38,6 +44,15 @@
                         </p>
                     </div>
                 </div>
+                <form action="editarNoticia.php" method="POST">
+                <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
+                <input type="submit" class="btn" value="Editar" name="editar">
+                </form>
+                <form method="post">
+                <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
+                <input type="submit" class="btn-danger" value="Eliminar" name="eliminar">
+                </form>
+                
 
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                 <div class="col-12">

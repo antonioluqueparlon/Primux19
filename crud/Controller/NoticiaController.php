@@ -9,8 +9,8 @@ class NoticiaController {
     public static function insertarNoticia(Noticia $noti) {
         try {
             $conex = new Conexion;
-            $conex-> exec("Insert into noticia (idUsuario, fecha, titulo,imagen, contenido, descripcion) values"
-                    . "('$noti->idUsuario', '$noti->fecha','$noti->titulo','$noti->imagen',"
+            $conex-> exec("Insert into noticia (idUsuario, fecha, apartado, seccion, titulo,imagen, contenido, descripcion) values"
+                    . "('$noti->idUsuario', '$noti->fecha', '$noti->apartado', '$noti->seccion' ,'$noti->titulo','$noti->imagen',"
                     . "'$noti->contenido','$noti->descripcion')");
            
         } catch (PDOException $ex) {
@@ -34,7 +34,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia as n  WHERE id='$id'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 $registro = $result->fetchObject();
-                $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->titulo, 
+                $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion, $registro->titulo, 
                         $registro->descripcion, $registro->contenido, $registro->imagen);
                
                 return $noticia;
@@ -52,7 +52,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia order by rand() limit 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 $registro = $result->fetchObject();
-                $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->titulo, 
+                $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion, $registro->titulo, 
                         $registro->descripcion, $registro->contenido, $registro->imagen);
                
                 return $noticia;
@@ -87,7 +87,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -110,7 +110,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -133,7 +133,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -156,7 +156,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia ORDER BY RAND() LIMIT  4");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -179,7 +179,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where titulo like '%$palabra%' or descripcion like '%$palabra%' or contenido like '%$palabra%'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -200,7 +200,7 @@ class NoticiaController {
             $result = $conex->query("SELECT  * FROM noticia  where idUsuario = $idUsu ");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
                     $noticias[] = clone($noticia);
@@ -218,7 +218,7 @@ class NoticiaController {
         try {
             $conex = new Conexion();
             $conex->exec("update noticia set id='$noticia->id', idUsuario='$noticia->idUsuario', "
-                    . "fecha='$noticia->fecha', titulo='$noticia->titulo', imagen='$noticia->imagen', "
+                    . "fecha='$noticia->fecha', apartado='$noticia->apartado', seccion='$noticia->seccion' ,titulo='$noticia->titulo', imagen='$noticia->imagen', "
                     . "contenido='$noticia->contenido', descripcion='$noticia->descripcion'  where id='$idNoticia'");
         } catch (Exception $ex) {
             echo "Error:" . $ex->getMessage();
@@ -231,7 +231,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Playstation' or descripcion like 'Playstation' or contenido like 'Playstation'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, 
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR

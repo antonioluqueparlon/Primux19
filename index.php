@@ -1,4 +1,5 @@
 <?php include("includes/a_config.php"); ?>
+<?php require("crud/Controller/UsuarioController.php"); ?>
 <!DOCTYPE html>
 <html>
 
@@ -17,6 +18,7 @@
     <section class="noticiasDestacadas ">
       <div class="row">
         <?php
+        
         //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
         $noticia = NoticiaController::recuperarTodasNoticias();
         foreach ($noticia as $values) {

@@ -16,15 +16,20 @@ class Noticia {
     protected $id;
     protected $idUsuario;
     protected $fecha;
+    protected $apartado;
+    protected $seccion;
+    
     protected $titulo;
     protected $contenido;
     protected $descripcion;
     protected $imagen;
         
-    function __construct($id="",$idUsuario="", $fecha="", $titulo="",  $descripcion="",$contenido="",$imagen="") {  
+    function __construct($id="",$idUsuario="", $fecha="", $apartado="", $seccion="",  $titulo="",  $descripcion="",$contenido="",$imagen="") {  
         $this->id = $id;
         $this->idUsuario = $idUsuario;
         $this->fecha = $fecha;
+        $this->apartado = $apartado;
+        $this->seccion = $seccion;
         $this->titulo = $titulo;
         $this->contenido = $contenido;
         $this->descripcion = $descripcion;

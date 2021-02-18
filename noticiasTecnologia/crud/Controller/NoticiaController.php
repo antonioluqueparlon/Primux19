@@ -187,18 +187,16 @@ class NoticiaController {
             die("ERROR En la BD").$ex->getMessage();
         }
     }
-    //EN PRUEBAS
-    public static function actualizarNoticia(Noticia $noticia) {
+    public static function actualizarNoticia(Noticia $noticia, $idNoticia) {
         try {
             $conex = new Conexion();
-            $conex->exec("update noticia set id=$noticia->id, idUsuario=$noticia->idUsuario, "
-                    . "fecha=$noticia->fecha, titulo=$noticia->titulo, imagen=$noticia->imagen, "
-                    . "contenido=$noticia->descripcion  where id=$noticia->id");
+            $conex->exec("update noticia set id='$noticia->id', idUsuario='$noticia->idUsuario', "
+                    . "fecha='$noticia->fecha', titulo='$noticia->titulo', imagen='$noticia->imagen', "
+                    . "contenido='$noticia->contenido', descripcion='$noticia->descripcion'  where id='$idNoticia'");
         } catch (Exception $ex) {
             echo "Error:" . $ex->getMessage();
         }
     }
-
     public static function recuperarNoticiaSeccionPS() {
         try {
             $conex = new Conexion();

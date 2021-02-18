@@ -1,0 +1,53 @@
+@import "variables";
+#form-container {
+  width:10%;
+  
+}
+.container {
+  border-radius: 10px 10px 10px 10px;
+    background: $colorClaro;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+}
+.alertaImagen {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.imgNoticiaIncluida{
+  width: 45%;
+  height: 250px;
+  
+}
+
+.row {
+  margin-top: 15px;
+}
+.row.form-group {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+.bodyNoticia {
+  height: 100%;
+  background-image: url("../img/noticia.jpg");
+  font-family: $textAlt;
+  opacity: 0.9; 
+} 
+
+
+#editor-container {
+  height: 130px;
+}
+
