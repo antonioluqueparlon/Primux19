@@ -53,14 +53,23 @@ require_once './crud/Controller/NoticiaController.php';
           <p class="aNav">Juegos</p>
         </a>
       </li>
-      <?php  if ($_SESSION['rol']== "editor" | $_SESSION['rol']=="administrador"){
-          ?>
-          <li class="nav-item">
-        <a class="nav-link" href="noticiasUsuario.php">
-          <p class="aNav">Mis noticias</p>
-        </a>
-      </li>
-      <?php } ?>
+      <?php if (isset($_SESSION['rol'])){
+          if ($_SESSION['rol']== "editor" | $_SESSION['rol']=="administrador"){
+            ?>
+            <li class="nav-item dropdown">
+      <a class="nav-link  dropdown-toggle" href="#"  data-toggle="dropdown">
+        <span class="aNav">Mis noticias</span>
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="crearNoticia.php">Crear noticia</a>
+        <a class="dropdown-item" href="noticiasUsuario.php">Ver mis noticias</a>
+        
+      </div>
+    </li>
+      
+        <?php }
+      } 
+        ?>
     </ul>
 
     <!-- BARRA DE BUSQUEDA  -->

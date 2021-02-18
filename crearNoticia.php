@@ -1,7 +1,9 @@
 <?php include("includes/a_config.php"); ?>
+<?php require("crud/Controller/UsuarioController.php"); ?>
 <!DOCTYPE html>
 <?php
 require_once 'crud/Controller/NoticiaController.php';
+
 ?>
 <html lang="en">
 
@@ -19,26 +21,30 @@ require_once 'crud/Controller/NoticiaController.php';
   <link rel="stylesheet" href="/css/crearNoticia.css">
   <script src="https://cdn.quilljs.com/1.2.6/quill.min.js"></script>
   <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
-  <?php include("includes/head-tag-contents.php"); ?>
-</head>
-
-<body class="bodyNoticia">
-  <?php include("includes/navigation.php"); ?>
   <?php
+  $usuario = UsuarioController::obtenerUsuarioMail($_SESSION['user_email_address']);
   if (isset($_POST['añadir'])) {
     $fecha = date('Y-m-d');
     if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
       $fich_unic = time() . "-" . $_FILES['foto']['name'];
       $ruta = "img/" . $fich_unic;
       move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
-      $noticia = new Noticia("", 8, $fecha, $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
+      $noticia = new Noticia("", $usuario->id, $fecha,$_POST['apartado'],$_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
       NoticiaController::insertarNoticia($noticia);
     } else {
       echo "NO SE HA SUBIDO";
     }
-    header("Location:index.php");
+    header("Location:noticiasUsuario.php");
 
   }
+   include("includes/navigation.php");
+  
+  
+  include("includes/head-tag-contents.php"); ?>
+</head>
+
+<body class="bodyNoticia">
+  
   ?>
     <div id="form-container " class="container">
     <h2>Cree su noticia</h2>
@@ -49,20 +55,29 @@ require_once 'crud/Controller/NoticiaController.php';
         </div>
       </div>
       <div class="row">
+        
+        <div class="col-md-6">
+          <strong>Apartado:</strong>  <br><input type="text" name="apartado">
+        </div>
+        <div class="col-md-6">
+          <strong>Sección:</strong>  <br><input type="text" name="seccion">
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-12">
           <div class="form-group">
-            <label for="display_name"><strong>Titular noticia</strong></label>
+            <strong>Titular noticia</strong>
             <input class="form-control" name="titulo" type="text" >
           </div>
 
           <div class="form-group">
-            <label for="location"><strong>Descripcion</strong></label>
+            <strong>Descripcion</strong>
             <input class="form-control"  name="desc" type="text">
           </div>
         </div>
       </div>
       <div class=" form-group">
-        <label for="contenido"><strong>Contenido</strong></label>
+        <strong>Contenido</strong>
         <textarea name="contenido" id="editor-container"></textarea>
       </div>
       <div class="row">

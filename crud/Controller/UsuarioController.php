@@ -143,6 +143,8 @@ class UsuarioController{
                     die('ERROR con la BD' . $ex->getMessage());
                 }
             }
+
+            
     
         public static function buscarUsuarioMailPass($mail,$pass) {
             try {

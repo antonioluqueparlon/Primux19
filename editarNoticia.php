@@ -1,7 +1,24 @@
 <?php
 include("includes/a_config.php");
 require_once 'crud/Controller/NoticiaController.php';
-$noticia = NoticiaController::buscarNoticia(13);
+if (isset($_POST['editar'])){
+  $noticia = NoticiaController::buscarNoticia($_POST['idNoticia']);
+  if (isset($_POST['añadir'])) {
+
+    $fecha = date('Y-m-d');
+    if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
+      $fich_unic = time() . "-" . $_FILES['foto']['name'];
+      $ruta = "img/" . $fich_unic;
+      move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
+    } else {
+      $ruta = $noticia->imagen;
+    }
+    $noticia = new Noticia($_POST['id'], $_POST['idUsuario'], $fecha, $_POST['apartado'], $_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
+    NoticiaController::actualizarNoticia($noticia, $_POST['id']);
+    header("Location:index.php");
+  }
+  
+
 ?>
 <title>EDITAR noticia</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,25 +36,12 @@ $noticia = NoticiaController::buscarNoticia(13);
 <body class="bodyNoticia">
 
   <?php include("includes/navigation.php"); ?>
-  <?php
-  if (isset($_POST['añadir'])) {
-
-    $fecha = date('Y-m-d');
-    if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
-      $fich_unic = time() . "-" . $_FILES['foto']['name'];
-      $ruta = "img/" . $fich_unic;
-      move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
-    } else {
-      $ruta = $noticia->imagen;
-    }
-    $noticia = new Noticia($_POST['id'], $_POST['idUsuario'], $fecha, $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
-    NoticiaController::actualizarNoticia($noticia, $_POST['id']);
-    header("Location:index.php");
-  }
-  ?>
+  
 
   <div id="form-container " class="container">
     <h2>Modifique su noticia</h2>
+    <?php 
+    echo $_POST['editar'];?>
     <form method="POST" enctype="multipart/form-data">
       <div class="row">
         <div class="col-md-12">
@@ -52,6 +56,15 @@ $noticia = NoticiaController::buscarNoticia(13);
         </div>
         <div class="col-md-4">
         <strong></strong>Fecha:<br> <input type="text" name="anno" disabled value="<?php echo $noticia->fecha; ?>"><br><br>
+        </div>
+      </div>
+      <div class="row">
+       
+        <div class="col-md-6">
+          <strong>Apartado:</strong>  <br><input type="text" name="apartado" value="<?php echo $noticia->apartado?>">
+        </div>
+        <div class="col-md-6">
+          <strong>Sección:</strong>  <br><input type="text" name="seccion" value="<?php echo $noticia->seccion?>">
         </div>
       </div>
       <div class="row">
@@ -96,3 +109,4 @@ $noticia = NoticiaController::buscarNoticia(13);
 </body>
 
 </html>
+<?php } ?>

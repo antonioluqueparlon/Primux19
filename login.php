@@ -11,7 +11,6 @@ if(isset($_SESSION["loginFinal"])){
 if(isset($_POST["Entrar"])){
     $usuario = $_POST["user"];
     $pass = $_POST["password"];
-
     if(UsuarioController::buscarUsuarioMailPass($usuario,$pass)){
       $_SESSION["loginFinal"] = true;
       $_SESSION['user_email_address'] = $usuario;
