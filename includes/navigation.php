@@ -53,6 +53,14 @@ require_once './crud/Controller/NoticiaController.php';
           <p class="aNav">Juegos</p>
         </a>
       </li>
+      <?php  if ($_SESSION['rol']== "editor" | $_SESSION['rol']=="administrador"{
+          ?>
+          <li class="nav-item">
+        <a class="nav-link" href="noticiasUsuario.php">
+          <p class="aNav">Mis noticias</p>
+        </a>
+      </li>
+      <?php } ?>
     </ul>
 
     <!-- BARRA DE BUSQUEDA  -->
