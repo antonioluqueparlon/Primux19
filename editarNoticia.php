@@ -25,7 +25,7 @@ if (isset($_POST['editar'])){
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <link href="https://cdn.quilljs.com/1.2.6/quill.snow.css" rel="stylesheet">
-<link rel="stylesheet" href="/css/crearNoticia.css">
+<link rel="stylesheet" href="css\crearNoticia.css">
 <script src="https://cdn.quilljs.com/1.2.6/quill.min.js"></script>
 <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
 <?php include("includes/head-tag-contents.php"); ?>
@@ -36,7 +36,7 @@ if (isset($_POST['editar'])){
   <?php include("includes/navigation.php"); ?>
   
 
-  <div id="form-container " class="container">
+  <div id="" class="container">
     <h2>Modifique su noticia</h2>
     <form method="POST" enctype="multipart/form-data">
       <div class="row">
@@ -89,8 +89,6 @@ if (isset($_POST['editar'])){
     </form>
 
   </div>
-
-
 
 
 

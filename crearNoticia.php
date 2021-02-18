@@ -18,7 +18,7 @@ require_once 'crud/Controller/NoticiaController.php';
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <link href="https://cdn.quilljs.com/1.2.6/quill.snow.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/crearNoticia.css">
+  <link rel="stylesheet" href="css\crearNoticia.css">
   <script src="https://cdn.quilljs.com/1.2.6/quill.min.js"></script>
   <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
   <?php
