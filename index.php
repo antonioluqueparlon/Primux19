@@ -132,13 +132,13 @@
             <a href="noticia.php?id=<?php echo $values->id; ?>" class="enlaceNoticia">
               <div class="row no-gutters">
                 <div class="col-md-12 col-lg-4">
-                  <img src="<?php echo $values->imagen ?>" class="card-img" alt="...">
+                  <img src="<?php echo $values->imagen; ?>" class="card-img" alt="...">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h3 class="card-title indexNoticiaTitulo"><?php echo $values->titulo ?></h3>
-                    <p class="card-text indexNoticiaTimer"><small class="text-muted"><?php echo $values->fecha ?></small></p>
-                    <p class="card-text indexNoticiaTexto"><?php echo $values->descripcion ?></p>
+                    <h3 class="card-title indexNoticiaTitulo"><?php echo $values->titulo; ?></h3>
+                    <p class="card-text indexNoticiaTimer"><small class="text-muted"><?php echo $values->fecha; ?></small></p>
+                    <p class="card-text indexNoticiaTexto"><?php echo $values->descripcion; ?></p>
                   </div>
                 </div>
               </div>
