@@ -1,24 +1,22 @@
 <?php
 include("includes/a_config.php");
 require_once 'crud/Controller/NoticiaController.php';
+if (isset($_POST['añadir'])) {
+  
+  $fecha = date('Y-m-d');
+  if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
+    $fich_unic = time() . "-" . $_FILES['foto']['name'];
+    $ruta = "img/" . $fich_unic;
+    move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
+  } else {
+    $ruta = $_POST['imagen'];
+  }
+  $noticia = new Noticia($_POST['id'], $_POST['idUsuario'], $fecha, $_POST['apartado'], $_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
+  NoticiaController::actualizarNoticia($noticia, $_POST['id']);
+  header("Location:noticiasUsuario.php");
+}
 if (isset($_POST['editar'])){
   $noticia = NoticiaController::buscarNoticia($_POST['idNoticia']);
-  if (isset($_POST['añadir'])) {
-
-    $fecha = date('Y-m-d');
-    if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
-      $fich_unic = time() . "-" . $_FILES['foto']['name'];
-      $ruta = "img/" . $fich_unic;
-      move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
-    } else {
-      $ruta = $noticia->imagen;
-    }
-    $noticia = new Noticia($_POST['id'], $_POST['idUsuario'], $fecha, $_POST['apartado'], $_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
-    NoticiaController::actualizarNoticia($noticia, $_POST['id']);
-    header("Location:index.php");
-  }
-  
-
 ?>
 <title>EDITAR noticia</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -40,8 +38,6 @@ if (isset($_POST['editar'])){
 
   <div id="form-container " class="container">
     <h2>Modifique su noticia</h2>
-    <?php 
-    echo $_POST['editar'];?>
     <form method="POST" enctype="multipart/form-data">
       <div class="row">
         <div class="col-md-12">
@@ -88,6 +84,7 @@ if (isset($_POST['editar'])){
         <input class="btn btn-primary" type="submit" value="Editar noticia" name="añadir">
         <input type="hidden" name="id" value="<?php echo $noticia->id; ?>">
         <input type="hidden" name="idUsuario" value="<?php echo $noticia->idUsuario; ?>">
+        <input type="hidden" name="imagen" value="<?php echo $noticia->imagen;?>">
       </div>
     </form>
 

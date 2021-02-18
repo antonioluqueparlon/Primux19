@@ -231,7 +231,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Playstation' or descripcion like 'Playstation' or contenido like 'Playstation'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, 
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -252,7 +252,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Xbox' or descripcion like 'Xbox' or contenido like 'Xbox'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -273,7 +273,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Nintendo' or descripcion like 'Nintendo' or contenido like 'Nintendo'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -294,7 +294,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'PC' or descripcion like 'PC' or contenido like 'PC'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -315,7 +315,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Windows' or descripcion like 'Windows' or contenido like 'Windows'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -336,7 +336,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Otros' or descripcion like 'Otros' or contenido like 'Otros'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -357,7 +357,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Linux' or descripcion like 'Linux' or contenido like 'Linux'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -378,7 +378,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Movil' or descripcion like 'Movil' or contenido like 'Movil'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -399,7 +399,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Futbol' or descripcion like 'Futbol' or contenido like 'Futbol'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -420,7 +420,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Ciclismo' or descripcion like 'Ciclismo' or contenido like 'Ciclismo'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -441,7 +441,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Baloncesto' or descripcion like 'Baloncesto' or contenido like 'Baloncesto'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -462,7 +462,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Tenis' or descripcion like 'Tenis' or contenido like 'Tenis'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -483,7 +483,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Rally' or descripcion like 'Rally' or contenido like 'Rally'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -504,7 +504,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'Formula1' or descripcion like 'Formula1' or contenido like 'Formula1'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -524,8 +524,8 @@ class NoticiaController {
             $conex = new Conexion();
             $result = $conex->query("SELECT * FROM noticia where seccion like 'FormulaE' or descripcion like 'FormulaE' or contenido like 'FormulaE'");
             if ($result->rowCount()) { //Esto es si encuentra 
-                while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                while ($registro = $result->fetchObject()) { 
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -546,7 +546,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where seccion like 'MotoGP' or descripcion like 'MotoGP' or contenido like 'MotoGP'");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -569,7 +569,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia ORDER BY fecha desc LIMIT  3");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -590,7 +590,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Deportes' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -611,7 +611,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Deportes' order by fecha LIMIT 5");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -632,7 +632,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Deportes' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -656,7 +656,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado='Deportes' ORDER BY fecha desc LIMIT  3");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -679,7 +679,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Motor' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -700,7 +700,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Motor' order by fecha LIMIT 5");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -721,7 +721,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Motor' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -745,7 +745,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado='Motor' ORDER BY fecha desc LIMIT  3");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -768,7 +768,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Tecnologia' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -789,7 +789,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Tecnologia' order by fecha LIMIT 5");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -810,7 +810,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Tecnologia' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -834,7 +834,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado='Tecnologia' ORDER BY fecha desc LIMIT  3");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -857,7 +857,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Videojuegos' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -878,7 +878,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Videojuegos' order by fecha LIMIT 5");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -899,7 +899,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado like 'Videojuegos' order by fecha LIMIT 1");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
@@ -923,7 +923,7 @@ class NoticiaController {
             $result = $conex->query("SELECT * FROM noticia where apartado='Videojuegos' ORDER BY fecha desc LIMIT  3");
             if ($result->rowCount()) { //Esto es si encuentra 
                 while ($registro = $result->fetchObject()) {
-                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha,
+                    $noticia = new Noticia($registro->id, $registro->idUsuario, $registro->fecha, $registro->apartado, $registro->seccion,
                             $registro->titulo, $registro->descripcion, $registro->contenido, $registro->imagen);
 
                     //PARA QUE NO SE REPITA EL MISMO OBJETO PORQUE COGE LA MISMA REFERENCIA USAMOS MÉTODO CLONAR
