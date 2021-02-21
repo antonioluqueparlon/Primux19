@@ -114,8 +114,8 @@ if (!isset($_SESSION['access_token'])) {
 
     <?php echo '<div align="center">' . $login_button . '</div>'; ?>
 
-    <div id="formFooter">
-    <a href="registro.php"><button class="btn  my-2 my-sm-0 btnRegistro">Registrarse</button></a>
+    <div id="formFooterRegistro">
+      <a href="registro.php"><button class="btn  my-2 my-sm-0 btnRegistro">Registrarse</button></a>
     </div>
 
   </div>

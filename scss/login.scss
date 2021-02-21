@@ -64,6 +64,13 @@ $loginBg: url("https://i.pinimg.com/originals/e6/f4/a4/e6f4a4b1edbea5748b8b198e3
     border-radius: 0 0 10px 10px;
 }
 
+#formFooterRegistro {
+    background-color: #fff;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+
 input[type=button],
 input[type=submit],
 input[type=reset] {
@@ -88,7 +95,8 @@ input[type=submit]:hover {
 
 input[type=text],
 input[type=password],
-input [type=date] {
+input [type=date],
+select {
     background-color: $colorWhite2;
     border: none;
     color: $colorBlack;
@@ -99,8 +107,23 @@ input [type=date] {
     font-size: 16px;
     margin: 5px;
     width: 85%;
-    border: 2px solid $colorWhite2;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #212121;
 }
+
+.dateBox{
+    background-color: #f6f6f6;
+    border: none;
+    color: #212121;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #212121;
+  }
 
 .btnRegistro {
     background-color: $colorBlack;
@@ -114,9 +137,16 @@ input [type=date] {
     font-size: 13px;
     box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
     border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
 }
 
 .btnRegistro:hover {
     background-color: $color2;
     color: $colorWhite2;
 } 
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
