@@ -2,13 +2,18 @@
 include("includes/a_config.php");
 require_once 'crud/Controller/NoticiaController.php';
 if (isset($_POST['añadir'])) {
+<<<<<<< Updated upstream
   
+=======
+
+>>>>>>> Stashed changes
   $fecha = date('Y-m-d');
   if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
     $fich_unic = time() . "-" . $_FILES['foto']['name'];
     $ruta = "img/" . $fich_unic;
     move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
   } else {
+<<<<<<< Updated upstream
     $ruta = $_POST['imagen'];
   }
   $noticia = new Noticia($_POST['id'], $_POST['idUsuario'], $fecha, $_POST['apartado'], $_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
@@ -17,6 +22,19 @@ if (isset($_POST['añadir'])) {
 }
 if (isset($_POST['editar'])){
   $noticia = NoticiaController::buscarNoticia($_POST['idNoticia']);
+=======
+    $ruta = $noticia->imagen;
+  }
+  $noticia = new Noticia($_POST['id'], $_POST['idUsuario'], $fecha, $_POST['apartado'], $_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
+  NoticiaController::actualizarNoticia($noticia, $_POST['id']);
+  header("Location:index.php");
+}
+if (isset($_POST['editar'])){
+  $noticia = NoticiaController::buscarNoticia($_POST['idNoticia']);
+  
+  
+
+>>>>>>> Stashed changes
 ?>
 <title>EDITAR noticia</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">

@@ -171,36 +171,56 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                 </div>
 
             </div>
+<<<<<<< Updated upstream
             <div class="col-12 ">
                 <form action="" method="POST">
                     <div class="form-group">
                         <label class="titNoticia" for="textArea">Comentarios</label>
                         <textarea id="my-textarea" class="form-control" name="comentario" rows="3"></textarea>
                         <input type="submit" name="comentar" class="btn btn-secondary mt-1  ">Comentar</input>
-                    </div>
-                </form>
-            </div>
-            <div class="col">
-                <div class="row no-gutters">
-                    <div class="col-1 ">
-                        <img class="mx-auto d-block img-fluid " src="http://lorempixel.com/output/people-q-c-48-48-9.jpg" alt="fotoPerf">
-                    </div>
-                    <div class="col-11 ">
-                        <div class="row no-gutters">
-                            <div class="col-12 "><small class="titNoticia">Nombre</small>
-                            </div>
-                            <div class="col-12 ">Comentario
-                            </div>
-                            <div class="col-12">
-                                <small class="respComentarios">Me gusta</small>
-                                <small class="respComentarios">Responder</small>
-                            </div>
-                        </div>
-                    </div>
+=======
+
+            <!--//comentarios-->
+            <div class="container">
+        <div class="col-md-6 pane">
+            <div class="col-md-4">
+                <div class="alert alert-light">
+                    <h4>Comentarios</h4>
                 </div>
             </div>
+            <div id="result">
             </div>
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input class="form-control" type="text" id="name">
+>>>>>>> Stashed changes
+                    </div>
+                    <div class="form-group">
+                        <form>
+                            <p class="clasificacion">
+                                <input id="radio1" type="radio" name="estrellas" value="5">
+                                <label for="radio1">★</label>
+                                <input id="radio2" type="radio" name="estrellas" value="4">
+                                <label for="radio2">★</label>
+                                <input id="radio3" type="radio" name="estrellas" value="3">
+                                <label for="radio3">★</label>
+                                <input id="radio4" type="radio" name="estrellas" value="2">
+                                <label for="radio4">★</label>
+                                <input id="radio5" type="radio" name="estrellas" value="1">
+                                <label for="radio5">★</label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <label>Comentario</label>
+                        <textarea id="comment" class="form-control"></textarea></label>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="commentBox();">Enviar</button>
+                </form>
             </div>
+
         </section>
     </main>
     <?php include("includes/footer.php"); ?>
