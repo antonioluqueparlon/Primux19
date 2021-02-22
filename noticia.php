@@ -5,7 +5,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
 
 <head>
     <?php
-  
+
 
     if (isset($_POST['eliminar'])) {
         NoticiaController::borrarNoticia($_POST['idNoticia']);
