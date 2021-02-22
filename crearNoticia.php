@@ -45,7 +45,6 @@ require_once 'crud/Controller/NoticiaController.php';
 
 <body class="bodyNoticia">
   
-  ?>
     <div id="form-container " class="container">
     <h2>Cree su noticia</h2>
     <form method="POST" enctype="multipart/form-data">

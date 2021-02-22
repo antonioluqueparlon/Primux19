@@ -5,10 +5,14 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
 
 <head>
     <?php
+  
+
     if (isset($_POST['eliminar'])) {
         NoticiaController::borrarNoticia($_POST['idNoticia']);
         header("Location:index.php");
     }
+
+
     include("includes/head-tag-contents.php"); ?>
 </head>
 
@@ -168,11 +172,11 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
 
             </div>
             <div class="col-12 ">
-                <form action="">
+                <form action="" method="POST">
                     <div class="form-group">
                         <label class="titNoticia" for="textArea">Comentarios</label>
                         <textarea id="my-textarea" class="form-control" name="comentario" rows="3"></textarea>
-                        <button type="submit" class="btn btn-secondary mt-1  ">Comentar</button>
+                        <input type="submit" name="comentar" class="btn btn-secondary mt-1  ">Comentar</input>
                     </div>
                 </form>
             </div>
