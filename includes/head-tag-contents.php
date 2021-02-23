@@ -47,12 +47,12 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/mystyle.css">
 <link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="css/styleFooter.css">
-<link rel="stylesheet" href="css/styleContacto.css">
-<link rel="stylesheet" href="css/styleSeccion.css">
-<link rel="stylesheet" href="css/styleApartado.css">
+<link rel="stylesheet" href="css/stylefooter.css">
+<link rel="stylesheet" href="css/stylecontacto.css">
+<link rel="stylesheet" href="css/styleseccion.css">
+<link rel="stylesheet" href="css/styleapartado.css">
 <link rel="stylesheet" href="css/noticia.css">
-<link rel="stylesheet" href="css/styleAbout.css">
+<link rel="stylesheet" href="css/styleabout.css">
 <link rel="stylesheet" href="css/nav.css">
 <link rel="stylesheet" href="css/login.css">
 

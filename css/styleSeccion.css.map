@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAGA,AAAA,aAAa,CAAA;EACX,UAAU,EAAE,IAAI;CAEjB;;AAED,AAAA,aAAa,CAAC,EAAE,CAAA;EACd,SAAS,EAAE,IAAI;CAChB",
     "sources": [
-        "../scss/styleSeccion.scss"
+        "../scss/styleseccion.scss"
     ],
     "names": [],
-    "file": "styleSeccion.css"
+    "file": "styleseccion.css"
 }
