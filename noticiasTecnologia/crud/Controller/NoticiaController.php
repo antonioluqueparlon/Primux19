@@ -191,7 +191,7 @@ class NoticiaController {
         try {
             $conex = new Conexion();
             $conex->exec("update noticia set id='$noticia->id', idUsuario='$noticia->idUsuario', "
-                    . "fecha='$noticia->fecha', titulo='$noticia->titulo', imagen='$noticia->imagen', "
+                    . "fecha='$noticia->fecha', apartado='$noticia->apartado', seccion='$noticia->seccion', titulo='$noticia->titulo', imagen='$noticia->imagen', "
                     . "contenido='$noticia->contenido', descripcion='$noticia->descripcion'  where id='$idNoticia'");
         } catch (Exception $ex) {
             echo "Error:" . $ex->getMessage();

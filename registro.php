@@ -91,7 +91,7 @@ if(isset($_POST["registrarse"])){
           echo "value='" . $_POST['nombre'] . "'";
           }elseif(isset($_SESSION['user_email_address'])) {
             echo "value='" . $_SESSION['user_first_name'] . "'";
-            }?> pattern="[a-zA-Z ,.'-]+" required>
+            }?> pattern="[a-zA-ZñÁÉÍÓÚáéíóú ,.'-]+" required>
       <div class="invalid-feedback">
               Añade un nombre
       </div>
@@ -103,7 +103,7 @@ if(isset($_POST["registrarse"])){
           }
     ?>
     <div class="form-group">
-        <input type="text" id="apellidos" class=" second form-control" name="apellido1" placeholder="Primer Apellido" pattern="[A-Za-z]+" 
+        <input type="text" id="apellidos" class=" second form-control" name="apellido1" placeholder="Primer Apellido" pattern="[A-Za-zñÁÉÍÓÚáéíóú ]+" 
         <?php if (isset($_POST['apellido1'])){
           echo "value='" .$_POST['apellido1']. "'";
           }elseif(isset($_SESSION['user_email_address']) && isset($apellidos)) {
@@ -115,7 +115,7 @@ if(isset($_POST["registrarse"])){
     </div>
 
     <div class="form-group">
-        <input type="text" id="apellidos" class=" second form-control" name="apellido2" placeholder="Segundo Apellido" pattern="[A-Za-z]+" 
+        <input type="text" id="apellidos" class=" second form-control" name="apellido2" placeholder="Segundo Apellido" pattern="[A-Za-zñÁÉÍÓÚáéíóú ]+" 
         <?php if (isset($_POST['apellido1'])){
           echo "value='" .$_POST['apellido1']. "'";
           }elseif(isset($_SESSION['user_email_address']) && isset($apellidos[1])) {
@@ -178,10 +178,12 @@ if(isset($_POST["registrarse"])){
     </div>
     
     <input type="submit" class="fourth" name='registrarse' value="Registrarse">
-    </form>
-
-    <a href="logout.php"><button class="btn  my-2 my-sm-0 btnRegistro">Volver</button></a>
-
+        
+  </form>
+  <hr class="solid">
+      <div id="formFooterRegistro">
+        <a href="logout.php"><button type="button" class="btn  my-2 my-sm-0 btnRegistro">Volver</button></a>
+      </div>
   </div>
 </div>
 

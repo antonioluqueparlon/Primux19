@@ -4,11 +4,15 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
 <html>
 
 <head>
-    <?php 
-    if(isset($_POST['eliminar'])){
+    <?php
+
+
+    if (isset($_POST['eliminar'])) {
         NoticiaController::borrarNoticia($_POST['idNoticia']);
         header("Location:index.php");
     }
+
+
     include("includes/head-tag-contents.php"); ?>
 </head>
 
@@ -20,7 +24,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
         <?php
 
         $noticia = NoticiaController::buscarNoticia($_GET['id']);
-        $usuario= NoticiaController::buscarUsuarioEnNoticia($noticia->id, $noticia->idUsuario);
+        $usuario = NoticiaController::buscarUsuarioEnNoticia($noticia->id, $noticia->idUsuario);
 
         ?>
         <section class="noticia">
@@ -30,7 +34,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                 </div>
                 <div class="col-12">
                     <img src="<?php echo $noticia->imagen; ?>" alt="imgNoticia" class="imgNoticia img-fluid">
-                    <p><small class="text-muted"><?php echo $usuario.' '.$noticia->fecha ?></small></p>
+                    <p><small class="text-muted"><?php echo $usuario . ' ' . $noticia->fecha ?></small></p>
                     <!--IMAGEN ANCHO DE 1150 ancho y 900 largo -->
                 </div>
                 <div class="row cuerpoNoticia">
@@ -44,23 +48,21 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                         </p>
                     </div>
                 </div>
-                <?php
-                 if (isset($_SESSION['rol'])){
-                    if ($_SESSION['rol']== "editor" | $_SESSION['rol']=="administrador"){
-                      ?>
-              
-                <form action="editarNoticia.php" method="POST">
-                <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
-                <input type="submit" class="btn" value="Editar" name="editar">
-                </form>
-                <form method="post">
-                <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
-                <input type="submit" class="btn-danger" value="Eliminar" name="eliminar">
-                </form>
-                <?php
-                    }
+                <?php if (isset($_SESSION['rol'])) {
+                    if ($_SESSION['rol'] == "editor" | $_SESSION['rol'] == "administrador") {
+                ?>
+                        <form action="editarNoticia.php" method="POST">
+                            <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
+                            <input type="submit" class="btn" value="Editar" name="editar">
+                        </form>
+                        <form method="post">
+                            <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
+                            <input type="submit" class="btn-danger" value="Eliminar" name="eliminar">
+                        </form>
+                <?php }
                 }
                 ?>
+
 
                 <!-- TARJETAS CON NOTICIAS APILADOS DE 2 EN 2-->
                 <div class="col-12">

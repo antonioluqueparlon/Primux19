@@ -2,7 +2,6 @@
 include("includes/a_config.php");
 require_once 'crud/Controller/NoticiaController.php';
 if (isset($_POST['añadir'])) {
-  
   $fecha = date('Y-m-d');
   if (is_uploaded_file($_FILES['foto']['tmp_name'])) {
     $fich_unic = time() . "-" . $_FILES['foto']['name'];
@@ -36,7 +35,7 @@ if (isset($_POST['editar'])){
   <?php include("includes/navigation.php"); ?>
   
 
-  <div  class="container">
+  <div id="" class="container">
     <h2>Modifique su noticia</h2>
     <form method="POST" enctype="multipart/form-data">
       <div class="row">
@@ -89,8 +88,6 @@ if (isset($_POST['editar'])){
     </form>
 
   </div>
-
-
 
 
 

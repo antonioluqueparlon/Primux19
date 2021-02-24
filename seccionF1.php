@@ -26,6 +26,10 @@
             <?php
             //PARA PÁGINA PRINCIPAL RECUPERAMOS 4 NOTICIAS DE MANERA ALEATORIA
             $noticia = NoticiaController::recuperarNoticiaSeccionF1();
+            if(empty($noticia)){
+                ?> <div class="alert alert-dark
+                ">No ha creado ninguna noticia </div> <?php
+            }else{
             foreach ($noticia as $values) {
                 //echo $values->enlace;
             ?>
@@ -54,7 +58,7 @@
 
     </main>
 
-    <?php include("includes/footer.php"); ?>
+    <?php include("includes/footer.php"); }?>
 
 </body>
 

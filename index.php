@@ -15,7 +15,7 @@
 
 
   <main class="indexTT">
-    <section class="noticiasDestacadas ">
+    <section class="noticiasDestacadas">
       <div class="row">
         <?php
         
