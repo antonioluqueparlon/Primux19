@@ -42,7 +42,6 @@
     color: black;
 }
 
-.indexNoticiaTimer {}
 
 .indexNoticiaTexto {
     color: black;
@@ -92,7 +91,7 @@
 }
 
 .card-descIndex p {
-    color: #747373;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     font-size: 1em;
@@ -161,6 +160,11 @@ button {
 	-moz-border-radius: 3px;
 	-o-border-radius: 3px;
 	border-radius: 3px;
+}
+
+.pindex{
+    color: black;
+
 }
 
 button:hover {

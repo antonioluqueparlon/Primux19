@@ -1,3 +1,5 @@
+<html lang="es">
+
 <title><?php print $PAGE_TITLE; ?></title>
 
 <?php if ($CURRENT_PAGE == "Index") { ?>
@@ -6,7 +8,6 @@
 <?php } ?>
 
 <meta name="google-site-verification" content="-dQ3Ysq-TQ7qGO_wZu8UAzDUoEidhpKbCyGKneJeWKI" />
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,32 +92,3 @@
 
     }
 </script>
-
-<style>
-        label {
-            color: grey;
-        }
-
-        input[type="radio"] {
-            display: none;
-        }
-
-        .clasificacion {
-            direction: rtl;
-            /* right to left */
-            unicode-bidi: bidi-override;
-            /* bidi de bidireccional */
-        }
-
-        label:hover {
-            color: orange;
-        }
-
-        label:hover~label {
-            color: orange;
-        }
-
-        input[type="radio"]:checked~label {
-            color: orange;
-        }
-    </style>
