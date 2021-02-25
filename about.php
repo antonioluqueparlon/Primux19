@@ -86,37 +86,37 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/antonioperez.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Antonio Pérez</h4>
+                                    <h4 class="indexNoticiaTexto">Antonio Pérez</h4>
                                     <p class="card-text">Localidad: Priego</p>
-                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a aria-label="first link" href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Antonio Pérez</h4>
+                                    <h4 class="indexNoticiaTexto">Antonio Pérez</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                     <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
-                                                <i class="fa fa-facebook"></i>
+                                            <a class=" indexNoticiaTexto social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                <i class="fa fa-facebook "></i><label class="indexNoticiaTexto">Facebook</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
-                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-twitter"></i><label class="indexNoticiaTexto">Twitter</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
-                                                <i class="fa fa-skype"></i>
+                                                <i class="fa fa-skype"></i><label class="indexNoticiaTexto">Skype</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
-                                                <i class="fa fa-google"></i>
+                                                <i class="fa fa-google"></i><label class="indexNoticiaTexto">Google</label>
                                             </a>
                                         </li>
                                     </ul>
@@ -135,37 +135,37 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/irene.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Irene López</h4>
+                                    <h4 class="indexNoticiaTexto">Irene López</h4>
                                     <p class="card-text">Localidad: Priego</p>
-                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a aria-label="first link" href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Irene López</h4>
+                                    <h4 class="indexNoticiaTexto">Irene López</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                     <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
-                                                <i class="fa fa-facebook"></i>
+                                            <a class=" indexNoticiaTexto social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                <i class="fa fa-facebook "></i><label class="indexNoticiaTexto">Facebook</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
-                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-twitter"></i><label class="indexNoticiaTexto">Twitter</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
-                                                <i class="fa fa-skype"></i>
+                                                <i class="fa fa-skype"></i><label class="indexNoticiaTexto">Skype</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
-                                                <i class="fa fa-google"></i>
+                                                <i class="fa fa-google"></i><label class="indexNoticiaTexto">Google</label>
                                             </a>
                                         </li>
                                     </ul>
@@ -184,37 +184,37 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/jesus.png" alt="card image"></p>
-                                    <h4 class="card-title">Jesús Cano</h4>
+                                    <h4 class="indexNoticiaTexto">Jesús Cano</h4>
                                     <p class="card-text">Localidad: Lucena</p>
-                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a aria-label="first link" href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Jesús Cano</h4>
+                                    <h4 class="indexNoticiaTexto">Jesús Cano</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                     <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
-                                                <i class="fa fa-facebook"></i>
+                                            <a class=" indexNoticiaTexto social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                <i class="fa fa-facebook "></i><label class="indexNoticiaTexto">Facebook</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
-                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-twitter"></i><label class="indexNoticiaTexto">Twitter</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
-                                                <i class="fa fa-skype"></i>
+                                                <i class="fa fa-skype"></i><label class="indexNoticiaTexto">Skype</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
-                                                <i class="fa fa-google"></i>
+                                                <i class="fa fa-google"></i><label class="indexNoticiaTexto">Google</label>
                                             </a>
                                         </li>
                                     </ul>
@@ -233,37 +233,37 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/parlon.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Antonio Luque</h4>
+                                    <h4 class="indexNoticiaTexto">Antonio Luque</h4>
                                     <p class="card-text">Localidad: Lucena</p>
-                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a aria-label="first link" href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Antonio Luque</h4>
+                                    <h4 class="indexNoticiaTexto">Antonio Luque</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                     <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
-                                                <i class="fa fa-facebook"></i>
+                                            <a class=" indexNoticiaTexto social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                <i class="fa fa-facebook "></i><label class="indexNoticiaTexto">Facebook</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
-                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-twitter"></i><label class="indexNoticiaTexto">Twitter</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
-                                                <i class="fa fa-skype"></i>
+                                                <i class="fa fa-skype"></i><label class="indexNoticiaTexto">Skype</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
-                                                <i class="fa fa-google"></i>
+                                                <i class="fa fa-google"></i><label class="indexNoticiaTexto">Google</label>
                                             </a>
                                         </li>
                                     </ul>
@@ -283,38 +283,38 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/email.png" alt="card image"></p>
-                                    <h4 class="card-title">Email</h4>
+                                    <h4 class="indexNoticiaTexto">Email</h4>
                                     <p class="card-text">Cualquier pregunta a cualquiera de nosotros pulse aquí.</p>
-                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a aria-label="first link" href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Email</h4>
+                                    <h4 class="indexNoticiaTexto">Email</h4>
                                     <p>Cualquier duda o problema que tenga sobre el funcionamiento de la pagina, para querer participar con nosotros y demas,escriba un correo a esta dirección</p>
                                     <p class="card-text">trendtop@gmail.com.</p>
                                     <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
-                                                <i class="fa fa-facebook"></i>
+                                            <a class=" indexNoticiaTexto social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                <i class="fa fa-facebook "></i><label class="indexNoticiaTexto">Facebook</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
-                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-twitter"></i><label class="indexNoticiaTexto">Twitter</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
-                                                <i class="fa fa-skype"></i>
+                                                <i class="fa fa-skype"></i><label class="indexNoticiaTexto">Skype</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
-                                                <i class="fa fa-google"></i>
+                                                <i class="fa fa-google"></i><label class="indexNoticiaTexto">Google</label>
                                             </a>
                                         </li>
                                     </ul>
@@ -334,38 +334,38 @@
                             <div class="card">
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/telefono.png" alt="card image"></p>
-                                    <h4 class="card-title">Teléfono</h4>
+                                    <h4 class="indexNoticiaTexto">Teléfono</h4>
                                     <p class="card-text">Para contactar con nosotros en esta tarjeta se encuentra el numero de teléfono.</p>
-                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a aria-label="first link" href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Teléfono</h4>
+                                    <h4 class="indexNoticiaTexto">Teléfono</h4>
                                     <p class="card-text"> Número de Teléfono: 957112233</p>
                                     <p>Podemos Atender por Whatsapp ademas de ser recomendable</p>
                                     <!-- iconos de las tarjetitas -->
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
-                                                <i class="fa fa-facebook"></i>
+                                            <a class=" indexNoticiaTexto social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                <i class="fa fa-facebook "></i><label class="indexNoticiaTexto">Facebook</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com">
-                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-twitter"></i><label class="indexNoticiaTexto">Twitter</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
-                                                <i class="fa fa-skype"></i>
+                                                <i class="fa fa-skype"></i><label class="indexNoticiaTexto">Skype</label>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.google.com">
-                                                <i class="fa fa-google"></i>
+                                                <i class="fa fa-google"></i><label class="indexNoticiaTexto">Google</label>
                                             </a>
                                         </li>
                                     </ul>
