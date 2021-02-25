@@ -27,7 +27,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Files es el Explorador de Windows 10 que llevábamos años esperando, con diseño moderno y navegación por pestañas</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 20/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 20/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Con diseño moderno y navegación por pestañas</p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Algunas funciones poco conocidas de Windows 10 que pueden resultar extremadamente útiles</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 20/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 20/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Hasta ahora son nueve las actualizaciones mayores que ha recibido el sistema</p>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Windows 10 tiene un bug que puede corromper tu disco duro con tan solo ver un icono</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 19/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 19/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Permite corromper un disco con un simple comando de una sola línea</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Windows 10 Sun Valley</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 19/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 19/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">El regreso de los bordes redondeados a Windows</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
 
     </main>
 
-    <?php include("../includes/footer.php"); ?>
+    <?php include("../../includes/footer.php"); ?>
 
 </body>
 

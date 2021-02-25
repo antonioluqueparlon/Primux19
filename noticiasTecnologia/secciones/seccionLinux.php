@@ -43,7 +43,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">JingOS</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 20/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 20/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Así es esta nueva distribución Linux para tablets basada en Ubuntu e inspirada al completo por iPadOS</p>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Wine 6.0</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 19/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 19/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Llega centrando de nuevo sus novedades en el 'gaming' en Linux</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">AlmaLinux</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 19/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class=indexNoticiaTexto">Última actualizacion: 19/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Será el otro gran aspirante al trono del 'viejo' CentOS, y viene apadrinado por los desarrolladores de CloudLinux</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
 
     </main>
 
-    <?php include("../includes/footer.php"); ?>
+    <?php include("../../includes/footer.php"); ?>
 
 </body>
 

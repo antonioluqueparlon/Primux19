@@ -27,7 +27,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Microsoft Teams for Education alcanza los 200 millones de usuarios</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 20/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 20/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Y anuncia la llegada de mejoras para educación</p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Signal, FB Messenger y Google Duo sufrían un error similar al de FaceTime</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 20/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 20/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Con una llamada se podía espiar a otros</p>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">La UE multa a Valve y a desarrolladoras por 7,8 millones por bloquear las claves de Steam por países</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 19/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 19/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Han infringido las normas de competencia de la Unión Europea</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">La cultura de la ciberseguridad</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Última actualizacion: 19/01/2021</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTexto">Última actualizacion: 19/01/2021</small></p>
                                 <p class="card-text indexNoticiaTexto">Una gran carencia en las empresas españolas según un informe de PwC España</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
 
     </main>
 
-    <?php include("../includes/footer.php"); ?>
+    <?php include("../../includes/footer.php"); ?>
 
 </body>
 
