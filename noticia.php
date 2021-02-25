@@ -53,11 +53,11 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                 ?>
                         <form action="editarNoticia.php" method="POST">
                             <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
-                            <input type="submit" class="btn" value="Editar" name="editar">
+                            <input type="submit" class="btn btnRegistro" value="Editar" name="editar">
                         </form>
                         <form method="post">
                             <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
-                            <input type="submit" class="btn-danger" value="Eliminar" name="eliminar">
+                            <input type="submit" class="btn btnRegistro" value="Eliminar" name="eliminar">
                         </form>
                 <?php }
                 }
@@ -103,8 +103,8 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
 
                         <!--Controles-->
                         <div class="text-center mb-10 ">
-                            <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
-                            <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></button>
+                            <button type="button" class="btn btnRegistro btn-circleCarrusel" href="#multi-item-example" aria-hidden="true" aria-label="prev"  data-slide="prev"><i class="fas fa-chevron-left"></i></button>
+                            <button type="button" class="btn btnRegistro btn-circleCarrusel" href="#multi-item-example" aria-hidden="true" aria-label="next" data-slide="next"><i class="fas fa-chevron-right"></i></button>
                         </div>
 
 
@@ -126,7 +126,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                                             <div class="card-body">
                                                 <h4 class="card-title"><?php echo $values->titulo; ?></h4>
                                                 <p class="card-text"><?php echo $values->descripcion; ?></p>
-                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btn-primary ">Ver más</a>
+                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btnRegistro ">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                                             <div class="card-body">
                                                 <h4 class="card-title"><?php echo $values->titulo; ?></h4>
                                                 <p class="card-text"><?php echo $values->descripcion; ?></p>
-                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btnRegistro linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -185,8 +185,8 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
             <div class="col-md-8">
                 <form>
                     <div class="form-group">
-                        <label>Nombre</label>
-                        <input class="form-control" type="text" id="name">
+                        <label for="name" id="name" >Nombre</label>
+                        <input class="form-control" name="name" type="text" id="name">
                     </div>
                     <div class="form-group">
                         <form>
@@ -205,10 +205,10 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                         </form>
                     </div>
                     <div class="form-group">
-                        <label>Comentario</label>
-                        <textarea id="comment" class="form-control"></textarea></label>
+                        <label for="comment" id="comment">Comentario</label>
+                        <textarea id="comment" name="comment" class="form-control"></textarea></label>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="commentBox();">Enviar</button>
+                    <button type="button" class="btnRegistro" onclick="commentBox();">Enviar</button>
                 </form>
             </div>
 

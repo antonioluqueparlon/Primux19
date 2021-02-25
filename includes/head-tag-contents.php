@@ -93,9 +93,7 @@
 </script>
 
 <style>
-        label {
-            color: grey;
-        }
+        
 
         input[type="radio"] {
             display: none;
@@ -106,14 +104,6 @@
             /* right to left */
             unicode-bidi: bidi-override;
             /* bidi de bidireccional */
-        }
-
-        label:hover {
-            color: orange;
-        }
-
-        label:hover~label {
-            color: orange;
         }
 
         input[type="radio"]:checked~label {
