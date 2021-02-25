@@ -38,7 +38,7 @@
                                     <div class="col-md-8">
                                         <div class="card-body">
                                             <h4 class="card-title indexNoticiaTitulo"><?php echo $values->titulo; ?></h4>
-                                            <p class="card-text indexNoticiaTimer"><small class="text-muted">Ultima actualización: <?php echo $values->fecha; ?></small></p>
+                                            <p class="card-text indexNoticiaTexto">Ultima actualización: <?php echo $values->fecha; ?></small></p>
                                             <p class="card-text indexNoticiaTexto"><?php echo $values->descripcion; ?></p>
                                         </div>
                                     </div>

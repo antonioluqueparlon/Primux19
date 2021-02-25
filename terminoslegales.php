@@ -41,7 +41,7 @@
                             <strong>Email:</strong> trendtop2021@gmail.com
                         </p>
                         <p>
-                            <strong>Sitio web:</strong> <a href="">www.trendtop.es</a>
+                            <strong>Sitio web:</strong> <a class ="indexNoticiaTexto" href="">www.trendtop.es</a>
                         </p>
                         <p>
                             <strong>Finalidad:</strong>

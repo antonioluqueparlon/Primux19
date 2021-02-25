@@ -1,9 +1,6 @@
 <?php include("includes/a_config.php"); ?>
 <?php require("crud/Controller/UsuarioController.php"); ?>
 <!DOCTYPE html>
-<html>
-
-
 
 <head>
   <?php include("includes/head-tag-contents.php"); ?>
@@ -25,7 +22,7 @@
           //echo $values->enlace;
         ?>
           <div class="col-md-3 tarjetaUltimasNOticias ">
-            <a href="noticia.php?id=<?php echo $values->id; ?>" class="enlaceNoticia">
+            <a aria-label="first link" href="noticia.php?id=<?php echo $values->id; ?>" class="enlaceNoticia"> 
               <div class="card-content card-contentIndex tarjetaUltimasNOticias">
                 <div class="card-img card-imgIndex ">
                   <img class="imagenTarjetaIndex imgUltimasNoticias" src="<?php echo $values->imagen; ?>" alt="">
@@ -68,7 +65,7 @@
     ?>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <a href="noticia.php?id=<?php echo $noticiaCarrusel->id; ?>" class="enlaceNoticia">
+              <a aria-label="first link" href="noticia.php?id=<?php echo $noticiaCarrusel->id; ?>" class="enlaceNoticia">
                 <img class="d-block w-100 carrouselImg" src="<?php echo $noticiaCarrusel->imagen ?>" alt="First slide">
                 <div class="carousel-caption  d-md-block">
                   <div class="subtitleCar">
@@ -83,7 +80,7 @@
 
 
           <div class="carousel-item">
-            <a href="noticia.php?id=<?php echo $noticiaCarrusel2->id; ?>" class="enlaceNoticia">
+            <a aria-label="first link" href="noticia.php?id=<?php echo $noticiaCarrusel2->id; ?>" class="enlaceNoticia">
               <img class="d-block w-100 carrouselImg" src="<?php echo $noticiaCarrusel2->imagen ?>" alt="Second slide">
               <div class="carousel-caption  d-md-block">
                 <div class="subtitleCar">
@@ -94,7 +91,7 @@
           </div>
 
           <div class="carousel-item">
-            <a href="noticia.php?id=<?php echo $noticiaCarrusel3->id; ?>" class="enlaceNoticia">
+            <a aria-label="first link" href="noticia.php?id=<?php echo $noticiaCarrusel3->id; ?>" class="enlaceNoticia">
               <img class="d-block w-100 carrouselImg" src="<?php echo $noticiaCarrusel3->imagen ?>" alt="Second slide">
               <div class="carousel-caption  d-md-block">
                 <div class="subtitleCar">
@@ -129,7 +126,7 @@
         ?>
 
           <div class="card cardArticulo">
-            <a href="noticia.php?id=<?php echo $values->id; ?>" class="enlaceNoticia">
+            <a aria-label="first link" href="noticia.php?id=<?php echo $values->id; ?>" class="enlaceNoticia">
               <div class="row no-gutters">
                 <div class="col-md-12 col-lg-4">
                   <img src="<?php echo $values->imagen; ?>" class="card-img" alt="...">
@@ -137,7 +134,7 @@
                 <div class="col-md-8">
                   <div class="card-body">
                     <h3 class="card-title indexNoticiaTitulo"><?php echo $values->titulo; ?></h3>
-                    <p class="card-text indexNoticiaTimer"><small class="text-muted"><?php echo $values->fecha; ?></small></p>
+                    <p class="card-text indexNoticiaTexto"><?php echo $values->fecha; ?></class=></p>
                     <p class="card-text indexNoticiaTexto"><?php echo $values->descripcion; ?></p>
                   </div>
                 </div>
