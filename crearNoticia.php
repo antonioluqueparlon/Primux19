@@ -29,66 +29,55 @@ require_once 'crud/Controller/NoticiaController.php';
       $fich_unic = time() . "-" . $_FILES['foto']['name'];
       $ruta = "img/" . $fich_unic;
       move_uploaded_file($_FILES['foto']['tmp_name'], $ruta);
-      $noticia = new Noticia("", $usuario->id, $fecha, $_POST['apartado'], $_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
+      $noticia = new Noticia("", $usuario->id, $fecha,$_POST['apartado'],$_POST['seccion'], $_POST['titulo'], $_POST['desc'], $_POST['contenido'], $ruta);
       NoticiaController::insertarNoticia($noticia);
     } else {
       echo "NO SE HA SUBIDO";
     }
     header("Location:noticiasUsuario.php");
+
   }
-  include("includes/navigation.php");
-
-
+   include("includes/navigation.php");
+  
+  
   include("includes/head-tag-contents.php"); ?>
 </head>
 
 <body class="bodyNoticia">
-
-  <div id="form-container " class="container">
+  
+    <div id="form-container " class="container">
     <h2>Cree su noticia</h2>
     <form method="POST" enctype="multipart/form-data">
       <div class="row">
         <div class="col-md-8">
-          <div class="form-group">
-            <label for="foto" id="foto"><strong>Seleccione imagen portada:</strong></label>
-            <br><input type="file" name="foto" id="foto">>
-          </div>
+          <strong>Seleccione imagen portada:</strong>  <br><input type="file" name="foto">
         </div>
       </div>
       <div class="row">
-
+        
         <div class="col-md-6">
-          <div class="form-group">
-            <label for="apartado" id="apartado"><strong>Apartado:</strong> </label>
-            <br><input type="text" name="apartado" id="apartado">
-          </div>
+          <strong>Apartado:</strong>  <br><input type="text" name="apartado">
         </div>
-
         <div class="col-md-6">
-          <div class="form-group">
-            <label for="seccion" id="seccion"><strong>Sección:</strong></label>
-            <br><input type="text" name="seccion" id="seccion">
-          </div>
-
+          <strong>Sección:</strong>  <br><input type="text" name="seccion">
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <div class="form-group">
-            <label for="titulo" id="titulo"><strong>Titular noticia</strong></label>
-            <input class="form-control" name="titulo" type="text" id="titulo">
+            <strong>Titular noticia</strong>
+            <input class="form-control" name="titulo" type="text" >
           </div>
 
           <div class="form-group">
-            <label for="desc" id="desc"><strong>Descripcion</strong></label>
-            
-            <input class="form-control" name="desc" id="desc" type="text">
+            <strong>Descripcion</strong>
+            <input class="form-control"  name="desc" type="text">
           </div>
         </div>
       </div>
       <div class=" form-group">
-        <label for="editor-container" ><strong>Contenido</strong></label>
-        <textarea  id="editor-container" name="contenido"></textarea>
+        <strong>Contenido</strong>
+        <textarea name="contenido" id="editor-container"></textarea>
       </div>
       <div class="row">
         <input class="btn btn-primary" type="submit" value="Añadir noticia" name="añadir">
@@ -99,7 +88,14 @@ require_once 'crud/Controller/NoticiaController.php';
   <script>
     var quill = new Quill('#editor-container', {
       modules: {
-        toolbar: [ 
+        toolbar: [
+          ['bold', 'italic'],
+          ['link', 'blockquote', 'code-block', 'image'],
+          [{
+            list: 'ordered'
+          }, {
+            list: 'bullet'
+          }]
         ]
       },
       placeholder: 'Escriba el cuerpo de su noticia',
