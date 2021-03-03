@@ -27,7 +27,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
         $usuario = NoticiaController::buscarUsuarioEnNoticia($noticia->id, $noticia->idUsuario);
 
         ?>
-        <section class="noticia">
+<section class="noticia">
             <div class="row ">
                 <div class="col-12">
                     <h1 class="titNoticia "><?php echo $noticia->titulo; ?></h1>
@@ -53,11 +53,11 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                 ?>
                         <form action="editarNoticia.php" method="POST">
                             <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
-                            <input type="submit" class="btn" value="Editar" name="editar">
+                            <input type="submit" class="btn btnRegistro" value="Editar" name="editar">
                         </form>
                         <form method="post">
                             <input type="hidden" name="idNoticia" value="<?php echo $noticia->id; ?>">
-                            <input type="submit" class="btn-danger" value="Eliminar" name="eliminar">
+                            <input type="submit" class="btn btnRegistro" value="Eliminar" name="eliminar">
                         </form>
                 <?php }
                 }
@@ -103,8 +103,8 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
 
                         <!--Controles-->
                         <div class="text-center mb-10 ">
-                            <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
-                            <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></button>
+                            <button type="button" class="btn btnRegistro btn-circleCarrusel" href="#multi-item-example" aria-hidden="true" aria-label="prev"  data-slide="prev"><i class="fas fa-chevron-left"></i></button>
+                            <button type="button" class="btn btnRegistro btn-circleCarrusel" href="#multi-item-example" aria-hidden="true" aria-label="next" data-slide="next"><i class="fas fa-chevron-right"></i></button>
                         </div>
 
 
@@ -126,7 +126,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                                             <div class="card-body">
                                                 <h4 class="card-title"><?php echo $values->titulo; ?></h4>
                                                 <p class="card-text"><?php echo $values->descripcion; ?></p>
-                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btn-primary ">Ver más</a>
+                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btnRegistro ">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                                             <div class="card-body">
                                                 <h4 class="card-title"><?php echo $values->titulo; ?></h4>
                                                 <p class="card-text"><?php echo $values->descripcion; ?></p>
-                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btn-primary linkNoticia">Ver más</a>
+                                                <a href="noticia.php?id=<?php echo $values->id; ?>" class="btn btnRegistro linkNoticia">Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -171,19 +171,51 @@ require_once 'crud/Controller/NoticiaController.php'; ?>
                 </div>
 
             </div>
-            <div class="col-12 ">
-                <form action="" method="POST">
+
+            <!--//comentarios-->
+            <div class="container">
+        <div class="col-md-6 pane">
+            <div class="col-md-4">
+                <div class="alert alert-light">
+                    <h4>Comentarios</h4>
+                </div>
+            </div>
+            <div id="result">
+            </div>
+            <div class="col-md-8">
+                <form>
                     <div class="form-group">
-                        <label class="titNoticia" for="textArea">Comentarios</label>
-                        <textarea id="my-textarea" class="form-control" name="comentario" rows="3"></textarea>
-                        <input type="submit" name="comentar" class="btn btn-secondary mt-1  ">Comentar</input>
+                        <label for="name" id="name" >Nombre</label>
+                        <input class="form-control" name="name" type="text" id="name">
                     </div>
-                   
+                    <div class="form-group">
+                        <form>
+                            <p class="clasificacion">
+                                <input id="radio1" type="radio" name="estrellas" value="5">
+                                <label for="radio1">★</label>
+                                <input id="radio2" type="radio" name="estrellas" value="4">
+                                <label for="radio2">★</label>
+                                <input id="radio3" type="radio" name="estrellas" value="3">
+                                <label for="radio3">★</label>
+                                <input id="radio4" type="radio" name="estrellas" value="2">
+                                <label for="radio4">★</label>
+                                <input id="radio5" type="radio" name="estrellas" value="1">
+                                <label for="radio5">★</label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment" id="comment">Comentario</label>
+                        <textarea id="comment" name="comment" class="form-control"></textarea></label>
+                    </div>
+                    <button type="button" class="btnRegistro" onclick="commentBox();">Enviar</button>
+                </form>
             </div>
 
         </section>
     </main>
     <?php include("includes/footer.php"); ?>
 </body>
+
 
 </html>
