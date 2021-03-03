@@ -12,14 +12,16 @@
 }
 
 .btnNav {
-    background-color: $colorTextoFooter;
+    background-color: $colorBlack;
+    border: solid;
+    border-color: $colorTextoFooter;
     color: $colorWhite2;
     margin-left: 10px;
 }
 
 .btnNav:hover {
     text-decoration: none;
-    background-color: $color2;
+    background-color: $colorWhite2;
 }
 
 .aNav {
