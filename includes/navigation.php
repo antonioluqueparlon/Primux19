@@ -83,7 +83,7 @@ require_once './crud/Controller/NoticiaController.php';
     ?>
     <form class="form-inline my-2 my-lg-0" id="form" action="busqueda.php" method="POST">
       <!-- busqueda.php -->
-      <input class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search">
+      <input aria-label="busqueda" class="form-control mr-sm-2" type="text" placeholder="Buscar" name="busqueda" id="search" label>
       <button class="btn my-2 my-sm-0 btnNav" name="buscar" type="submit"><i class="fa fa-search"></i>Buscar</button>
       <ul id="response"></ul>
     </form>
