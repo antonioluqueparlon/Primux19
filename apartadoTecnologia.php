@@ -105,11 +105,11 @@
                                 }
                                 ?>
 
-                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                    <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
+                                <a aria-label="first link" class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <button aria-label="control carusel" type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
                                 </a>
-                                <a class="carousel-control-next" href="#demo" data-slide="next">
-                                    <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></button>
+                                <a aria-label="first link" class="carousel-control-next" href="#demo" data-slide="next">
+                                    <button aria-label="control carusel" type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></button>
                                 </a>
                             </div>
                         </div>
@@ -122,28 +122,28 @@
                     $noticiasUltimas = NoticiaController::recuperarNoticiasUltimasNoticiasTecnologia();
                     foreach ($noticiasUltimas as $values) {
                     ?>
-                        
-                            <!--TARJETAS DE NOTICIAS -->
-                            <div class="card cardArticulo tarjetaNoticiaApartado">
-                                <a href="noticia.php?id=<?php echo $value->id; ?>" class="enlaceNoticia">
-                                    <div class="row no-gutters">
-                                        <div class="col-md-12 col-lg-4">
-                                            <img src="<?php echo $values->imagen; ?>" class="card-img imgApartadoNoticias" alt="Imagen">
-                                        </div>
-                                        <div class="col-md-12 col-lg-8">
-                                            <div class="card-body">
-                                                <h3 class="card-title indexNoticiaTitulo"><?php echo $values->titulo; ?></h3>
-                                                <p class="card-text indexNoticiaTimer"><small class="text-muted"><?php echo $values->fecha; ?></small></p>
-                                                <p class="card-text indexNoticiaTexto"><?php echo $values->descripcion; ?></p>
-                                            </div>
+
+                        <!--TARJETAS DE NOTICIAS -->
+                        <div class="card cardArticulo tarjetaNoticiaApartado">
+                            <a href="noticia.php?id=<?php echo $value->id; ?>" class="enlaceNoticia">
+                                <div class="row no-gutters">
+                                    <div class="col-md-12 col-lg-4">
+                                        <img src="<?php echo $values->imagen; ?>" class="card-img imgApartadoNoticias" alt="Imagen">
+                                    </div>
+                                    <div class="col-md-12 col-lg-8">
+                                        <div class="card-body">
+                                            <h3 class="card-title indexNoticiaTitulo"><?php echo $values->titulo; ?></h3>
+                                            <p class="card-text indexNoticiaTimer"><small class="text-muted"><?php echo $values->fecha; ?></small></p>
+                                            <p class="card-text indexNoticiaTexto"><?php echo $values->descripcion; ?></p>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
-                            
-                        <?php
+                                </div>
+                            </a>
+                        </div>
+
+                    <?php
                     }
-                        ?>
+                    ?>
                     </div>
             </section>
         </main>
