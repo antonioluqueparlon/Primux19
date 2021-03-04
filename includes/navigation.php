@@ -22,8 +22,8 @@ require_once './crud/Controller/NoticiaController.php';
 
 <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
   <a class="navbar-brand" href="index.php"><img src="img/logo2.png" alt="technoteam_logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-    <span class="navbar-toggler-icon">Logo</span>
+  <button aria-label="first link" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse navText" id="navbarSupportedContent">
