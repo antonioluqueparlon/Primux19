@@ -1,6 +1,6 @@
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
@@ -28,7 +28,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 14 mins ago</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTitulo">Last updated 14 mins ago</small></p>
                                 <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 36 mins ago</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTitulo">Last updated 36 mins ago</small></p>
                                 <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTitulo">Last updated 3 mins ago</small></p>
                                 <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h4 class="card-title indexNoticiaTitulo">Título de noticia</h4>
-                                <p class="card-text indexNoticiaTimer"><small class="text-muted">Last updated 54 mins ago</small></p>
+                                <p class="card-text indexNoticiaTimer"><small class="indexNoticiaTitulo">Last updated 54 mins ago</small></p>
                                 <p class="card-text indexNoticiaTexto">Lorem ipsum dolor sit amet consectetur adipiscing elit molestie erat vel aliquam duis lacinia torquent gravida, vivamus inceptos nascetur justo enim augue fringilla luctus lectus sociosqu dignissim blandit hac rutrum.</p>
                             </div>
                         </div>

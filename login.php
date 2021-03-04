@@ -78,7 +78,7 @@ if (!isset($_SESSION['access_token'])) {
     //Create a URL to obtain user authorization
 
     //Cambiar por un button
-    $login_button = '<a href="' . $google_client->createAuthUrl() . '"><button class="btn  my-2 my-sm-0 btnRegistro">Entrar con<img src="img/googleIcon.png" style="width:20px; height:20px; margin-left:10px;"></button></a>';
+    $login_button = '<a href="' . $google_client->createAuthUrl() . '"><button class="btn  my-2 my-sm-0 btnRegistro">Entrar con<img src="img/googleIcon.png" alt="google_icon" style="width:20px; height:20px; margin-left:10px;"></button></a>';
 }
 
 ?>
@@ -107,7 +107,9 @@ if (!isset($_SESSION['access_token'])) {
   <div id="formContent">
 
     <form class="formLogin" method="POST" action="">
+      <label for="login">Usuario</label>
       <input type="text" id="login" class=" second" name="user" placeholder="Usuario">
+      <label for="password">Contraseña</label>
       <input type="password" id="password" class=" third" name="password" placeholder="Contraseña">
       <input type="submit" class="fourth" name="Entrar" value="Entrar">
     </form>

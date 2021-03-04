@@ -105,11 +105,11 @@
                                 }
                                 ?>
 
-                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                    <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
+                                <a aria-label="first link" class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <button aria-label="control carusel" type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></button>
                                 </a>
-                                <a class="carousel-control-next" href="#demo" data-slide="next">
-                                    <button type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></button>
+                                <a aria-label="first link" class="carousel-control-next" href="#demo" data-slide="next">
+                                    <button aria-label="control carusel" type="button" class="btn-primary btn-circleCarrusel" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></button>
                                 </a>
                             </div>
                         </div>
