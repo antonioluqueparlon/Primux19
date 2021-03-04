@@ -108,7 +108,7 @@ if (!isset($_SESSION['access_token'])) {
 
     <form class="formLogin" method="POST" action="">
       <label for="login">Usuario</label>
-      <input type="text" id="login" class=" second" name="user" placeholder="Usuario">
+      <input type="text" id="login" class=" second" name="user" placeholder="Usuario" autofocus>
       <label for="password">Contraseña</label>
       <input type="password" id="password" class=" third" name="password" placeholder="Contraseña">
       <input type="submit" class="fourth" name="Entrar" value="Entrar">
